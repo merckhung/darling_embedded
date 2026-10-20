@@ -1,0 +1,19 @@
+(/usr/bin/darling open /Applications/stocks-e106578e/Stocks.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_stocks-e106578e:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:20
+DARLING_LAUNCH_BUNDLE:/Applications/stocks-e106578e/Stocks.app:/Applications/stocks-e106578e/Stocks.app/Contents/MacOS/Stocks
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_stocks-e106578e:78
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12
+kill -9 20 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/stocks-e106578e/Stocks.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_stocks-e106578e:${?})
+
+root@Darwin#

@@ -1,0 +1,12 @@
+==== Memory Slot Utility ====
+Linked dylibs: 6, imported symbols: 31
+
+  present  provided/imported  library
+  yes      5/5	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/4	/System/Library/PrivateFrameworks/ExpansionSlotSupport.framework/Versions/A/ExpansionSlotSupport
+  yes      4/4	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      8/8	/usr/lib/libobjc.A.dylib
+  yes      7/7	/usr/lib/libSystem.B.dylib
+  yes      3/3	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+Summary for Memory Slot Utility: 1 of 6 linked libraries are absent from the guest root; 27 of 31 imported symbols are provided (87.0968%).

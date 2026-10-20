@@ -1,0 +1,15 @@
+(/usr/bin/darling open '/Applications/game-center-f5320979/Game Center.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_game-center-f5320979:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:142
+DARLING_LAUNCH_BUNDLE:/Applications/game-center-f5320979/Game Center.app:/Applications/game-center-f5320979/Game Center.app/Contents/MacOS/Game Center
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/game-center-f5320979/Game Center.app/Contents/MacOS/Game Center)
+[AppKit] loaded nib /Applications/game-center-f5320979/Game Center.app/Contents/Resources/Base.lproj/MainMenu.nib: 1027 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101c5ef40
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101c5ef40
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 142 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/game-center-f5320979/Game Center.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_game-center-f5320979:${?})
+
+root@Darwin#

@@ -1,0 +1,116 @@
+(/usr/bin/darling open '/Applications/wireless-diagnostics-bb338392/Wireless Diagnostics.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_wireless-diagnostics-bb338392:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:64
+DARLING_LAUNCH_BUNDLE:/Applications/wireless-diagnostics-bb338392/Wireless Diagnostics.app:/Applications/wireless-diagnostics-bb338392/Wireless Diagnostics.app/Contents/MacOS/Wireless Diagnostics
+native dyld warning: unresolved import: _CWDescriptionForAutoJoinTrigger
+native dyld warning: unresolved import: _W5IsSelfAssignedIPv4
+native dyld warning: unresolved import: _W5IsSelfAssignedIPv6
+native dyld warning: unresolved import: _W5MachineSerialNumber
+native dyld warning: unresolved import: _class_getClassMethod
+native dyld warning: unresolved import: _method_exchangeImplementations
+native dyld warning: unresolved import: _kCWImageWiFi64
+native dyld warning: unresolved import: _kCWImageWirelessDiagnosticsIcon
+native dyld warning: unresolved import: _NSXMLStoreType
+native dyld warning: unresolved import: _GRAxesDrawLegend
+native dyld warning: unresolved import: _GRAxesDrawXLabels
+native dyld warning: unresolved import: _GRAxesDrawXMajorTicks
+native dyld warning: unresolved import: _GRAxesDrawXMinorTicks
+native dyld warning: unresolved import: _GRAxesDrawYLabels
+native dyld warning: unresolved import: _GRAxesDrawYMajorLines
+native dyld warning: unresolved import: _GRAxesDrawYMajorTicks
+native dyld warning: unresolved import: _GRAxesDrawYMinorTicks
+native dyld warning: unresolved import: _GRAxesFixedXPlotMax
+native dyld warning: unresolved import: _GRAxesFixedXPlotMin
+native dyld warning: unresolved import: _GRAxesFixedYPlotMax
+native dyld warning: unresolved import: _GRAxesFixedYPlotMin
+native dyld warning: unresolved import: _GRAxesLeftMargin
+native dyld warning: unresolved import: _GRAxesMajorLineColor
+native dyld warning: unresolved import: _GRAxesMajorTickLength
+native dyld warning: unresolved import: _GRAxesMinorLineColor
+native dyld warning: unresolved import: _GRAxesMinorTickLength
+native dyld warning: unresolved import: _GRAxesRightMargin
+native dyld warning: unresolved import: _GRAxesXPlotMax
+native dyld warning: unresolved import: _GRAxesXPlotMin
+native dyld warning: unresolved import: _GRAxesYPlotMax
+native dyld warning: unresolved import: _GRAxesYPlotMin
+native dyld warning: unresolved import: _GRAxesYTitle
+native dyld warning: unresolved import: _GRChartBackgroundColor
+native dyld warning: unresolved import: _GRChartBorderColor
+native dyld warning: unresolved import: _GRChartBorderType
+native dyld warning: unresolved import: _GRChartDrawBackground
+native dyld warning: unresolved import: _GRChartDrawValueCallouts
+native dyld warning: unresolved import: _GRChartFrameColor
+native dyld warning: unresolved import: _GRChartLineBorder
+native dyld warning: unresolved import: _GRChartNoBorder
+native dyld warning: unresolved import: _GRChartTitleColor
+native dyld warning: unresolved import: _GRChartVisualCompression
+native dyld warning: unresolved import: _GRCircledBullet
+native dyld warning: unresolved import: _GRDataSetAutoMarkerColor
+native dyld warning: unresolved import: _GRDataSetAutoMarkerGlyph
+native dyld warning: unresolved import: _GRDataSetColorRectangle
+native dyld warning: unresolved import: _GRDataSetDrawMarkers
+native dyld warning: unresolved import: _GRDataSetDrawShadow
+native dyld warning: unresolved import: _GRDataSetHidden
+native dyld warning: unresolved import: _GRDataSetLegendLabel
+native dyld warning: unresolved import: _GRDataSetLegendSampleMode
+native dyld warning: unresolved import: _GRDataSetMarkerColor
+native dyld warning: unresolved import: _GRDataSetMarkerGlyph
+native dyld warning: unresolved import: _GRDataSetPlotColor
+native dyld warning: unresolved import: _GRDataSetPlotLineColor
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/wireless-diagnostics-bb338392/Wireless Diagnostics.app/Contents/MacOS/Wireless Diagnostics)
+[AppKit] loaded nib /Applications/wireless-diagnostics-bb338392/Wireless Diagnostics.app/Contents/Resources/Base.lproj/MainMenu.nib: 609 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101cf7db0
+[ObjC] Method not found: [NSObject sharedClient]
+[Foundation] performSelector:terminate: withObject:0x0 afterDelay:0.000000 on 0x101cf74a0
+[ObjC] Method not found: [NSWindow setAllowsAutomaticWindowTabbing:]
+[ObjC] Method not found: [NSMenu indexOfItemWithTarget:andAction:]
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101cf7db0
+[ObjC] Method not found: [NSProcessInfo disableAutomaticTermination:]
+[ObjC] Method not found: [NSApplication mainWindow]
+[AppKit] nib: no outlet 'autoresizesSubviews' on NSBox
+[ObjC] Method not found: [NSObject screenViewName]
+[ObjC] Method not found: [WDWelcomeViewController initWithNibName:bundle:]
+[ObjC] Method not found: [NSObject sharedImageCache]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101cfcd00 (title: Wireless Diagnostics)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Wireless Diagnostics:120:12
+DARLING_MENUBAR_ITEM:File:221:12
+DARLING_MENUBAR_ITEM:Edit:265:12
+DARLING_MENUBAR_ITEM:Window:324:12
+DARLING_WINDOW_READY:Wireless Diagnostics:4194305:392:49:624:440
+DARLING_BUTTON_POS:Wireless Diagnostics:kWDLocBackButtonTitle:853:460
+DARLING_BUTTON_POS:Wireless Diagnostics:kWDLocNextButtonTitle:952:460
+[AppKit] loaded nib /Applications/wireless-diagnostics-bb338392/Wireless Diagnostics.app/Contents/Resources/Base.lproj/WDWindow.nib: 178 objects, 1 windows
+[AppKit] NSWindowController showWindow on 0x101cf7b00
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101cfcd00 (title: Wireless Diagnostics)
+DARLING_WINDOW_READY:Wireless Diagnostics:4194305:392:49:624:440
+DARLING_BUTTON_POS:Wireless Diagnostics:kWDLocBackButtonTitle:853:460
+DARLING_BUTTON_POS:Wireless Diagnostics:kWDLocNextButtonTitle:952:460
+[ObjC] Method not found: [NSApplication activate]
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Wireless Diagnostics:4194305:392:49:624:440
+DARLING_BUTTON_POS:Wireless Diagnostics:kWDLocBackButtonTitle:853:460
+DARLING_BUTTON_POS:Wireless Diagnostics:kWDLocNextButtonTitle:952:460
+[Foundation] firing delayed perform terminate: on 0x101cf74a0
+DARLING_APP_TERMINATE:pid=64
+PROBE_EXIT_wireless-diagnostics-bb338392:0
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Application:90:12
+DARLING_MENUBAR_ITEM:File:161:12
+DARLING_MENUBAR_ITEM:Edit:205:12
+DARLING_MENUBAR_ITEM:View:254:12
+DARLING_MENUBAR_ITEM:Window:317:12
+DARLING_MENUBAR_ITEM:Help:379:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12
+kill -9 64 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/wireless-diagnostics-bb338392/Wireless Diagnostics.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_wireless-diagnostics-bb338392:${?})
+
+root@Darwin#

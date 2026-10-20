@@ -1,0 +1,91 @@
+(/usr/bin/darling open '/Applications/applescript-utility-d9f8e65f/AppleScript Utility.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_applescript-utility-d9f8e65f:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:42
+DARLING_LAUNCH_BUNDLE:/Applications/applescript-utility-d9f8e65f/AppleScript Utility.app:/Applications/applescript-utility-d9f8e65f/AppleScript Utility.app/Contents/MacOS/AppleScript Utility
+native dyld warning: unresolved import: _AESend
+native dyld warning: unresolved import: _AHGotoPage
+native dyld warning: unresolved import: _NSFileTypeForHFSTypeCode
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _AXAPIEnabled
+native dyld warning: unresolved import: _AXIsProcessTrusted
+native dyld warning: unresolved import: _SetFrontProcess
+native dyld warning: unresolved import: _CFArraySortValues
+native dyld warning: unresolved import: _CFURLCopyFileSystemPath
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _CFURLGetString
+native dyld warning: unresolved import: _AECreateAppleEvent
+native dyld warning: unresolved import: _AECreateDesc
+native dyld warning: unresolved import: _AEDisposeDesc
+native dyld warning: unresolved import: _AEGetAttributePtr
+native dyld warning: unresolved import: _AEGetParamDesc
+native dyld warning: unresolved import: _AEPutParamDesc
+native dyld warning: unresolved import: _CreateObjSpecifier
+native dyld warning: unresolved import: _LSCanURLAcceptURL
+native dyld warning: unresolved import: _LSCopyApplicationURLsForURL
+native dyld warning: unresolved import: _LSCopyItemInfoForURL
+native dyld warning: unresolved import: _LSGetApplicationForInfo
+native dyld warning: unresolved import: _LSGetApplicationForURL
+native dyld warning: unresolved import: _LSOpenCFURLRef
+native dyld warning: unresolved import: _UTGetOSTypeFromString
+native dyld warning: unresolved import: __LSASNExtractHighAndLowParts
+native dyld warning: unresolved import: __LSCopyApplicationArray
+native dyld warning: unresolved import: __LSCopyApplicationInformation
+native dyld warning: unresolved import: __LSSetWeakBindingURLForType
+native dyld warning: unresolved import: __kCFBundleShortVersionStringKey
+native dyld warning: unresolved import: __kCFBundleSignatureKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/applescript-utility-d9f8e65f/AppleScript Utility.app/Contents/MacOS/AppleScript Utility)
+[ObjC] Method not found: [NSObject instancesRespondToSelector:]
+[AppKit] loaded nib /Applications/applescript-utility-d9f8e65f/AppleScript Utility.app/Contents/Resources/Base.lproj/MainMenu.nib: 473 objects, 1 windows
+[AppKit] NSApplication delegate = 0x1013efec0
+[AppKit] delegate 0x1013efec0 does not respond to applicationDidFinishLaunching
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1013ea2e0 (title: AppleScript Utility)
+DARLING_WINDOW_READY:AppleScript Utility:4194305:576:28:440:362
+DARLING_BUTTON_POS:AppleScript Utility:Enable GUI Scripting:811:125
+DARLING_BUTTON_POS:AppleScript Utility:Accessibility...:811:197
+DARLING_BUTTON_POS:AppleScript Utility:Set Up Actions...:804:237
+DARLING_BUTTON_POS:AppleScript Utility:Show Script menu in menu bar:738:289
+DARLING_BUTTON_POS:AppleScript Utility:Show Computer scripts:747:315
+DARLING_BUTTON_POS:AppleScript Utility:No Script Editor found:867:87
+DARLING_WINDOW_READY:AppleScript Utility:4194305:576:28:440:362
+DARLING_BUTTON_POS:AppleScript Utility:Enable GUI Scripting:811:125
+DARLING_BUTTON_POS:AppleScript Utility:Accessibility...:811:197
+DARLING_BUTTON_POS:AppleScript Utility:Set Up Actions...:804:237
+DARLING_BUTTON_POS:AppleScript Utility:Show Script menu in menu bar:738:289
+DARLING_BUTTON_POS:AppleScript Utility:Show Computer scripts:747:315
+DARLING_BUTTON_POS:AppleScript Utility:No Script Editor found:867:87
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:AppleScript Utility:113:12
+DARLING_MENUBAR_ITEM:Edit:206:12
+DARLING_MENUBAR_ITEM:Window:265:12
+DARLING_MENUBAR_ITEM:Help:327:12
+DARLING_WINDOW_READY:AppleScript Utility:4194305:576:28:440:362
+DARLING_BUTTON_POS:AppleScript Utility:Enable GUI Scripting:811:125
+DARLING_BUTTON_POS:AppleScript Utility:Accessibility...:811:197
+DARLING_BUTTON_POS:AppleScript Utility:Set Up Actions...:804:237
+DARLING_BUTTON_POS:AppleScript Utility:Show Script menu in menu bar:738:289
+DARLING_BUTTON_POS:AppleScript Utility:Show Computer scripts:747:315
+DARLING_BUTTON_POS:AppleScript Utility:No Script Editor found:867:87
+DARLING_WINDOW_READY:AppleScript Utility:4194305:576:28:440:362
+DARLING_BUTTON_POS:AppleScript Utility:Enable GUI Scripting:811:125
+DARLING_BUTTON_POS:AppleScript Utility:Accessibility...:811:197
+DARLING_BUTTON_POS:AppleScript Utility:Set Up Actions...:804:237
+DARLING_BUTTON_POS:AppleScript Utility:Show Script menu in menu bar:738:289
+DARLING_BUTTON_POS:AppleScript Utility:Show Computer scripts:747:315
+DARLING_BUTTON_POS:AppleScript Utility:No Script Editor found:867:87
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:AppleScript Utility:113:12
+DARLING_MENUBAR_ITEM:Edit:206:12
+DARLING_MENUBAR_ITEM:Window:265:12
+DARLING_MENUBAR_ITEM:Help:327:12
+kill -9 42 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/applescript-utility-d9f8e65f/AppleScript Utility.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_applescript-utility-d9f8e65f:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

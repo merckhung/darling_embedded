@@ -1,0 +1,94 @@
+(/usr/bin/darling open /Applications/automator-9f4f4c95/Automator.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_automator-9f4f4c95:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:56
+DARLING_LAUNCH_BUNDLE:/Applications/automator-9f4f4c95/Automator.app:/Applications/automator-9f4f4c95/Automator.app/Contents/MacOS/Automator
+native dyld warning: unresolved import: _AudioServicesCreateSystemSoundID
+native dyld warning: unresolved import: _AudioServicesPlayAlertSound
+native dyld warning: unresolved import: _AMLocalizedStringWithTemplate
+native dyld warning: unresolved import: __AMAutomatorFrameworkBundle
+native dyld warning: unresolved import: __AMAutomatorFrameworkColor
+native dyld warning: unresolved import: __AMDisableTemplateChooser
+native dyld warning: unresolved import: __AMSkipOpenUntitledFile
+native dyld warning: unresolved import: __AMStopBeforeStartingPoints
+native dyld warning: unresolved import: _am_CGFloatAlmostEqual
+native dyld warning: unresolved import: _mt_log_automation_app_launched
+native dyld warning: unresolved import: _AEGetDescData
+native dyld warning: unresolved import: _SecCertificateCopyCommonName
+native dyld warning: unresolved import: _SecCertificateCopyData
+native dyld warning: unresolved import: _SecCertificateCopyValues
+native dyld warning: unresolved import: _SecCertificateGetTypeID
+native dyld warning: unresolved import: _SecIdentityCopyCertificate
+native dyld warning: unresolved import: _SecIdentityGetTypeID
+native dyld warning: unresolved import: _SecItemCopyMatching
+native dyld warning: unresolved import: _SecPolicyCreateWithProperties
+native dyld warning: unresolved import: _msgtracer_log_with_keys
+native dyld warning: unresolved import: __NSDictionaryOfVariableBindings
+native dyld warning: unresolved import: _srandom
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _AXIsProcessTrustedWithOptions
+native dyld warning: unresolved import: _CFLogTest
+native dyld warning: unresolved import: _CFURLCopyFileSystemPath
+native dyld warning: unresolved import: _CFURLCreateFromFSRef
+native dyld warning: unresolved import: _CGEventSourceFlagsState
+native dyld warning: unresolved import: _CGSGetWindowTransformAtPlacement
+native dyld warning: unresolved import: _CGSServerOperationState
+native dyld warning: unresolved import: _CGSSetWindowAlpha
+native dyld warning: unresolved import: _CGSSetWindowTransformAtPlacement
+native dyld warning: unresolved import: _AMDocumentExtensionApp
+native dyld warning: unresolved import: _AMDocumentExtensionWorkflow
+native dyld warning: unresolved import: _AMDocumentTypeApplication
+native dyld warning: unresolved import: _AMDocumentTypeWorkflow
+native dyld warning: unresolved import: _AMTypeIdentifierFilesAndFolders
+native dyld warning: unresolved import: _AMTypeIdentifierText
+native dyld warning: unresolved import: _AMTypeUTICocoaPath
+native dyld warning: unresolved import: _AMVariableIdentifierPath
+native dyld warning: unresolved import: _AMVariableIdentifierStorage
+native dyld warning: unresolved import: _AMVariableIdentifierText
+native dyld warning: unresolved import: _AMWorkflowContentsDirectory
+native dyld warning: unresolved import: _AMWorkflowTypeIdentifierApplication
+native dyld warning: unresolved import: _AMWorkflowTypeIdentifierServicesMenu
+native dyld warning: unresolved import: _AMWorkflowTypeIdentifierWorkflow
+native dyld warning: unresolved import: _kSecClass
+native dyld warning: unresolved import: _kSecClassIdentity
+native dyld warning: unresolved import: _kSecMatchLimit
+native dyld warning: unresolved import: _kSecMatchLimitAll
+native dyld warning: unresolved import: _kSecMatchPolicy
+native dyld warning: unresolved import: _kSecPolicyAppleCodeSigning
+native dyld warning: unresolved import: _kSecReturnRef
+native dyld warning: unresolved import: _NSFileExtensionHidden
+native dyld warning: unresolved import: _NSHelpAnchorErrorKey
+native dyld warning: unresolved import: _NSLocalizedRecoveryOptionsErrorKey
+native dyld warning: unresolved import: _NSLocalizedRecoverySuggestionErrorKey
+native dyld warning: unresolved import: _NSRecoveryAttempterErrorKey
+native dyld warning: unresolved import: _NSURLErrorKey
+native dyld warning: unresolved import: _NSAccessibilityButtonRole
+native dyld warning: unresolved import: _NSAccessibilityDescriptionAttribute
+native dyld warning: unresolved import: _NSAccessibilityEnabledAttribute
+native dyld warning: unresolved import: _NSAccessibilityRoleAttribute
+native dyld warning: unresolved import: _NSApplicationDidBecomeActiveNotification
+native dyld warning: unresolved import: _NSApplicationDidResignActiveNotification
+native dyld warning: unresolved import: _NSImageNameCaution
+native dyld warning: unresolved import: _NSPasteboardTypeFileURL
+native dyld warning: unresolved import: _NSToolbarFlexibleSpaceItemIdentifier
+native dyld warning: unresolved import: _NSToolbarPrintItemIdentifier
+native dyld warning: unresolved import: _NSToolbarShowColorsItemIdentifier
+native dyld warning: unresolved import: _NSToolbarShowFontsItemIdentifier
+native dyld warning: unresolved import: _NSToolbarSpaceItemIdentifier
+native dyld warning: unresolved import: _NSTouchBarItemIdentifierFlexibleSpace
+native dyld warning: unresolved import: _NSWindowDidBecomeMainNotification
+native dyld warning: unresolved import: _kAXTrustedCheckOptionPrompt
+native dyld warning: unresolved import: _NSURLHasHiddenExtensionKey
+native dyld warning: unresolved import: _NSURLPathKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/automator-9f4f4c95/Automator.app/Contents/MacOS/Automator)
+[AppKit] loaded nib /Applications/automator-9f4f4c95/Automator.app/Contents/Resources/Base.lproj/MainMenu.nib: 1182 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1019afcc0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1019afcc0
+[ObjC] Method not found: [NSObject logTimeIntervalSinceAutomatorLaunch:]
+[ObjC] Method not found: [NSAppleEventManager currentAppleEvent]
+[ObjC] Method not found: [NSProcessInfo enableSuddenTermination]
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 56 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/automator-9f4f4c95/Automator.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_automator-9f4f4c95:${?})
+
+root@Darwin#

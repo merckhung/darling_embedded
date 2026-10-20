@@ -1,0 +1,39 @@
+==== Activity Monitor ====
+Linked dylibs: 26, imported symbols: 411
+
+  present  provided/imported  library
+  NO       0/2	/usr/lib/libLaunchServicesSupport.dylib
+  NO       0/14	/System/Library/PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication
+  NO       0/1	/System/Library/PrivateFrameworks/SafeEjectGPU.framework/Versions/A/SafeEjectGPU
+  NO       0/0	/System/Library/PrivateFrameworks/RemoteServiceDiscovery.framework/Versions/A/RemoteServiceDiscovery
+  yes      32/47	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _NSDivideRect _NSFileExtensionHidden _OBJC_CLASS_$_NSByteCountFormatter _OBJC_CLASS_$_NSDateComponentsFormatter
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      2/3	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _AuthorizationMakeExternalForm
+  NO       0/0	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/0	/System/Library/PrivateFrameworks/Suggestions.framework/Versions/A/Suggestions
+  NO       0/0	/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL
+  NO       0/2	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/11	/System/Library/PrivateFrameworks/NetworkStatistics.framework/Versions/A/NetworkStatistics
+  NO       0/26	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/3	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/4	/System/Library/PrivateFrameworks/AssetCacheServicesExtensions.framework/Versions/A/AssetCacheServicesExtensions
+  NO       0/0	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/4	/usr/lib/libIOReport.dylib
+  NO       0/2	/usr/lib/libquit.dylib
+  NO       0/10	/usr/lib/libsysmon.dylib
+  NO       0/2	/usr/lib/libsystemstats.dylib
+  yes      34/34	/usr/lib/libobjc.A.dylib
+  yes      57/93	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_activate _dispatch_async_and_wait _dispatch_group_create _dispatch_group_enter _dispatch_group_leave _dispatch_group_notify
+  yes      43/74	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSOutlineViewSelectionDidChangeNotification _NSTouchBarItemIdentifierFlexibleSpace _NSUnderlineStyleAttributeName _NSWindowDidChangeOcclusionStateNotification _NSWindowDidChangeScreenNotification _NSWindowDidEndLiveResizeNotification
+  yes      38/53	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayRemoveValueAtIndex _CFDataGetBytes _CFPropertyListCreateDeepCopy _NSURLLocalizedNameKey _OBJC_CLASS_$_NSCache _OBJC_CLASS_$_NSData
+  yes      1/3	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSEventIsAppUnresponsive _CGSRegisterNotifyProc
+  yes      0/23	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateAppleEvent _AECreateDesc _AEDisposeDesc _AEGetAttributePtr _AEGetDescData _AEGetDescDataSize
+
+Summary for Activity Monitor: 17 of 26 linked libraries are absent from the guest root; 207 of 411 imported symbols are provided (50.365%).

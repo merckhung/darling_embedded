@@ -1,0 +1,12 @@
+==== SoftwareUpdateLauncher ====
+Linked dylibs: 6, imported symbols: 15
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      3/3	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      6/6	/usr/lib/libobjc.A.dylib
+  yes      0/0	/usr/lib/libSystem.B.dylib
+  yes      4/4	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      2/2	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+Summary for SoftwareUpdateLauncher: 0 of 6 linked libraries are absent from the guest root; 15 of 15 imported symbols are provided (100%).

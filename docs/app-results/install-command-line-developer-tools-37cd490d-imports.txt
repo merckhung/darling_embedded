@@ -1,0 +1,16 @@
+==== Install Command Line Developer Tools ====
+Linked dylibs: 9, imported symbols: 61
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      0/0	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/1	/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate
+  NO       0/0	/System/Library/PrivateFrameworks/PackageKit.framework/Versions/A/PackageKit
+  yes      6/8	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSCompoundPredicate _OBJC_CLASS_$_NSDateComponentsFormatter
+  yes      20/20	/usr/lib/libobjc.A.dylib
+  yes      13/13	/usr/lib/libSystem.B.dylib
+  yes      8/8	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      11/11	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+Summary for Install Command Line Developer Tools: 2 of 9 linked libraries are absent from the guest root; 58 of 61 imported symbols are provided (95.082%).

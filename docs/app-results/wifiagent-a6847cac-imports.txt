@@ -1,0 +1,34 @@
+==== WiFiAgent ====
+Linked dylibs: 23, imported symbols: 242
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/WiFiPolicy.framework/Versions/A/WiFiPolicy
+  NO       0/1	/System/Library/PrivateFrameworks/LockdownMode.framework/Versions/A/LockdownMode (weak)
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/19	/System/Library/PrivateFrameworks/CoreWiFi.framework/Versions/A/CoreWiFi
+  NO       0/2	/System/Library/PrivateFrameworks/WiFiPeerToPeer.framework/Versions/A/WiFiPeerToPeer (weak)
+  NO       0/6	/System/Library/PrivateFrameworks/IO80211.framework/Versions/A/IO80211
+  NO       0/0	/System/Library/PrivateFrameworks/Rapport.framework/Versions/A/Rapport (weak)
+  NO       0/7	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications (weak)
+  NO       0/8	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Versions/A/WirelessDiagnostics (weak)
+  NO       0/42	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  NO       0/12	/System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/CoreWLANKit
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/3	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  yes      1/1	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/9	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  yes      13/16	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSSortDescriptor _OBJC_CLASS_$_NSXPCListener
+  yes      28/29	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_exception_throw
+  yes      35/51	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_feature_enabled_impl __os_log_fault_impl _dispatch_queue_attr_make_with_autorelease_frequency _dispatch_release _dispatch_semaphore_create _dispatch_semaphore_signal
+  yes      4/4	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      14/22	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopPerformBlock _NSInternalInconsistencyException _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSException _OBJC_CLASS_$_NSMutableSet _OBJC_CLASS_$_NSRunLoop
+  yes      1/6	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSAddWindowsToSpaces _CGSMainDisplayID _CGSRegisterNotifyProc _CGSRemoveNotifyProc _CGSSpaceWithName
+
+Summary for WiFiAgent: 15 of 23 linked libraries are absent from the guest root; 96 of 242 imported symbols are provided (39.6694%).

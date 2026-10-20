@@ -1,0 +1,27 @@
+==== SSMenuAgent ====
+Linked dylibs: 14, imported symbols: 194
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/15	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/5	/System/Library/PrivateFrameworks/ScreenSharing.framework/Versions/A/ScreenSharing
+  NO       0/3	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/3	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  yes      13/15	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSLayoutConstraint _OBJC_CLASS_$_NSXPCListener
+  yes      34/34	/usr/lib/libobjc.A.dylib
+  yes      44/46	/usr/lib/libSystem.B.dylib
+             e.g. missing: _endpwent _os_variant_has_internal_diagnostics
+  yes      9/14	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSWindowDidMoveNotification _OBJC_CLASS_$_NSCIImageRep _OBJC_CLASS_$_NSImageSymbolConfiguration _OBJC_CLASS_$_NSRunningApplication _OBJC_CLASS_$_NSSound
+  yes      25/36	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayContainsValue _CFErrorCopyDescription _CFErrorGetCode _CFURLCreateWithString _NSRunLoopCommonModes _OBJC_CLASS_$_NSDate
+  yes      14/18	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSIsScreenWatcherPresent _CGSRegisterNotifyProc _CGSRemoveNotifyProc _CGSessionCopyCurrentDictionary
+  NO       0/1	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSCopyApplicationURLsForBundleIdentifier _LSOpenCFURLRef
+  yes      0/2	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecTaskCopyValueForEntitlement _SecTaskCreateWithAuditToken
+
+Summary for SSMenuAgent: 6 of 14 linked libraries are absent from the guest root; 139 of 194 imported symbols are provided (71.6495%).

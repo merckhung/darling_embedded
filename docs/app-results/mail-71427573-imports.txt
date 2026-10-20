@@ -1,0 +1,131 @@
+==== Mail ====
+Linked dylibs: 116, imported symbols: 4215
+
+  present  provided/imported  library
+  NO       0/206	/System/Library/PrivateFrameworks/HybridSearch.framework/Versions/A/HybridSearch (weak)
+  NO       0/44	/System/Library/PrivateFrameworks/HybridSearchAdapter.framework/Versions/A/HybridSearchAdapter (weak)
+  NO       0/0	/System/Library/PrivateFrameworks/AccountsDaemon.framework/Versions/A/AccountsDaemon
+  NO       0/4	/System/Library/PrivateFrameworks/AccountsUI.framework/Versions/A/AccountsUI
+  NO       0/1	/System/Library/PrivateFrameworks/AccountsUISettings.framework/Versions/A/AccountsUISettings
+  NO       0/14	/System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook
+  NO       0/0	/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+  NO       0/0	/System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup
+  NO       0/0	/System/Library/PrivateFrameworks/CalendarUI.framework/Versions/A/CalendarUI
+  NO       0/1	/System/Library/PrivateFrameworks/CalendarUIKit.framework/Versions/A/CalendarUIKit
+  NO       0/3	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/10	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  NO       0/1	/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles
+  NO       0/0	/System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/Versions/A/ContactsAutocompleteUI
+  NO       0/1	/System/Library/PrivateFrameworks/ContactsFoundation.framework/Versions/A/ContactsFoundation
+  NO       0/4	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/4	/System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/CoreRecents
+  NO       0/4	/System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/CoreSuggestions
+  NO       0/5	/System/Library/PrivateFrameworks/CoreSuggestionsUI.framework/Versions/A/CoreSuggestionsUI
+  NO       0/0	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/7	/System/Library/PrivateFrameworks/DataDetectors.framework/Versions/A/DataDetectors
+  NO       0/1	/System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/DataDetectorsCore
+  NO       0/1	/System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+  NO       0/131	/System/Library/PrivateFrameworks/Email.framework/Versions/A/Email
+  NO       0/3	/System/Library/PrivateFrameworks/EmailAddressing.framework/Versions/A/EmailAddressing
+  NO       0/78	/System/Library/PrivateFrameworks/EmailCore.framework/Versions/A/EmailCore
+  NO       0/39	/System/Library/PrivateFrameworks/EmailDaemon.framework/Versions/A/EmailDaemon
+  NO       0/28	/System/Library/PrivateFrameworks/EmailFoundation.framework/Versions/A/EmailFoundation
+  NO       0/1	/System/Library/Frameworks/EventKit.framework/Versions/A/EventKit
+  NO       0/3	/System/Library/PrivateFrameworks/iCalendar.framework/Versions/A/iCalendar
+  NO       0/0	/System/Library/PrivateFrameworks/icloudMCCKit.framework/Versions/A/icloudMCCKit
+  NO       0/2	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/4	/System/Library/PrivateFrameworks/IMAP.framework/Versions/A/IMAP
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  NO       0/307	/System/Library/PrivateFrameworks/Mail.framework/Versions/A/Mail
+  NO       0/103	/System/Library/PrivateFrameworks/MailCore.framework/Versions/A/MailCore
+  NO       0/21	/System/Library/Frameworks/MailKit.framework/Versions/A/MailKit
+  NO       0/5	/System/Library/PrivateFrameworks/MailService.framework/Versions/A/MailService
+  NO       0/159	/System/Library/PrivateFrameworks/MailSupport.framework/Versions/A/MailSupport
+  NO       0/502	/System/Library/PrivateFrameworks/MailUI.framework/Versions/A/MailUI
+  NO       0/1	/System/Library/PrivateFrameworks/MarkupUI.framework/Versions/A/MarkupUI
+  NO       0/1	/System/Library/PrivateFrameworks/NetworkServiceProxy.framework/Versions/A/NetworkServiceProxy
+  NO       0/1	/System/Library/PrivateFrameworks/PassKitCore.framework/Versions/A/PassKitCore
+  NO       0/1	/System/Library/PrivateFrameworks/PassKitUI.framework/Versions/A/PassKitUI
+  NO       0/5	/System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+  NO       0/4	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  NO       0/0	/System/Library/PrivateFrameworks/Recap.framework/Versions/A/Recap (weak)
+  NO       0/5	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting (weak)
+  NO       0/4	/System/Library/Frameworks/ScreenCaptureKit.framework/Versions/A/ScreenCaptureKit
+  NO       0/3	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  NO       0/1	/System/Library/PrivateFrameworks/SidecarCore.framework/Versions/A/SidecarCore
+  NO       0/2	/System/Library/PrivateFrameworks/SocialAppsCore.framework/Versions/A/SocialAppsCore
+  NO       0/1	/System/Library/PrivateFrameworks/SpotlightServices.framework/Versions/A/SpotlightServices
+  NO       0/6	/System/Library/PrivateFrameworks/Suggestions.framework/Versions/A/Suggestions
+  NO       0/0	/System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/Versions/A/SymptomDiagnosticReporter
+  NO       0/3	/System/Library/PrivateFrameworks/Synapse.framework/Versions/A/Synapse
+  NO       0/1	/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities
+  NO       0/3	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/PrivateFrameworks/UserNotificationsSettings.framework/Versions/A/UserNotificationsSettings
+  yes      67/314	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSConstantFloatNumber _$s10Foundation10NSNotFoundSivg _$s10Foundation11JSONDecoderCMa _$s10Foundation11JSONEncoderCMa
+  yes      44/49	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_createInstance _objc_exception_throw _objc_getAssociatedObject _objc_setAssociatedObject _OBJC_EHTYPE_id
+  yes      51/78	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_activity_create __os_feature_enabled_impl __os_log_fault_impl __os_signpost_emit_with_name_impl _dispatch_block_cancel
+  NO       0/39	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/566	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      124/399	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSFontTextStyleTitle3 _NSFontTextStyleBody _NSFontTextStyleSubheadline _OBJC_METACLASS_$_NSSpellChecker _$s10Foundation9IndexPathV6AppKitE4item7sectionACSi_SitcfC _$s10Foundation9IndexPathV6AppKitE4itemSivg
+  yes      1/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  NO       0/23	/System/Library/Frameworks/Charts.framework/Versions/A/Charts
+  NO       0/12	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/5	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      30/78	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDataCreateMutable _CFRunLoopPerformBlock _CFStringConvertEncodingToNSStringEncoding _CFStringConvertIANACharSetNameToEncoding _CFStringConvertNSStringEncodingToEncoding _CFStringGetCharacters
+  yes      28/40	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$sSo10CGColorRefa12CoreGraphicsE5clearABvgZ _CGAffineTransformMakeScale _CGAffineTransformMakeTranslation _CGAffineTransformRotate _CGAffineTransformScale _CGAffineTransformTranslate
+  yes      1/41	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AEDuplicateDesc _AEGetSpecialHandler _AEInstallSpecialHandler _AEPutAttributePtr _AERemoveSpecialHandler _AESendMessage
+  NO       0/14	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/2	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/9	/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+  NO       0/16	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/1	/System/Library/Frameworks/PDFKit.framework/Versions/A/PDFKit
+  NO       0/3	/System/Library/Frameworks/PhotosUI.framework/Versions/A/PhotosUI
+  NO       0/20	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/2	/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+  yes      0/3	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCertificateCopySubjectSummary _SecIdentityCopyCertificate _SecTrustDeserialize
+  NO       0/217	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/5	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  yes      4/59	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_METACLASS_$_WebHTMLView _DOMException _OBJC_CLASS_$_DOMCharacterData _OBJC_CLASS_$_DOMElement _OBJC_CLASS_$_DOMHTMLAnchorElement _OBJC_CLASS_$_DOMHTMLBodyElement
+  NO       0/8	/System/Library/Frameworks/_AppIntents_AppKit.framework/Versions/A/_AppIntents_AppKit
+  NO       0/2	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/1	/System/Library/PrivateFrameworks/SearchFoundation.framework/Versions/A/SearchFoundation
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/350	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/23	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftOpenCL.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftPassKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/41	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/30	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Mail: 106 of 116 linked libraries are absent from the guest root; 350 of 4215 imported symbols are provided (8.30368%).

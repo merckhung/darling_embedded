@@ -1,0 +1,16 @@
+==== Folder Actions Setup ====
+Linked dylibs: 7, imported symbols: 61
+
+  present  provided/imported  library
+  NO       0/0	/usr/lib/libDiagnosticMessagesClient.dylib
+  NO       0/4	/System/Library/PrivateFrameworks/FolderActionsKit.framework/Versions/A/FolderActionsKit
+  yes      5/7	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_METACLASS_$_NSScriptCommand _OBJC_CLASS_$_NSScriptCommand
+  yes      24/24	/usr/lib/libobjc.A.dylib
+  yes      10/10	/usr/lib/libSystem.B.dylib
+  yes      11/12	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSTextFieldCell
+  yes      3/4	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSURL
+
+Summary for Folder Actions Setup: 2 of 7 linked libraries are absent from the guest root; 53 of 61 imported symbols are provided (86.8852%).

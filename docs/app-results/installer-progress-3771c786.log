@@ -1,0 +1,89 @@
+(/usr/bin/darling open '/Applications/installer-progress-3771c786/Installer Progress.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_installer-progress-3771c786:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:156
+DARLING_LAUNCH_BUNDLE:/Applications/installer-progress-3771c786/Installer Progress.app:/Applications/installer-progress-3771c786/Installer Progress.app/Contents/MacOS/Installer Progress
+native dyld warning: unresolved import: __ScreenReaderToggleEnabled
+native dyld warning: unresolved import: _SLSInitialConfigurationWasDeferred
+native dyld warning: unresolved import: _SLSPerformDeferredConfiguration
+native dyld warning: unresolved import: _SLSTransactionCommitUsingMethod
+native dyld warning: unresolved import: _SLSTransactionCreate
+native dyld warning: unresolved import: _SLSTransactionOrderWindow
+native dyld warning: unresolved import: _SLSTransactionSetWindowAlpha
+native dyld warning: unresolved import: _SLSTransactionSetWindowLevel
+native dyld warning: unresolved import: _LFBootedToFVUnlock
+native dyld warning: unresolved import: _LUICGetBootStyle
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: _audit_session_join
+native dyld warning: unresolved import: _audit_session_port
+native dyld warning: unresolved import: _audit_session_self
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _os_variant_has_internal_ui
+native dyld warning: unresolved import: _strnstr
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _NSWindowServerBarrier
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: __CFCopySystemVersionDictionaryValue
+native dyld warning: unresolved import: _CGAffineTransformInvert
+native dyld warning: unresolved import: _CGContextSetCompositeOperation
+native dyld warning: unresolved import: _CGDataProviderCreateWithCFData
+native dyld warning: unresolved import: _CGFloatNearlyEqualToFloatWithTolerance
+native dyld warning: unresolved import: _CGImageCreate
+native dyld warning: unresolved import: _CGRegionRelease
+native dyld warning: unresolved import: _CGSAddWindowsToSpaces
+native dyld warning: unresolved import: _CGSCreateCinematicBootWindowArray
+native dyld warning: unresolved import: _CGSGetWindowAlpha
+native dyld warning: unresolved import: _CGSGetWindowGeometry
+native dyld warning: unresolved import: _CGSHWCaptureWindowList
+native dyld warning: unresolved import: _CGSHideSpaces
+native dyld warning: unresolved import: _CGSInitialEnableOfDisplayUpdates
+native dyld warning: unresolved import: _CGSNewConnection
+native dyld warning: unresolved import: _CGSNewRegionWithRect
+native dyld warning: unresolved import: _CGSNewWindowWithOpaqueShape
+native dyld warning: unresolved import: _CGSOrderWindow
+native dyld warning: unresolved import: _CGSRegisterNotifyProc
+native dyld warning: unresolved import: _CGSReleaseWindow
+native dyld warning: unresolved import: _CGSRemoveNotifyProc
+native dyld warning: unresolved import: _CGSRemoveWindowsFromSpaces
+native dyld warning: unresolved import: _CGSResetWindows
+native dyld warning: unresolved import: _CGSServerPort
+native dyld warning: unresolved import: _CGSSessionCopyAllSessionProperties
+native dyld warning: unresolved import: _CGSSetGlobalHotKeyOperatingMode
+native dyld warning: unresolved import: _CGSSetWindowAlpha
+native dyld warning: unresolved import: _CGSSetWindowDepth
+native dyld warning: unresolved import: _CGSSetWindowLevel
+native dyld warning: unresolved import: _CGSSetWindowTransformAtPlacement
+native dyld warning: unresolved import: _CGSShowSpaces
+native dyld warning: unresolved import: _CGSSpaceCreate
+native dyld warning: unresolved import: _CGSSpaceDestroy
+native dyld warning: unresolved import: _CGSSpaceSetAbsoluteLevel
+native dyld warning: unresolved import: _CGWindowContextCreate
+native dyld warning: unresolved import: __LSGetCurrentApplicationASN
+native dyld warning: unresolved import: __LSSetApplicationInformationItem
+native dyld warning: unresolved import: __LSSetMetaApplicationInformationItem
+native dyld warning: unresolved import: _DADiskCreateFromVolumePath
+native dyld warning: unresolved import: _DASessionCreate
+native dyld warning: unresolved import: _IORegistryEntryCreateCFProperty
+native dyld warning: unresolved import: _IORegistryEntryFromPath
+native dyld warning: unresolved import: _IORegistryEntrySetCFProperty
+native dyld warning: unresolved import: _SessionGetInfo
+native dyld warning: unresolved import: _kSLSSpaceAbsoluteLevelBootProgress
+native dyld warning: unresolved import: _LUICImageAppleLogo
+native dyld warning: unresolved import: __dispatch_source_type_mach_send
+native dyld warning: unresolved import: _NSApplicationDidChangeScreenParametersNotification
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: _kCGSWindowIDKey
+native dyld warning: unresolved import: __kLSAddToPermittedFrontASNsArrayKey
+native dyld warning: unresolved import: __kLSApplicationBackgroundOnlyTypeKey
+native dyld warning: unresolved import: __kLSApplicationTypeKey
+native dyld warning: unresolved import: __kLSApplicationUIElementTypeKey
+native dyld warning: unresolved import: __kLSRemoveFromPermittedFrontASNsArrayKey
+native dyld warning: unresolved import: _kIOMasterPortDefault
+native dyld warning: unresolved import: _kCAMediaTimingFunctionEaseInEaseOut
+PROBE_EXIT_installer-progress-3771c786:22
+kill -9 156 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/installer-progress-3771c786/Installer Progress.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_installer-progress-3771c786:${?})
+
+root@Darwin#

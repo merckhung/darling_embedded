@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/uikitsystem-c002e54e/UIKitSystem.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_uikitsystem-c002e54e:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:457
+DARLING_LAUNCH_BUNDLE:/Applications/uikitsystem-c002e54e/UIKitSystem.app:/Applications/uikitsystem-c002e54e/UIKitSystem.app/Contents/MacOS/UIKitSystem
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_uikitsystem-c002e54e:78
+kill -9 457 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/uikitsystem-c002e54e/UIKitSystem.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_uikitsystem-c002e54e:${?})
+
+root@Darwin#

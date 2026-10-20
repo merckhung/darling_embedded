@@ -1,0 +1,108 @@
+(/usr/bin/darling open /Applications/nowplayingtouchui-23110702/NowPlayingTouchUI.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_nowplayingtouchui-23110702:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:46
+DARLING_LAUNCH_BUNDLE:/Applications/nowplayingtouchui-23110702/NowPlayingTouchUI.app:/Applications/nowplayingtouchui-23110702/NowPlayingTouchUI.app/Contents/MacOS/NowPlayingTouchUI
+native dyld warning: unresolved import: _MRDeviceSupportsExternalTouchBarUI
+native dyld warning: unresolved import: _MRMediaRemoteBroadcastCommand
+native dyld warning: unresolved import: _MRMediaRemoteCopyCommandDescription
+native dyld warning: unresolved import: _MRMediaRemoteCopyLocalDeviceSystemMediaApplicationDisplayID
+native dyld warning: unresolved import: _MRMediaRemoteGetLocalOrigin
+native dyld warning: unresolved import: _MRMediaRemoteGetNowPlayingApplicationDisplayID
+native dyld warning: unresolved import: _MRMediaRemoteGetNowPlayingApplicationPID
+native dyld warning: unresolved import: _MRMediaRemoteGetNowPlayingApplicationPlaybackState
+native dyld warning: unresolved import: _MRMediaRemoteGetNowPlayingClientsForOrigin
+native dyld warning: unresolved import: _MRMediaRemoteGetNowPlayingInfoForClient
+native dyld warning: unresolved import: _MRMediaRemoteGetPlaybackStateForClient
+native dyld warning: unresolved import: _MRMediaRemoteGetSupportedCommandsForClient
+native dyld warning: unresolved import: _MRMediaRemoteRegisterForNowPlayingNotifications
+native dyld warning: unresolved import: _MRMediaRemoteRequestAudioAmplitudeSamples
+native dyld warning: unresolved import: _MRMediaRemoteRequestVideoThumbnails
+native dyld warning: unresolved import: _MRMediaRemoteSendCommandToClient
+native dyld warning: unresolved import: _MRMediaRemoteSetWantsSupportedCommandsChangedNotifications
+native dyld warning: unresolved import: _MRMediaRemoteUnregisterForNowPlayingNotifications
+native dyld warning: unresolved import: _MRNowPlayingArtworkCopyImageData
+native dyld warning: unresolved import: _MRProcessIDForApplication
+native dyld warning: unresolved import: _MRVideoThumbnailGetImageData
+native dyld warning: unresolved import: _MRVideoThumbnailGetTime
+native dyld warning: unresolved import: __MRLogForCategory
+native dyld warning: unresolved import: _notify_get_state
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _ColorSyncProfileCopyData
+native dyld warning: unresolved import: _CGBitmapContextGetBitmapInfo
+native dyld warning: unresolved import: _CGContextSetFillColorSpace
+native dyld warning: unresolved import: _CGContextSetTextPosition
+native dyld warning: unresolved import: _CGDataProviderCreateWithCFData
+native dyld warning: unresolved import: _CGImageCreateCopyWithColorSpace
+native dyld warning: unresolved import: _CGImageCreateWithJPEGDataProvider
+native dyld warning: unresolved import: _CGPathAddRect
+native dyld warning: unresolved import: _CGPathCreateMutable
+native dyld warning: unresolved import: _CGPathRelease
+native dyld warning: unresolved import: _CTLineCreateWithAttributedString
+native dyld warning: unresolved import: _CTLineDraw
+native dyld warning: unresolved import: __sl_dlopen
+native dyld warning: unresolved import: __ZnwmSt19__type_descriptor_t
+native dyld warning: unresolved import: _NSAppearanceNameControlStrip
+native dyld warning: unresolved import: _NSAppearanceNameTouchBar
+native dyld warning: unresolved import: _NSEnabledBinding
+native dyld warning: unresolved import: _NSHiddenBinding
+native dyld warning: unresolved import: _NSImageBinding
+native dyld warning: unresolved import: _NSImageNameTouchBarQuickLookTemplate
+native dyld warning: unresolved import: _NSValueBinding
+native dyld warning: unresolved import: _NSValueTransformerNameBindingOption
+native dyld warning: unresolved import: _NSWorkspaceDidActivateApplicationNotification
+native dyld warning: unresolved import: _kMRMediaRemoteApplicationClientStateDidChange
+native dyld warning: unresolved import: _kMRMediaRemoteCommandInfoPreferredIntervalsKey
+native dyld warning: unresolved import: _kMRMediaRemoteMediaTypeAudio
+native dyld warning: unresolved import: _kMRMediaRemoteMediaTypeAudioBook
+native dyld warning: unresolved import: _kMRMediaRemoteMediaTypeITunesU
+native dyld warning: unresolved import: _kMRMediaRemoteMediaTypeMusic
+native dyld warning: unresolved import: _kMRMediaRemoteMediaTypePodcast
+native dyld warning: unresolved import: _kMRMediaRemoteMediaTypeVideo
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingApplicationDidChangeNotification
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingApplicationDidRegisterCanBeNowPlaying
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingApplicationDidUnregisterCanBeNowPlaying
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingApplicationIsPlayingDidChangeNotification
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingApplicationPlaybackStateDidChangeNotification
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoAlbum
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoArtist
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoAssetURL
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoDidChangeNotification
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoDuration
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoElapsedTime
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoIsAlwaysLive
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoIsExplicitTrack
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoIsMusicApp
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoMediaType
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoPlaybackRate
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoRadioStationIdentifier
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoTimestamp
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoTitle
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoTypeAudio
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoTypeVideo
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoUniqueIdentifier
+native dyld warning: unresolved import: _kMRMediaRemoteOptionPlaybackPosition
+native dyld warning: unresolved import: _kMRMediaRemoteOptionSkipInterval
+native dyld warning: unresolved import: _kMRMediaRemoteSupportedCommandsDidChangeNotification
+native dyld warning: unresolved import: _NSNegateBooleanTransformerName
+native dyld warning: unresolved import: _kCAFillModeBackwards
+native dyld warning: unresolved import: _DFRControlStripPlayPauseButtonIdentifier
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/nowplayingtouchui-23110702/NowPlayingTouchUI.app/Contents/MacOS/NowPlayingTouchUI)
+[AppKit] loaded nib /Applications/nowplayingtouchui-23110702/NowPlayingTouchUI.app/Contents/Resources/Base.lproj/NowPlayingTouchUI.nib: 24 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1015ba400
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1015ba400
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[ObjC] Method not found: [NSBundle imageForResource:]
+[ObjC] Method not found: [NPUNowPlayingControlStripButton buttonWithImage:target:action:]
+[ObjC] Method not found: [NSObject initWithIdentifier:]
+[ObjC] Method not found: [NSObject addSystemTrayItem:]
+[ObjC] Method not found: [NSObject setDelegate:]
+[ObjC] Method not found: [NSObject setItemIdentifiers:]
+XNU_EXC: exc=10 codes=0x6000000 0x0
+Abort trap: 6
+PROBE_EXIT_nowplayingtouchui-23110702:134
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 46
+kill -9 46 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/nowplayingtouchui-23110702/NowPlayingTouchUI.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_nowplayingtouchui-23110702:${?})
+
+root@Darwin#

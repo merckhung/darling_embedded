@@ -1,0 +1,28 @@
+==== Dwell Control ====
+Linked dylibs: 14, imported symbols: 167
+
+  present  provided/imported  library
+  yes      0/3	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecTaskCopySigningIdentifier _SecTaskCopyValueForEntitlement _SecTaskCreateWithAuditToken
+  NO       0/0	/usr/lib/libUniversalAccess.dylib
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/14	/System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport
+  NO       0/11	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Libraries/libUAPreferences.dylib
+  NO       0/12	/System/Library/PrivateFrameworks/AssistiveControlSupport.framework/Versions/A/AssistiveControlSupport
+  NO       0/19	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/UniversalAccess
+  yes      6/7	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber
+  yes      28/30	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      22/29	/usr/lib/libSystem.B.dylib
+             e.g. missing: _bootstrap_check_in _dispatch_block_cancel _dispatch_block_create _dispatch_semaphore_create _dispatch_semaphore_signal _dispatch_semaphore_wait
+  yes      4/9	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityMenuBarRole _NSAccessibilityMenuItemRole _NSAccessibilityMenuRole _NSAccessibilityScrollAreaRole _OBJC_CLASS_$_NSSound
+  yes      0/7	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXUIElementCreateSystemWide _AXUIElementSetMessagingTimeout _CoreMenuExtraAddMenuExtra _CoreMenuExtraGetMenuExtra _CoreMenuExtraRemoveMenuExtra _MSHCreateMIGServerSource
+  yes      11/14	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopSourceInvalidate _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSURL
+  yes      6/12	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventCreateCopy _CGEventGetIntegerValueField _CGEventGetLocation _CGEventGetType _CGEventSetIntegerValueField _CGEventSetType
+
+Summary for Dwell Control: 5 of 14 linked libraries are absent from the guest root; 77 of 167 imported symbols are provided (46.1078%).

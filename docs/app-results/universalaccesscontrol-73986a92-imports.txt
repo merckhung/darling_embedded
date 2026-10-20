@@ -1,0 +1,56 @@
+==== UniversalAccessControl ====
+Linked dylibs: 43, imported symbols: 344
+
+  present  provided/imported  library
+  yes      0/2	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecTaskCopyValueForEntitlement _SecTaskCreateWithAuditToken
+  NO       0/0	/System/Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation
+  NO       0/1	/usr/lib/libScreenReader.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/Versions/A/AccessibilitySharedSupport
+  NO       0/4	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/Frameworks/MediaAccessibility.framework/Versions/A/MediaAccessibility
+  NO       0/2	/System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/2	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Libraries/libUAPreferences.dylib
+  NO       0/1	/usr/lib/libUniversalAccess.dylib
+  NO       0/0	/System/Library/Frameworks/PreferencePanes.framework/Versions/A/PreferencePanes
+  NO       0/11	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/UniversalAccess
+  NO       0/117	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/0	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  yes      9/16	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ _$sSSs7CVarArg10FoundationMc
+  yes      28/28	/usr/lib/libobjc.A.dylib
+  yes      16/26	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _bootstrap_check_in _bootstrap_register2 _dlopen _notify_post _notify_register_check
+  NO       0/2	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  yes      16/18	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSApplicationDidChangeScreenParametersNotification _OBJC_CLASS_$_NSRunningApplication
+  yes      0/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _MSHCreateMIGServerSource
+  yes      10/12	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopSourceInvalidate _OBJC_CLASS_$_NSURL
+  yes      1/6	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSGetWindowTags _CGSIsSecureEventInputSet _CGSRegisterConnectionNotifyProc _CGSSetWindowBackgroundBlurRadius _CGSSetWindowTags
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/68	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/11	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/2	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for UniversalAccessControl: 34 of 43 linked libraries are absent from the guest root; 80 of 344 imported symbols are provided (23.2558%).

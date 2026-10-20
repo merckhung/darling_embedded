@@ -1,0 +1,73 @@
+==== WindowManager ====
+Linked dylibs: 59, imported symbols: 3150
+
+  present  provided/imported  library
+  NO       0/74	/System/Library/PrivateFrameworks/MacSystemUI.framework/Versions/A/MacSystemUI
+  NO       0/1	/System/Library/PrivateFrameworks/PowerLog.framework/Versions/A/PowerLog
+  NO       0/4	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  NO       0/165	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/31	/System/Library/PrivateFrameworks/UniversalHID.framework/Versions/A/UniversalHID
+  NO       0/17	/System/Library/PrivateFrameworks/WindowManagement.framework/Versions/A/WindowManagement
+  NO       0/609	/System/Library/PrivateFrameworks/WindowManager.framework/Versions/A/WindowManager
+  NO       0/8	/usr/lib/libbsm.0.dylib
+  NO       0/1	/usr/appleinternal/lib/liblinkguard.dylib (weak)
+  yes      15/159	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg _$s10Foundation10CocoaErrorV4CodeV14fileNoSuchFileAEvgZ _$s10Foundation10CocoaErrorV4CodeVMa _$s10Foundation10CocoaErrorVMa _$s10Foundation11FormatStylePA2A4DateV07ISO8601bC0VRszrlE7iso8601AGvgZ _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
+  yes      28/31	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush _objc_setAssociatedObject
+  yes      85/174	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __set_user_dir_suffix _bootstrap_check_in _bootstrap_check_in2 _confstr _dispatch_activate
+  yes      0/28	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXUIElementGetTypeID _AXValueCreate _AXValueGetTypeID _AXValueGetValue _CoreCursorSetAndReturnSeed _CoreDockSendNotification
+  NO       0/21	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      35/57	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDataCreateCopy _CFDataCreateWithBytesNoCopy _CFNotificationCenterRemoveEveryObserver _CFPreferencesAppValueIsForced _CFPreferencesCopyMultiple _CFPreferencesSetMultiple
+  yes      53/292	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics14CGPathFillRuleOMa _$s12CoreGraphics6RegionV02cgC0ACSo11CGRegionRefa_tcfC _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$s12CoreGraphics6RegionV10boundsRectSo6CGRectVvg _$s12CoreGraphics6RegionV16formIntersectionyyACF _$s12CoreGraphics6RegionV1x1yAcA7CGFloatV5lower_AG5uppert_AgH_AgIttcfC
+  yes      0/34	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSOpenFromURLSpec __CSFlushNamedData __CSGetNamedData __CSReleaseNamedData __CSSetNamedData __LSASNCreate
+  NO       0/14	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/8	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/18	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/46	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      0/12	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeCheckValidity _SecCodeCopyDesignatedRequirement _SecCodeCopyGuestWithAttributes _SecCodeCopySigningInformation _SecRequirementCopyData _SecRequirementCreateWithData
+  NO       0/2	/System/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices
+  NO       0/2	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/2	/System/Library/PrivateFrameworks/BoardServices.framework/Versions/A/BoardServices
+  NO       0/1	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/4	/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/134	/System/Library/PrivateFrameworks/Gestures.framework/Versions/A/Gestures
+  NO       0/1	/System/Library/PrivateFrameworks/HID.framework/Versions/A/HID
+  NO       0/2	/System/Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation
+  NO       0/3	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/8	/System/Library/PrivateFrameworks/Wallpaper.framework/Versions/A/Wallpaper
+  NO       0/3	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/1063	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/11	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/58	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/13	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation1.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation2.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation3.dylib
+  NO       0/1	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/10	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for WindowManager: 51 of 59 linked libraries are absent from the guest root; 216 of 3150 imported symbols are provided (6.85714%).

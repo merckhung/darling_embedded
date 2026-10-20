@@ -1,0 +1,108 @@
+==== NotificationCenter ====
+Linked dylibs: 93, imported symbols: 3325
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/CalendarUIKit.framework/Versions/A/CalendarUIKit
+  NO       0/36	/System/Library/PrivateFrameworks/NotificationPreferences.framework/Versions/A/NotificationPreferences
+  NO       0/3	/System/Library/PrivateFrameworks/ScreenContinuityServices.framework/Versions/A/ScreenContinuityServices
+  NO       0/6	/System/Library/PrivateFrameworks/CoreDuet.framework/Versions/A/CoreDuet
+  NO       0/58	/System/Library/PrivateFrameworks/UserNotificationsCore.framework/Versions/A/UserNotificationsCore
+  NO       0/1	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/3	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/0	/System/Library/PrivateFrameworks/UserNotificationsKit.framework/Versions/A/UserNotificationsKit
+  NO       0/51	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+  NO       0/8	/usr/lib/libbsm.0.dylib
+  NO       0/1	/System/Library/PrivateFrameworks/DeviceManagement.framework/Versions/A/DeviceManagement
+  NO       0/1	/System/Library/Frameworks/UserNotificationsUI.framework/Versions/A/UserNotificationsUI
+  NO       0/3	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  NO       0/0	/System/Library/PrivateFrameworks/PlugInKit.framework/Versions/A/PlugInKit
+  NO       0/2	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/119	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/10	/System/Library/PrivateFrameworks/DoNotDisturb.framework/Versions/A/DoNotDisturb
+  NO       0/1	/System/Library/PrivateFrameworks/PreferencePanesSupport.framework/Versions/A/PreferencePanesSupport
+  yes      19/291	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation11FormatStylePA2A4DateV08RelativebC0VRszrlE8relative12presentation05unitsC0A2G12PresentationV_AG05UnitsC0VtFZ _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj _$s10Foundation11JSONDecoderCACycfc _$s10Foundation11JSONDecoderCMa _$s10Foundation11JSONEncoderC16OutputFormattingV10sortedKeysAEvgZ _$s10Foundation11JSONEncoderC16OutputFormattingV13prettyPrintedAEvgZ
+  yes      37/41	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      53/136	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_signpost_emit_with_name_impl _bootstrap_check_in _bootstrap_check_in2 _confstr _dispatch_mig_server
+  NO       0/3	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/1	/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+  yes      28/57	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit01_abB23NumericRawRepresentablePAAE1poiyxx_0D5ValueQztFZ _$s6AppKit01_abB23NumericRawRepresentablePAAE1soiyxx_0D5ValueQztFZ _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _$sSo19NSGestureRecognizerC6AppKitE21remoteGestureRegistry8Gestures06ClientfG0CvgZ _$sSo7NSSoundC6AppKitE4beepyyFZ _$sSo8NSScreenC6AppKitE17cgDirectDisplayIDs6UInt32VSgvg
+  yes      0/6	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CancelTalkingAlert _CoreDockGetAutoHideEnabled _RegisterTalkingAlertWithProperties _TalkingAlertsEnabled __AXInterfaceGetReduceTransparencyEnabled _kAXInterfaceReduceTransparencyStatusDidChangeNotification
+  NO       0/6	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/77	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/1	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      29/47	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFPreferencesAppValueIsForced _CFPreferencesCopyMultiple _CFPreferencesSetMultiple _CFUUIDCreateFromString _CFUUIDCreateFromUUIDBytes __CFXPCCreateCFObjectFromXPCObject
+  yes      22/203	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics15CodingOverridesVMa _$s12CoreGraphics22OptionsTopLevelDecoderV6decode_4fromxxm_So8NSObjectCtKSeRzlF _$s12CoreGraphics22OptionsTopLevelDecoderV9overridesAcA15CodingOverridesV_tcfC _$s12CoreGraphics22OptionsTopLevelDecoderVMa _$s12CoreGraphics22OptionsTopLevelEncoderC6encodeySo8NSObjectCxKSERzlFTj _$s12CoreGraphics22OptionsTopLevelEncoderC9overridesAcA15CodingOverridesV_tcfc
+  NO       0/1	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  yes      0/14	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSOpenFromURLSpec __CSFlushNamedData __CSGetNamedData __CSReleaseNamedData __CSSetNamedData __LSASNCreate
+  NO       0/1	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/12	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/26	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/21	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      0/12	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeCheckValidity _SecCodeCopyDesignatedRequirement _SecCodeCopyGuestWithAttributes _SecCodeCopySigningInformation _SecRequirementCopyData _SecRequirementCreateWithData
+  NO       0/946	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/36	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/PrivateFrameworks/AttributeGraph.framework/Versions/A/AttributeGraph
+  NO       0/1	/System/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices
+  NO       0/1	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  NO       0/3	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/29	/System/Library/PrivateFrameworks/ChronoUIServices.framework/Versions/A/ChronoUIServices
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/19	/System/Library/PrivateFrameworks/FeedbackService.framework/Versions/A/FeedbackService
+  NO       0/1	/System/Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation
+  NO       0/4	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/1	/System/Library/PrivateFrameworks/IntentsCore.framework/Versions/A/IntentsCore
+  NO       0/11	/System/Library/PrivateFrameworks/MenuBarClient.framework/Versions/A/MenuBarClient
+  NO       0/14	/System/Library/PrivateFrameworks/ProactiveSummarizationClient.framework/Versions/A/ProactiveSummarizationClient
+  NO       0/1	/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeCore
+  NO       0/3	/System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/ToneLibrary
+  NO       0/40	/System/Library/PrivateFrameworks/UserNotificationsServices.framework/Versions/A/UserNotificationsServices
+  NO       0/1	/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient
+  NO       0/20	/System/Library/PrivateFrameworks/WidgetObservation.framework/Versions/A/WidgetObservation
+  NO       0/18	/System/Library/PrivateFrameworks/WidgetRenderer.framework/Versions/A/WidgetRenderer
+  NO       0/87	/System/Library/PrivateFrameworks/WindowManager.framework/Versions/A/WindowManager
+  NO       0/2	/System/Library/PrivateFrameworks/WorkflowUIServices.framework/Versions/A/WorkflowUIServices
+  NO       0/4	/System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/Versions/A/_IconServices_SwiftUI
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/634	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/75	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/15	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/6	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/17	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/19	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation3.dylib
+  NO       0/1	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/30	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for NotificationCenter: 84 of 93 linked libraries are absent from the guest root; 188 of 3325 imported symbols are provided (5.65414%).

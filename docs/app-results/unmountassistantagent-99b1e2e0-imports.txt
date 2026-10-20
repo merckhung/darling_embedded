@@ -1,0 +1,23 @@
+==== UnmountAssistantAgent ====
+Linked dylibs: 12, imported symbols: 154
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/2	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  yes      0/12	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateDesc _LSOpenFromURLSpec __LSASNCreateWithPid __LSCopyApplicationInformation __LSCopyApplicationInformationItem __kLSApplicationBackgroundOnlyTypeKey
+  NO       0/1	/System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+  NO       0/1	/usr/lib/libbsm.0.dylib
+  NO       0/4	/System/Library/PrivateFrameworks/login.framework/Versions/A/Frameworks/loginsupport.framework/Versions/A/loginsupport
+  yes      15/16	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSFileTypeForHFSTypeCode
+  yes      22/22	/usr/lib/libobjc.A.dylib
+  yes      33/59	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _asl_close _asl_free _asl_log _asl_new _asl_open
+  yes      6/8	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSHelpManager _OBJC_CLASS_$_NSRunningApplication
+  yes      15/28	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFURLCreateWithFileSystemPath _NSURLEffectiveIconKey _NSURLIsVolumeKey _NSURLLocalizedNameKey _NSURLVolumeIdentifierKey _NSURLVolumeIsEjectableKey
+
+Summary for UnmountAssistantAgent: 5 of 12 linked libraries are absent from the guest root; 91 of 154 imported symbols are provided (59.0909%).

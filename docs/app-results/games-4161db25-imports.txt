@@ -1,0 +1,61 @@
+==== Games ====
+Linked dylibs: 51, imported symbols: 996
+
+  present  provided/imported  library
+  NO       0/4	/System/Library/PrivateFrameworks/ShimGameServices.framework/Versions/A/ShimGameServices
+  NO       0/307	/System/Library/PrivateFrameworks/GameStoreKit.framework/Versions/A/GameStoreKit
+  yes      4/36	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation12URLQueryItemV4nameSSvg _$s10Foundation12URLQueryItemV5valueSSSgvg _$s10Foundation12URLQueryItemVMa _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvg
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      21/24	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dlsym ___chkstk_darwin
+  NO       0/3	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  yes      9/10	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSApplicationWillBecomeActiveNotification
+  yes      1/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSReferrerURLKey
+  NO       0/5	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/220	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/24	/System/Library/PrivateFrameworks/AppState.framework/Versions/A/AppState
+  NO       0/5	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/1	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  NO       0/1	/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/GameCenterFoundation
+  NO       0/4	/System/Library/PrivateFrameworks/GameServices.framework/Versions/A/GameServices
+  NO       0/74	/System/Library/PrivateFrameworks/JetEngine.framework/Versions/A/JetEngine
+  NO       0/69	/System/Library/PrivateFrameworks/_JetEngine_SwiftUI.framework/Versions/A/_JetEngine_SwiftUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/153	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftGLKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/26	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/8	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Games: 45 of 51 linked libraries are absent from the guest root; 45 of 996 imported symbols are provided (4.51807%).

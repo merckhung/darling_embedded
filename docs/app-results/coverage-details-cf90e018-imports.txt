@@ -1,0 +1,29 @@
+==== Coverage Details ====
+Linked dylibs: 20, imported symbols: 85
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/NewDeviceOutreach.framework/Versions/A/NewDeviceOutreach
+  yes      0/9	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ _$s10Foundation3URLVMa _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      8/11	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      2/4	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _OBJC_CLASS_$_NSWorkspaceOpenConfiguration
+  NO       0/37	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Coverage Details: 16 of 20 linked libraries are absent from the guest root; 20 of 85 imported symbols are provided (23.5294%).

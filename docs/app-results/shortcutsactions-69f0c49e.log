@@ -1,0 +1,29 @@
+(/usr/bin/darling open /Applications/shortcutsactions-69f0c49e/ShortcutsActions.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_shortcutsactions-69f0c49e:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:119
+DARLING_LAUNCH_BUNDLE:/Applications/shortcutsactions-69f0c49e/ShortcutsActions.app:/Applications/shortcutsactions-69f0c49e/ShortcutsActions.app/Contents/MacOS/ShortcutsActions
+native dyld warning: unresolved import: _$sytWV
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupV2id5title11lazyContentACyxGSSSg_AA4TextVSgxyctcfC
+native dyld warning: unresolved import: _$s7SwiftUI12SceneBuilderV10buildBlockyxxAA0C0RzlFZ
+native dyld warning: unresolved import: _$s7SwiftUI3AppPAAE4mainyyFZ
+native dyld warning: unresolved import: _swift_getOpaqueTypeConformance2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContextInMetadataState2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupVyxGAA5SceneAAMc
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVAA0D0AAWP
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVN
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupVMn
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVMn
+native dyld warning: unresolved import: _$s7SwiftUI3AppMp
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4BodyAC_AA5SceneTn
+native dyld warning: unresolved import: _$s4Body7SwiftUI3AppPTl
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4body4BodyQzvgTq
+native dyld warning: unresolved import: _$s7SwiftUI3AppPxycfCTq
+native dyld warning: unresolved import: _$s7SwiftUI5SceneMp
+PROBE_EXIT_shortcutsactions-69f0c49e:0
+kill -9 119 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/shortcutsactions-69f0c49e/ShortcutsActions.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_shortcutsactions-69f0c49e:${?})
+
+root@Darwin#

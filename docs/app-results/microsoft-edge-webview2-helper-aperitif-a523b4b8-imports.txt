@@ -1,0 +1,8 @@
+==== Microsoft Edge WebView2 Helper (Aperitif) ====
+Linked dylibs: 4, imported symbols: 3
+
+  present  provided/imported  library
+  NO       0/0	/usr/lib/libsandbox.1.dylib
+  yes      1/1	/usr/lib/libSystem.B.dylib
+
+Summary for Microsoft Edge WebView2 Helper (Aperitif): 1 of 4 linked libraries are absent from the guest root; 1 of 1 imported symbols are provided (100%).

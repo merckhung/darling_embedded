@@ -1,0 +1,77 @@
+(/usr/bin/darling open /Applications/ssmenuagent-de9ee0e1/SSMenuAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_ssmenuagent-de9ee0e1:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:93
+DARLING_LAUNCH_BUNDLE:/Applications/ssmenuagent-de9ee0e1/SSMenuAgent.app:/Applications/ssmenuagent-de9ee0e1/SSMenuAgent.app/Contents/MacOS/SSMenuAgent
+native dyld warning: unresolved import: __ardlog2_noasl
+native dyld warning: unresolved import: _ardlog_should_oslog
+native dyld warning: unresolved import: _SMJobIsEnabled
+native dyld warning: unresolved import: _SMJobSetEnabled
+native dyld warning: unresolved import: _endpwent
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _CFArrayContainsValue
+native dyld warning: unresolved import: _CFErrorCopyDescription
+native dyld warning: unresolved import: _CFErrorGetCode
+native dyld warning: unresolved import: _CFURLCreateWithString
+native dyld warning: unresolved import: _CGSIsScreenWatcherPresent
+native dyld warning: unresolved import: _CGSRegisterNotifyProc
+native dyld warning: unresolved import: _CGSRemoveNotifyProc
+native dyld warning: unresolved import: _CGSessionCopyCurrentDictionary
+native dyld warning: unresolved import: _LSCopyApplicationURLsForBundleIdentifier
+native dyld warning: unresolved import: _LSOpenCFURLRef
+native dyld warning: unresolved import: _SecTaskCopyValueForEntitlement
+native dyld warning: unresolved import: _SecTaskCreateWithAuditToken
+native dyld warning: unresolved import: _CNContactEmailAddressesKey
+native dyld warning: unresolved import: _CNContactFamilyNameKey
+native dyld warning: unresolved import: _CNContactGivenNameKey
+native dyld warning: unresolved import: _CNContactIdentifierKey
+native dyld warning: unresolved import: _CNContactImageDataKey
+native dyld warning: unresolved import: _CNContactOrganizationNameKey
+native dyld warning: unresolved import: _CNContactPhoneNumbersKey
+native dyld warning: unresolved import: _CNContactThumbnailImageDataKey
+native dyld warning: unresolved import: _CNContactTypeKey
+native dyld warning: unresolved import: _CNLabelOther
+native dyld warning: unresolved import: _kSMDomainSystemLaunchd
+native dyld warning: unresolved import: _NSWindowDidMoveNotification
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/ssmenuagent-de9ee0e1/SSMenuAgent.app/Contents/MacOS/SSMenuAgent)
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[AppKit] nib: no outlet 'accessibilityIdentifier' on NSMenuItem
+[ObjC] Method not found: [NSObject setDelegate:]
+[ObjC] Method not found: [NSObject view]
+[ObjC] Method not found: [NSImageView topAnchor]
+[ObjC] Method not found: [NSImageView bottomAnchor]
+[ObjC] Method not found: [NSImageView centerXAnchor]
+[AppKit] loaded nib /Applications/ssmenuagent-de9ee0e1/SSMenuAgent.app/Contents/Resources/Base.lproj/MainMenu.nib: 1654 objects, 0 windows
+[AppKit] NSApplication delegate = 0x10233c570
+[AppKit] calling applicationDidFinishLaunching on delegate 0x10233c570
+[ObjC] Method not found: [NSObject initWithMachServiceName:]
+[ObjC] Method not found: [NSUserDefaults resetStandardUserDefaults]
+[ObjC] Method not found: [NSObject initWithCount:]
+[ObjC] Method not found: [NSObject initWithCount:]
+[ObjC] Method not found: [NSObject initWithCount:]
+[ObjC] Method not found: [NSObject setContactType:]
+[ObjC] Method not found: [NSObject setGivenName:]
+[ObjC] Method not found: [NSObject setFamilyName:]
+[ObjC] Method not found: [NSObject setContact:]
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 93 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/ssmenuagent-de9ee0e1/SSMenuAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_ssmenuagent-de9ee0e1:${?})
+
+root@Darwin#

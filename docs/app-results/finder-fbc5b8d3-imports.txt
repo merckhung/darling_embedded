@@ -1,0 +1,141 @@
+==== Finder ====
+Linked dylibs: 125, imported symbols: 3905
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/FeedbackService.framework/Versions/A/FeedbackService
+  NO       0/1	/System/Library/PrivateFrameworks/Ecosystem.framework/Versions/A/Ecosystem (weak)
+  NO       0/37	/System/Library/PrivateFrameworks/DesktopServicesUI.framework/Versions/A/DesktopServicesUI (weak)
+  NO       0/7	/System/Library/PrivateFrameworks/Synapse.framework/Versions/A/Synapse
+  NO       0/1	/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+  NO       0/1	/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox
+  NO       0/3	/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient
+  NO       0/3	/System/Library/Frameworks/SharedWithYou.framework/Versions/A/SharedWithYou
+  NO       0/3	/System/Library/PrivateFrameworks/TimelineUI.framework/Versions/A/TimelineUI
+  NO       0/1	/System/Library/Frameworks/SafariServices.framework/Versions/A/SafariServices
+  NO       0/7	/System/Library/PrivateFrameworks/TimeMachine.framework/Versions/A/TimeMachine
+  NO       0/0	/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+  yes      125/469	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit16NSSuggestionItemV16representedValue5titleACyxGx_SStcfC _$s6AppKit16NSSuggestionItemV16representedValuexvg _$s6AppKit23NSSuggestionItemSectionV27trailingButtonConfigurationAA0cde8TrailinggH0VSgvs _$s6AppKit23NSSuggestionItemSectionV5title5itemsACyxGSSSg_SayAA0cD0VyxGGtcfC _$s6AppKit24NSSuggestionItemResponseV12itemSectionsACyxGSayAA0cD7SectionVyxGG_tcfC _$s6AppKit24NSSuggestionItemResponseV5phaseAC5PhaseOyx_Gvs
+  NO       0/0	/System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams
+  NO       0/1	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/1	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/3	/System/Library/Frameworks/FileProviderUI.framework/Versions/A/FileProviderUI
+  NO       0/0	/System/Library/PrivateFrameworks/FinderSyncPriv.framework/Versions/A/FinderSyncPriv
+  yes      62/229	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSConstantFloatNumber _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg _$s10Foundation10CocoaErrorV4CodeV18featureUnsupportedAEvgZ _$s10Foundation10CocoaErrorV4CodeVMa
+  NO       0/29	/System/Library/Frameworks/FileProvider.framework/Versions/A/FileProvider
+  NO       0/24	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+  yes      9/422	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECoerceDesc _AECountItems _AECreateAppleEvent _AECreateDesc _AECreateList _AEDisposeDesc
+  NO       0/5	/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+  NO       0/0	/System/Library/PrivateFrameworks/SystemMigration.framework/Versions/A/SystemMigration
+  NO       0/240	/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+  NO       0/7	/System/Library/PrivateFrameworks/CloudSharingUI.framework/Versions/A/CloudSharingUI
+  NO       0/0	/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/AOSAccounts
+  NO       0/3	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  NO       0/3	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/6	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/1	/System/Library/PrivateFrameworks/UserActivity.framework/Versions/A/UserActivity
+  NO       0/4	/System/Library/Frameworks/QuickLookThumbnailing.framework/Versions/A/QuickLookThumbnailing
+  NO       0/0	/System/Library/PrivateFrameworks/iCloudQuota.framework/Versions/A/iCloudQuota
+  NO       0/9	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/PrivateFrameworks/PlugInKit.framework/Versions/A/PlugInKit
+  NO       0/2	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/1	/System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+  NO       0/2	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/8	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/20	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/18	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  NO       0/2	/usr/lib/libMobileGestalt.dylib
+  NO       0/16	/System/Library/PrivateFrameworks/CloudDocs.framework/Versions/A/CloudDocs
+  NO       0/2	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+  NO       0/0	/System/Library/Frameworks/ImageCaptureCore.framework/Versions/A/ImageCaptureCore
+  NO       0/42	/System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup
+  NO       0/0	/System/Library/PrivateFrameworks/LoggingSupport.framework/Versions/A/LoggingSupport
+  NO       0/2	/System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+  NO       0/5	/usr/lib/libicucore.A.dylib
+  NO       0/4	/System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+  NO       0/4	/System/Library/PrivateFrameworks/Suggestions.framework/Versions/A/Suggestions
+  NO       0/1	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/2	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  NO       0/0	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/2	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/7	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/1	/System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+  NO       0/0	/usr/lib/libCoreStorage.dylib
+  NO       0/4	/System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/DiskManagement
+  NO       0/2	/usr/lib/libcsfde.dylib
+  NO       0/6	/System/Library/PrivateFrameworks/iCloudQuotaUI.framework/Versions/A/iCloudQuotaUI
+  NO       0/0	/System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+  NO       0/0	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  NO       0/2	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/2	/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+  NO       0/1	/System/Library/Frameworks/Collaboration.framework/Versions/A/Collaboration
+  yes      3/5	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecTranslocateCreateOriginalPathForURL _SecTranslocateIsTranslocatedURL
+  NO       0/277	/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+  NO       0/2	/System/Library/PrivateFrameworks/SidecarUI.framework/Versions/A/SidecarUI (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement
+  NO       0/2	/System/Library/PrivateFrameworks/SystemPolicy.framework/Versions/A/SystemPolicy
+  NO       0/1	/System/Library/PrivateFrameworks/WidgetObservation.framework/Versions/A/WidgetObservation
+  NO       0/2	/System/Library/PrivateFrameworks/UserManagement.framework/Versions/A/UserManagement
+  yes      47/52	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_addMethod _class_replaceMethod _objc_copyCppObjectAtomic _objc_setAssociatedObject _object_getClassName
+  yes      89/123	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv120__si_class_type_infoE __ZTVN10__cxxabiv117__class_type_infoE ___cxa_pure_virtual __ZTVN10__cxxabiv121__vmi_class_type_infoE __ZTVN10__cxxabiv123__fundamental_type_infoE __ZTVN10__cxxabiv119__pointer_type_infoE
+  yes      109/145	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_feature_enabled_impl __os_signpost_emit_with_name_impl _atoll _container_copy_from_path _container_free_object
+  NO       0/261	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      0/48	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CopyLabelColorAndName _CoreDockAddFileToDock _CoreDockCreateDragTrashContext _CoreDockReleaseDragTrashContext _CoreDockRevealWindowForShowDesktop _CoreDockSendNotification
+  NO       0/1	/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+  NO       0/21	/System/Library/Frameworks/Combine.framework/Versions/A/Combine (weak)
+  yes      96/270	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAbsoluteTimeAddGregorianUnits _CFAbsoluteTimeGetGregorianDate _CFArrayAppendArray _CFArrayApplyFunction _CFArrayContainsValue _CFArrayCreateMutableCopy
+  yes      48/107	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformConcat _CGAffineTransformIsIdentity _CGAffineTransformMakeRotation _CGAffineTransformMakeTranslation _CGBitmapAllocateData _CGBitmapFreeData
+  NO       0/3	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/7	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/10	/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+  NO       0/0	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/9	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/11	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/1	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/35	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/231	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/10	/System/Library/Frameworks/_AppIntents_AppKit.framework/Versions/A/_AppIntents_AppKit
+  NO       0/1	/System/Library/PrivateFrameworks/CloudSharing.framework/Versions/A/CloudSharing
+  NO       0/11	/System/Library/PrivateFrameworks/DeviceDiscoveryUI.framework/Versions/A/DeviceDiscoveryUI (weak)
+  NO       0/11	/System/Library/PrivateFrameworks/SharingUI.framework/Versions/A/SharingUI (weak)
+  NO       0/6	/System/Library/PrivateFrameworks/SmartNameSuggestions.framework/Versions/A/SmartNameSuggestions
+  NO       0/9	/System/Library/PrivateFrameworks/StorageKit.framework/Versions/A/StorageKit
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/459	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/56	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/10	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Finder: 115 of 125 linked libraries are absent from the guest root; 588 of 3898 imported symbols are provided (15.0847%).

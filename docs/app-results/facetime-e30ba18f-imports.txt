@@ -1,0 +1,108 @@
+==== FaceTime ====
+Linked dylibs: 95, imported symbols: 1456
+
+  present  provided/imported  library
+  NO       0/7	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/CallsSearch.framework/Versions/A/CallsSearch
+  NO       0/9	/System/iOSSupport/System/Library/PrivateFrameworks/PhoneKit.framework/Versions/A/PhoneKit
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/CallsDialer.framework/Versions/A/CallsDialer
+  NO       0/1	/System/Library/PrivateFrameworks/AddressBookCore.framework/Versions/A/AddressBookCore
+  NO       0/0	/System/Library/PrivateFrameworks/FaceTimeDockSupport.framework/Versions/A/FaceTimeDockSupport
+  NO       0/153	/System/iOSSupport/System/Library/PrivateFrameworks/ConversationKit.framework/Versions/A/ConversationKit
+  NO       0/4	/System/Library/PrivateFrameworks/FaceTimeNotificationCore.framework/Versions/A/FaceTimeNotificationCore
+  NO       0/0	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/AuthKitUI.framework/Versions/A/AuthKitUI
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/0	/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/AppSupportUI.framework/Versions/A/AppSupportUI
+  NO       0/0	/System/Library/PrivateFrameworks/AVConference.framework/Versions/A/AVConference
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/CallsAppUI.framework/Versions/A/CallsAppUI
+  NO       0/2	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/100	/System/Library/PrivateFrameworks/CallHistory.framework/Versions/A/CallHistory
+  NO       0/0	/System/Library/PrivateFrameworks/ContactsAutocomplete.framework/Versions/A/ContactsAutocomplete
+  NO       0/2	/System/Library/PrivateFrameworks/IMFoundation.framework/Versions/A/IMFoundation
+  NO       0/2	/System/Library/PrivateFrameworks/CommonUtilities.framework/Versions/A/CommonUtilities
+  NO       0/21	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/5	/System/iOSSupport/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/ContactsUICore.framework/Versions/A/ContactsUICore
+  yes      11/21	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFNotificationCenterRemoveEveryObserver _NSCurrentLocaleDidChangeNotification _NSSystemTimeZoneDidChangeNotification _OBJC_CLASS_$_NSCache _OBJC_CLASS_$_NSCalendar _OBJC_CLASS_$_NSDate
+  NO       0/53	/System/iOSSupport/System/Library/PrivateFrameworks/FaceTimeMac.framework/Versions/A/FaceTimeMac
+  NO       0/42	/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities
+  yes      10/17	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformIsIdentity _CGAffineTransformMakeRotation _CGAffineTransformMakeTranslation _CGAffineTransformRotate _CGAffineTransformScale _CGContextDrawLinearGradient
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_NSUserActivity
+  NO       0/0	/System/Library/Frameworks/CoreTelephony.framework/Versions/A/CoreTelephony
+  yes      17/75	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+  NO       0/0	/System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+  NO       0/1	/System/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/IMCore.framework/Versions/A/IMCore
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/ScreenTimeUI.framework/Versions/A/ScreenTimeUI
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/MapsUI.framework/Versions/A/MapsUI
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/MessageUI.framework/Versions/A/MessageUI
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/0	/System/Library/PrivateFrameworks/PhoneNumbers.framework/Versions/A/PhoneNumbers
+  NO       0/2	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/TelephonyUI.framework/Versions/A/TelephonyUI
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/Versions/A/ContactsAutocompleteUI
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/FaceTimeSettingsUI.framework/Versions/A/FaceTimeSettingsUI
+  NO       0/78	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/0	/System/Library/PrivateFrameworks/FTServices.framework/Versions/A/FTServices
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji
+  NO       0/0	/usr/lib/libMobileGestalt.dylib
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/FaceTimeAuthentication.framework/Versions/A/FaceTimeAuthentication
+  yes      35/67	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_release_x1 _objc_release_x19 _objc_release_x20 _objc_release_x21 _objc_release_x22
+  yes      27/40	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_signpost_emit_with_name_impl _dispatch_get_specific _dispatch_queue_attr_make_with_autorelease_frequency _dispatch_queue_attr_make_with_qos_class _dispatch_queue_set_specific
+  yes      1/10	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_UIFont _OBJC_CLASS_$_UIFontDescriptor _UIFontDescriptorFeatureSettingsAttribute _UIFontDescriptorTextStyleAttribute _UIFontDescriptorTextStyleCaption1 _UIFontFeatureSelectorIdentifierKey
+  NO       0/7	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/9	/System/Library/Frameworks/LiveCommunicationKit.framework/Versions/A/LiveCommunicationKit
+  NO       0/14	/System/Library/PrivateFrameworks/CollectionsInternal.framework/Versions/A/CollectionsInternal
+  NO       0/5	/System/Library/PrivateFrameworks/CommunicationTrust.framework/Versions/A/CommunicationTrust
+  NO       0/11	/System/Library/PrivateFrameworks/CorePhoneNumbers.framework/Versions/A/CorePhoneNumbers
+  NO       0/6	/System/Library/PrivateFrameworks/FaceTimeMacHelperCore.framework/Versions/A/FaceTimeMacHelperCore
+  NO       0/125	/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/Versions/A/FaceTimeMessageStore
+  NO       0/1	/System/Library/PrivateFrameworks/RTTUtilities.framework/Versions/A/RTTUtilities
+  NO       0/35	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/CallsAppServices.framework/Versions/A/CallsAppServices
+  NO       0/23	/System/iOSSupport/System/Library/PrivateFrameworks/CommunicationsUI.framework/Versions/A/CommunicationsUI
+  NO       0/5	/System/iOSSupport/System/Library/PrivateFrameworks/CommunicationsUICore.framework/Versions/A/CommunicationsUICore
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCallKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/362	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/23	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/52	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/30	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for FaceTime: 88 of 95 linked libraries are absent from the guest root; 101 of 1456 imported symbols are provided (6.93681%).

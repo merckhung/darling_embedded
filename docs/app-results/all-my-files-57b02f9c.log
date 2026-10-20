@@ -1,0 +1,10 @@
+(/usr/bin/darling open '/Applications/all-my-files-57b02f9c/All My Files.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_all-my-files-57b02f9c:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:130
+DARLING_LAUNCH_BUNDLE:/Applications/all-my-files-57b02f9c/All My Files.app:/Applications/all-my-files-57b02f9c/All My Files.app/Contents/MacOS/All My Files
+PROBE_EXIT_all-my-files-57b02f9c:0
+kill -9 130 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/all-my-files-57b02f9c/All My Files.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_all-my-files-57b02f9c:${?})
+
+root@Darwin#

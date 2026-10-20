@@ -1,0 +1,12 @@
+(/usr/bin/darling open '/Applications/microsoft-edge-webview2-helper-aperitif-gpu-4e58f13c/Microsoft Edge WebView2 Helper (Aperitif GPU).app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_microsoft-edge-webview2-helper-aperitif-gpu-4e58f13c:$?) & PROBE_PID=$!
+PROBE_CHILD:12
+
+root@Darwin# DARLING_LAUNCH_BUNDLE:/Applications/microsoft-edge-webview2-helper-aperitif-gpu-4e58f13c/Microsoft Edge WebView2 Helper (Aperitif GPU).app:/Applications/microsoft-edge-webview2-helper-aperitif-gpu-4e58f13c/Microsoft Edge WebView2 Helper (Aperitif GPU).app/Contents/MacOS/Microsoft Edge WebView2 Helper (Aperitif GPU)
+native dyld warning: unresolved import: _AperitifCheckInitialized
+native dyld warning: unresolved import: _ChromeMain
+PROBE_EXIT_microsoft-edge-webview2-helper-aperitif-gpu-4e58f13c:0
+kill -9 12 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/microsoft-edge-webview2-helper-aperitif-gpu-4e58f13c/Microsoft Edge WebView2 Helper (Aperitif GPU).app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_microsoft-edge-webview2-helper-aperitif-gpu-4e58f13c:${?})
+
+root@Darwin#

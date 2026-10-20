@@ -1,0 +1,41 @@
+==== Erase Assistant ====
+Linked dylibs: 30, imported symbols: 162
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/LocalAuthenticationRecoveryUI.framework/Versions/A/LocalAuthenticationRecoveryUI
+  NO       0/0	/System/Library/Frameworks/LocalAuthenticationEmbeddedUI.framework/Versions/A/LocalAuthenticationEmbeddedUI
+  NO       0/1	/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/LoginUIKit
+  NO       0/3	/System/Library/PrivateFrameworks/FindMyDevice.framework/Versions/A/FindMyDevice
+  NO       0/1	/System/Library/PrivateFrameworks/LocalAuthenticationUI.framework/Versions/A/LocalAuthenticationUI
+  NO       0/0	/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+  NO       0/1	/System/Library/PrivateFrameworks/BiometricKit.framework/Versions/A/BiometricKit
+  NO       0/0	/System/Library/PrivateFrameworks/PassKitUIFoundation.framework/Versions/A/PassKitUIFoundation
+  NO       0/0	/System/Library/PrivateFrameworks/PassKitCore.framework/Versions/A/PassKitCore
+  NO       0/28	/System/Library/PrivateFrameworks/DeauthorizationKit.framework/Versions/A/DeauthorizationKit
+  NO       0/2	/System/Library/PrivateFrameworks/PassKitUI.framework/Versions/A/PassKitUI
+  NO       0/1	/System/Library/PrivateFrameworks/TimeMachine.framework/Versions/A/TimeMachine
+  NO       0/0	/System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities
+  NO       0/1	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  NO       0/1	/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles
+  yes      11/13	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSDebugDescriptionErrorKey _OBJC_CLASS_$_NSLayoutConstraint
+  yes      33/33	/usr/lib/libobjc.A.dylib
+  yes      20/24	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_semaphore_create _dispatch_semaphore_signal _os_variant_allows_internal_security_policies _os_variant_has_internal_ui
+  NO       0/1	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  yes      22/26	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSColorEffectiveUserAccentColor _NSAppearanceNameVibrantLight _NSFontTextStyleTitle2 _OBJC_CLASS_$_NSWorkspaceOpenConfiguration
+  NO       0/1	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  yes      7/11	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSException _OBJC_CLASS_$_NSURL _OBJC_EHTYPE_$_NSException
+  yes      1/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  yes      0/3	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: __CSBackupCopySessionStatus __CSBackupGetDefaultBackupSession _kCSBackupdKeyLastSystemBackupDate
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/Library/PrivateFrameworks/IASUtilitiesCore.framework/Versions/A/IASUtilitiesCore
+  NO       0/5	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+  NO       0/1	/System/Library/PrivateFrameworks/StorageKit.framework/Versions/A/StorageKit
+
+Summary for Erase Assistant: 23 of 30 linked libraries are absent from the guest root; 94 of 162 imported symbols are provided (58.0247%).

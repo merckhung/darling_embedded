@@ -1,0 +1,24 @@
+(/usr/bin/darling open /Applications/rapportuiagent-a5986a58/RapportUIAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_rapportuiagent-a5986a58:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:77
+DARLING_LAUNCH_BUNDLE:/Applications/rapportuiagent-a5986a58/RapportUIAgent.app:/Applications/rapportuiagent-a5986a58/RapportUIAgent.app/Contents/MacOS/RapportUIAgent
+native dyld warning: unresolved import: _CUStateDumpWithObject
+native dyld warning: unresolved import: _LogControl
+native dyld warning: unresolved import: _LogPrintF
+native dyld warning: unresolved import: _LogSetAppID
+native dyld warning: unresolved import: _NSAppendPrintF
+native dyld warning: unresolved import: _NSPrintF
+native dyld warning: unresolved import: __LogCategory_Initialize
+native dyld warning: unresolved import: _RPErrorF
+native dyld warning: unresolved import: _os_state_add_handler
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/rapportuiagent-a5986a58/RapportUIAgent.app/Contents/MacOS/RapportUIAgent)
+[AppKit] loaded nib /Applications/rapportuiagent-a5986a58/RapportUIAgent.app/Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib: 1010 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101a323e0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101a323e0
+[ObjC] Method not found: [NSObject initWithMachServiceName:]
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 77 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/rapportuiagent-a5986a58/RapportUIAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_rapportuiagent-a5986a58:${?})
+
+root@Darwin#

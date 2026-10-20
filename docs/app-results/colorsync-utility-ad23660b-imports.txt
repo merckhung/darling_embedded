@@ -1,0 +1,31 @@
+==== ColorSync Utility ====
+Linked dylibs: 17, imported symbols: 553
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/35	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  yes      29/37	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantFloatNumber _OBJC_CLASS_$_NSConstantIntegerNumber _NSDivideRect _NSIntersectionRange _OBJC_CLASS_$_NSAffineTransform _OBJC_CLASS_$_NSCalendarDate
+  yes      53/73	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSApplicationDidBecomeActiveNotification _NSApplicationDidResignActiveNotification _NSPasteboardTypeFileURL _NSPrintPanelAccessorySummaryItemDescriptionKey _NSPrintPanelAccessorySummaryItemNameKey _NSPrintPhotoJobStyleHint
+  NO       0/35	/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+  yes      0/13	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _PMPrinterIsPostScriptPrinter _PMPrinterIsRemote _PMPrinterSupportsMatchingMode _PMSessionCopyApplicationOutputIntentWithColorSyncProfiles _PMSessionCopyCurrentPrinterColorSyncProfile _PMSessionCopyDefaultOutputIntentWithColorSyncProfiles
+  NO       0/0	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  yes      29/29	/usr/lib/libobjc.A.dylib
+  yes      0/2	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv117__class_type_infoE ___gxx_personality_v0
+  yes      38/40	/usr/lib/libSystem.B.dylib
+             e.g. missing: _swab ___chkstk_darwin
+  NO       0/57	/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+  yes      36/61	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayContainsValue _CFBundleCopyLocalizationForLocalizationInfo _CFDataAppendBytes _CFDataCreateMutable _CFDataCreateMutableCopy _CFDataCreateWithBytesNoCopy
+  yes      42/134	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _kCGColorSpaceGenericCMYK _kCGColorSpaceGenericGrayGamma2_2 _CGAffineTransformConcat _CGAffineTransformInvert _CGAffineTransformMakeScale _CGAffineTransformTranslate
+  NO       0/5	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  yes      0/3	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _GetTextEncodingFromScriptInfo _kUTTypePDF _kUTTypeQuickTimeMovie
+  NO       0/21	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/4	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+
+Summary for ColorSync Utility: 8 of 17 linked libraries are absent from the guest root; 227 of 550 imported symbols are provided (41.2727%).

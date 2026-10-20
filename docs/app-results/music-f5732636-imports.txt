@@ -1,0 +1,171 @@
+==== Music ====
+Linked dylibs: 154, imported symbols: 7906
+
+  present  provided/imported  library
+  NO       0/300	/System/Library/PrivateFrameworks/AVFoundationCF.framework/Versions/A/AVFoundationCF
+  NO       0/101	/System/Library/PrivateFrameworks/_SwiftMedia_SwiftUI.framework/Versions/A/_SwiftMedia_SwiftUI
+  NO       0/34	/System/Library/PrivateFrameworks/SwiftMedia.framework/Versions/A/SwiftMedia
+  NO       0/10	/System/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting
+  NO       0/2	/System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/CharacterPicker
+  NO       0/15	/System/Library/PrivateFrameworks/RTCReporting.framework/Versions/A/RTCReporting
+  NO       0/21	/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/AMPDevices
+  NO       0/145	/System/Library/PrivateFrameworks/AMPDesktopUI.framework/Versions/A/AMPDesktopUI
+  NO       0/9	/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/AMPLibrary
+  NO       0/1	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/21	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/7	/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Versions/A/AppleMediaServicesUI (weak)
+  NO       0/11	/System/Library/PrivateFrameworks/AppleSRP.framework/Versions/A/AppleSRP
+  NO       0/2	/System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/AskPermission
+  NO       0/2	/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+  NO       0/26	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/3	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/5	/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+  NO       0/45	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/1	/System/Library/PrivateFrameworks/AuthKitUI.framework/Versions/A/AuthKitUI
+  NO       0/8	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/21	/System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit
+  NO       0/4	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/3	/System/Library/PrivateFrameworks/ApplePushService.framework/Versions/A/ApplePushService
+  NO       0/0	/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/AOSAccounts
+  NO       0/4	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/0	/System/Library/Frameworks/CryptoTokenKit.framework/Versions/A/CryptoTokenKit
+  NO       0/2	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/29	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+  NO       0/4	/System/Library/PrivateFrameworks/CoreRecognition.framework/Versions/A/CoreRecognition
+  NO       0/58	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/41	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/1	/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles
+  NO       0/20	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/1	/System/Library/PrivateFrameworks/BluetoothServices.framework/Versions/A/BluetoothServices
+  NO       0/117	/System/Library/Frameworks/DiscRecording.framework/Versions/A/DiscRecording
+  NO       0/1	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/3	/System/Library/Frameworks/iTunesLibrary.framework/Versions/A/iTunesLibrary
+  NO       0/23	/System/Library/PrivateFrameworks/iTunesCloud.framework/Versions/A/iTunesCloud
+  NO       0/0	/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+  NO       0/0	/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+  NO       0/4	/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+  NO       0/8	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/206	/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote
+  NO       0/9	/System/Library/Frameworks/MediaAccessibility.framework/Versions/A/MediaAccessibility
+  NO       0/7	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/4	/System/Library/PrivateFrameworks/PhotosFormats.framework/Versions/A/PhotosFormats
+  NO       0/1	/System/Library/PrivateFrameworks/PIP.framework/Versions/A/PIP
+  NO       0/0	/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate
+  NO       0/0	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  yes      0/41	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeMapMemory _SecItemAdd _SecItemCopyMatching _SecItemDelete _SecItemUpdate _SecKeyCreateEncryptedData
+  NO       0/2	/System/Library/Frameworks/ShazamKit.framework/Versions/A/ShazamKit
+  NO       0/6	/System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+  NO       0/21	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/51	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  NO       0/3	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  NO       0/2	/System/Library/PrivateFrameworks/WatchListKit.framework/Versions/A/WatchListKit (weak)
+  yes      0/83	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _WKArrayAppendItem _WKArrayGetItemAtIndex _WKArrayGetSize _WKArrayGetTypeID _WKBooleanCreate _WKBooleanGetTypeID
+  NO       0/0	/System/Library/Frameworks/MediaLibrary.framework/Versions/A/MediaLibrary
+  NO       0/418	/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer
+  NO       0/70	/System/Library/Frameworks/GroupActivities.framework/Versions/A/GroupActivities (weak)
+  NO       0/8	/System/Library/PrivateFrameworks/IntelligentRouting.framework/Versions/A/IntelligentRouting (weak)
+  NO       0/82	/System/Library/PrivateFrameworks/MediaPlaybackCore.framework/Versions/A/MediaPlaybackCore (weak)
+  yes      9/9	/usr/lib/libexpat.1.dylib
+  NO       0/8	/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Frameworks/libgnsdk_dsp.3.06.1.dylib
+  NO       0/28	/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Frameworks/libgnsdk_manager.3.06.1.dylib
+  NO       0/1	/System/Library/PrivateFrameworks/ApplicationFirewall.framework/Versions/A/ApplicationFirewall
+  NO       0/13	/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Frameworks/libgnsdk_musicid.3.06.1.dylib
+  NO       0/17	/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Frameworks/libgnsdk_submit.3.06.1.dylib
+  NO       0/3	/usr/lib/libicucore.A.dylib
+  NO       0/37	/usr/lib/libsqlite3.dylib
+  yes      10/10	/usr/lib/libz.1.dylib
+  NO       0/0	/System/Library/Frameworks/PhotosUI.framework/Versions/A/PhotosUI
+  yes      56/412	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _$s10Foundation10NSNotFoundSivg _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj _$s10Foundation11JSONDecoderCACycfc _$s10Foundation11JSONDecoderCMa
+  yes      48/57	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_addMethod _class_getInstanceMethod _class_replaceMethod _method_exchangeImplementations _method_getImplementation _method_getTypeEncoding
+  yes      116/164	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv120__si_class_type_infoE __ZTVN10__cxxabiv117__class_type_infoE __ZTVN10__cxxabiv121__vmi_class_type_infoE ___cxa_pure_virtual __ZTVN10__cxxabiv119__pointer_type_infoE __ZTVN10__cxxabiv120__function_type_infoE
+  yes      264/404	/usr/lib/libSystem.B.dylib
+             e.g. missing: _xpc_connection_set_event_handler _xpc_connection_create_mach_service _notify_check _xpc_connection_activate _bootstrap_look_up _xpc_dictionary_create_empty
+  NO       0/6	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  NO       0/3	/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+  NO       0/312	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      121/445	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSFontWeightBlack _NSFontWeightHeavy _NSFontWeightLight _NSFontWeightThin _NSFontWeightUltraLight _$s10Foundation9IndexPathV6AppKitE4item7sectionACSi_SitcfC
+  yes      0/23	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _ExitToShell _GetCurrentProcess _GetFrontProcess _GetNextProcess _GetProcessInformation _PMRelease
+  NO       0/93	/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+  NO       0/52	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/2	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  yes      114/405	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAbsoluteTimeGetDayOfWeek _CFAbsoluteTimeGetGregorianDate _CFAllocatorAllocate _CFAllocatorCreate _CFAllocatorDeallocate _CFAllocatorReallocate
+  yes      94/201	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$sSo10CGColorRefa12CoreGraphicsE10componentsSayAC7CGFloatVGSgvg _$sSo10CGColorRefa12CoreGraphicsE5blackABvgZ _$sSo10CGColorRefa12CoreGraphicsE5whiteABvgZ _$sSo12CGContextRefa12CoreGraphicsE4draw_2in8byTilingySo07CGImageB0a_So6CGRectVSbtF _$sSo17CGAffineTransformV12CoreGraphicsE2eeoiySbAB_ABtFZ _CGAffineTransformConcat
+  NO       0/1	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  yes      4/122	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECoerceDesc _AECoercePtr _AECountItems _AECreateAppleEvent _AECreateDesc _AECreateList
+  NO       0/48	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/10	/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+  NO       0/3	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/11	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/22	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  NO       0/30	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/2	/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+  NO       0/24	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/26	/System/Library/Frameworks/MediaIntents.framework/Versions/A/MediaIntents
+  NO       0/9	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/7	/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit
+  NO       0/2	/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/MetalPerformanceShaders
+  NO       0/150	/System/Library/Frameworks/MusicKit.framework/Versions/A/MusicKit
+  NO       0/386	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/14	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/3	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/8	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/Frameworks/_AppIntents_AppKit.framework/Versions/A/_AppIntents_AppKit
+  NO       0/1	/System/Library/Frameworks/_MediaIntents_AppIntents.framework/Versions/A/_MediaIntents_AppIntents
+  NO       0/16	/System/Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/19	/System/Library/PrivateFrameworks/JetEngine.framework/Versions/A/JetEngine
+  NO       0/17	/System/Library/PrivateFrameworks/JetUI.framework/Versions/A/JetUI
+  NO       0/299	/System/Library/PrivateFrameworks/MediaCoreUI.framework/Versions/A/MediaCoreUI
+  NO       0/12	/System/Library/PrivateFrameworks/MediaServices.framework/Versions/A/MediaServices
+  NO       0/303	/System/Library/PrivateFrameworks/MusicKitInternal.framework/Versions/A/MusicKitInternal
+  NO       0/313	/System/Library/PrivateFrameworks/MusicUI.framework/Versions/A/MusicUI
+  NO       0/251	/System/Library/PrivateFrameworks/MusicUI_Mac.framework/Versions/A/MusicUI_Mac
+  NO       0/17	/System/Library/PrivateFrameworks/_MusicKitInternal_MediaPlayer.framework/Versions/A/_MusicKitInternal_MediaPlayer
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/755	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/0	/usr/lib/swift/libswift_DarwinFoundation1.dylib
+  NO       0/0	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Music: 141 of 154 linked libraries are absent from the guest root; 836 of 7727 imported symbols are provided (10.8192%).

@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/findmy-8e8bb0dc/FindMy.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_findmy-8e8bb0dc:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:30
+DARLING_LAUNCH_BUNDLE:/Applications/findmy-8e8bb0dc/FindMy.app:/Applications/findmy-8e8bb0dc/FindMy.app/Contents/MacOS/FindMy
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_findmy-8e8bb0dc:78
+kill -9 30 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/findmy-8e8bb0dc/FindMy.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_findmy-8e8bb0dc:${?})
+
+root@Darwin#

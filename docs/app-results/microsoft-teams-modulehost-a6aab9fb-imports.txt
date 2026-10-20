@@ -1,0 +1,40 @@
+==== Microsoft Teams ModuleHost ====
+Linked dylibs: 28, imported symbols: 1273
+
+  present  provided/imported  library
+  NO       0/7	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/0	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  yes      37/53	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSKeyValueChangeNewKey _NSKeyedArchiveRootObjectKey _NSMachErrorDomain _NSURLErrorDomain _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber
+  NO       0/2	/System/Library/Frameworks/MetricKit.framework/Versions/A/MetricKit
+  NO       0/41	/usr/lib/libsqlite3.dylib
+  NO       0/9	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  yes      3/3	/usr/lib/libz.1.dylib
+  yes      19/29	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityAnnouncementKey _NSAccessibilityAnnouncementRequestedNotification _NSAccessibilityPostNotification _NSAccessibilityPostNotificationWithUserInfo _NSAccessibilityPriorityKey _NSAccessibilityProgressIndicatorRole
+  NO       0/0	/usr/lib/libcurl.4.dylib
+  yes      25/51	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopCopyCurrentMode _CFTimeZoneCopySystem _CFTimeZoneGetSecondsFromGMT _CFUUIDCreateFromUUIDBytes _CFUUIDGetUUIDBytes _NSLocaleCalendar
+  yes      0/15	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecItemAdd _SecItemCopyMatching _SecItemDelete _SecRandomCopyBytes _kSecAttrAccessible _kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly
+  NO       0/1	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  yes      39/47	/usr/lib/libobjc.A.dylib
+             e.g. missing: _OBJC_EHTYPE_id _class_addMethod _class_getInstanceMethod _method_getTypeEncoding _method_setImplementation _objc_exception_throw
+  yes      288/366	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNKSt13runtime_error4whatEv __ZNSt11logic_errorD1Ev __ZNSt11logic_errorD2Ev __ZNSt11range_errorD1Ev __ZNSt12length_errorD1Ev __ZNSt12out_of_rangeD1Ev
+  yes      204/265	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CCCrypt _CCHmac _CCHmacFinal _CCHmacInit _CCHmacUpdate _CC_SHA256
+  NO       0/3	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/5	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSessionCopyCurrentDictionary _CGWindowListCopyWindowInfo _kCGWindowLayer _kCGWindowOwnerName _kCGWindowOwnerPID
+  NO       0/0	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  NO       0/0	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/0	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  NO       0/5	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/2	/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+  NO       0/0	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/1	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/0	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+
+Summary for Microsoft Teams ModuleHost: 17 of 28 linked libraries are absent from the guest root; 615 of 905 imported symbols are provided (67.9558%).

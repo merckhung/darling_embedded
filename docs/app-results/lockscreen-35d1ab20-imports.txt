@@ -1,0 +1,21 @@
+==== LockScreen ====
+Linked dylibs: 12, imported symbols: 148
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/1	/System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/Versions/A/DiagnosticLogCollection (weak)
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/0	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/usr/lib/libMobileGestalt.dylib
+  yes      4/4	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      14/14	/usr/lib/libobjc.A.dylib
+  yes      54/68	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_nospin_lock_lock __os_nospin_lock_unlock _asl_free _asl_new _asl_open _asl_set
+  yes      13/13	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      30/36	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAbsoluteTimeGetGregorianDate _CFFileDescriptorCreate _CFFileDescriptorCreateRunLoopSource _CFFileDescriptorEnableCallBacks _CFFileDescriptorGetNativeDescriptor _CFTimeZoneCopySystem
+  yes      2/12	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGDisplayHideCursor _CGDisplayShowCursor _CGReleaseAllDisplays _CGSCopyCurrentSessionDictionary _CGSInhibitLocalEvents _CGSOrderWindow
+
+Summary for LockScreen: 5 of 12 linked libraries are absent from the guest root; 117 of 148 imported symbols are provided (79.0541%).

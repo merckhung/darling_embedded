@@ -1,0 +1,13 @@
+(/usr/bin/darling open /Applications/codex-80f219f3/Codex.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_codex-80f219f3:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:10
+DARLING_LAUNCH_BUNDLE:/Applications/codex-80f219f3/Codex.app:/Applications/codex-80f219f3/Codex.app/Contents/MacOS/Codex
+dlopen /Applications/codex-80f219f3/Codex.app/Contents/MacOS/../Frameworks/Codex Framework.framework/Versions/149.0.7827.197/Codex Framework: cannot open native library: /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate.XNU_EXC: exc=10 codes=0x6000000 0x0
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 10
+Abort trap: 6
+PROBE_EXIT_codex-80f219f3:134
+kill -9 10 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/codex-80f219f3/Codex.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_codex-80f219f3:${?})
+
+root@Darwin#

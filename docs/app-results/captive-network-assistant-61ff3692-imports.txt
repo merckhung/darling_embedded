@@ -1,0 +1,28 @@
+==== Captive Network Assistant ====
+Linked dylibs: 16, imported symbols: 143
+
+  present  provided/imported  library
+  NO       0/9	/System/Library/PrivateFrameworks/CoreWiFi.framework/Versions/A/CoreWiFi
+  NO       0/1	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  NO       0/4	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/7	/System/Library/PrivateFrameworks/CaptiveNetwork.framework/Versions/A/CaptiveNetwork
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      0/9	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_CLASS_$_WKContentWorld _OBJC_CLASS_$_WKPreferences _OBJC_CLASS_$_WKProcessPool _OBJC_CLASS_$_WKWebView _OBJC_CLASS_$_WKWebViewConfiguration _OBJC_CLASS_$_WKWebsiteDataStore
+  yes      0/3	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecKeychainAddCallback _SecTrustEvaluateAsync _SecTrustGetTrustResult
+  NO       0/2	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  NO       0/9	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  yes      4/10	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSURLAuthenticationMethodServerTrust _NSURLErrorDomain _NSURLErrorFailingURLPeerTrustErrorKey _OBJC_CLASS_$_NSMutableURLRequest _OBJC_CLASS_$_NSURLCredential _OBJC_CLASS_$_NSURLResponse
+  yes      17/17	/usr/lib/libobjc.A.dylib
+  yes      9/10	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_feature_enabled_impl
+  yes      16/17	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSImageNameCaution
+  NO       0/12	/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+  yes      25/32	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopContainsSource _CFRunLoopSourceInvalidate _NSGenericException _NSURLLocalizedNameKey _OBJC_CLASS_$_NSException _OBJC_CLASS_$_NSTimer
+  yes      1/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+
+Summary for Captive Network Assistant: 7 of 16 linked libraries are absent from the guest root; 72 of 143 imported symbols are provided (50.3497%).

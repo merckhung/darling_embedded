@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/news-d57a07af/News.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_news-d57a07af:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:12
+DARLING_LAUNCH_BUNDLE:/Applications/news-d57a07af/News.app:/Applications/news-d57a07af/News.app/Contents/MacOS/News
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_news-d57a07af:78
+kill -9 12 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/news-d57a07af/News.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_news-d57a07af:${?})
+
+root@Darwin#

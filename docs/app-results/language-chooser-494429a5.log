@@ -1,0 +1,114 @@
+(/usr/bin/darling open '/Applications/language-chooser-494429a5/Language Chooser.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_language-chooser-494429a5:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:20
+DARLING_LAUNCH_BUNDLE:/Applications/language-chooser-494429a5/Language Chooser.app:/Applications/language-chooser-494429a5/Language Chooser.app/Contents/MacOS/Language Chooser
+native dyld warning: unresolved import: _SCError
+native dyld warning: unresolved import: _SCErrorString
+native dyld warning: unresolved import: _SCNetworkReachabilityCreateWithName
+native dyld warning: unresolved import: _SCNetworkReachabilityGetFlags
+native dyld warning: unresolved import: _SCNetworkSetCopyCurrent
+native dyld warning: unresolved import: _SCNetworkSetEstablishDefaultConfiguration
+native dyld warning: unresolved import: _SCPreferencesApplyChanges
+native dyld warning: unresolved import: _SCPreferencesCommitChanges
+native dyld warning: unresolved import: _SCPreferencesCreateWithAuthorization
+native dyld warning: unresolved import: _SCPreferencesSynchronize
+native dyld warning: unresolved import: _SLSInitialConfigurationWasDeferred
+native dyld warning: unresolved import: _SLSPerformDeferredConfiguration
+native dyld warning: unresolved import: _SLSSetAppearanceThemeLegacy
+native dyld warning: unresolved import: _AnalyticsSendEvent
+native dyld warning: unresolved import: _LUICopyDefaultDesktopPictureForScreenLock
+native dyld warning: unresolved import: _LUICreateImageOfSizeFromCGImage
+native dyld warning: unresolved import: _TISCreateInputSourceList
+native dyld warning: unresolved import: _TISEnableInputSource
+native dyld warning: unresolved import: _TISSelectInputSource
+native dyld warning: unresolved import: _IOBluetoothNotificationLibNotificationDelete
+native dyld warning: unresolved import: __ScreenReaderIsRunning
+native dyld warning: unresolved import: _ASI_CopyComputerModelName
+native dyld warning: unresolved import: _IOHIDEventGetIntegerValue
+native dyld warning: unresolved import: _IOHIDEventSystemClientActivate
+native dyld warning: unresolved import: _IOHIDEventSystemClientCancel
+native dyld warning: unresolved import: _IOHIDEventSystemClientCopyServices
+native dyld warning: unresolved import: _IOHIDEventSystemClientCreateWithType
+native dyld warning: unresolved import: _IOHIDEventSystemClientRegisterDeviceMatchingCallback
+native dyld warning: unresolved import: _IOHIDEventSystemClientRegisterEventCallback
+native dyld warning: unresolved import: _IOHIDEventSystemClientScheduleWithRunLoop
+native dyld warning: unresolved import: _IOHIDEventSystemClientSetDispatchQueue
+native dyld warning: unresolved import: _IOHIDEventSystemClientSetMatching
+native dyld warning: unresolved import: _IOHIDEventSystemClientSetProperty
+native dyld warning: unresolved import: _IOHIDEventSystemClientUnregisterDeviceMatchingBlock
+native dyld warning: unresolved import: _IOHIDEventSystemClientUnregisterEventCallback
+native dyld warning: unresolved import: _IOHIDServiceClientCopyProperty
+native dyld warning: unresolved import: _IOIteratorIsValid
+native dyld warning: unresolved import: _IONotificationPortCreate
+native dyld warning: unresolved import: _IONotificationPortGetRunLoopSource
+native dyld warning: unresolved import: _IOPMAssertionCreateWithProperties
+native dyld warning: unresolved import: _IOPMAssertionRelease
+native dyld warning: unresolved import: _IOPSNotificationCreateRunLoopSource
+native dyld warning: unresolved import: _IORegistryEntryCreateCFProperty
+native dyld warning: unresolved import: _IORegistryEntryFromPath
+native dyld warning: unresolved import: _IORegistryEntrySetCFProperty
+native dyld warning: unresolved import: _IOServiceAddMatchingNotification
+native dyld warning: unresolved import: _IOServiceNameMatching
+native dyld warning: unresolved import: _SIIsServerHardware
+native dyld warning: unresolved import: _arc4random_stir
+native dyld warning: unresolved import: _devname
+native dyld warning: unresolved import: _dispatch_group_create
+native dyld warning: unresolved import: _dispatch_group_enter
+native dyld warning: unresolved import: _dispatch_group_leave
+native dyld warning: unresolved import: _dispatch_group_wait
+native dyld warning: unresolved import: _getmntinfo
+native dyld warning: unresolved import: _notify_post
+native dyld warning: unresolved import: _os_variant_has_internal_content
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _strnstr
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _NSAccessibilityUnignoredAncestor
+native dyld warning: unresolved import: _CFPreferencesSetMultiple
+native dyld warning: unresolved import: __CFPreferencesSetDaemonCacheEnabled
+native dyld warning: unresolved import: _CGContextSetShouldSmoothFonts
+native dyld warning: unresolved import: _CGSConnectionGetPID
+native dyld warning: unresolved import: _CGSCreateCinematicBootWindowArray
+native dyld warning: unresolved import: _CGSGetOnScreenWindowList
+native dyld warning: unresolved import: _CGSGetWindowCount
+native dyld warning: unresolved import: _CGSGetWindowOwner
+native dyld warning: unresolved import: _CGSInitialEnableOfDisplayUpdates
+native dyld warning: unresolved import: _CGSIsScreenWatcherPresent
+native dyld warning: unresolved import: _CGSNewConnection
+native dyld warning: unresolved import: _CGSOrderWindow
+native dyld warning: unresolved import: _CGSRegisterNotifyProc
+native dyld warning: unresolved import: _CGSRemoveNotifyProc
+native dyld warning: unresolved import: _CGSSetConnectionProperty
+native dyld warning: unresolved import: _CGSSetWindowLevel
+native dyld warning: unresolved import: _CTFontCopyDefaultCascadeListForLanguages
+native dyld warning: unresolved import: __sl_dlopen
+native dyld warning: unresolved import: _kSLSConnectionHasPluginPower
+native dyld warning: unresolved import: _kTISPropertyKeyLayoutNumber
+native dyld warning: unresolved import: _kCACornerCurveContinuous
+native dyld warning: unresolved import: _kCAFilterColorBrightness
+native dyld warning: unresolved import: _kCAFilterColorSaturate
+native dyld warning: unresolved import: _kCAFilterGaussianBlur
+native dyld warning: unresolved import: _kCAFilterInputHardEdges
+native dyld warning: unresolved import: _kCAFilterInputNormalizeEdges
+native dyld warning: unresolved import: _kIOMainPortDefault
+native dyld warning: unresolved import: _NSArgumentDomain
+native dyld warning: unresolved import: _NSLanguageIdentifierAttributeName
+native dyld warning: unresolved import: _NSApplicationDidChangeScreenParametersNotification
+native dyld warning: unresolved import: _NSFontCascadeListAttribute
+native dyld warning: unresolved import: _NSFontTextStyleHeadline
+native dyld warning: unresolved import: _NSFontTextStyleTitle2
+native dyld warning: unresolved import: _NSKernAttributeName
+native dyld warning: unresolved import: _NSTableViewSelectionDidChangeNotification
+native dyld warning: unresolved import: _NSLocaleCountryCode
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: _kCGSWindowIDKey
+native dyld warning: unresolved import: _kCTLanguageAttributeName
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/language-chooser-494429a5/Language Chooser.app/Contents/MacOS/Language Chooser)
+[AppKit] nib 'MainMenu' not found in bundle
+[AppKit] NSApplicationMain: failed to load main nib 'MainMenu'
+[AppKit] NSApplication delegate = 0x0
+[AppKit] delegate 0x0 does not respond to applicationDidFinishLaunching
+kill -9 20 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/language-chooser-494429a5/Language Chooser.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_language-chooser-494429a5:${?})
+
+root@Darwin#

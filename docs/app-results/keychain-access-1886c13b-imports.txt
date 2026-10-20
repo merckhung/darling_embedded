@@ -1,0 +1,51 @@
+==== Keychain Access ====
+Linked dylibs: 38, imported symbols: 858
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+  yes      3/179	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _AuthorizationMakeExternalForm _CSSM_DL_Authenticate _CSSM_DL_ChangeDbAcl _CSSM_DL_ChangeDbOwner _CSSM_DL_CreateRelation _CSSM_DL_DataAbortQuery
+  NO       0/3	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/8	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  yes      0/7	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSCopyDisplayNameForURL _LSGetApplicationForURL _LSOpenCFURLRef _SecNewAFPXVolMountInfo __FSFlipAFPXVolMountInfo _OBJC_CLASS_$_LSApplicationRecord
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/PrivateFrameworks/AOSUI.framework/Versions/A/AOSUI
+  NO       0/8	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/3	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      56/86	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAbsoluteTimeGetGregorianDate _CFArrayBSearchValues _CFArrayCreateMutableCopy _CFArrayRemoveValueAtIndex _CFDateGetAbsoluteTime _CFDictionaryAddValue
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/1	/System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+  yes      25/71	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ _$s10Foundation3URLV4pathSSvg _$s10Foundation3URLVMa
+  yes      27/27	/usr/lib/libobjc.A.dylib
+  yes      5/31	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv120__si_class_type_infoE __ZTISt9exception __ZNKSt9exception4whatEv __ZTVN10__cxxabiv117__class_type_infoE __ZTVN10__cxxabiv121__vmi_class_type_infoE ___cxa_pure_virtual
+  yes      88/104	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __signal_nobind _audit_session_self _dispatch_queue_attr_make_with_autorelease_frequency _dispatch_release _dispatch_semaphore_create
+  yes      42/79	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSBeginAlertSheet _NSBeginCriticalAlertSheet _NSBeginInformationalAlertSheet _NSRunCriticalAlertPanel _NSRunInformationalAlertPanel _NSShowSystemInfoPanel
+  NO       0/20	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/0	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/137	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/76	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Keychain Access: 29 of 38 linked libraries are absent from the guest root; 246 of 853 imported symbols are provided (28.8394%).

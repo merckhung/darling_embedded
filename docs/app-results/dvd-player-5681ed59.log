@@ -1,0 +1,266 @@
+(/usr/bin/darling open '/Applications/dvd-player-5681ed59/DVD Player.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_dvd-player-5681ed59:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:48
+DARLING_LAUNCH_BUNDLE:/Applications/dvd-player-5681ed59/DVD Player.app:/Applications/dvd-player-5681ed59/DVD Player.app/Contents/MacOS/DVD Player
+native dyld warning: unresolved import: _MAPreferencesOpenSettings
+native dyld warning: unresolved import: _MRMediaRemoteAddCommandHandlerBlock
+native dyld warning: unresolved import: _MRMediaRemoteGetLocalOrigin
+native dyld warning: unresolved import: _MRMediaRemoteRemoveCommandHandlerBlock
+native dyld warning: unresolved import: _MRMediaRemoteSetCanBeNowPlayingApplication
+native dyld warning: unresolved import: _MRMediaRemoteSetNowPlayingApplicationPlaybackStateForOrigin
+native dyld warning: unresolved import: _MRMediaRemoteSetNowPlayingInfoWithMergePolicy
+native dyld warning: unresolved import: _CSSM_CSP_CreateAsymmetricContext
+native dyld warning: unresolved import: _CSSM_CSP_CreateDeriveKeyContext
+native dyld warning: unresolved import: _CSSM_CSP_CreateSymmetricContext
+native dyld warning: unresolved import: _CSSM_DecryptData
+native dyld warning: unresolved import: _CSSM_DeleteContext
+native dyld warning: unresolved import: _CSSM_DeriveKey
+native dyld warning: unresolved import: _CSSM_Init
+native dyld warning: unresolved import: _CSSM_ModuleAttach
+native dyld warning: unresolved import: _CSSM_ModuleDetach
+native dyld warning: unresolved import: _CSSM_ModuleLoad
+native dyld warning: unresolved import: _CSSM_ModuleUnload
+native dyld warning: unresolved import: _CSSM_Terminate
+native dyld warning: unresolved import: _DVDClearLastPlayBookmark
+native dyld warning: unresolved import: _DVDCloseMediaFile
+native dyld warning: unresolved import: _DVDCloseMediaVolume
+native dyld warning: unresolved import: _DVDDisplaySubPicture
+native dyld warning: unresolved import: _DVDDispose
+native dyld warning: unresolved import: _DVDDoMenuCGClick
+native dyld warning: unresolved import: _DVDDoMenuCGMouseOver
+native dyld warning: unresolved import: _DVDDoUserNavigation
+native dyld warning: unresolved import: _DVDFastScan
+native dyld warning: unresolved import: _DVDGetAngle
+native dyld warning: unresolved import: _DVDGetAspectRatio
+native dyld warning: unresolved import: _DVDGetAudioLanguageCodeByStream
+native dyld warning: unresolved import: _DVDGetAudioOutputMode
+native dyld warning: unresolved import: _DVDGetAudioStream
+native dyld warning: unresolved import: _DVDGetAudioVolume
+native dyld warning: unresolved import: _DVDGetAudioVolumeInfo
+native dyld warning: unresolved import: _DVDGetBookmark
+native dyld warning: unresolved import: _DVDGetChapter
+native dyld warning: unresolved import: _DVDGetClosedCaptionServiceType
+native dyld warning: unresolved import: _DVDGetDiscRegionCode
+native dyld warning: unresolved import: _DVDGetDriveRegionCode
+native dyld warning: unresolved import: _DVDGetMediaUniqueID
+native dyld warning: unresolved import: _DVDGetNumAngles
+native dyld warning: unresolved import: _DVDGetNumAudioStreams
+native dyld warning: unresolved import: _DVDGetNumChapters
+native dyld warning: unresolved import: _DVDGetNumSubPictureStreams
+native dyld warning: unresolved import: _DVDGetNumTitles
+native dyld warning: unresolved import: _DVDGetScanRate
+native dyld warning: unresolved import: _DVDGetState
+native dyld warning: unresolved import: _DVDGetSubPictureLanguageCodeByStream
+native dyld warning: unresolved import: _DVDGetSubPictureStream
+native dyld warning: unresolved import: _DVDGetTime
+native dyld warning: unresolved import: _DVDGetTitle
+native dyld warning: unresolved import: _DVDGetUOPState
+native dyld warning: unresolved import: _DVDGoToMenu
+native dyld warning: unresolved import: _DVDGotoBookmark
+native dyld warning: unresolved import: _DVDHasMedia
+native dyld warning: unresolved import: _DVDHasNextChapter
+native dyld warning: unresolved import: _DVDHasPreviousChapter
+native dyld warning: unresolved import: _DVDInitialize
+native dyld warning: unresolved import: _DVDIsDisplayingSubPicture
+native dyld warning: unresolved import: _DVDIsMuted
+native dyld warning: unresolved import: _DVDIsOnMenu
+native dyld warning: unresolved import: _DVDIsPlaying
+native dyld warning: unresolved import: _DVDIsValidMediaURL
+native dyld warning: unresolved import: _DVDMute
+native dyld warning: unresolved import: _DVDNextChapter
+native dyld warning: unresolved import: _DVDOpenMediaFileWithURL
+native dyld warning: unresolved import: _DVDOpenMediaVolumeWithURL
+native dyld warning: unresolved import: _DVDPause
+native dyld warning: unresolved import: _DVDPlay
+native dyld warning: unresolved import: _DVDPreviousChapter
+native dyld warning: unresolved import: _DVDRegisterEventCallBack
+native dyld warning: unresolved import: _DVDReturnToTitle
+native dyld warning: unresolved import: _DVDScan
+native dyld warning: unresolved import: _DVDSetAngle
+native dyld warning: unresolved import: _DVDSetAudioStream
+native dyld warning: unresolved import: _DVDSetAudioVolume
+native dyld warning: unresolved import: _DVDSetChapter
+native dyld warning: unresolved import: _DVDSetClosedCaptionServiceType
+native dyld warning: unresolved import: _DVDSetDriveRegionCode
+native dyld warning: unresolved import: _DVDSetFatalErrorCallBack
+native dyld warning: unresolved import: _DVDSetReadCacheParameter
+native dyld warning: unresolved import: _DVDSetSubPictureStream
+native dyld warning: unresolved import: _DVDSetTimeEventRate
+native dyld warning: unresolved import: _DVDSetTitle
+native dyld warning: unresolved import: _DVDSetUOPState
+native dyld warning: unresolved import: _DVDSetVideoCGBounds
+native dyld warning: unresolved import: _DVDSetVideoWindowID
+native dyld warning: unresolved import: _DVDStop
+native dyld warning: unresolved import: _DVDSwitchToDisplay
+native dyld warning: unresolved import: _DVDUnregisterEventCallBack
+native dyld warning: unresolved import: _CGRegionCreateWithRect
+native dyld warning: unresolved import: _CGSRegionRelease
+native dyld warning: unresolved import: _CGSSetWindowCaptureExcludeShape
+native dyld warning: unresolved import: _CTTypesetterCreateWithAttributedString
+native dyld warning: unresolved import: _CTTypesetterSuggestLineBreak
+native dyld warning: unresolved import: _IOPMAssertionCreateWithName
+native dyld warning: unresolved import: _IOPMAssertionRelease
+native dyld warning: unresolved import: _SCDynamicStoreCopyConsoleUser
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoDuration
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoElapsedTime
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoMediaType
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoPlaybackRate
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoTitle
+native dyld warning: unresolved import: _kMRMediaRemoteNowPlayingInfoTypeVideo
+native dyld warning: unresolved import: _kMRMediaRemoteOptionPlaybackPosition
+native dyld warning: unresolved import: _gGuidAppleCSP
+native dyld warning: unresolved import: _NSAppearanceNameVibrantDark
+native dyld warning: unresolved import: _NSFontFeatureSelectorIdentifierKey
+native dyld warning: unresolved import: _NSFontFeatureSettingsAttribute
+native dyld warning: unresolved import: _NSFontFeatureTypeIdentifierKey
+native dyld warning: unresolved import: _NSFontTextStyleTitle2
+native dyld warning: unresolved import: _NSFontTextStyleTitle3
+native dyld warning: unresolved import: _NSFontTraitsAttribute
+native dyld warning: unresolved import: _NSImageHintSymbolFont
+native dyld warning: unresolved import: _NSImageNameTouchBarPauseTemplate
+native dyld warning: unresolved import: _NSImageNameTouchBarPlayTemplate
+native dyld warning: unresolved import: _NSViewFrameDidChangeNotification
+native dyld warning: unresolved import: _NSViewNoIntrinsicMetric
+native dyld warning: unresolved import: _NSWindowDidEnterFullScreenNotification
+native dyld warning: unresolved import: _NSWindowDidExitFullScreenNotification
+native dyld warning: unresolved import: _NSWindowDidMoveNotification
+native dyld warning: unresolved import: _NSWorkspaceDidMountNotification
+native dyld warning: unresolved import: _NSWorkspaceScreensDidSleepNotification
+native dyld warning: unresolved import: _NSWorkspaceWillUnmountNotification
+native dyld warning: unresolved import: _NSURLVolumeIsEjectableKey
+native dyld warning: unresolved import: _NSURLVolumeIsRemovableKey
+native dyld warning: unresolved import: _kCTFontUIFontDesignAlternate
+native dyld warning: unresolved import: _kCTFontUIFontDesignTrait
+native dyld warning: unresolved import: _kCTFontWeightBold
+native dyld warning: unresolved import: _kCTFontWeightRegular
+native dyld warning: unresolved import: _kCTFontWeightTrait
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/dvd-player-5681ed59/DVD Player.app/Contents/MacOS/DVD Player)
+[AppKit] nib: no outlet 'dockMenu' on NSApplication
+[AppKit] nib: no outlet 'onEnableDisableParentalControls' on DVDPlaybackController
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101176360 (title: Viewer)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:DVD Player:89:12
+DARLING_MENUBAR_ITEM:File:158:12
+DARLING_MENUBAR_ITEM:Edit:202:12
+DARLING_MENUBAR_ITEM:Controls:262:12
+DARLING_MENUBAR_ITEM:Features:338:12
+DARLING_MENUBAR_ITEM:Go:397:12
+DARLING_MENUBAR_ITEM:View:443:12
+DARLING_MENUBAR_ITEM:Window:506:12
+DARLING_MENUBAR_ITEM:Help:568:12
+DARLING_WINDOW_READY:Viewer:4194305:240:28:776:520
+[AppKit] loaded nib /Applications/dvd-player-5681ed59/DVD Player.app/Contents/Resources/Base.lproj/MainMenu.nib: 1469 objects, 5 windows
+[AppKit] NSApplication delegate = 0x101174a50
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101174a50
+[ObjC] Method not found: [NSObject setUnitsStyle:]
+[ObjC] Method not found: [NSObject setAllowedUnits:]
+[ObjC] Method not found: [NSObject setFormattingContext:]
+[ObjC] Method not found: [NSObject setMaximumUnitCount:]
+[ObjC] Method not found: [NSObject setZeroFormattingBehavior:]
+[ObjC] Method not found: [NSWindow setAllowsAutomaticWindowTabbing:]
+[ObjC] Method not found: [DVDPlaybackWindow addChildWindow:ordered:]
+[ObjC] Method not found: [NSColor colorWithDeviceWhite:alpha:]
+[ObjC] Method not found: [NSVisualEffectView setAppearance:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSFont preferredFontForTextStyle:options:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSFont preferredFontForTextStyle:options:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setFocusRingType:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSButton setAlternateImage:]
+[ObjC] Method not found: [NSButton setHighlightsBy:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSFont preferredFontForTextStyle:options:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSFont preferredFontForTextStyle:options:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSFont preferredFontForTextStyle:options:]
+[ObjC] Method not found: [NSImage _imageWithSystemSymbolName:]
+[ObjC] Method not found: [NSFont preferredFontForTextStyle:options:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSView widthAnchor]
+[ObjC] Method not found: [DVDHudPanel parentWindow]
+[ObjC] Method not found: [DVDPlaybackWindow addChildWindow:ordered:]
+DARLING_WINDOW_READY:Playback controls:4194307:368:68:520:106
+DARLING_BUTTON_POS:Playback controls::466:131
+DARLING_BUTTON_POS:Playback controls::583:131
+DARLING_BUTTON_POS:Playback controls::617:131
+DARLING_BUTTON_POS:Playback controls::650:131
+DARLING_BUTTON_POS:Playback controls::685:131
+DARLING_BUTTON_POS:Playback controls::720:131
+DARLING_BUTTON_POS:Playback controls::755:131
+DARLING_BUTTON_POS:Playback controls::788:131
+DARLING_BUTTON_POS:Playback controls:Menu:417:120
+DARLING_BUTTON_POS:Playback controls:Title:417:149
+[ObjC] Method not found: [DVDHudPanel parentWindow]
+[ObjC] Method not found: [NSView widthAnchor]
+[ObjC] Method not found: [DVDPlaybackWindow setContentSize:]
+[Darling DVD Player:48] New Video Bounds: {{60, 0}, {656, 492}}
+[ObjC] Method not found: [NSFileManager mountedVolumeURLsIncludingResourceValuesForKeys:options:]
+[ObjC] Method not found: [NSNotificationCenter addObserverForName:object:queue:usingBlock:]
+[ObjC] Method not found: [NSDistributedNotificationCenter addObserverForName:object:queue:usingBlock:]
+[ObjC] Method not found: [NSView setAuthorizationRights:]
+[ObjC] Method not found: [NSView deauthorize:]
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Viewer:4194305:240:28:776:520
+DARLING_WINDOW_READY:Playback controls:4194307:368:68:520:106
+DARLING_BUTTON_POS:Playback controls::466:131
+DARLING_BUTTON_POS:Playback controls::583:131
+DARLING_BUTTON_POS:Playback controls::617:131
+DARLING_BUTTON_POS:Playback controls::650:131
+DARLING_BUTTON_POS:Playback controls::685:131
+DARLING_BUTTON_POS:Playback controls::720:131
+DARLING_BUTTON_POS:Playback controls::755:131
+DARLING_BUTTON_POS:Playback controls::788:131
+DARLING_BUTTON_POS:Playback controls:Menu:417:120
+DARLING_BUTTON_POS:Playback controls:Title:417:149
+DARLING_WINDOW_READY:Viewer:4194305:240:28:776:520
+DARLING_WINDOW_READY:Viewer:4194305:240:28:776:520
+DARLING_WINDOW_READY:Viewer:4194305:240:28:776:520
+DARLING_WINDOW_READY:Playback controls:4194307:368:68:520:106
+DARLING_BUTTON_POS:Playback controls::466:131
+DARLING_BUTTON_POS:Playback controls::583:131
+DARLING_BUTTON_POS:Playback controls::617:131
+DARLING_BUTTON_POS:Playback controls::650:131
+DARLING_BUTTON_POS:Playback controls::685:131
+DARLING_BUTTON_POS:Playback controls::720:131
+DARLING_BUTTON_POS:Playback controls::755:131
+DARLING_BUTTON_POS:Playback controls::788:131
+DARLING_BUTTON_POS:Playback controls:Menu:417:120
+DARLING_BUTTON_POS:Playback controls:Title:417:149
+kill -9 48 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/dvd-player-5681ed59/DVD Player.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_dvd-player-5681ed59:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Application:90:12
+DARLING_MENUBAR_ITEM:File:161:12
+DARLING_MENUBAR_ITEM:Edit:205:12
+DARLING_MENUBAR_ITEM:View:254:12
+DARLING_MENUBAR_ITEM:Window:317:12
+DARLING_MENUBAR_ITEM:Help:379:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

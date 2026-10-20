@@ -1,0 +1,14 @@
+==== ScriptMonitor ====
+Linked dylibs: 5, imported symbols: 66
+
+  present  provided/imported  library
+  yes      13/13	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      6/9	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSProgressFileURLKey _OBJC_CLASS_$_NSAffineTransform _OBJC_CLASS_$_NSProgress
+  yes      27/29	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      7/7	/usr/lib/libSystem.B.dylib
+  yes      3/8	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _NSURLLocalizedNameKey _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSSet _OBJC_CLASS_$_NSTimer
+
+Summary for ScriptMonitor: 0 of 5 linked libraries are absent from the guest root; 56 of 66 imported symbols are provided (84.8485%).

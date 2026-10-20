@@ -1,0 +1,76 @@
+==== Shortcuts ====
+Linked dylibs: 64, imported symbols: 2351
+
+  present  provided/imported  library
+  NO       0/2	/AppleInternal/Library/Frameworks/ShortcutsDebugMenu.framework/Versions/A/ShortcutsDebugMenu (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/WorkflowUIServices.framework/Versions/A/WorkflowUIServices
+  NO       0/462	/System/Library/PrivateFrameworks/WorkflowUI.framework/Versions/A/WorkflowUI
+  NO       0/0	/System/Library/PrivateFrameworks/ActionKitUI.framework/Versions/A/ActionKitUI
+  NO       0/0	/System/Library/PrivateFrameworks/CardKit.framework/Versions/A/CardKit
+  NO       0/89	/System/Library/PrivateFrameworks/WorkflowEditor.framework/Versions/A/WorkflowEditor
+  NO       0/126	/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit
+  NO       0/15	/System/Library/PrivateFrameworks/ContentKit.framework/Versions/A/ContentKit
+  NO       0/32	/System/Library/PrivateFrameworks/WorkflowUICore.framework/Versions/A/WorkflowUICore
+  NO       0/42	/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient
+  NO       0/0	/System/Library/PrivateFrameworks/ActionKit.framework/Versions/A/ActionKit
+  yes      17/144	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12CharacterSetV11whitespacesACvgZ _$s10Foundation12CharacterSetV13alphanumericsACvgZ _$s10Foundation12CharacterSetV21punctuationCharactersACvgZ _$s10Foundation12CharacterSetV5unionyA2CF _$s10Foundation12CharacterSetV8newlinesACvgZ _$s10Foundation12CharacterSetVMa
+  yes      26/32	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush _class_getInstanceMethod _imp_implementationWithBlock _method_getImplementation _method_setImplementation
+  yes      29/39	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dispatch_group_create _dispatch_group_enter _dispatch_group_leave _dispatch_semaphore_create _dladdr
+  NO       0/272	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      65/147	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s10Foundation9IndexPathV6AppKitE4item7sectionACSi_SitcfC _$s10Foundation9IndexPathV6AppKitE4itemSivg _$s10Foundation9IndexPathV6AppKitE7sectionSivg _$s6AppKit01_abB23NumericRawRepresentablePAAE1soiyxx_0D5ValueQztFZ _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _$s6AppKit28NSDiffableDataSourceSnapshotV11appendItems_9toSectionySayq_G_xSgtF
+  NO       0/38	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      7/12	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: __CFBundleCopyBundleURLForExecutableURL _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSSet _OBJC_CLASS_$_NSURL
+  yes      9/15	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics14CGPathFillRuleOMa _$sSo12CGContextRefa12CoreGraphicsE4clip5usingyAC14CGPathFillRuleO_tF _CGContextDrawLinearGradient _CGPathCreateWithRoundedRect _$s12CoreGraphics14CGPathFillRuleO7windingyA2CmFWC _$sSo6CGRectVSQ12CoreGraphicsMc
+  NO       0/1	/System/Library/Frameworks/FoundationModels.framework/Versions/A/FoundationModels
+  NO       0/3	/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/10	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/399	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/4	/System/Library/Frameworks/_AppIntents_AppKit.framework/Versions/A/_AppIntents_AppKit
+  NO       0/2	/System/Library/Frameworks/_AppIntents_SwiftUI.framework/Versions/A/_AppIntents_SwiftUI
+  NO       0/2	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/1	/System/Library/PrivateFrameworks/IntelligencePlatform.framework/Versions/A/IntelligencePlatform
+  NO       0/6	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/2	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/43	/System/Library/PrivateFrameworks/ShortcutsAgent.framework/Versions/A/ShortcutsAgent
+  NO       0/1	/System/Library/PrivateFrameworks/SnippetUI.framework/Versions/A/SnippetUI
+  NO       0/6	/System/Library/PrivateFrameworks/ToolKit.framework/Versions/A/ToolKit
+  NO       0/3	/System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/Versions/A/_IconServices_SwiftUI
+  NO       0/2	/usr/lib/libAccessibility.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/321	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/29	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/22	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/7	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Shortcuts: 58 of 64 linked libraries are absent from the guest root; 153 of 2351 imported symbols are provided (6.50787%).

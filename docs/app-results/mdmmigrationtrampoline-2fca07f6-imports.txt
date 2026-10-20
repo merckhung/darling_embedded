@@ -1,0 +1,43 @@
+==== MDMMigrationTrampoline ====
+Linked dylibs: 33, imported symbols: 646
+
+  present  provided/imported  library
+  NO       0/0	/usr/lib/libMobileGestalt.dylib
+  NO       0/2	/System/Library/Frameworks/AutomaticAssessmentConfiguration.framework/Versions/A/AutomaticAssessmentConfiguration
+  NO       0/4	/System/Library/PrivateFrameworks/ConfigurationProfilesUI.framework/Versions/A/ConfigurationProfilesUI
+  yes      3/58	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV6objectypSgvg _$s10Foundation12NotificationVMa _$s10Foundation14DateComponentsV19_bridgeToObjectiveCSo06NSDateC0CyF _$s10Foundation14DateComponentsV8calendar8timeZone3era4year5month3day4hour6minute6second10nanosecond7weekday0O7Ordinal7quarter11weekOfMonth0rS4Year0h7ForWeeksU0AcA8CalendarVSg_AA04TimeF0VSgSiSgA13ZtcfC _$s10Foundation14DateComponentsVMa
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      22/25	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dlsym ___chkstk_darwin
+  yes      4/8	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo7NSSoundC6AppKitE4beepyyFZ _OBJC_CLASS_$_NSRunningApplication _OBJC_CLASS_$_NSSound _OBJC_CLASS_$_NSWorkspaceOpenConfiguration
+  NO       0/5	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      0/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSSystemClockDidChangeNotification
+  yes      2/2	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  NO       0/237	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/11	/System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/Versions/A/AsyncAlgorithmsInternal
+  NO       0/16	/System/Library/PrivateFrameworks/Catalyst.framework/Versions/A/Catalyst
+  NO       0/1	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/184	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/67	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/7	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for MDMMigrationTrampoline: 27 of 33 linked libraries are absent from the guest root; 41 of 646 imported symbols are provided (6.34675%).

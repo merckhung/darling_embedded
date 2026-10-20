@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+common --enable_bzlmod
+build --action_env=PATH
+build --host_action_env=PATH
+build --spawn_strategy=local
+test --spawn_strategy=local
+test --test_output=errors

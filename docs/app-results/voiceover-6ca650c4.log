@@ -1,0 +1,28 @@
+(/usr/bin/darling open /Applications/voiceover-6ca650c4/VoiceOver.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_voiceover-6ca650c4:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:467
+DARLING_LAUNCH_BUNDLE:/Applications/voiceover-6ca650c4/VoiceOver.app:/Applications/voiceover-6ca650c4/VoiceOver.app/Contents/MacOS/VoiceOver
+native dyld warning: unresolved import: _SCRCArgumentParserRunWithClassName
+native dyld warning: unresolved import: _$ss11CommandLineO10unsafeArgvSpySpys4Int8VGSgGvgZ
+native dyld warning: unresolved import: _$ss11CommandLineO4argcs5Int32VvgZ
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _$sScA15unownedExecutorScevgTj
+native dyld warning: unresolved import: _$sScM6sharedScMvgZ
+native dyld warning: unresolved import: _$sScMMa
+native dyld warning: unresolved import: _swift_task_isCurrentExecutor
+native dyld warning: unresolved import: _swift_task_reportUnexpectedExecutor
+native dyld warning: unresolved import: _$sScMScAsWP
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBoWV
+UNCAT_TRAP: pc=0x1009c0b68 instr=0x0
+XNU_EXC: exc=2 codes=0x1 0x0
+XNU_EXC: exc=10 codes=0x4200001 0x0
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 467
+Illegal instruction: 4
+PROBE_EXIT_voiceover-6ca650c4:132
+kill -9 467 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/voiceover-6ca650c4/VoiceOver.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_voiceover-6ca650c4:${?})
+
+root@Darwin#

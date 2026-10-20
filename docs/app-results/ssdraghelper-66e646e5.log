@@ -1,0 +1,119 @@
+(/usr/bin/darling open /Applications/ssdraghelper-66e646e5/SSDragHelper.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_ssdraghelper-66e646e5:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:87
+DARLING_LAUNCH_BUNDLE:/Applications/ssdraghelper-66e646e5/SSDragHelper.app:/Applications/ssdraghelper-66e646e5/SSDragHelper.app/Contents/MacOS/SSDragHelper
+native dyld warning: unresolved import: _HIGetMousePosition
+native dyld warning: unresolved import: _NSFileTypeForHFSTypeCode
+native dyld warning: unresolved import: __os_nospin_lock_lock
+native dyld warning: unresolved import: __os_nospin_lock_unlock
+native dyld warning: unresolved import: _asl_free
+native dyld warning: unresolved import: _asl_new
+native dyld warning: unresolved import: _asl_open
+native dyld warning: unresolved import: _asl_set
+native dyld warning: unresolved import: _asl_set_filter
+native dyld warning: unresolved import: _asl_vlog
+native dyld warning: unresolved import: _fdopen
+native dyld warning: unresolved import: _flock
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _vsyslog
+native dyld warning: unresolved import: _NSApplicationLoad
+native dyld warning: unresolved import: _CoreDragCancelDrag
+native dyld warning: unresolved import: _CoreDragCreateWithPasteboardRef
+native dyld warning: unresolved import: _CoreDragDispose
+native dyld warning: unresolved import: _CoreDragGetAttributes
+native dyld warning: unresolved import: _CoreDragGetCurrentDrag
+native dyld warning: unresolved import: _CoreDragGetDragWindow
+native dyld warning: unresolved import: _CoreDragGetDropLocation
+native dyld warning: unresolved import: _CoreDragGetItemBounds
+native dyld warning: unresolved import: _CoreDragGetPasteboardRef
+native dyld warning: unresolved import: _CoreDragInstallReceiveHandler
+native dyld warning: unresolved import: _CoreDragInstallTrackingHandler
+native dyld warning: unresolved import: _CoreDragRegisterClient
+native dyld warning: unresolved import: _CoreDragSetAllowableActions
+native dyld warning: unresolved import: _CoreDragSetCGImageWithScale
+native dyld warning: unresolved import: _CoreDragSetDropActions
+native dyld warning: unresolved import: _CoreDragSetInputProc
+native dyld warning: unresolved import: _CoreDragSetItemBounds
+native dyld warning: unresolved import: _CoreDragStartDragging
+native dyld warning: unresolved import: _PasteboardClear
+native dyld warning: unresolved import: _PasteboardCopyItemFlavorData
+native dyld warning: unresolved import: _PasteboardCopyItemFlavors
+native dyld warning: unresolved import: _PasteboardCreate
+native dyld warning: unresolved import: _PasteboardGetItemCount
+native dyld warning: unresolved import: _PasteboardGetItemFlavorFlags
+native dyld warning: unresolved import: _PasteboardGetItemIdentifier
+native dyld warning: unresolved import: _PasteboardPutItemFlavor
+native dyld warning: unresolved import: _PasteboardSetPromiseKeeper
+native dyld warning: unresolved import: _CFAbsoluteTimeGetGregorianDate
+native dyld warning: unresolved import: _CFDataAppendBytes
+native dyld warning: unresolved import: _CFDataCreateMutable
+native dyld warning: unresolved import: _CFDataCreateWithBytesNoCopy
+native dyld warning: unresolved import: _CFDictionaryGetKeysAndValues
+native dyld warning: unresolved import: _CFRunLoopPerformBlock
+native dyld warning: unresolved import: _CFShow
+native dyld warning: unresolved import: _CFStringCreateExternalRepresentation
+native dyld warning: unresolved import: _CFStringCreateWithBytes
+native dyld warning: unresolved import: _CFTimeZoneCopySystem
+native dyld warning: unresolved import: _CFURLCreateData
+native dyld warning: unresolved import: _CFURLCreateWithBytes
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _CFURLCreateWithString
+native dyld warning: unresolved import: _CFURLGetFileSystemRepresentation
+native dyld warning: unresolved import: _CFURLGetString
+native dyld warning: unresolved import: _CGDataProviderCreateWithData
+native dyld warning: unresolved import: _CGDataProviderCreateWithURL
+native dyld warning: unresolved import: _CGDataProviderRelease
+native dyld warning: unresolved import: _CGEventCreate
+native dyld warning: unresolved import: _CGEventCreateMouseEvent
+native dyld warning: unresolved import: _CGEventGetLocation
+native dyld warning: unresolved import: _CGEventPost
+native dyld warning: unresolved import: _CGImageCreate
+native dyld warning: unresolved import: _CGImageCreateWithPNGDataProvider
+native dyld warning: unresolved import: _CGPostMouseEvent
+native dyld warning: unresolved import: _CGSGetCurrentMouseButtonState
+native dyld warning: unresolved import: _CGSGetWindowBounds
+native dyld warning: unresolved import: _CGWindowListCopyWindowInfo
+native dyld warning: unresolved import: _AECoerceDesc
+native dyld warning: unresolved import: _AEGetDescData
+native dyld warning: unresolved import: _AEGetDescDataSize
+native dyld warning: unresolved import: _CoreEndianFlipData
+native dyld warning: unresolved import: _FSRefMakePath
+native dyld warning: unresolved import: _Gestalt
+native dyld warning: unresolved import: _UTGetOSTypeFromString
+native dyld warning: unresolved import: _UTTypeCopyDeclaration
+native dyld warning: unresolved import: _UTTypeCopyPreferredTagWithClass
+native dyld warning: unresolved import: _UTTypeCreatePreferredIdentifierForTag
+native dyld warning: unresolved import: _UTTypeIsDeclared
+native dyld warning: unresolved import: _CGImageDestinationAddImage
+native dyld warning: unresolved import: _CGImageDestinationCreateWithData
+native dyld warning: unresolved import: _CGImageDestinationFinalize
+native dyld warning: unresolved import: _kCGWindowNumber
+native dyld warning: unresolved import: _kCGWindowOwnerPID
+native dyld warning: unresolved import: _kUTTagClassFilenameExtension
+native dyld warning: unresolved import: _kUTTagClassMIMEType
+native dyld warning: unresolved import: _kUTTagClassNSPboardType
+native dyld warning: unresolved import: _kUTTagClassOSType
+[ObjC] Method not found: [NSWindow setIgnoresMouseEvents:]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101af1c50 (title: Mac OS X Window)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:SSDragHelper:98:12
+DARLING_MENUBAR_ITEM:File:177:12
+DARLING_MENUBAR_ITEM:Edit:221:12
+DARLING_MENUBAR_ITEM:Window:280:12
+DARLING_MENUBAR_ITEM:Help:342:12
+DARLING_WINDOW_READY:Mac OS X Window:4194305:0:28:1024:796
+PROBE_EXIT_ssdraghelper-66e646e5:0
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12
+kill -9 87 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/ssdraghelper-66e646e5/SSDragHelper.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_ssdraghelper-66e646e5:${?})
+
+root@Darwin#

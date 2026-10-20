@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/apps-85d79d65/Apps.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_apps-85d79d65:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:54
+DARLING_LAUNCH_BUNDLE:/Applications/apps-85d79d65/Apps.app:/Applications/apps-85d79d65/Apps.app/Contents/MacOS/Apps
+native dyld warning: unresolved import: _CoreDockSendNotification
+PROBE_EXIT_apps-85d79d65:0
+kill -9 54 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/apps-85d79d65/Apps.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_apps-85d79d65:${?})
+
+root@Darwin#

@@ -1,0 +1,33 @@
+==== MediaRemoteUI ====
+Linked dylibs: 25, imported symbols: 156
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/MediaServices.framework/Versions/A/MediaServices
+  NO       0/0	/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote
+  NO       0/3	/System/Library/PrivateFrameworks/BoardServices.framework/Versions/A/BoardServices
+  yes      0/7	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF _$s10Foundation4UUIDV9hashValueSivg _$s10Foundation4UUIDVACycfC _$s10Foundation4UUIDVMa _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      8/12	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue _OBJC_CLASS_$_OS_os_log ___chkstk_darwin
+  NO       0/16	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/85	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/16	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for MediaRemoteUI: 22 of 25 linked libraries are absent from the guest root; 18 of 156 imported symbols are provided (11.5385%).

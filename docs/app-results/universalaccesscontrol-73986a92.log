@@ -1,0 +1,288 @@
+(/usr/bin/darling open /Applications/universalaccesscontrol-73986a92/UniversalAccessControl.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_universalaccesscontrol-73986a92:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:459
+DARLING_LAUNCH_BUNDLE:/Applications/universalaccesscontrol-73986a92/UniversalAccessControl.app:/Applications/universalaccesscontrol-73986a92/UniversalAccessControl.app/Contents/MacOS/UniversalAccessControl
+native dyld warning: unresolved import: _SecTaskCopyValueForEntitlement
+native dyld warning: unresolved import: _SecTaskCreateWithAuditToken
+native dyld warning: unresolved import: __ScreenReaderIsRunning
+native dyld warning: unresolved import: _AXFIsRunningAsRootOrInRootSession
+native dyld warning: unresolved import: _UAPreferencesGetBooleanWithDefault
+native dyld warning: unresolved import: __UniversalAccessAssistiveControlIsRunning
+native dyld warning: unresolved import: _UADwellIsEnabled
+native dyld warning: unresolved import: _UAOptionsLog
+native dyld warning: unresolved import: _UAVirtualKeyboardIsEnabled
+native dyld warning: unresolved import: _UAVirtualKeyboardSetEnabled
+native dyld warning: unresolved import: _UAVoiceOverIsEnabled
+native dyld warning: unresolved import: _UAVoiceOverIsRunning
+native dyld warning: unresolved import: _UAVoiceOverSetEnabledWithOptions
+native dyld warning: unresolved import: _$s7SwiftUI10EdgeInsetsV4_allAC12CoreGraphics7CGFloatV_tcfC
+native dyld warning: unresolved import: _$s7SwiftUI10FocusStateV12wrappedValuexvg
+native dyld warning: unresolved import: _$s7SwiftUI10FocusStateV14projectedValueAC7BindingVyx_Gvg
+native dyld warning: unresolved import: _$s7SwiftUI10FocusStateVACyqd__SgGycADRszSHRd__lufC
+native dyld warning: unresolved import: _$s7SwiftUI10FocusStateVMa
+native dyld warning: unresolved import: _$s7SwiftUI13KeyEquivalentV6returnACvgZ
+native dyld warning: unresolved import: _$s7SwiftUI13KeyEquivalentVMa
+native dyld warning: unresolved import: _$s7SwiftUI13NSHostingViewC04rootD0ACyxGx_tcfc
+native dyld warning: unresolved import: _$s7SwiftUI13withAnimationyxAA0D0VSg_xyKXEtKlF
+native dyld warning: unresolved import: _$s7SwiftUI14EventModifiersV8rawValueACSi_tcfC
+native dyld warning: unresolved import: _$s7SwiftUI15ScrollViewProxyV8scrollTo_6anchoryx_AA9UnitPointVSgtSHRzlF
+native dyld warning: unresolved import: _$s7SwiftUI15ScrollViewProxyVMa
+native dyld warning: unresolved import: _$s7SwiftUI16GroupedFormStyleVMa
+native dyld warning: unresolved import: _$s7SwiftUI16_FlexFrameLayoutV8minWidth05idealG003maxG00F6Height0hJ00iJ09alignmentAC12CoreGraphics7CGFloatVSg_A5nA9AlignmentVtcfC
+native dyld warning: unresolved import: _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvg
+native dyld warning: unresolved import: _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvs
+native dyld warning: unresolved import: _$s7SwiftUI17VerticalAlignmentV6centerACvgZ
+native dyld warning: unresolved import: _$s7SwiftUI19HorizontalAlignmentV6centerACvgZ
+native dyld warning: unresolved import: _$s7SwiftUI3LogO013runtimeIssuesC0So9OS_os_logCvgZ
+native dyld warning: unresolved import: _$s7SwiftUI4EdgeO3SetV10horizontalAEvgZ
+native dyld warning: unresolved import: _$s7SwiftUI4EdgeO3SetV3topAEvgZ
+native dyld warning: unresolved import: _$s7SwiftUI4EdgeO3SetV6bottomAEvgZ
+native dyld warning: unresolved import: _$s7SwiftUI4FontV6DesignOMa
+native dyld warning: unresolved import: _$s7SwiftUI4FontV6WeightV4boldAEvgZ
+native dyld warning: unresolved import: _$s7SwiftUI4FontV6system4size6weight6designAC12CoreGraphics7CGFloatV_AC6WeightVSgAC6DesignOSgtFZ
+native dyld warning: unresolved import: _$s7SwiftUI4FormV7contentACyxGxyXE_tcfC
+native dyld warning: unresolved import: _$s7SwiftUI4TextV4fontyAcA4FontVSgF
+native dyld warning: unresolved import: _$s7SwiftUI4TextVyACxcSyRzlufC
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE12focusSectionQryF
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtF
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE23accessibilityIdentifieryAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSSF
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE7focused_6equalsQrAA10FocusStateV7BindingVyqd___G_qd__tSHRd__lF
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lF
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lF
+native dyld warning: unresolved import: _$s7SwiftUI6ButtonVA2A4TextVRszrlE_6actionACyAEGqd___yyctcSyRd__lufC
+native dyld warning: unresolved import: _$s7SwiftUI6ToggleVA2A4TextVRszrlE_4isOnACyAEGqd___AA7BindingVySbGtcSyRd__lufC
+native dyld warning: unresolved import: _$s7SwiftUI7BindingV3get3setACyxGxyc_yxctcfC
+native dyld warning: unresolved import: _$s7SwiftUI7ForEachV7contentyq0_7ElementQzcvs
+native dyld warning: unresolved import: _$s7SwiftUI7ForEachVA2A4ViewR0_rlE_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctcfC
+native dyld warning: unresolved import: _$s7SwiftUI7ForEachVAAE6create_2id7contentACyxq_q0_Gx_s7KeyPathCy7ElementQzq_Gq0_AKctFZ
+native dyld warning: unresolved import: _$s7SwiftUI7SectionV6create10isExpanded7content6header6footerACyxq_q0_GAA7BindingVySbGSg_q_xq0_tFZ
+native dyld warning: unresolved import: _$s7SwiftUI8BindableV12wrappedValuexvg
+native dyld warning: unresolved import: _$s7SwiftUI8BindableVAARlzC11Observation10ObservableRzlE12wrappedValueACyxGx_tcfC
+native dyld warning: unresolved import: _$s7SwiftUI8BindableVMa
+native dyld warning: unresolved import: _$s7SwiftUI9AlignmentV6centerACvgZ
+native dyld warning: unresolved import: _$s7SwiftUI9AnimationV7defaultACvgZ
+native dyld warning: unresolved import: _$s7SwiftUI9FormStylePA2A07GroupedcD0VRszrlE7groupedAEvgZ
+native dyld warning: unresolved import: _$s7SwiftUI9LazyStateV12wrappedValueACyxGxyXA_tcfC
+native dyld warning: unresolved import: _$s7SwiftUI9LazyStateV12wrappedValuexvg
+native dyld warning: unresolved import: _$s7SwiftUI9LazyStateV12wrappedValuexvs
+native dyld warning: unresolved import: _$s7SwiftUI9LazyStateVMa
+native dyld warning: unresolved import: _$s7SwiftUI9UnitPointV6centerACvgZ
+native dyld warning: unresolved import: _$s10Foundation17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF
+native dyld warning: unresolved import: _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+native dyld warning: unresolved import: _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+native dyld warning: unresolved import: _$sSS10FoundationE6format_S2Sh_s7CVarArg_pdtcfC
+native dyld warning: unresolved import: _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: _bootstrap_check_in
+native dyld warning: unresolved import: _bootstrap_register2
+native dyld warning: unresolved import: _notify_post
+native dyld warning: unresolved import: _notify_register_check
+native dyld warning: unresolved import: _notify_set_state
+native dyld warning: unresolved import: _vproc_swap_integer
+native dyld warning: unresolved import: _MSHCreateMIGServerSource
+native dyld warning: unresolved import: _CFRunLoopSourceInvalidate
+native dyld warning: unresolved import: _CGSGetWindowTags
+native dyld warning: unresolved import: _CGSIsSecureEventInputSet
+native dyld warning: unresolved import: _CGSRegisterConnectionNotifyProc
+native dyld warning: unresolved import: _CGSSetWindowBackgroundBlurRadius
+native dyld warning: unresolved import: _CGSSetWindowTags
+native dyld warning: unresolved import: _$sSS6appendyySSF
+native dyld warning: unresolved import: _$ss042_stdlib_isOSVersionAtLeastOrVariantVersiondE0yBi1_Bw_BwBwBwBwBwtF
+native dyld warning: unresolved import: _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+native dyld warning: unresolved import: _$ss11_StringGutsV4growyySiF
+native dyld warning: unresolved import: _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+native dyld warning: unresolved import: _$ss18_CocoaArrayWrapperV8endIndexSivg
+native dyld warning: unresolved import: _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+native dyld warning: unresolved import: _$ss6HasherV5_seedABSi_tcfC
+native dyld warning: unresolved import: _$ss6HasherV8_combineyySuF
+native dyld warning: unresolved import: _$ss6HasherV9_finalizeSiyF
+native dyld warning: unresolved import: __swift_stdlib_reportUnimplementedInitializer
+native dyld warning: unresolved import: _swift_allocObject
+native dyld warning: unresolved import: _swift_beginAccess
+native dyld warning: unresolved import: _swift_bridgeObjectRelease
+native dyld warning: unresolved import: _swift_bridgeObjectRetain
+native dyld warning: unresolved import: _swift_cvw_initStructMetadataWithLayoutString
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_deallocObject
+native dyld warning: unresolved import: _swift_getEnumTagSinglePayloadGeneric
+native dyld warning: unresolved import: _swift_getFunctionTypeMetadata0
+native dyld warning: unresolved import: _swift_getKeyPath
+native dyld warning: unresolved import: _swift_getObjCClassMetadata
+native dyld warning: unresolved import: _swift_getOpaqueTypeConformance2
+native dyld warning: unresolved import: _swift_getSingletonMetadata
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContextInMetadataState2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _swift_retain
+native dyld warning: unresolved import: _swift_storeEnumTagSinglePayloadGeneric
+native dyld warning: unresolved import: _swift_unknownObjectRelease
+native dyld warning: unresolved import: _swift_unknownObjectWeakDestroy
+native dyld warning: unresolved import: _swift_unknownObjectWeakInit
+native dyld warning: unresolved import: _swift_unknownObjectWeakLoadStrong
+native dyld warning: unresolved import: _swift_updateClassMetadata2
+native dyld warning: unresolved import: _$s8Dispatch0A13WorkItemFlagsVMa
+native dyld warning: unresolved import: _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+native dyld warning: unresolved import: _$s8Dispatch0A3QoSVMa
+native dyld warning: unresolved import: _$s8Dispatch0A4TimeV3nowACyFZ
+native dyld warning: unresolved import: _$s8Dispatch0A4TimeVMa
+native dyld warning: unresolved import: _$s8Dispatch1poiyAA0A4TimeVAD_SdtF
+native dyld warning: unresolved import: _$sSo17OS_dispatch_queueC8DispatchE10asyncAfter8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+native dyld warning: unresolved import: _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
+native dyld warning: unresolved import: _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+native dyld warning: unresolved import: _$sSo8NSObjectC10ObjectiveCE2eeoiySbAB_ABtFZ
+native dyld warning: unresolved import: _$s11Observation0A9RegistrarV12withMutation2of7keyPath_q0_x_s03KeyG0Cyxq_Gq0_yKXEtKAA10ObservableRzr1_lF
+native dyld warning: unresolved import: _$s11Observation0A9RegistrarV6access_7keyPathyx_s03KeyE0Cyxq_GtAA10ObservableRzr0_lF
+native dyld warning: unresolved import: _$s11Observation0A9RegistrarV6didSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
+native dyld warning: unresolved import: _$s11Observation0A9RegistrarV7willSet_7keyPathyx_s03KeyF0Cyxq_GtAA10ObservableRzr0_lF
+native dyld warning: unresolved import: _$s11Observation0A9RegistrarVACycfC
+native dyld warning: unresolved import: _$s11Observation0A9RegistrarVMa
+native dyld warning: unresolved import: _$sScM6sharedScMvgZ
+native dyld warning: unresolved import: _$sScMMa
+native dyld warning: unresolved import: _$s2os0A4_log_3dso0B0__ySo0a1_B7_type_ta_SVSo03OS_a1_B0Cs12StaticStringVs7CVarArg_pdtF
+native dyld warning: unresolved import: _$sSo13os_log_type_ta0A0E5faultABvgZ
+native dyld warning: unresolved import: _kCAGradientLayerAxial
+native dyld warning: unresolved import: _kCAGradientLayerRadial
+native dyld warning: unresolved import: _UAAXShortcutSpeechEnabled
+native dyld warning: unresolved import: _$s7SwiftUI15ModifiedContentVyxq_GAA4ViewA2aERzAA0E8ModifierR_rlMc
+native dyld warning: unresolved import: _$s7SwiftUI16GroupedFormStyleVAA0dE0AAMc
+native dyld warning: unresolved import: _$s7SwiftUI16_FlexFrameLayoutVAA12ViewModifierAAWP
+native dyld warning: unresolved import: _$s7SwiftUI25_AppearanceActionModifierVAA04ViewE0AAWP
+native dyld warning: unresolved import: _$s7SwiftUI31AccessibilityAttachmentModifierVAA04ViewE0AAMc
+native dyld warning: unresolved import: _$s7SwiftUI31AccessibilityAttachmentModifierVMa
+native dyld warning: unresolved import: _$s7SwiftUI32_EnvironmentKeyTransformModifierVyxGAA04ViewF0AAMc
+native dyld warning: unresolved import: _$s7SwiftUI4FormVyxGAA4ViewAAMc
+native dyld warning: unresolved import: _$s7SwiftUI4TextVAA4ViewAAWP
+native dyld warning: unresolved import: _$s7SwiftUI4TextVN
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE12focusSectionQryFQOMQ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE16keyboardShortcut_9modifiersQrAA13KeyEquivalentV_AA14EventModifiersVtFQOMQ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOMQ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE9formStyleyQrqd__AA04FormE0Rd__lFQOMQ
+native dyld warning: unresolved import: _$s7SwiftUI6ButtonVyxGAA4ViewAAMc
+native dyld warning: unresolved import: _$s7SwiftUI6IDViewVyxq_GAA4ViewAAMc
+native dyld warning: unresolved import: _$s7SwiftUI6ToggleVyxGAA4ViewAAMc
+native dyld warning: unresolved import: _$s7SwiftUI6VStackVyxGAA4ViewAAMc
+native dyld warning: unresolved import: _$s7SwiftUI7ForEachVyxq_q0_GAA4ViewA2aER0_rlMc
+native dyld warning: unresolved import: _$s7SwiftUI7SectionVyxq_q0_GAA4ViewA2aERzAaER_AaER0_rlMc
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVAA0D0AAWP
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVN
+native dyld warning: unresolved import: _$sSSs7CVarArg10FoundationMc
+native dyld warning: unresolved import: _NSApplicationDidChangeScreenParametersNotification
+native dyld warning: unresolved import: _$sBOWV
+native dyld warning: unresolved import: _$sBbWV
+native dyld warning: unresolved import: _$sBi64_WV
+native dyld warning: unresolved import: _$sSSN
+native dyld warning: unresolved import: _$sSSSHsWP
+native dyld warning: unresolved import: _$sSSSQsWP
+native dyld warning: unresolved import: _$sSSSysMc
+native dyld warning: unresolved import: _$sSayxGSTsMc
+native dyld warning: unresolved import: _$sSayxGSksMc
+native dyld warning: unresolved import: _$sSbN
+native dyld warning: unresolved import: _$sxSgSHsSHRzlMc
+native dyld warning: unresolved import: _$sxSgSQsSQRzlMc
+native dyld warning: unresolved import: _$sytN
+native dyld warning: unresolved import: __swiftEmptyArrayStorage
+native dyld warning: unresolved import: _$s12CoreGraphics7CGFloatVN
+native dyld warning: unresolved import: _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
+native dyld warning: unresolved import: _$sScMScAsWP
+native dyld warning: unresolved import: _$s7SwiftUI13NSHostingViewCMn
+native dyld warning: unresolved import: _$s7SwiftUI8BindableVMn
+native dyld warning: unresolved import: _$s7SwiftUI9LazyStateVMn
+native dyld warning: unresolved import: _$s12CoreGraphics7CGFloatVMn
+native dyld warning: unresolved import: _$s7SwiftUI10FocusStateVMn
+native dyld warning: unresolved import: _$s7SwiftUI15ModifiedContentVMn
+native dyld warning: unresolved import: _$s7SwiftUI6VStackVMn
+native dyld warning: unresolved import: _$s7SwiftUI12TupleContentVMn
+native dyld warning: unresolved import: _$s7SwiftUI4TextVMn
+native dyld warning: unresolved import: _$s7SwiftUI14_PaddingLayoutVMn
+native dyld warning: unresolved import: _$s7SwiftUI16ScrollViewReaderVMn
+native dyld warning: unresolved import: _$s7SwiftUI4FormVMn
+native dyld warning: unresolved import: _$s7SwiftUI7ForEachVMn
+native dyld warning: unresolved import: _$s7SwiftUI7SectionVMn
+native dyld warning: unresolved import: _$s7SwiftUI6IDViewVMn
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE7focused_6equalsQrAA10FocusStateV7BindingVyqd___G_qd__tSHRd__lFQOMQ
+native dyld warning: unresolved import: _$s7SwiftUI6ToggleVMn
+native dyld warning: unresolved import: _$s7SwiftUI32_EnvironmentKeyTransformModifierVMn
+native dyld warning: unresolved import: _$s7SwiftUI31AccessibilityAttachmentModifierVMn
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVMn
+native dyld warning: unresolved import: _$s7SwiftUI16GroupedFormStyleVMn
+native dyld warning: unresolved import: _$s7SwiftUI16_FlexFrameLayoutVMn
+native dyld warning: unresolved import: _$s7SwiftUI6HStackVMn
+native dyld warning: unresolved import: _$s7SwiftUI6ButtonVMn
+native dyld warning: unresolved import: _$s7SwiftUI6SpacerVMn
+native dyld warning: unresolved import: _$s7SwiftUI25_AppearanceActionModifierVMn
+native dyld warning: unresolved import: _$s7SwiftUI4ViewMp
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP4BodyAC_AaBTn
+native dyld warning: unresolved import: _$s4Body7SwiftUI4ViewPTl
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZTq
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZTq
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZTq
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP4body4BodyQzvgTq
+native dyld warning: unresolved import: _$sSQMp
+native dyld warning: unresolved import: _$sSQ2eeoiySbx_xtFZTq
+native dyld warning: unresolved import: _$sSHMp
+native dyld warning: unresolved import: _$sSHSQTb
+native dyld warning: unresolved import: _$sSH9hashValueSivgTq
+native dyld warning: unresolved import: _$sSH4hash4intoys6HasherVz_tFTq
+native dyld warning: unresolved import: _$sSH13_rawHashValue4seedS2i_tFTq
+native dyld warning: unresolved import: _$s7SwiftUI13_VariadicViewO4TreeVMn
+native dyld warning: unresolved import: _$s7SwiftUI13_VStackLayoutVMn
+native dyld warning: unresolved import: _$s7SwiftUI9LazyStateV7StorageOMn
+native dyld warning: unresolved import: _$s8Dispatch0A13WorkItemFlagsVMn
+native dyld warning: unresolved import: _$s7SwiftUI4FontV6DesignOMn
+native dyld warning: unresolved import: _$s7SwiftUI13_HStackLayoutVMn
+native dyld warning: unresolved import: _$s7SwiftUI15ScrollViewProxyVMn
+native dyld warning: unresolved import: _$s7SwiftUI17EnvironmentValuesVMn
+native dyld warning: unresolved import: _$s7SwiftUI17EnvironmentValuesV9isEnabledSbvpMV
+native dyld warning: unresolved import: _$s11Observation0A9RegistrarVMn
+native dyld warning: unresolved import: _$s11Observation10ObservableMp
+native dyld warning: unresolved import: _$ss23_ContiguousArrayStorageCMn
+native dyld warning: unresolved import: _$ss7CVarArgMp
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _swift_cvw_assignWithTake
+native dyld warning: unresolved import: _swift_cvw_initWithTake
+native dyld warning: unresolved import: _swift_cvw_assignWithCopy
+native dyld warning: unresolved import: _swift_cvw_initWithCopy
+native dyld warning: unresolved import: _swift_cvw_destroy
+native dyld warning: unresolved import: _swift_cvw_initializeBufferWithCopyOfBuffer
+native dyld warning: unresolved import: _$sBoWV
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/universalaccesscontrol-73986a92/UniversalAccessControl.app/Contents/MacOS/UniversalAccessControl)
+[AppKit] loaded nib /Applications/universalaccesscontrol-73986a92/UniversalAccessControl.app/Contents/Resources/Base.lproj/MainMenu.nib: 63 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101d2a2e0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101d2a2e0
+[ObjC] Method not found: [NSObject isRunningOutsideLoginWindowSession]
+[ObjC] Method not found: [NSObject categories]
+[Foundation] performSelector:terminate: withObject:0x101d2a2e0 afterDelay:0.000000 on 0x101d25ca0
+[AppKit] returned from applicationDidFinishLaunching
+[ObjC] Method not found: [UACMainWindow setCanBecomeVisibleWithoutLogin:]
+[AppKit] nib: no outlet 'window' on UniversalAccessControlAppDelegate
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101d29bc0 (title: Accessibility Shortcuts)
+DARLING_WINDOW_READY:Accessibility Shortcuts:4194305:196:188:567:368
+[AppKit] loaded nib /Applications/universalaccesscontrol-73986a92/UniversalAccessControl.app/Contents/Resources/Base.lproj/MainWindow.nib: 39 objects, 1 windows
+DARLING_WINDOW_READY:Accessibility Shortcuts:4194305:196:188:567:368
+[Foundation] firing delayed perform terminate: on 0x101d25ca0
+DARLING_APP_TERMINATE:pid=459
+PROBE_EXIT_universalaccesscontrol-73986a92:0
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Application:90:12
+DARLING_MENUBAR_ITEM:File:161:12
+DARLING_MENUBAR_ITEM:Edit:205:12
+DARLING_MENUBAR_ITEM:View:254:12
+DARLING_MENUBAR_ITEM:Window:317:12
+DARLING_MENUBAR_ITEM:Help:379:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12
+kill -9 459 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/universalaccesscontrol-73986a92/UniversalAccessControl.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_universalaccesscontrol-73986a92:${?})
+
+root@Darwin#

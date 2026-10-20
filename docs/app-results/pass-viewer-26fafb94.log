@@ -1,0 +1,28 @@
+(/usr/bin/darling open '/Applications/pass-viewer-26fafb94/Pass Viewer.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_pass-viewer-26fafb94:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:56
+DARLING_LAUNCH_BUNDLE:/Applications/pass-viewer-26fafb94/Pass Viewer.app:/Applications/pass-viewer-26fafb94/Pass Viewer.app/Contents/MacOS/Pass Viewer
+native dyld warning: unresolved import: _PKLogFacilityTypeGetObject
+native dyld warning: unresolved import: _PKOpenWalletPrefPaneForPass
+native dyld warning: unresolved import: _PKSecureElementIsAvailableWithCompletion
+native dyld warning: unresolved import: _PKStoreDemoModeEnabled
+native dyld warning: unresolved import: _PKValidateIssuerBindingData
+native dyld warning: unresolved import: _dispatch_group_create
+native dyld warning: unresolved import: _dispatch_group_enter
+native dyld warning: unresolved import: _dispatch_group_leave
+native dyld warning: unresolved import: _dispatch_group_wait
+native dyld warning: unresolved import: _NSUserActivityTypeBrowsingWeb
+native dyld warning: unresolved import: _NSURLContentTypeKey
+native dyld warning: unresolved import: _QLSeamlessOpeningDisplayStateScreenFrameKey
+native dyld warning: unresolved import: __UTTypePassData
+native dyld warning: unresolved import: __UTTypePassesData
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/pass-viewer-26fafb94/Pass Viewer.app/Contents/MacOS/Pass Viewer)
+[AppKit] loaded nib /Applications/pass-viewer-26fafb94/Pass Viewer.app/Contents/Resources/Base.lproj/MainMenu.nib: 1008 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101822fa0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101822fa0
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 56 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/pass-viewer-26fafb94/Pass Viewer.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_pass-viewer-26fafb94:${?})
+
+root@Darwin#

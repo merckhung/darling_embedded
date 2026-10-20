@@ -1,0 +1,38 @@
+(/usr/bin/darling open '/Applications/install-command-line-developer-tools-37cd490d/Install Command Line Developer Tools.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_install-command-line-developer-tools-37cd490d:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:152
+DARLING_LAUNCH_BUNDLE:/Applications/install-command-line-developer-tools-37cd490d/Install Command Line Developer Tools.app:/Applications/install-command-line-developer-tools-37cd490d/Install Command Line Developer Tools.app/Contents/MacOS/Install Command Line Developer Tools
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/install-command-line-developer-tools-37cd490d/Install Command Line Developer Tools.app/Contents/MacOS/Install Command Line Developer Tools)
+[AppKit] loaded nib /Applications/install-command-line-developer-tools-37cd490d/Install Command Line Developer Tools.app/Contents/Resources/Base.lproj/MainMenu.nib: 433 objects, 1 windows
+[AppKit] NSApplication delegate = 0xc54c047e0
+[AppKit] calling applicationDidFinishLaunching on delegate 0xc54c047e0
+[AppKit] returned from applicationDidFinishLaunching
+[AppKit] NSWindowController showWindow on 0x1015c3b30
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1015c2fa0 (title: )
+DARLING_WINDOW_READY::4194305:281:301:461:165
+DARLING_BUTTON_POS::Install:687:437
+DARLING_BUTTON_POS::Cancel:605:437
+[ObjC] Method not found: [NSApplication activate]
+DARLING_WINDOW_READY::4194305:281:301:461:165
+DARLING_BUTTON_POS::Install:687:437
+DARLING_BUTTON_POS::Cancel:605:437
+DARLING_WINDOW_READY::4194305:281:301:461:165
+DARLING_BUTTON_POS::Install:687:437
+DARLING_BUTTON_POS::Cancel:605:437
+DARLING_WINDOW_READY::4194305:281:301:461:165
+DARLING_BUTTON_POS::Install:687:437
+DARLING_BUTTON_POS::Cancel:605:437
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Install Command Line Developer Tools:176:12
+kill -9 152 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/install-command-line-developer-tools-37cd490d/Install Command Line Developer Tools.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_install-command-line-developer-tools-37cd490d:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

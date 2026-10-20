@@ -1,0 +1,17 @@
+(/usr/bin/darling open '/Applications/claude-helper-plugin-134f7da7/Claude Helper (Plugin).app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_claude-helper-plugin-134f7da7:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:14
+DARLING_LAUNCH_BUNDLE:/Applications/claude-helper-plugin-134f7da7/Claude Helper (Plugin).app:/Applications/claude-helper-plugin-134f7da7/Claude Helper (Plugin).app/Contents/MacOS/Claude Helper (Plugin)
+native dyld warning: unresolved import: _ElectronInitializeICUandStartNode
+native dyld warning: unresolved import: _ElectronMain
+native dyld warning: unresolved import: __ZN8electron5fuses18IsRunAsNodeEnabledEv
+native dyld warning: unresolved import: _os_release
+native dyld warning: unresolved import: _sandbox_free_error
+native dyld warning: unresolved import: _sandbox_init_with_parameters
+native dyld warning: unresolved import: _sandbox_apply
+PROBE_EXIT_claude-helper-plugin-134f7da7:0
+kill -9 14 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/claude-helper-plugin-134f7da7/Claude Helper (Plugin).app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_claude-helper-plugin-134f7da7:${?})
+
+root@Darwin#

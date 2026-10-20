@@ -1,0 +1,62 @@
+(/usr/bin/darling open '/Applications/folder-actions-setup-17e4aad7/Folder Actions Setup.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_folder-actions-setup-17e4aad7:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:58
+DARLING_LAUNCH_BUNDLE:/Applications/folder-actions-setup-17e4aad7/Folder Actions Setup.app:/Applications/folder-actions-setup-17e4aad7/Folder Actions Setup.app/Contents/MacOS/Folder Actions Setup
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/folder-actions-setup-17e4aad7/Folder Actions Setup.app/Contents/MacOS/Folder Actions Setup)
+[AppKit] loaded nib /Applications/folder-actions-setup-17e4aad7/Folder Actions Setup.app/Contents/Resources/Base.lproj/MainMenu.nib: 1467 objects, 2 windows
+[AppKit] NSApplication delegate = 0x101b73010
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101b73010
+[ObjC] Method not found: [NSObject automationAppLaunched]
+[ObjC] Method not found: [NSSplitView arrangedSubviews]
+[ObjC] Method not found: [NSSplitView setClipsToBounds:]
+[ObjC] Method not found: [unknown copy]
+[ObjC] Method not found: [NSSegmentedControl setEnabled:forSegment:]
+[ObjC] Method not found: [NSSegmentedControl setEnabled:forSegment:]
+[ObjC] Method not found: [NSSegmentedControl setEnabled:forSegment:]
+[ObjC] Method not found: [NSObject sharedDispatcher]
+[AppKit] returned from applicationDidFinishLaunching
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101b76c10 (title: Folder Actions Setup)
+DARLING_WINDOW_READY:Folder Actions Setup:4194305:335:34:480:372
+DARLING_BUTTON_POS:Folder Actions Setup:Enable Folder Actions:432:88
+DARLING_BUTTON_POS:Folder Actions Setup:Show Folder:464:383
+DARLING_BUTTON_POS:Folder Actions Setup:Edit Script:683:383
+DARLING_WINDOW_READY:Folder Actions Setup:4194305:335:34:480:372
+DARLING_BUTTON_POS:Folder Actions Setup:Enable Folder Actions:432:88
+DARLING_BUTTON_POS:Folder Actions Setup:Show Folder:464:383
+DARLING_BUTTON_POS:Folder Actions Setup:Edit Script:683:383
+DARLING_WINDOW_READY:Folder Actions Setup:4194305:335:34:480:372
+DARLING_BUTTON_POS:Folder Actions Setup:Enable Folder Actions:432:88
+DARLING_BUTTON_POS:Folder Actions Setup:Show Folder:464:383
+DARLING_BUTTON_POS:Folder Actions Setup:Edit Script:683:383
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Folder Actions Setup:120:12
+DARLING_MENUBAR_ITEM:File:221:12
+DARLING_MENUBAR_ITEM:Edit:265:12
+DARLING_MENUBAR_ITEM:Format:321:12
+DARLING_MENUBAR_ITEM:View:380:12
+DARLING_MENUBAR_ITEM:Window:443:12
+DARLING_MENUBAR_ITEM:Help:505:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Folder Actions Setup:120:12
+DARLING_MENUBAR_ITEM:File:221:12
+DARLING_MENUBAR_ITEM:Edit:265:12
+DARLING_MENUBAR_ITEM:Format:321:12
+DARLING_MENUBAR_ITEM:View:380:12
+DARLING_MENUBAR_ITEM:Window:443:12
+DARLING_MENUBAR_ITEM:Help:505:12
+DARLING_WINDOW_READY:Folder Actions Setup:4194305:335:34:480:372
+DARLING_BUTTON_POS:Folder Actions Setup:Enable Folder Actions:432:88
+DARLING_BUTTON_POS:Folder Actions Setup:Show Folder:464:383
+DARLING_BUTTON_POS:Folder Actions Setup:Edit Script:683:383
+kill -9 58 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/folder-actions-setup-17e4aad7/Folder Actions Setup.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_folder-actions-setup-17e4aad7:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

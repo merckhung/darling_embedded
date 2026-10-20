@@ -1,0 +1,54 @@
+==== Print Center ====
+Linked dylibs: 43, imported symbols: 1320
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/19	/System/Library/PrivateFrameworks/PrintKit.framework/Versions/A/PrintKit
+  NO       0/5	/System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintingPrivate
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  yes      17/110	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation12NotificationV19_bridgeToObjectiveCSo14NSNotificationCyF _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV4name6object8userInfoACSo18NSNotificationNamea_ypSgSDys11AnyHashableVypGSgtcfC _$s10Foundation12NotificationV6objectypSgvg _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg
+  yes      28/28	/usr/lib/libobjc.A.dylib
+  yes      60/69	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dispatch_queue_attr_make_with_autorelease_frequency _dispatch_queue_attr_make_with_qos_class _dlsym _notify_cancel _strnstr
+  NO       0/22	/System/Library/Frameworks/ActivityKit.framework/Versions/A/ActivityKit
+  NO       0/175	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      15/25	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSHelpManagerSystemBook _NSImageNameStatusAvailable _NSImageNameStatusPartiallyAvailable _NSImageNameStatusUnavailable _NSWindowDidBecomeKeyNotification _OBJC_CLASS_$_NSHelpManager
+  yes      0/24	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CPLCopyDefaultPrinterName _CPLResetPrintingPermissions _CPLResetPrintingSystem _CPLSetDefaultPrinterName _CPLUseLastPrinterAsCurrentPrinter _PJCLaunchPrintCenter
+  NO       0/14	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      10/16	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayContainsValue _NSURLContentTypeKey _NSURLIsExcludedFromBackupKey _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSURL
+  yes      3/3	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  NO       0/1	/System/Library/Frameworks/PDFKit.framework/Versions/A/PDFKit
+  NO       0/2	/System/Library/Frameworks/QuickLookThumbnailing.framework/Versions/A/QuickLookThumbnailing
+  NO       0/460	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/1	/System/Library/PrivateFrameworks/LinkMetadata.framework/Versions/A/LinkMetadata
+  NO       0/1	/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient
+  NO       0/29	/usr/lib/libcups.2.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/262	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/22	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/18	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/5	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Print Center: 36 of 43 linked libraries are absent from the guest root; 133 of 1320 imported symbols are provided (10.0758%).

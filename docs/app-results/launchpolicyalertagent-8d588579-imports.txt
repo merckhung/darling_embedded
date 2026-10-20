@@ -1,0 +1,35 @@
+==== LaunchPolicyAlertAgent ====
+Linked dylibs: 26, imported symbols: 204
+
+  present  provided/imported  library
+  NO       0/2	/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement
+  yes      3/34	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV6objectypSgvg _$s10Foundation12NotificationVMa _$s10Foundation17URLResourceValuesV13localizedNameSSSgvg _$s10Foundation17URLResourceValuesVMa _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      11/15	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _os_transaction_create _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      7/7	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      0/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSURLLocalizedNameKey
+  yes      2/2	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  NO       0/1	/System/Library/PrivateFrameworks/DMCUtilities.framework/Versions/A/DMCUtilities
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/111	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/6	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for LaunchPolicyAlertAgent: 20 of 26 linked libraries are absent from the guest root; 33 of 204 imported symbols are provided (16.1765%).

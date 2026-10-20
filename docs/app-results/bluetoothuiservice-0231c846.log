@@ -1,0 +1,13 @@
+(/usr/bin/darling open /Applications/bluetoothuiservice-0231c846/BluetoothUIService.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_bluetoothuiservice-0231c846:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:80
+DARLING_LAUNCH_BUNDLE:/Applications/bluetoothuiservice-0231c846/BluetoothUIService.app:/Applications/bluetoothuiservice-0231c846/BluetoothUIService.app/Contents/MacOS/BluetoothUIService
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBoWV
+PROBE_EXIT_bluetoothuiservice-0231c846:0
+kill -9 80 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/bluetoothuiservice-0231c846/BluetoothUIService.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_bluetoothuiservice-0231c846:${?})
+
+root@Darwin#

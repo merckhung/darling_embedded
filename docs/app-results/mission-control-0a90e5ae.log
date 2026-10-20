@@ -1,0 +1,11 @@
+(/usr/bin/darling open '/Applications/mission-control-0a90e5ae/Mission Control.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_mission-control-0a90e5ae:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:28
+DARLING_LAUNCH_BUNDLE:/Applications/mission-control-0a90e5ae/Mission Control.app:/Applications/mission-control-0a90e5ae/Mission Control.app/Contents/MacOS/Mission Control
+native dyld warning: unresolved import: _CoreDockSendNotification
+PROBE_EXIT_mission-control-0a90e5ae:0
+kill -9 28 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/mission-control-0a90e5ae/Mission Control.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_mission-control-0a90e5ae:${?})
+
+root@Darwin#

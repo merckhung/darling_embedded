@@ -1,0 +1,44 @@
+diff --git a/src/tools/sw_vers.c b/src/tools/sw_vers.c
+index 97a43cdc..8796eb11 100644
+--- a/src/tools/sw_vers.c
++++ b/src/tools/sw_vers.c
+@@ -28,9 +28,11 @@
+  */
+ 
+ #include <CoreFoundation/CoreFoundation.h>
+-#include <CoreFoundation/CFPriv.h>
++#include <stdio.h>
++#include <stdlib.h>
++#include <string.h>
+ 
+-void usage(char *progname) {
++static void usage(const char *progname) {
+ 	fprintf(stderr, "Usage: %s [-productName|-productVersion|-buildVersion]\n", progname);
+ 	exit(1);
+ }
+@@ -48,19 +50,21 @@ int main(int argc, char *argv[]) {
+ 	
+ 	if (argc == 2) {
+ 		if (!strcmp(argv[1], "-productName"))
+-			str = CFDictionaryGetValue(dict, _kCFSystemVersionProductNameKey);
++			str = (CFStringRef)CFDictionaryGetValue(dict, _kCFSystemVersionProductNameKey);
+ 		else if (!strcmp(argv[1], "-productVersion")) {
+ 			/* On Darwin, we set MacOSXProductVersion to the corresponding OS X release.
+ 			   This is for compatibility with scripts that set MACOSX_DEPLOYMENT_TARGET
+ 			   based on sw_vers -productVersion */
+-			str = CFDictionaryGetValue(dict, CFSTR("MacOSXProductVersion"));
++			str = (CFStringRef)CFDictionaryGetValue(dict, CFSTR("MacOSXProductVersion"));
+ 			if (str == NULL)
+-				str = CFDictionaryGetValue(dict, _kCFSystemVersionProductVersionKey);
++				str = (CFStringRef)CFDictionaryGetValue(dict, _kCFSystemVersionProductVersionKey);
+ 		}
+ 		else if (!strcmp(argv[1], "-buildVersion"))
+-			str = CFDictionaryGetValue(dict, _kCFSystemVersionBuildVersionKey);
++			str = (CFStringRef)CFDictionaryGetValue(dict, _kCFSystemVersionBuildVersionKey);
+ 		else
+ 			usage(argv[0]);
++		if (str == NULL)
++			exit(1);
+ 		CFRetain(str);
+ 	} else if (argc == 1) {
+ 		str = CFStringCreateWithFormat(NULL, NULL, 

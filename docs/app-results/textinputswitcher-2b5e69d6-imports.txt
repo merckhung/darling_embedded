@@ -1,0 +1,21 @@
+==== TextInputSwitcher ====
+Linked dylibs: 11, imported symbols: 95
+
+  present  provided/imported  library
+  yes      3/3	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      5/5	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/8	/System/Library/PrivateFrameworks/TextInputMenuUI.framework/Versions/A/TextInputMenuUI
+  yes      19/22	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFMachPortCreateWithPort _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSTimer
+  NO       0/0	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/14	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      14/14	/usr/lib/libobjc.A.dylib
+  yes      5/16	/usr/lib/libSystem.B.dylib
+             e.g. missing: _bootstrap_check_in _notify_get_state _notify_register_check _xpc_connection_create_mach_service _xpc_connection_resume _xpc_connection_send_message
+  yes      0/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _GetCGSConnectionID
+  yes      1/12	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventCreateKeyboardEvent _CGEventPost _CGEventSetFlags _CGSAreEventsCapturedReturningMask _CGSGetSymbolicHotKeyValue _CGSInputModifierKeyState
+
+Summary for TextInputSwitcher: 3 of 11 linked libraries are absent from the guest root; 47 of 95 imported symbols are provided (49.4737%).

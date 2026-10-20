@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/voicememos-e77c535c/VoiceMemos.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_voicememos-e77c535c:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:16
+DARLING_LAUNCH_BUNDLE:/Applications/voicememos-e77c535c/VoiceMemos.app:/Applications/voicememos-e77c535c/VoiceMemos.app/Contents/MacOS/VoiceMemos
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_voicememos-e77c535c:78
+kill -9 16 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/voicememos-e77c535c/VoiceMemos.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_voicememos-e77c535c:${?})
+
+root@Darwin#

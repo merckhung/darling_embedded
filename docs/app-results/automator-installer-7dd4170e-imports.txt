@@ -1,0 +1,15 @@
+==== Automator Installer ====
+Linked dylibs: 7, imported symbols: 38
+
+  present  provided/imported  library
+  NO       0/4	/System/Library/Frameworks/Automator.framework/Versions/A/Automator
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      2/2	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      13/13	/usr/lib/libobjc.A.dylib
+  yes      7/7	/usr/lib/libSystem.B.dylib
+  yes      3/4	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSWorkspaceOpenConfiguration
+  yes      3/8	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _NSURLTypeIdentifierKey _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL
+
+Summary for Automator Installer: 1 of 7 linked libraries are absent from the guest root; 28 of 38 imported symbols are provided (73.6842%).

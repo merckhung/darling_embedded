@@ -1,0 +1,28 @@
+==== System Events ====
+Linked dylibs: 16, imported symbols: 228
+
+  present  provided/imported  library
+  NO       0/3	/System/Library/PrivateFrameworks/FolderActionsKit.framework/Versions/A/FolderActionsKit
+  NO       0/0	/System/Library/Frameworks/Automator.framework/Versions/A/Automator
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      0/24	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXIsProcessTrusted _AXUIElementCopyActionDescription _AXUIElementCopyActionNames _AXUIElementCopyAttributeNames _AXUIElementCopyAttributeValue _AXUIElementCopyElementAtPosition
+  NO       0/6	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/0	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/0	/System/Library/Frameworks/ExtensionKit.framework/Versions/A/ExtensionKit
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      9/29	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: __NSObjectByConvertingAEDescriptorToTypeInSuite _NSFileBusy _NSFileHFSCreatorCode _NSFileHFSTypeCode _NSFileSystemFileNumber _OBJC_CLASS_$_NSAEDescriptorTranslator
+  yes      18/18	/usr/lib/libobjc.A.dylib
+  yes      12/12	/usr/lib/libSystem.B.dylib
+  yes      5/7	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSWorkspaceLaunchConfigurationArchitecture _OBJC_CLASS_$_NSRunningApplication
+  yes      31/87	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAllocatorAllocateTyped _CFAllocatorDeallocate _CFArrayGetFirstIndexOfValue _CFDataGetBytes _CFErrorCopyDescription _CFNullGetTypeID
+  yes      0/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGPostKeyboardEvent
+  yes      0/38	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateAppleEvent _AECreateDesc _AEDisposeDesc _AEGetAttributePtr _AEPutAttributeDesc _AEPutParamDesc
+  NO       0/2	/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+
+Summary for System Events: 7 of 16 linked libraries are absent from the guest root; 75 of 228 imported symbols are provided (32.8947%).

@@ -1,0 +1,43 @@
+(/usr/bin/darling open /Applications/HelloWorld.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_helloworld:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:10
+DARLING_LAUNCH_BUNDLE:/Applications/HelloWorld.app:/Applications/HelloWorld.app/Contents/MacOS/HelloWorld
+DARLING_HELLO_START
+[AppKit] calling applicationDidFinishLaunching on delegate 0x102195be0
+[AppKit] NSWindow makeKeyAndOrderFront on 0x102197880 (title: Hello World - Darling Mac OS X)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:HelloWorld:89:12
+DARLING_MENUBAR_ITEM:File:158:12
+DARLING_MENUBAR_ITEM:Edit:202:12
+DARLING_MENUBAR_ITEM:Window:261:12
+DARLING_MENUBAR_ITEM:Help:323:12
+DARLING_WINDOW_READY:Hello World - Darling Mac OS X:4194305:24:48:460:358
+DARLING_BUTTON_POS:Hello World - Darling Mac OS X:Say Hello!:254:376
+[Darling HelloWorld:10] HelloWorld.app GUI launched on XNU/Darwin via Darling
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Hello World - Darling Mac OS X:4194305:24:48:460:358
+DARLING_BUTTON_POS:Hello World - Darling Mac OS X:Say Hello!:254:376
+DARLING_WINDOW_READY:Hello World - Darling Mac OS X:4194305:24:48:460:358
+DARLING_BUTTON_POS:Hello World - Darling Mac OS X:Say Hello!:254:376
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:HelloWorld:89:12
+DARLING_MENUBAR_ITEM:File:158:12
+DARLING_MENUBAR_ITEM:Edit:202:12
+DARLING_MENUBAR_ITEM:Window:261:12
+DARLING_MENUBAR_ITEM:Help:323:12
+DARLING_WINDOW_READY:Hello World - Darling Mac OS X:4194305:24:48:460:358
+DARLING_BUTTON_POS:Hello World - Darling Mac OS X:Say Hello!:254:376
+DARLING_WINDOW_READY:Hello World - Darling Mac OS X:4194305:24:48:460:358
+DARLING_BUTTON_POS:Hello World - Darling Mac OS X:Say Hello!:254:376
+kill -9 10 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/HelloWorld.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_helloworld:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

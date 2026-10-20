@@ -1,0 +1,81 @@
+(/usr/bin/darling open '/Applications/dwell-control-e88bb1cd/Dwell Control.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_dwell-control-e88bb1cd:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:112
+DARLING_LAUNCH_BUNDLE:/Applications/dwell-control-e88bb1cd/Dwell Control.app:/Applications/dwell-control-e88bb1cd/Dwell Control.app/Contents/MacOS/Dwell Control
+native dyld warning: unresolved import: _SecTaskCopySigningIdentifier
+native dyld warning: unresolved import: _SecTaskCopyValueForEntitlement
+native dyld warning: unresolved import: _SecTaskCreateWithAuditToken
+native dyld warning: unresolved import: _AXFMap
+native dyld warning: unresolved import: _UAPreferencesSetBoolean
+native dyld warning: unresolved import: _UAPreferencesSynchronize
+native dyld warning: unresolved import: _ACSHEnableProcessKeepAlive
+native dyld warning: unresolved import: _ACSHIsAccessibilitySynthesizedMouseEvent
+native dyld warning: unresolved import: _ACSHIsPointWithinAssistiveControlMenuUI
+native dyld warning: unresolved import: _ACSHIsPointWithinAssistiveControlUI
+native dyld warning: unresolved import: _DCActionForUAVirtualKeyboardAction
+native dyld warning: unresolved import: _DCImageSymbolNameForAction
+native dyld warning: unresolved import: _UADFRInteractiveHUDSetEnabled
+native dyld warning: unresolved import: _UADwellActionType
+native dyld warning: unresolved import: _UADwellHideProgressIndicators
+native dyld warning: unresolved import: _UADwellIsAutoRevertToLeftClickEnabled
+native dyld warning: unresolved import: _UADwellIsEnabled
+native dyld warning: unresolved import: _UADwellIsOptionsMenuOpen
+native dyld warning: unresolved import: _UADwellIsScrollMenuOpen
+native dyld warning: unresolved import: _UADwellIsSingleAction
+native dyld warning: unresolved import: _UADwellIsZoomEnabled
+native dyld warning: unresolved import: _UADwellRetriggerTolerance
+native dyld warning: unresolved import: _UADwellSetActionType
+native dyld warning: unresolved import: _UADwellSetIsSingleAction
+native dyld warning: unresolved import: _UADwellSetShowMenuExtraEnabled
+native dyld warning: unresolved import: _UADwellShowMenuExtraEnabled
+native dyld warning: unresolved import: _UADwellTolerance
+native dyld warning: unresolved import: _UADwellWaitTime
+native dyld warning: unresolved import: _UASwitchControlIsEnabled
+native dyld warning: unresolved import: _UASwitchControlPlatformSwitchingAllowed
+native dyld warning: unresolved import: _UAVirtualKeyboardIsEnabled
+native dyld warning: unresolved import: _objc_getAssociatedObject
+native dyld warning: unresolved import: _objc_setAssociatedObject
+native dyld warning: unresolved import: _bootstrap_check_in
+native dyld warning: unresolved import: _dispatch_block_cancel
+native dyld warning: unresolved import: _dispatch_block_create
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _dispatch_set_target_queue
+native dyld warning: unresolved import: _AXUIElementCreateSystemWide
+native dyld warning: unresolved import: _AXUIElementSetMessagingTimeout
+native dyld warning: unresolved import: _CoreMenuExtraAddMenuExtra
+native dyld warning: unresolved import: _CoreMenuExtraGetMenuExtra
+native dyld warning: unresolved import: _CoreMenuExtraRemoveMenuExtra
+native dyld warning: unresolved import: _MSHCreateMIGServerSource
+native dyld warning: unresolved import: _UAZoomEnabled
+native dyld warning: unresolved import: _CFRunLoopSourceInvalidate
+native dyld warning: unresolved import: _CGEventCreateCopy
+native dyld warning: unresolved import: _CGEventGetIntegerValueField
+native dyld warning: unresolved import: _CGEventGetLocation
+native dyld warning: unresolved import: _CGEventGetType
+native dyld warning: unresolved import: _CGEventSetIntegerValueField
+native dyld warning: unresolved import: _CGEventSetType
+native dyld warning: unresolved import: _AXESynthesizedIgnoreEventSourceID
+native dyld warning: unresolved import: _UAAssistiveControlTypeKey
+native dyld warning: unresolved import: _UADomainAssistiveControlSettingsDidChangeNotification
+native dyld warning: unresolved import: _UADomainVirtualKeyboardSettingsDidChangeNotification
+native dyld warning: unresolved import: _UADwellActionTypeKey
+native dyld warning: unresolved import: _UADwellCursorColorTypeKey
+native dyld warning: unresolved import: _UADwellOptionsMenuOpenKey
+native dyld warning: unresolved import: _UADwellScrollMenuOpenKey
+native dyld warning: unresolved import: _UADwellShowMenuExtraKey
+native dyld warning: unresolved import: _UADwellZoomEnabledKey
+native dyld warning: unresolved import: _ACSHHotCornerEnteredNotification
+native dyld warning: unresolved import: _ACSHHotCornerExitedNotification
+native dyld warning: unresolved import: _kMaximumWindowLevel
+native dyld warning: unresolved import: _NSAccessibilityMenuBarRole
+native dyld warning: unresolved import: _NSAccessibilityMenuItemRole
+native dyld warning: unresolved import: _NSAccessibilityMenuRole
+native dyld warning: unresolved import: _NSAccessibilityScrollAreaRole
+PROBE_EXIT_dwell-control-e88bb1cd:255
+kill -9 112 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/dwell-control-e88bb1cd/Dwell Control.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_dwell-control-e88bb1cd:${?})
+
+root@Darwin#

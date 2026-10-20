@@ -1,0 +1,40 @@
+==== ClockAngel ====
+Linked dylibs: 31, imported symbols: 191
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/0	/System/Library/PrivateFrameworks/ElementRegistryClient.framework/Versions/A/ElementRegistryClient
+  NO       0/9	/System/Library/PrivateFrameworks/MobileTimerSupport.framework/Versions/A/MobileTimerSupport
+  NO       0/4	/System/Library/PrivateFrameworks/MobileTimer.framework/Versions/A/MobileTimer
+  NO       0/0	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  yes      5/16	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF _$s10Foundation4DateV3nowACvgZ _$s10Foundation4DateVMa _$s10Foundation4UUIDV36_unconditionallyBridgeFromObjectiveCyACSo6NSUUIDCSgFZ _$s10Foundation4UUIDVMa _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+  yes      18/18	/usr/lib/libobjc.A.dylib
+  yes      6/7	/usr/lib/libSystem.B.dylib
+             e.g. missing: ___chkstk_darwin
+  yes      2/3	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSLocale
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/108	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/16	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for ClockAngel: 27 of 31 linked libraries are absent from the guest root; 31 of 191 imported symbols are provided (16.2304%).

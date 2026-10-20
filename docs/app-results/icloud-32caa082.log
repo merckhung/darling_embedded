@@ -1,0 +1,90 @@
+(/usr/bin/darling open /Applications/icloud-32caa082/iCloud.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_icloud-32caa082:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:485
+DARLING_LAUNCH_BUNDLE:/Applications/icloud-32caa082/iCloud.app:/Applications/icloud-32caa082/iCloud.app/Contents/MacOS/iCloud
+native dyld warning: unresolved import: _AECreateDesc
+native dyld warning: unresolved import: _AECreateList
+native dyld warning: unresolved import: _AEPutDesc
+native dyld warning: unresolved import: _LSOpenFromURLSpec
+native dyld warning: unresolved import: _CKContainerEnvironmentFromString
+native dyld warning: unresolved import: _CKLocalizedString
+native dyld warning: unresolved import: _CKLocalizedStringFromTableInBundleVA
+native dyld warning: unresolved import: _CKSelectLocalAppNamesByBundleIDs
+native dyld warning: unresolved import: _TCCAccessCopyBundleIdentifiersDisabledForService
+native dyld warning: unresolved import: __os_activity_create
+native dyld warning: unresolved import: __os_feature_enabled_impl
+native dyld warning: unresolved import: _dispatch_queue_attr_make_with_autorelease_frequency
+native dyld warning: unresolved import: _dispatch_queue_attr_make_with_qos_class
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _os_activity_scope_enter
+native dyld warning: unresolved import: _os_activity_scope_leave
+native dyld warning: unresolved import: _CFUserNotificationCreate
+native dyld warning: unresolved import: _CFUserNotificationReceiveResponse
+native dyld warning: unresolved import: _NSAppearanceNameVibrantDark
+native dyld warning: unresolved import: _NSAppearanceNameVibrantLight
+native dyld warning: unresolved import: _kAccountDataclassCKDatabaseService
+native dyld warning: unresolved import: _kAccountDataclassCloudPhotos
+native dyld warning: unresolved import: _CKErrorAccountPrimaryEmailKey
+native dyld warning: unresolved import: _CKErrorDisabledAppLocalizedName
+native dyld warning: unresolved import: _CKErrorDomain
+native dyld warning: unresolved import: _CKFreeformFolderShareType
+native dyld warning: unresolved import: _CKFreeformShareType
+native dyld warning: unresolved import: _CKPartialErrorsByItemIDKey
+native dyld warning: unresolved import: _CKPhotosEPPMomentShareType
+native dyld warning: unresolved import: _CKPhotosSharedCollectionsShareType
+native dyld warning: unresolved import: _CKPhotosSharedLibraryShareType
+native dyld warning: unresolved import: _CKSafariTabGroupsShareType
+native dyld warning: unresolved import: _CKShareTitleKey
+native dyld warning: unresolved import: _CKShareTypeKey
+native dyld warning: unresolved import: _CKUnderlyingErrorDomain
+native dyld warning: unresolved import: ___sTestOverridesAvailable
+native dyld warning: unresolved import: _ck_log_facility_ck
+native dyld warning: unresolved import: _ck_log_initialization_block
+native dyld warning: unresolved import: _ck_log_initialization_predicate
+native dyld warning: unresolved import: _kCKCloudDocsContainerIdentifier
+native dyld warning: unresolved import: _kCKCloudDocsShareURLSlug
+native dyld warning: unresolved import: _kCKCompleteParticipantVettingVettingRecordBaseTokenKey
+native dyld warning: unresolved import: _kCKCompleteParticipantVettingVettingRecordContainerKey
+native dyld warning: unresolved import: _kCKCompleteParticipantVettingVettingRecordContainerName
+native dyld warning: unresolved import: _kCKCompleteParticipantVettingVettingRecordEmailKey
+native dyld warning: unresolved import: _kCKCompleteParticipantVettingVettingRecordEnvironmentKey
+native dyld warning: unresolved import: _kCKCompleteParticipantVettingVettingRecordPhoneKey
+native dyld warning: unresolved import: _kCKCompleteParticipantVettingVettingRecordRoutingKeyKey
+native dyld warning: unresolved import: _kCKCompleteParticipantVettingVettingRecordShareTitleKey
+native dyld warning: unresolved import: _kCKDisplaysSystemAcceptPromptEntitlementKey
+native dyld warning: unresolved import: _kCKFreeformFolderShareURLSlug
+native dyld warning: unresolved import: _kCKFreeformShareURLSlug
+native dyld warning: unresolved import: _kCKGenericShareURLSlug
+native dyld warning: unresolved import: _kCKKeynoteShareURLSlug
+native dyld warning: unresolved import: _kCKNotesShareURLSlug
+native dyld warning: unresolved import: _kCKNumbersShareURLSlug
+native dyld warning: unresolved import: _kCKPagesShareURLSlug
+native dyld warning: unresolved import: _kCKPhotosEPPMomentShareURLSlug
+native dyld warning: unresolved import: _kCKPhotosShareURLSlug
+native dyld warning: unresolved import: _kCKPhotosSharedCollectionsShareHostURLSlug
+native dyld warning: unresolved import: _kCKPhotosSharedCollectionsShareURLSlug
+native dyld warning: unresolved import: _kCKPhotosSharedCollectionsSharedAlbumURLSlug
+native dyld warning: unresolved import: _kCKPhotosSharedLibraryShareURLSlug
+native dyld warning: unresolved import: _kCKRemindersShareURLSlug
+native dyld warning: unresolved import: _kCKSafariTabGroupsShareURLSlug
+native dyld warning: unresolved import: _kCKShareBearAppIconName
+native dyld warning: unresolved import: _kCKShareDaemonPrefix
+native dyld warning: unresolved import: _kCKURLComponentsScheme
+native dyld warning: unresolved import: _kCKVettingURLSlug
+native dyld warning: unresolved import: _NSURLErrorDomain
+native dyld warning: unresolved import: _NSUserActivityTypeBrowsingWeb
+native dyld warning: unresolved import: _kTCCServiceLiverpool
+native dyld warning: unresolved import: __os_activity_current
+native dyld warning: unresolved import: _NSLocaleCountryCode
+native dyld warning: unresolved import: _kCFUserNotificationIconURLKey
+native dyld warning: unresolved import: _kCFUserNotificationLocalizationURLKey
+native dyld warning: unresolved import: _kCFUserNotificationOtherButtonTitleKey
+native dyld warning: unresolved import: _kCFUserNotificationPopUpTitlesKey
+[AppKit] delegate 0x101220bc0 does not respond to applicationDidFinishLaunching
+kill -9 485 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/icloud-32caa082/iCloud.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_icloud-32caa082:${?})
+
+root@Darwin#

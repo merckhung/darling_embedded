@@ -1,0 +1,48 @@
+(/usr/bin/darling open /Applications/escrowsecurityalert-0dcceed3/EscrowSecurityAlert.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_escrowsecurityalert-0dcceed3:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:118
+DARLING_LAUNCH_BUNDLE:/Applications/escrowsecurityalert-0dcceed3/EscrowSecurityAlert.app:/Applications/escrowsecurityalert-0dcceed3/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+native dyld warning: unresolved import: _CloudServicesInitializeLogging
+native dyld warning: unresolved import: _CloudServicesLog
+native dyld warning: unresolved import: _LSOpenFromURLSpec
+native dyld warning: unresolved import: _PCSPublicIdentityCopyPublicKey
+native dyld warning: unresolved import: _PCSPublicIdentityCreateWithPublicKeyInfo
+native dyld warning: unresolved import: _PCSServiceItemGetNumberByName
+native dyld warning: unresolved import: _PCSServiceItemTypeIsManatee
+native dyld warning: unresolved import: _PCSServiceItemsGetEachName
+native dyld warning: unresolved import: _SOSCCThisDeviceIsInCircle
+native dyld warning: unresolved import: _SecIsInternalRelease
+native dyld warning: unresolved import: _MGCopyAnswer
+native dyld warning: unresolved import: __os_feature_enabled_impl
+native dyld warning: unresolved import: _dispatch_activate
+native dyld warning: unresolved import: _dispatch_set_target_queue
+native dyld warning: unresolved import: _os_transaction_create
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _xpc_activity_get_state
+native dyld warning: unresolved import: _xpc_activity_register
+native dyld warning: unresolved import: _xpc_dictionary_get_string
+native dyld warning: unresolved import: _xpc_get_type
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _xpc_transaction_exit_clean
+native dyld warning: unresolved import: _kAOSUIDialogImageCloud
+native dyld warning: unresolved import: _ACAccountDataclassKeychainSync
+native dyld warning: unresolved import: _kSecureBackupDBRKey
+native dyld warning: unresolved import: _kSecureBackupIsEnabledKey
+native dyld warning: unresolved import: _kSecureBackupSuppressServerFiltering
+native dyld warning: unresolved import: _kSecureBackupSynchronizeKey
+native dyld warning: unresolved import: _kSecureBackupiCDPRecordsKey
+native dyld warning: unresolved import: _kPCSServiceEscrow
+native dyld warning: unresolved import: _kPCSServiceFDE
+native dyld warning: unresolved import: _kPCSServiceRaw
+native dyld warning: unresolved import: _OTDefaultContext
+native dyld warning: unresolved import: _SFAnalyticsSamplerIntervalOncePerReport
+native dyld warning: unresolved import: _XPC_ACTIVITY_CHECK_IN
+native dyld warning: unresolved import: __xpc_event_key_name
+native dyld warning: unresolved import: __xpc_type_dictionary
+[ObjC] Method not found: [NSUserNotificationCenter _centerForIdentifier:type:]
+PROBE_EXIT_escrowsecurityalert-0dcceed3:0
+kill -9 118 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/escrowsecurityalert-0dcceed3/EscrowSecurityAlert.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_escrowsecurityalert-0dcceed3:${?})
+
+root@Darwin#

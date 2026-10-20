@@ -1,0 +1,19 @@
+==== TMHelperAgent ====
+Linked dylibs: 9, imported symbols: 90
+
+  present  provided/imported  library
+  NO       0/6	/System/Library/PrivateFrameworks/TimeMachine.framework/Versions/A/TimeMachine
+  NO       0/0	/System/Library/PrivateFrameworks/TimeMachinePrivate.framework/Versions/A/TimeMachinePrivate
+  yes      10/12	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSUserNotificationAction
+  yes      23/23	/usr/lib/libobjc.A.dylib
+  yes      11/25	/usr/lib/libSystem.B.dylib
+             e.g. missing: _xpc_copy_description _xpc_dictionary_get_data _xpc_dictionary_get_string _xpc_dictionary_get_value _xpc_get_type _xpc_int64_get_value
+  yes      3/3	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      9/13	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL
+  yes      0/5	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateDesc _AECreateList _AEPutDesc _LSOpenFromURLSpec _kCSBackupdKeyErrorCode
+  NO       0/3	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+
+Summary for TMHelperAgent: 3 of 9 linked libraries are absent from the guest root; 56 of 90 imported symbols are provided (62.2222%).

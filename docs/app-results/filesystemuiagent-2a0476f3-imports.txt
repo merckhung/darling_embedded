@@ -1,0 +1,13 @@
+==== FileSystemUIAgent ====
+Linked dylibs: 4, imported symbols: 71
+
+  present  provided/imported  library
+  yes      0/1	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSDateComponentsFormatter
+  yes      6/6	/usr/lib/libobjc.A.dylib
+  yes      24/36	/usr/lib/libSystem.B.dylib
+             e.g. missing: _launch_data_array_get_index _launch_data_dict_get_count _launch_data_dict_lookup _launch_data_free _launch_data_get_errno _launch_data_get_fd
+  yes      18/28	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFLocaleCopyCurrent _CFNumberFormatterCreate _CFNumberFormatterCreateStringWithValue _CFURLCopyHostName _CFURLCreateStringByReplacingPercentEscapes _CFURLCreateWithBytes
+
+Summary for FileSystemUIAgent: 0 of 4 linked libraries are absent from the guest root; 48 of 71 imported symbols are provided (67.6056%).

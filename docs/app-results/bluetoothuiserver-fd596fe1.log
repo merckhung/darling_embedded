@@ -1,0 +1,59 @@
+(/usr/bin/darling open /Applications/bluetoothuiserver-fd596fe1/BluetoothUIServer.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_bluetoothuiserver-fd596fe1:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:78
+DARLING_LAUNCH_BUNDLE:/Applications/bluetoothuiserver-fd596fe1/BluetoothUIServer.app:/Applications/bluetoothuiserver-fd596fe1/BluetoothUIServer.app/Contents/MacOS/BluetoothUIServer
+native dyld warning: unresolved import: _CPLRemovePrinter
+native dyld warning: unresolved import: _PMPrinterCopyDeviceURI
+native dyld warning: unresolved import: _PMPrinterGetID
+native dyld warning: unresolved import: _PMServerCreatePrinterList
+native dyld warning: unresolved import: _IOBluetoothGetMajorClassOfDeviceString
+native dyld warning: unresolved import: _IOBluetoothConsoleUserName
+native dyld warning: unresolved import: _IOBluetoothNSStringToDeviceAddress
+native dyld warning: unresolved import: _IOBluetoothNumberOfKeyboardHIDDevices
+native dyld warning: unresolved import: _IOBluetoothNumberOfPointingHIDDevices
+native dyld warning: unresolved import: _xpc_array_get_bool
+native dyld warning: unresolved import: _xpc_array_get_count
+native dyld warning: unresolved import: _xpc_array_get_int64
+native dyld warning: unresolved import: _xpc_array_get_string
+native dyld warning: unresolved import: _xpc_array_get_value
+native dyld warning: unresolved import: _xpc_bool_create
+native dyld warning: unresolved import: _xpc_connection_create_mach_service
+native dyld warning: unresolved import: _xpc_connection_get_audit_token
+native dyld warning: unresolved import: _xpc_connection_get_euid
+native dyld warning: unresolved import: _xpc_connection_get_pid
+native dyld warning: unresolved import: _xpc_connection_resume
+native dyld warning: unresolved import: _xpc_connection_send_message
+native dyld warning: unresolved import: _xpc_connection_set_event_handler
+native dyld warning: unresolved import: _xpc_connection_set_target_queue
+native dyld warning: unresolved import: _xpc_copy_description
+native dyld warning: unresolved import: _xpc_copy_entitlement_for_token
+native dyld warning: unresolved import: _xpc_dictionary_create
+native dyld warning: unresolved import: _xpc_dictionary_get_bool
+native dyld warning: unresolved import: _xpc_dictionary_get_string
+native dyld warning: unresolved import: _xpc_dictionary_get_value
+native dyld warning: unresolved import: _xpc_get_type
+native dyld warning: unresolved import: _xpc_int64_create
+native dyld warning: unresolved import: _xpc_string_create
+native dyld warning: unresolved import: _CFURLGetString
+native dyld warning: unresolved import: __CFXPCCreateCFObjectFromXPCObject
+native dyld warning: unresolved import: _CBAdvertisementDataAppleMfgData
+native dyld warning: unresolved import: _CBAdvertisementDataManufacturerDataKey
+native dyld warning: unresolved import: _CBManagerIsIOBluetoothShim
+native dyld warning: unresolved import: __xpc_type_array
+native dyld warning: unresolved import: __xpc_type_connection
+native dyld warning: unresolved import: __xpc_type_dictionary
+native dyld warning: unresolved import: _NSApplicationLaunchUserNotificationKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/bluetoothuiserver-fd596fe1/BluetoothUIServer.app/Contents/MacOS/BluetoothUIServer)
+[ObjC] Method not found: [NSUserNotificationCenter _centerForIdentifier:type:]
+[ObjC] Method not found: [NSObject initWithQueue:options:]
+[AppKit] loaded nib /Applications/bluetoothuiserver-fd596fe1/BluetoothUIServer.app/Contents/Resources/Base.lproj/MainMenu.nib: 25 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1018ef840
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1018ef840
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_APP_TERMINATE:pid=78
+PROBE_EXIT_bluetoothuiserver-fd596fe1:0
+kill -9 78 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/bluetoothuiserver-fd596fe1/BluetoothUIServer.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_bluetoothuiserver-fd596fe1:${?})
+
+root@Darwin#

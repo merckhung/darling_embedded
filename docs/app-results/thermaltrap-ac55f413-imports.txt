@@ -1,0 +1,22 @@
+==== ThermalTrap ====
+Linked dylibs: 11, imported symbols: 133
+
+  present  provided/imported  library
+  NO       0/1	/usr/lib/libsystemstats.dylib
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      7/8	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSLayoutConstraint
+  yes      18/18	/usr/lib/libobjc.A.dylib
+  yes      19/34	/usr/lib/libSystem.B.dylib
+             e.g. missing: _xpc_array_get_bool _xpc_array_get_count _xpc_array_get_double _xpc_array_get_string _xpc_array_get_uint64 _xpc_connection_create_mach_service
+  yes      11/11	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/3	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  yes      16/24	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSDefaultRunLoopMode _NSURLLocalizedNameKey _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSMutableSet _OBJC_CLASS_$_NSNull _OBJC_CLASS_$_NSRunLoop
+  yes      2/11	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGDisplayHideCursor _CGDisplayShowCursor _CGSAddWindowsToSpaces _CGSSetConnectionProperty _CGSShowSpaces _CGSSpaceCreate
+  yes      0/9	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSCopyApplicationURLsForBundleIdentifier __LSCopyApplicationInformationItem __LSCopyMatchingApplicationsWithItems __LSCopyRunningApplicationArray _OBJC_CLASS_$_LSPlugInKitProxy __kLSApplicationForegroundTypeKey
+  NO       0/13	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+
+Summary for ThermalTrap: 4 of 11 linked libraries are absent from the guest root; 73 of 133 imported symbols are provided (54.8872%).

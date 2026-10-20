@@ -1,0 +1,29 @@
+==== MTLReplayer ====
+Linked dylibs: 20, imported symbols: 158
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/GPURawCounter.framework/Versions/A/GPURawCounter
+  NO       0/0	/usr/lib/libIOReport.dylib
+  NO       0/0	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/24	/System/Library/PrivateFrameworks/GPUToolsTransport.framework/Versions/A/GPUToolsTransport
+  yes      0/0	/usr/lib/libz.1.dylib
+  NO       0/0	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      7/11	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGDataProviderCreateWithCFData _CGDataProviderRelease _CGImageCreate _CGRectContainsRect
+  NO       0/0	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+  NO       0/0	/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+  NO       0/8	/System/Library/Frameworks/Metal.framework/Versions/A/Metal (weak)
+  NO       0/1	/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit
+  yes      8/8	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/10	/System/Library/PrivateFrameworks/GPUToolsReplay.framework/Versions/A/GPUToolsReplay
+  NO       0/0	/usr/lib/libcompression.dylib
+  yes      12/12	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      27/27	/usr/lib/libobjc.A.dylib
+  yes      42/49	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Exit __os_log_fault_impl __os_signpost_emit_with_name_impl _mach_memory_entry_ownership _os_signpost_enabled _os_variant_allows_internal_security_policies
+  yes      6/8	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSSet
+
+Summary for MTLReplayer: 13 of 20 linked libraries are absent from the guest root; 102 of 158 imported symbols are provided (64.557%).

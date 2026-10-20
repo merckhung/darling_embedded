@@ -1,0 +1,46 @@
+==== Image Playground ====
+Linked dylibs: 38, imported symbols: 365
+
+  present  provided/imported  library
+  NO       0/116	/System/Library/PrivateFrameworks/ImagePlaygroundInternal.framework/Versions/A/ImagePlaygroundInternal
+  NO       0/3	/System/Library/Frameworks/ImagePlayground.framework/Versions/A/ImagePlayground
+  yes      0/7	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation3URLV6stringACSgSSh_tcfC _$s10Foundation3URLVMa _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF _$sSb10FoundationE19_bridgeToObjectiveCSo8NSNumberCyF
+  yes      9/9	/usr/lib/libobjc.A.dylib
+  yes      5/6	/usr/lib/libSystem.B.dylib
+             e.g. missing: ___chkstk_darwin
+  yes      1/1	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      1/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  NO       0/1	/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+  NO       0/148	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/65	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftGLKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/2	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Image Playground: 33 of 38 linked libraries are absent from the guest root; 16 of 365 imported symbols are provided (4.38356%).

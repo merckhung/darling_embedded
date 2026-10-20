@@ -1,0 +1,82 @@
+==== Home ====
+Linked dylibs: 71, imported symbols: 996
+
+  present  provided/imported  library
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/_AppIntents_SwiftUI.framework/Versions/A/_AppIntents_SwiftUI
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/HomeAppIntents.framework/Versions/A/HomeAppIntents (weak)
+  NO       0/0	/System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/CoreCDP
+  NO       0/0	/System/Library/PrivateFrameworks/HomeKitFeatures.framework/Versions/A/HomeKitFeatures
+  NO       0/0	/System/Library/PrivateFrameworks/CoreCDPUI.framework/Versions/A/CoreCDPUI
+  NO       0/0	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+  NO       0/27	/System/iOSSupport/System/Library/PrivateFrameworks/HomeAccessoryControlUI.framework/Versions/A/HomeAccessoryControlUI
+  NO       0/0	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/5	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/40	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/AppSupportUI.framework/Versions/A/AppSupportUI
+  NO       0/0	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_NSUserActivity
+  NO       0/24	/System/iOSSupport/System/Library/PrivateFrameworks/HomeDataModel.framework/Versions/A/HomeDataModel (weak)
+  NO       0/0	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      8/8	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  NO       0/0	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/122	/System/iOSSupport/System/Library/PrivateFrameworks/Home.framework/Versions/A/Home
+  NO       0/6	/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI2.framework/Versions/A/HomeUI2
+  NO       0/51	/System/iOSSupport/System/Library/Frameworks/HomeKit.framework/Versions/A/HomeKit
+  NO       0/109	/System/iOSSupport/System/Library/PrivateFrameworks/HomeUI.framework/Versions/A/HomeUI
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/HomeUICommon.framework/Versions/A/HomeUICommon (weak)
+  NO       0/6	/System/iOSSupport/System/Library/PrivateFrameworks/HomeRecommendationEngine.framework/Versions/A/HomeRecommendationEngine
+  NO       0/1	/System/Library/PrivateFrameworks/HMFoundation.framework/Versions/A/HMFoundation
+  NO       0/2	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/0	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/ManagedConfiguration.framework/Versions/A/ManagedConfiguration
+  NO       0/5	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/2	/System/Library/PrivateFrameworks/NetAppsUtilities.framework/Versions/A/NetAppsUtilities
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/0	/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+  NO       0/3	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/6	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/81	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+  yes      17/71	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation12URLQueryItemV4name5valueACSSh_SSSghtcfC _$s10Foundation12URLQueryItemVMa _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF _$s10Foundation23LocalizedStringResourceV13stringLiteralACSS_tcfC _$s10Foundation23LocalizedStringResourceVMa
+  yes      30/60	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_release_x1 _objc_release_x19 _objc_release_x20 _objc_release_x21 _objc_release_x22 _objc_release_x23
+  yes      24/32	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_feature_enabled_impl __os_log_fault_impl __os_signpost_emit_with_name_impl _os_signpost_enabled _OBJC_CLASS_$_OS_dispatch_queue
+  yes      13/21	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAllocatorGetDefault _OBJC_CLASS_$_NSCalendar _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSMutableSet _OBJC_CLASS_$_NSNull _OBJC_CLASS_$_NSSet
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/225	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/13	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/6	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/21	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/25	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Home: 65 of 71 linked libraries are absent from the guest root; 92 of 996 imported symbols are provided (9.23695%).

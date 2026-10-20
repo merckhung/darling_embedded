@@ -1,0 +1,20 @@
+==== UIKitSystem ====
+Linked dylibs: 10, imported symbols: 31
+
+  present  provided/imported  library
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationWorkspace
+  NO       0/0	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/FuseBoard.framework/Versions/A/FuseBoard
+  NO       0/0	/usr/lib/libAccessibility.dylib
+  yes      3/3	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      7/7	/usr/lib/libobjc.A.dylib
+  yes      5/7	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dlopen _dlsym
+  yes      7/9	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFMachPortCreateWithPort _OBJC_CLASS_$_NSRunLoop
+  yes      1/3	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventCreateNextEvent _CGSGetEventPort
+
+Summary for UIKitSystem: 4 of 10 linked libraries are absent from the guest root; 23 of 31 imported symbols are provided (74.1935%).

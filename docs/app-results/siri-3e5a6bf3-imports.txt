@@ -1,0 +1,14 @@
+==== Siri ====
+Linked dylibs: 6, imported symbols: 4
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      0/0	/usr/lib/libobjc.A.dylib
+  yes      0/0	/usr/lib/libSystem.B.dylib
+  yes      2/3	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFURLCreateWithFileSystemPath
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSOpenCFURLRef
+
+Summary for Siri: 0 of 6 linked libraries are absent from the guest root; 2 of 4 imported symbols are provided (50%).

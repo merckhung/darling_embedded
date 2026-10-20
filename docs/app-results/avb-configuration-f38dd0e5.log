@@ -1,0 +1,61 @@
+(/usr/bin/darling open '/Applications/avb-configuration-f38dd0e5/AVB Configuration.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_avb-configuration-f38dd0e5:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:26
+DARLING_LAUNCH_BUNDLE:/Applications/avb-configuration-f38dd0e5/AVB Configuration.app:/Applications/avb-configuration-f38dd0e5/AVB Configuration.app/Contents/MacOS/AVB Configuration
+native dyld warning: unresolved import: _AnalyticsSendEvent
+native dyld warning: unresolved import: __os_feature_enabled_impl
+native dyld warning: unresolved import: _dispatch_activate
+native dyld warning: unresolved import: _dispatch_queue_attr_make_with_autorelease_frequency
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _CGAffineTransformMakeRotation
+native dyld warning: unresolved import: _CGAffineTransformTranslate
+native dyld warning: unresolved import: _kSCNetworkInterfaceType6to4
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeBluetooth
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeBond
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeEthernet
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeFireWire
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeIEEE80211
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeIPSec
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeIPv4
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeL2TP
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeVLAN
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeWWAN
+native dyld warning: unresolved import: _AVB17221AECPAEMMaximumAudioMappingsPerCommand
+native dyld warning: unresolved import: _AVB17221AECPAEMMaximumSensorMappingsPerCommand
+native dyld warning: unresolved import: _AVB17221AECPAEMMaximumVideoMappingsPerCommand
+native dyld warning: unresolved import: _AVBNullEUI64
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinChannelCount
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinConfigPerCount
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinInputStreamCount
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinOutputStreamCount
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUse176k4
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUse192k
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUse44k1
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUse48k
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUse88k2
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUse96k
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUseAAFFloat
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUseAAFInt
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUseAM824
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUseCRF
+native dyld warning: unresolved import: _AVBVirtualAudioBuiltinUseUpTo
+native dyld warning: unresolved import: _NSKeyValueChangeNewKey
+native dyld warning: unresolved import: _NSKeyValueChangeOldKey
+native dyld warning: unresolved import: _NSLocalizedRecoverySuggestionErrorKey
+native dyld warning: unresolved import: _NSImageNameNetwork
+native dyld warning: unresolved import: _NSViewBoundsDidChangeNotification
+[ObjC] Method not found: [NSWindow setAllowsAutomaticWindowTabbing:]
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/avb-configuration-f38dd0e5/AVB Configuration.app/Contents/MacOS/AVB Configuration)
+XNU_EXC: exc=1 codes=0x1 0x9
+XNU_EXC: exc=10 codes=0xb100001 0x9
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 26
+Segmentation fault: 11
+PROBE_EXIT_avb-configuration-f38dd0e5:139
+kill -9 26 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/avb-configuration-f38dd0e5/AVB Configuration.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_avb-configuration-f38dd0e5:${?})
+
+root@Darwin#

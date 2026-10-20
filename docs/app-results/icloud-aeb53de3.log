@@ -1,0 +1,17 @@
+(/usr/bin/darling open /Applications/icloud-aeb53de3/iCloud+.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_icloud-aeb53de3:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:483
+DARLING_LAUNCH_BUNDLE:/Applications/icloud-aeb53de3/iCloud+.app:/Applications/icloud-aeb53de3/iCloud+.app/Contents/MacOS/iCloud+
+native dyld warning: unresolved import: __ICQGetLogSystem
+native dyld warning: unresolved import: __ICQStringForAction
+native dyld warning: unresolved import: _ICQActionParameterSkipCFUKey
+native dyld warning: unresolved import: _NSUserActivityTypeBrowsingWeb
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/icloud-aeb53de3/iCloud+.app/Contents/MacOS/iCloud+)
+[AppKit] loaded nib /Applications/icloud-aeb53de3/iCloud+.app/Contents/Resources/MainMenu.nib: 28 objects, 0 windows
+[AppKit] NSApplication delegate = 0x10203f520
+[AppKit] delegate 0x10203f520 does not respond to applicationDidFinishLaunching
+kill -9 483 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/icloud-aeb53de3/iCloud+.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_icloud-aeb53de3:${?})
+
+root@Darwin#

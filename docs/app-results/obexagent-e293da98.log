@@ -1,0 +1,67 @@
+(/usr/bin/darling open /Applications/obexagent-e293da98/OBEXAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_obexagent-e293da98:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:48
+DARLING_LAUNCH_BUNDLE:/Applications/obexagent-e293da98/OBEXAgent.app:/Applications/obexagent-e293da98/OBEXAgent.app/Contents/MacOS/OBEXAgent
+native dyld warning: unresolved import: _AnalyticsSendEventLazy
+native dyld warning: unresolved import: _IOBluetoothGetUniqueFileNameAndPath
+native dyld warning: unresolved import: _IOBluetoothOBEXSessionCreateWithIncomingIOBluetoothRFCOMMChannel
+native dyld warning: unresolved import: _IOBluetoothPreferenceGetBrowseConnectionHandling
+native dyld warning: unresolved import: _IOBluetoothPreferenceGetOBEXFTPRootFolderLocation
+native dyld warning: unresolved import: _IOBluetoothPreferenceGetOBEXFileExchangeSaveToLocation
+native dyld warning: unresolved import: _IOBluetoothPreferenceGetOBEXFileHandling
+native dyld warning: unresolved import: _IOBluetoothPreferenceGetOBEXOtherDataDisposition
+native dyld warning: unresolved import: _IOBluetoothUpdateSystemActivity
+native dyld warning: unresolved import: _NSStringPathResolveAliasesAndLinks
+native dyld warning: unresolved import: _NSStringPathToCFURL
+native dyld warning: unresolved import: _OBEXGetHeaders
+native dyld warning: unresolved import: _OBEXSessionAbortResponse
+native dyld warning: unresolved import: _OBEXSessionConnectResponse
+native dyld warning: unresolved import: _OBEXSessionDisconnectResponse
+native dyld warning: unresolved import: _OBEXSessionGetResponse
+native dyld warning: unresolved import: _OBEXSessionPutResponse
+native dyld warning: unresolved import: _OBEXSessionSetPathResponse
+native dyld warning: unresolved import: _bcmp
+native dyld warning: unresolved import: _NSBeginAlertSheet
+native dyld warning: unresolved import: _NSGetAlertPanel
+native dyld warning: unresolved import: _NSReleaseAlertPanel
+native dyld warning: unresolved import: _PlotIconRefInContext
+native dyld warning: unresolved import: _CFDataGetBytes
+native dyld warning: unresolved import: _CFDictionaryGetCountOfKey
+native dyld warning: unresolved import: _FSPathMakeRef
+native dyld warning: unresolved import: _FSRefMakePath
+native dyld warning: unresolved import: _FSResolveAliasFileWithMountFlags
+native dyld warning: unresolved import: _GetIconRef
+native dyld warning: unresolved import: _LSCopyItemInfoForURL
+native dyld warning: unresolved import: _LSCopyKindStringForTypeInfo
+native dyld warning: unresolved import: _ReleaseIconRef
+native dyld warning: unresolved import: _gAppleMacintoshClassUUID
+native dyld warning: unresolved import: _gAppleMacintoshClassUUIDSize
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyBody
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyConnectionID
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyCount
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyEndOfBody
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyLength
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyName
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyTarget
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyType
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyUserDefined
+native dyld warning: unresolved import: _kOBEXHeaderIDKeyWho
+native dyld warning: unresolved import: _NSFileSize
+native dyld warning: unresolved import: _NSImageNameCaution
+native dyld warning: unresolved import: _NSImageNameFolder
+native dyld warning: unresolved import: _NSImageNameRevealFreestandingTemplate
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/obexagent-e293da98/OBEXAgent.app/Contents/MacOS/OBEXAgent)
+[AppKit] loaded nib /Applications/obexagent-e293da98/OBEXAgent.app/Contents/Resources/Base.lproj/MainMenu.nib: 176 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1012f68c0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1012f68c0
+[ObjC] Method not found: [NSMutableArray initWithCapacity:]
+[ObjC] Method not found: [NSMutableArray initWithCapacity:]
+[Darling OBEXAgent:48] Empty Channel or failed to register terminating
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 48 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/obexagent-e293da98/OBEXAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_obexagent-e293da98:${?})
+
+root@Darwin#

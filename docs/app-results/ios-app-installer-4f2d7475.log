@@ -1,0 +1,43 @@
+(/usr/bin/darling open '/Applications/ios-app-installer-4f2d7475/iOS App Installer.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_ios-app-installer-4f2d7475:$?) & PROBE_PID=$!
+PROBE_CHILD:66
+
+root@Darwin# DARLING_LAUNCH_BUNDLE:/Applications/ios-app-installer-4f2d7475/iOS App Installer.app:/Applications/ios-app-installer-4f2d7475/iOS App Installer.app/Contents/MacOS/iOS App Installer
+native dyld warning: unresolved import: _MOLogWrite
+native dyld warning: unresolved import: _container_error_copy_unlocalized_description
+native dyld warning: unresolved import: _MIFunctionNameErrorKey
+native dyld warning: unresolved import: _MIInstallerErrorDomain
+native dyld warning: unresolved import: _MISourceFileLineErrorKey
+native dyld warning: unresolved import: _NSLocalizedRecoverySuggestionErrorKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/ios-app-installer-4f2d7475/iOS App Installer.app/Contents/MacOS/iOS App Installer)
+[AppKit] loaded nib /Applications/ios-app-installer-4f2d7475/iOS App Installer.app/Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib: 204 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101eeaad0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101eeaad0
+[Darling iOS App Installer:66] IPAInstaller was launched by claiming the IPA
+[Darling iOS App Installer:66] Terminating IPAInstaller as nothing is pending.
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] returned from applicationDidFinishLaunching
+[AppKit] nib: no outlet 'sceneController' on AppDelegate
+[AppKit] nib: no outlet 'storyboard' on SplitViewController
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101eea7f0 (title: IPAInstaller)
+DARLING_WINDOW_READY:IPAInstaller:4194305:173:192:843:153
+[AppKit] loaded nib /Applications/ios-app-installer-4f2d7475/iOS App Installer.app/Contents/Resources/Base.lproj/Main.storyboardc/MainWindow.nib: 73 objects, 1 windows
+DARLING_WINDOW_READY:IPAInstaller:4194305:173:192:843:153
+DARLING_WINDOW_READY:IPAInstaller:4194305:173:192:843:153
+DARLING_WINDOW_READY:IPAInstaller:4194305:173:192:843:153
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:iOS App Installer:107:12
+DARLING_MENUBAR_ITEM:File:194:12
+DARLING_MENUBAR_ITEM:Window:252:12
+DARLING_MENUBAR_ITEM:Help:314:12
+kill -9 66 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/ios-app-installer-4f2d7475/iOS App Installer.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_ios-app-installer-4f2d7475:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

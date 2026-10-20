@@ -1,0 +1,26 @@
+==== Grapher ====
+Linked dylibs: 14, imported symbols: 407
+
+  present  provided/imported  library
+  NO       0/8	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/3	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/5	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/56	/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+  NO       0/2	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  yes      43/60	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSCopyObject _NSFileTypeForHFSTypeCode _NSIntersectsRect __NSDictionaryOfVariableBindings _NSUndoManagerDidRedoChangeNotification _NSUndoManagerDidUndoChangeNotification
+  yes      25/26	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_exception_throw
+  yes      51/70	/usr/lib/libSystem.B.dylib
+             e.g. missing: _cacos _casin _catan _ccos _cexp _clog
+  yes      84/143	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSBeginAlertSheet _NSBeginInformationalAlertSheet _NSBitsPerPixelFromDepth _NSDrawWindowBackground _NSSetFocusRingStyle _NSShowSystemInfoPanel
+  yes      10/22	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSDefaultRunLoopMode _NSLocaleDecimalSeparator _NSMallocException _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSException _OBJC_CLASS_$_NSLocale
+  yes      5/11	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGContextDrawShading _CGFunctionCreate _CGFunctionRelease _CGShadingCreateAxial _CGShadingCreateRadial _CGShadingRelease
+  NO       0/1	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+
+Summary for Grapher: 7 of 14 linked libraries are absent from the guest root; 218 of 407 imported symbols are provided (53.5627%).

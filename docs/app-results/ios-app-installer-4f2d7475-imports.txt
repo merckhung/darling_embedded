@@ -1,0 +1,22 @@
+==== iOS App Installer ====
+Linked dylibs: 12, imported symbols: 86
+
+  present  provided/imported  library
+  NO       0/7	/System/Library/PrivateFrameworks/MobileInstallation.framework/Versions/A/MobileInstallation
+  NO       0/1	/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/AppStoreDaemon
+  NO       0/0	/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+  NO       0/1	/System/Library/PrivateFrameworks/MobileSystemServices.framework/Versions/A/MobileSystemServices
+  NO       0/0	/usr/lib/libmis.dylib
+  NO       0/4	/System/Library/PrivateFrameworks/InstallCoordination.framework/Versions/A/InstallCoordination
+  yes      16/17	/usr/lib/libSystem.B.dylib
+             e.g. missing: _container_error_copy_unlocalized_description
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      10/11	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSLocalizedRecoverySuggestionErrorKey
+  yes      23/23	/usr/lib/libobjc.A.dylib
+  yes      13/14	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSRunningApplication
+  yes      6/8	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSMutableOrderedSet _OBJC_CLASS_$_NSURL
+
+Summary for iOS App Installer: 6 of 12 linked libraries are absent from the guest root; 68 of 86 imported symbols are provided (79.0698%).

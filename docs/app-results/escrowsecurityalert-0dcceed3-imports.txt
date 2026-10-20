@@ -1,0 +1,27 @@
+==== EscrowSecurityAlert ====
+Linked dylibs: 16, imported symbols: 139
+
+  present  provided/imported  library
+  NO       0/2	/System/Library/PrivateFrameworks/AOSUI.framework/Versions/A/AOSUI
+  NO       0/3	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/0	/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+  NO       0/1	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/10	/System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/CloudServices
+  NO       0/2	/System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/CoreCDP
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSOpenFromURLSpec
+  NO       0/1	/System/Library/PrivateFrameworks/OctagonTrust.framework/Versions/A/OctagonTrust
+  NO       0/8	/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Versions/A/ProtectedCloudStorage
+  yes      0/7	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SOSCCThisDeviceIsInCircle _SecIsInternalRelease _OBJC_CLASS_$_CKKSControl _OBJC_CLASS_$_OTClique _OBJC_CLASS_$_OTConfigurationContext _OTDefaultContext
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/AppleIDAuthSupport.framework/Versions/A/AppleIDAuthSupport
+  yes      11/14	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSDateInterval _OBJC_CLASS_$_NSJSONSerialization
+  yes      29/29	/usr/lib/libobjc.A.dylib
+  yes      23/37	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_feature_enabled_impl _dispatch_activate _dispatch_set_target_queue _os_transaction_create _os_variant_has_internal_diagnostics _xpc_activity_get_state
+  yes      20/23	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSSet _OBJC_CLASS_$_NSURL
+
+Summary for EscrowSecurityAlert: 10 of 16 linked libraries are absent from the guest root; 83 of 139 imported symbols are provided (59.7122%).

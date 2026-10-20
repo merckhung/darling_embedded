@@ -1,0 +1,67 @@
+(/usr/bin/darling open '/Applications/ticket-viewer-11555a59/Ticket Viewer.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_ticket-viewer-11555a59:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:62
+DARLING_LAUNCH_BUNDLE:/Applications/ticket-viewer-11555a59/Ticket Viewer.app:/Applications/ticket-viewer-11555a59/Ticket Viewer.app/Contents/MacOS/Ticket Viewer
+native dyld warning: unresolved import: _GSSItemAdd
+native dyld warning: unresolved import: _GSSItemCopyMatching
+native dyld warning: unresolved import: _GSSItemDeleteItem
+native dyld warning: unresolved import: _GSSItemGetValue
+native dyld warning: unresolved import: _GSSItemOperation
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _CFDictionaryAddValue
+native dyld warning: unresolved import: ___kGSSOperationAcquire
+native dyld warning: unresolved import: ___kGSSOperationChangePassword
+native dyld warning: unresolved import: ___kGSSOperationCredentialDiagnostics
+native dyld warning: unresolved import: ___kGSSOperationDestroyTransient
+native dyld warning: unresolved import: ___kGSSOperationRemoveBackingCredential
+native dyld warning: unresolved import: ___kGSSOperationRenewCredential
+native dyld warning: unresolved import: ___kGSSOperationSetDefault
+native dyld warning: unresolved import: _kGSSAttrClass
+native dyld warning: unresolved import: _kGSSAttrClassKerberos
+native dyld warning: unresolved import: _kGSSAttrCredentialPassword
+native dyld warning: unresolved import: _kGSSAttrCredentialStore
+native dyld warning: unresolved import: _kGSSAttrName
+native dyld warning: unresolved import: _kGSSAttrNameDisplay
+native dyld warning: unresolved import: _kGSSAttrNameType
+native dyld warning: unresolved import: _kGSSAttrNameTypeGSSUsername
+native dyld warning: unresolved import: _kGSSAttrTransientDefaultInClass
+native dyld warning: unresolved import: _kGSSAttrTransientExpire
+native dyld warning: unresolved import: _kGSSAttrUUID
+native dyld warning: unresolved import: _kGSSOperationChangePasswordNewPassword
+native dyld warning: unresolved import: _kGSSOperationChangePasswordOldPassword
+native dyld warning: unresolved import: _NSInMemoryStoreType
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/ticket-viewer-11555a59/Ticket Viewer.app/Contents/MacOS/Ticket Viewer)
+[ObjC] Method not found: [NSObject sortDescriptorWithKey:ascending:]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1016c6260 (title: Ticket Viewer)
+DARLING_WINDOW_READY:Ticket Viewer:4194305:342:35:674:329
+[AppKit] loaded nib /Applications/ticket-viewer-11555a59/Ticket Viewer.app/Contents/Resources/Base.lproj/TicketViewer.nib: 934 objects, 1 windows
+[AppKit] NSApplication delegate = 0x1016cc6a0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1016cc6a0
+[ObjC] Method not found: [NSObject mergedModelFromBundles:]
+[ObjC] Method not found: [NSObject initWithManagedObjectModel:]
+[ObjC] Method not found: [NSObject insertNewObjectForEntityForName:inManagedObjectContext:]
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Ticket Viewer:4194305:342:35:674:329
+DARLING_WINDOW_READY:Ticket Viewer:4194305:342:35:674:329
+DARLING_WINDOW_READY:Ticket Viewer:4194305:342:35:674:329
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Ticket Viewer:98:12
+DARLING_MENUBAR_ITEM:Ticket:185:12
+DARLING_MENUBAR_ITEM:Edit:237:12
+DARLING_MENUBAR_ITEM:Window:296:12
+DARLING_MENUBAR_ITEM:Help:358:12
+kill -9 62 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/ticket-viewer-11555a59/Ticket Viewer.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_ticket-viewer-11555a59:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

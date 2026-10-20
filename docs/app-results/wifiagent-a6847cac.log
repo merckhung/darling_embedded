@@ -1,0 +1,107 @@
+(/usr/bin/darling open /Applications/wifiagent-a6847cac/WiFiAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_wifiagent-a6847cac:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:473
+DARLING_LAUNCH_BUNDLE:/Applications/wifiagent-a6847cac/WiFiAgent.app:/Applications/wifiagent-a6847cac/WiFiAgent.app/Contents/MacOS/WiFiAgent
+native dyld warning: unresolved import: _AnalyticsSendEventLazy
+native dyld warning: unresolved import: _CWFColocatedNetworksMatchingScanResult
+native dyld warning: unresolved import: _CWFDidPresentPersonalHotspotNotificationForBrokenBackhaulNetworkName
+native dyld warning: unresolved import: _CWFDidReceiveResponseToNearbyCaptiveAssistNotification
+native dyld warning: unresolved import: _CWFDidReceiveResponseToPersonalHotspotNotificationForBrokenBackhaulNetworkName
+native dyld warning: unresolved import: _CWFGetOSLog
+native dyld warning: unresolved import: _CWFPrivateMACShouldShowPrivateMACAddressDisabledWarning
+native dyld warning: unresolved import: _CWFShouldPresentPersonalHotspotNotificationForBrokenBackhaulNetworkName
+native dyld warning: unresolved import: _ASL_LOG
+native dyld warning: unresolved import: _IO8Log
+native dyld warning: unresolved import: _IO8Log2
+native dyld warning: unresolved import: _asl_init
+native dyld warning: unresolved import: _IOPMConnectionAcknowledgeEvent
+native dyld warning: unresolved import: _IOPMConnectionCreate
+native dyld warning: unresolved import: _IOPMConnectionGetSystemCapabilities
+native dyld warning: unresolved import: _IOPMConnectionRelease
+native dyld warning: unresolved import: _IOPMConnectionSetDispatchQueue
+native dyld warning: unresolved import: _IOPMConnectionSetNotification
+native dyld warning: unresolved import: _IOPMIsASleep
+native dyld warning: unresolved import: _SCPreferencesCreate
+native dyld warning: unresolved import: _CWAuthorizeRight
+native dyld warning: unresolved import: _CWEAPIdentityCreateFromData
+native dyld warning: unresolved import: _CWFindNetworkProfile
+native dyld warning: unresolved import: _CWFindNetworkProfileWithID
+native dyld warning: unresolved import: _CWFindPasspointNetworkProfile
+native dyld warning: unresolved import: _CWHexadecimalStringFromData
+native dyld warning: unresolved import: _CWIsInstallEnvironment
+native dyld warning: unresolved import: _CWKeychainCopyWiFiEAPIdentity
+native dyld warning: unresolved import: _CWKeychainFindWiFiEAPUsernameAndPassword
+native dyld warning: unresolved import: _CWKeychainFindWiFiPassword
+native dyld warning: unresolved import: _CWKeychainUpdateWiFiKeychainItems
+native dyld warning: unresolved import: _CWPreAuthorizeRight
+native dyld warning: unresolved import: _CWWiFiUIProxyEventXPCInterface
+native dyld warning: unresolved import: _CWWiFiUIProxyRequestXPCInterface
+native dyld warning: unresolved import: __CWCopyWiFiKeychainItem_10_9
+native dyld warning: unresolved import: __CWDeleteWiFiKeychainItem_10_9
+native dyld warning: unresolved import: __CWFindWiFiKeychainItemPassword_10_9
+native dyld warning: unresolved import: __CWSetWiFiKeychainItem_10_9
+native dyld warning: unresolved import: __EAPOLClientItemIDCreateWithProfile
+native dyld warning: unresolved import: __EAPOLClientItemIDCreateWithWLANDomain
+native dyld warning: unresolved import: __EAPOLClientProfileCreateWithPropertyList
+native dyld warning: unresolved import: __EAPSecIdentityHandleCreate
+native dyld warning: unresolved import: _locationServicesBlockBSSIDAccessForXPCConnection
+native dyld warning: unresolved import: _schemaStringForAutoHotspotMode
+native dyld warning: unresolved import: _stringFromData
+native dyld warning: unresolved import: _wps_generate_pin
+native dyld warning: unresolved import: _wps_requires_pin
+native dyld warning: unresolved import: _SCDynamicStoreCopyConsoleUser
+native dyld warning: unresolved import: _SCPreferencesSetCallback
+native dyld warning: unresolved import: _SCPreferencesSetDispatchQueue
+native dyld warning: unresolved import: _nw_path_create_default_evaluator
+native dyld warning: unresolved import: _nw_path_evaluator_cancel
+native dyld warning: unresolved import: _nw_path_evaluator_set_update_handler
+native dyld warning: unresolved import: _nw_path_get_status
+native dyld warning: unresolved import: _nw_path_has_dns
+native dyld warning: unresolved import: _nw_path_has_ipv4
+native dyld warning: unresolved import: _nw_path_has_ipv6
+native dyld warning: unresolved import: _nw_path_uses_interface_type
+native dyld warning: unresolved import: _nw_release
+native dyld warning: unresolved import: _objc_exception_throw
+native dyld warning: unresolved import: __os_feature_enabled_impl
+native dyld warning: unresolved import: __os_log_fault_impl
+native dyld warning: unresolved import: _dispatch_queue_attr_make_with_autorelease_frequency
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _mbr_check_membership
+native dyld warning: unresolved import: _mbr_gid_to_uuid
+native dyld warning: unresolved import: _mbr_uid_to_uuid
+native dyld warning: unresolved import: _os_variant_has_internal_content
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _vproc_swap_string
+native dyld warning: unresolved import: _CFRunLoopPerformBlock
+native dyld warning: unresolved import: _CGSAddWindowsToSpaces
+native dyld warning: unresolved import: _CGSMainDisplayID
+native dyld warning: unresolved import: _CGSRegisterNotifyProc
+native dyld warning: unresolved import: _CGSRemoveNotifyProc
+native dyld warning: unresolved import: _CGSSpaceWithName
+native dyld warning: unresolved import: _CWFInternalEventKnownNetworkEventTypeKey
+native dyld warning: unresolved import: _CWFInternalEventKnownNetworkProfileKey
+native dyld warning: unresolved import: _CWFPrivateMACAddressUserJoinFailureUIStateKey
+native dyld warning: unresolved import: __pid
+native dyld warning: unresolved import: __tag
+native dyld warning: unresolved import: _Apple80211APIErrorDomain
+native dyld warning: unresolved import: _CWIPStatusDidChangeNotification
+native dyld warning: unresolved import: _CWNetworkReachabilityDidChangeNotification
+native dyld warning: unresolved import: _CWServiceDidChangeNotification
+native dyld warning: unresolved import: _EAPOLErrorDomain
+native dyld warning: unresolved import: _EAPOLSupplicantStateDidChangeNotification
+native dyld warning: unresolved import: _kCWImageWiFi64
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/wifiagent-a6847cac/WiFiAgent.app/Contents/MacOS/WiFiAgent)
+[AppKit] loaded nib /Applications/wifiagent-a6847cac/WiFiAgent.app/Contents/Resources/MainMenu.nib: 102 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101c1e310
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101c1e310
+[ObjC] Method not found: [NSObject initForWiFiUserAgent]
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 473 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/wifiagent-a6847cac/WiFiAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_wifiagent-a6847cac:${?})
+
+root@Darwin#

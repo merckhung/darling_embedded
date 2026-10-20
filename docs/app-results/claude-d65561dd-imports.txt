@@ -1,0 +1,7 @@
+==== Claude ====
+Linked dylibs: 2, imported symbols: 10
+
+  present  provided/imported  library
+  yes      7/7	/usr/lib/libSystem.B.dylib
+
+Summary for Claude: 0 of 2 linked libraries are absent from the guest root; 7 of 7 imported symbols are provided (100%).

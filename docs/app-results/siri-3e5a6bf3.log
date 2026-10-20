@@ -1,0 +1,12 @@
+(/usr/bin/darling open /Applications/siri-3e5a6bf3/Siri.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_siri-3e5a6bf3:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:16
+DARLING_LAUNCH_BUNDLE:/Applications/siri-3e5a6bf3/Siri.app:/Applications/siri-3e5a6bf3/Siri.app/Contents/MacOS/Siri
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _LSOpenCFURLRef
+PROBE_EXIT_siri-3e5a6bf3:0
+kill -9 16 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/siri-3e5a6bf3/Siri.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_siri-3e5a6bf3:${?})
+
+root@Darwin#

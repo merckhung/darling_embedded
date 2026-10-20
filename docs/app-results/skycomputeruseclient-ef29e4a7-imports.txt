@@ -1,0 +1,65 @@
+==== SkyComputerUseClient ====
+Linked dylibs: 49, imported symbols: 2667
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      29/504	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg _$s10Foundation10CocoaErrorV4CodeV15fileReadUnknownAEvgZ _$s10Foundation10CocoaErrorV4CodeVMa _$s10Foundation10CocoaErrorVAA21_BridgedStoredNSErrorAAMc _$s10Foundation10CocoaErrorVMa _$s10Foundation10POSIXErrorV8_nsErrorSo7NSErrorCvg
+  yes      26/30	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_copyMethodList _method_getName _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      144/177	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CC_SHA256 __Block_copy ___chkstk_darwin __dyld_get_image_header __dyld_get_image_name __dyld_image_count
+  yes      6/10	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSApplicationDidBecomeActiveNotification _NSApplicationWillResignActiveNotification _OBJC_CLASS_$_NSRunningApplication _OBJC_CLASS_$_NSWorkspaceOpenConfiguration
+  yes      0/2	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _GetProcessForPID _GetProcessPID
+  NO       0/4	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/2	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/1	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      13/20	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSCurrentLocaleDidChangeNotification _NSRunLoopCommonModes _NSSystemTimeZoneDidChangeNotification _OBJC_CLASS_$_NSMachPort _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSRunLoop
+  yes      11/24	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGRectContainsRect _CGRectIntersection _CGRectIntersectsRect _CGWindowLevelForKey _CGWindowListCopyWindowInfo _CGWindowListCreateDescriptionFromArray
+  yes      0/8	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _CreateObjSpecifier _FSEventStreamCreate _FSEventStreamInvalidate _FSEventStreamRelease _FSEventStreamSetDispatchQueue _FSEventStreamStart
+  NO       0/13	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/6	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/1	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/40	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/1	/System/Library/Frameworks/OSLog.framework/Versions/A/OSLog
+  NO       0/5	/System/Library/Frameworks/ScreenCaptureKit.framework/Versions/A/ScreenCaptureKit
+  NO       0/1	/System/Library/Frameworks/ScriptingBridge.framework/Versions/A/ScriptingBridge
+  yes      0/2	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_METACLASS_$_WebArchive _OBJC_CLASS_$_WebArchive
+  yes      0/1	/usr/lib/libc++.1.dylib
+             e.g. missing: ___gxx_personality_v0
+  NO       0/3	/usr/lib/libcompression.dylib
+  yes      6/6	/usr/lib/libz.1.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/1506	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMedia.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/35	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftOSLog.dylib
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/23	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/5	/usr/lib/swift/libswiftSystem.dylib
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/165	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/18	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/27	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftCoreGraphics.dylib
+
+Summary for SkyComputerUseClient: 38 of 49 linked libraries are absent from the guest root; 235 of 2665 imported symbols are provided (8.81801%).

@@ -1,0 +1,41 @@
+(/usr/bin/darling open /Applications/profilehelper-aa5692f8/ProfileHelper.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_profilehelper-aa5692f8:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:75
+DARLING_LAUNCH_BUNDLE:/Applications/profilehelper-aa5692f8/ProfileHelper.app:/Applications/profilehelper-aa5692f8/ProfileHelper.app/Contents/MacOS/ProfileHelper
+native dyld warning: unresolved import: _MGCopyAnswer
+native dyld warning: unresolved import: _AudioServicesCreateSystemSoundID
+native dyld warning: unresolved import: _AudioServicesPlayAlertSound
+native dyld warning: unresolved import: _CP_GetXPCSuccess
+native dyld warning: unresolved import: _CP_InstallProfileDataToPurgatory
+native dyld warning: unresolved import: _CP_SetXPCSuccess
+native dyld warning: unresolved import: _CP_TransferXPCSuccess
+native dyld warning: unresolved import: _csr_check
+native dyld warning: unresolved import: _dispatch_source_get_data
+native dyld warning: unresolved import: _dispatch_source_merge_data
+native dyld warning: unresolved import: _vproc_swap_integer
+native dyld warning: unresolved import: _CFCopyTypeIDDescription
+native dyld warning: unresolved import: _CFNumberCompare
+native dyld warning: unresolved import: _CFPropertyListCreateData
+native dyld warning: unresolved import: _CFStringCreateWithBytes
+native dyld warning: unresolved import: _CFUserNotificationCreate
+native dyld warning: unresolved import: _CFUserNotificationCreateRunLoopSource
+native dyld warning: unresolved import: _CFUserNotificationDisplayNotice
+native dyld warning: unresolved import: _CFUserNotificationUpdate
+native dyld warning: unresolved import: __CFBundleCreateWithExecutableURLIfMightBeBundle
+native dyld warning: unresolved import: __ZdaPvSt19__type_descriptor_t
+native dyld warning: unresolved import: __ZdlPvSt19__type_descriptor_t
+native dyld warning: unresolved import: __ZnamSt19__type_descriptor_t
+native dyld warning: unresolved import: __ZnwmSt19__type_descriptor_t
+native dyld warning: unresolved import: _CPUI_SA_OptionStartForDEPNag
+native dyld warning: unresolved import: _NSMachErrorDomain
+native dyld warning: unresolved import: _OBJC_EHTYPE_id
+native dyld warning: unresolved import: __dispatch_source_type_data_add
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/profilehelper-aa5692f8/ProfileHelper.app/Contents/MacOS/ProfileHelper)
+[AppKit] NSApplication delegate = 0x102040b20
+[AppKit] calling applicationDidFinishLaunching on delegate 0x102040b20
+PROBE_EXIT_profilehelper-aa5692f8:0
+kill -9 75 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/profilehelper-aa5692f8/ProfileHelper.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_profilehelper-aa5692f8:${?})
+
+root@Darwin#

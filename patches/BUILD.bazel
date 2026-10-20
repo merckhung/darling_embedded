@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+package(default_visibility = ["//visibility:public"])
+
+exports_files([
+    "darwin_embedded-external.patch",
+    "darling-embedded.patch",
+])

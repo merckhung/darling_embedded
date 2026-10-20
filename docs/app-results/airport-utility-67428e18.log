@@ -1,0 +1,350 @@
+(/usr/bin/darling open '/Applications/airport-utility-67428e18/AirPort Utility.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_airport-utility-67428e18:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:34
+DARLING_LAUNCH_BUNDLE:/Applications/airport-utility-67428e18/AirPort Utility.app:/Applications/airport-utility-67428e18/AirPort Utility.app/Contents/MacOS/AirPort Utility
+native dyld warning: unresolved import: _CFAllocatorGetDefault
+native dyld warning: unresolved import: _CFArrayAppendArray
+native dyld warning: unresolved import: _CFArrayContainsValue
+native dyld warning: unresolved import: _CFArrayCreateCopy
+native dyld warning: unresolved import: _CFArrayCreateMutableCopy
+native dyld warning: unresolved import: _CFArrayRemoveAllValues
+native dyld warning: unresolved import: _CFArrayRemoveValueAtIndex
+native dyld warning: unresolved import: _CFArraySetValueAtIndex
+native dyld warning: unresolved import: _CFArraySortValues
+native dyld warning: unresolved import: _CFAttributedStringCreate
+native dyld warning: unresolved import: _CFCalendarComposeAbsoluteTime
+native dyld warning: unresolved import: _CFCalendarCreateWithIdentifier
+native dyld warning: unresolved import: _CFCalendarDecomposeAbsoluteTime
+native dyld warning: unresolved import: _CFDataAppendBytes
+native dyld warning: unresolved import: _CFDataCreateMutable
+native dyld warning: unresolved import: _CFDataCreateMutableCopy
+native dyld warning: unresolved import: _CFDataGetBytes
+native dyld warning: unresolved import: _CFDataGetMutableBytePtr
+native dyld warning: unresolved import: _CFDateCompare
+native dyld warning: unresolved import: _CFDateGetAbsoluteTime
+native dyld warning: unresolved import: _CFDateGetTimeIntervalSinceDate
+native dyld warning: unresolved import: _CFDictionaryApplyFunction
+native dyld warning: unresolved import: _CFDictionaryContainsKey
+native dyld warning: unresolved import: _CFDictionaryCreateCopy
+native dyld warning: unresolved import: _CFDictionaryCreateMutableCopy
+native dyld warning: unresolved import: _CFDictionaryGetKeysAndValues
+native dyld warning: unresolved import: _CFDictionaryRemoveAllValues
+native dyld warning: unresolved import: _CFErrorCreate
+native dyld warning: unresolved import: _CFGetAllocator
+native dyld warning: unresolved import: _CFLocaleCopyCurrent
+native dyld warning: unresolved import: _CFLocaleGetValue
+native dyld warning: unresolved import: _CFNotificationCenterPostNotificationWithOptions
+native dyld warning: unresolved import: _CFNumberCompare
+native dyld warning: unresolved import: _CFNumberIsFloatType
+native dyld warning: unresolved import: _CFPropertyListCreateData
+native dyld warning: unresolved import: _CFPropertyListCreateDeepCopy
+native dyld warning: unresolved import: _CFPropertyListIsValid
+native dyld warning: unresolved import: _CFPropertyListWrite
+native dyld warning: unresolved import: _CFStringAppendCString
+native dyld warning: unresolved import: _CFStringCreateArrayBySeparatingStrings
+native dyld warning: unresolved import: _CFStringCreateMutable
+native dyld warning: unresolved import: _CFStringCreateWithBytes
+native dyld warning: unresolved import: _CFStringCreateWithSubstring
+native dyld warning: unresolved import: _CFStringFind
+native dyld warning: unresolved import: _CFStringFindAndReplace
+native dyld warning: unresolved import: _CFStringGetBytes
+native dyld warning: unresolved import: _CFStringReplaceAll
+native dyld warning: unresolved import: _CFStringTrimWhitespace
+native dyld warning: unresolved import: _CFURLCopyFileSystemPath
+native dyld warning: unresolved import: _CFWriteStreamClose
+native dyld warning: unresolved import: _CFWriteStreamCopyProperty
+native dyld warning: unresolved import: _CFWriteStreamCreateWithAllocatedBuffers
+native dyld warning: unresolved import: _CFWriteStreamOpen
+native dyld warning: unresolved import: __CFRuntimeCreateInstance
+native dyld warning: unresolved import: __CFRuntimeRegisterClass
+native dyld warning: unresolved import: _SCDynamicStoreCopyKeyList
+native dyld warning: unresolved import: _SCDynamicStoreCopyValue
+native dyld warning: unresolved import: _SCDynamicStoreCreate
+native dyld warning: unresolved import: _SCDynamicStoreCreateRunLoopSource
+native dyld warning: unresolved import: _SCDynamicStoreKeyCreate
+native dyld warning: unresolved import: _SCDynamicStoreKeyCreateNetworkInterfaceEntity
+native dyld warning: unresolved import: _SCDynamicStoreKeyCreateNetworkServiceEntity
+native dyld warning: unresolved import: _SCDynamicStoreSetNotificationKeys
+native dyld warning: unresolved import: _SCError
+native dyld warning: unresolved import: _SCErrorString
+native dyld warning: unresolved import: _SCNetworkInterfaceCopyAll
+native dyld warning: unresolved import: _SCNetworkInterfaceGetBSDName
+native dyld warning: unresolved import: _SCNetworkInterfaceGetInterface
+native dyld warning: unresolved import: _SCNetworkInterfaceGetInterfaceType
+native dyld warning: unresolved import: _SCNetworkInterfaceGetLocalizedDisplayName
+native dyld warning: unresolved import: _SCNetworkReachabilityCreateWithAddress
+native dyld warning: unresolved import: _SCNetworkReachabilityCreateWithName
+native dyld warning: unresolved import: _SCNetworkReachabilityGetFlags
+native dyld warning: unresolved import: _SCNetworkReachabilitySetCallback
+native dyld warning: unresolved import: _SCNetworkReachabilitySetDispatchQueue
+native dyld warning: unresolved import: _SCNetworkReachabilityUnscheduleFromRunLoop
+native dyld warning: unresolved import: _SCNetworkServiceGetInterface
+native dyld warning: unresolved import: _SCNetworkServiceGetServiceID
+native dyld warning: unresolved import: _SCNetworkSetCopyCurrent
+native dyld warning: unresolved import: _SCNetworkSetCopyServices
+native dyld warning: unresolved import: _SCPreferencesCreateWithAuthorization
+native dyld warning: unresolved import: _NSLocalizedFileSizeDescription
+native dyld warning: unresolved import: __NSDictionaryOfVariableBindings
+native dyld warning: unresolved import: _NSAccessibilityActionDescription
+native dyld warning: unresolved import: _NSAccessibilityRoleDescriptionForUIElement
+native dyld warning: unresolved import: _NSAccessibilityUnignoredAncestor
+native dyld warning: unresolved import: _NSAccessibilityUnignoredChildren
+native dyld warning: unresolved import: _NSDrawThreePartImage
+native dyld warning: unresolved import: _SecAccessCreate
+native dyld warning: unresolved import: _SecItemAdd
+native dyld warning: unresolved import: _SecItemCopyMatching
+native dyld warning: unresolved import: _SecItemUpdate
+native dyld warning: unresolved import: _SecKeyCreateWithData
+native dyld warning: unresolved import: _SecKeyVerifySignature
+native dyld warning: unresolved import: _SecKeychainAddCallback
+native dyld warning: unresolved import: _SecKeychainItemDelete
+native dyld warning: unresolved import: _SecKeychainRemoveCallback
+native dyld warning: unresolved import: _SecTrustedApplicationCreateApplicationGroup
+native dyld warning: unresolved import: _CWKeychainDeleteWiFiPassword
+native dyld warning: unresolved import: _CWKeychainFindWiFiPassword
+native dyld warning: unresolved import: _CWKeychainSetWiFiPassword
+native dyld warning: unresolved import: _AOSAccountCreate
+native dyld warning: unresolved import: _AOSTransactionGetError
+native dyld warning: unresolved import: _AOSTransactionGetResult
+native dyld warning: unresolved import: _AOSTransactionSuccessful
+native dyld warning: unresolved import: __AOSAccountRetrieveInfo
+native dyld warning: unresolved import: _SRP6a_client_method
+native dyld warning: unresolved import: _SRP_compute_key
+native dyld warning: unresolved import: _SRP_free
+native dyld warning: unresolved import: _SRP_gen_pub
+native dyld warning: unresolved import: _SRP_new
+native dyld warning: unresolved import: _SRP_respond
+native dyld warning: unresolved import: _SRP_set_auth_password
+native dyld warning: unresolved import: _SRP_set_params
+native dyld warning: unresolved import: _SRP_set_username
+native dyld warning: unresolved import: _SRP_verify
+native dyld warning: unresolved import: _cstr_free
+native dyld warning: unresolved import: _class_copyPropertyList
+native dyld warning: unresolved import: _class_getInstanceMethod
+native dyld warning: unresolved import: _method_exchangeImplementations
+native dyld warning: unresolved import: _objc_exception_throw
+native dyld warning: unresolved import: _objc_setAssociatedObject
+native dyld warning: unresolved import: _property_getName
+native dyld warning: unresolved import: _CCCryptorCreate
+native dyld warning: unresolved import: _CCCryptorRelease
+native dyld warning: unresolved import: _CCCryptorUpdate
+native dyld warning: unresolved import: _CCHmac
+native dyld warning: unresolved import: _CCKeyDerivationPBKDF
+native dyld warning: unresolved import: _CC_SHA1
+native dyld warning: unresolved import: _DNSServiceBrowse
+native dyld warning: unresolved import: _DNSServiceConstructFullName
+native dyld warning: unresolved import: _DNSServiceCreateConnection
+native dyld warning: unresolved import: _DNSServiceGetAddrInfo
+native dyld warning: unresolved import: _DNSServiceProcessResult
+native dyld warning: unresolved import: _DNSServiceQueryRecord
+native dyld warning: unresolved import: _DNSServiceReconfirmRecord
+native dyld warning: unresolved import: _DNSServiceRefDeallocate
+native dyld warning: unresolved import: _DNSServiceSetDispatchQueue
+native dyld warning: unresolved import: _TXTRecordCreate
+native dyld warning: unresolved import: _TXTRecordDeallocate
+native dyld warning: unresolved import: _TXTRecordGetBytesPtr
+native dyld warning: unresolved import: _TXTRecordGetCount
+native dyld warning: unresolved import: _TXTRecordGetItemAtIndex
+native dyld warning: unresolved import: _TXTRecordGetLength
+native dyld warning: unresolved import: _TXTRecordGetValuePtr
+native dyld warning: unresolved import: _TXTRecordSetValue
+native dyld warning: unresolved import: _dispatch_async_f
+native dyld warning: unresolved import: _dispatch_group_async
+native dyld warning: unresolved import: _dispatch_group_async_f
+native dyld warning: unresolved import: _dispatch_group_create
+native dyld warning: unresolved import: _dispatch_group_wait
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _dispatch_retain
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _dispatch_set_context
+native dyld warning: unresolved import: _dispatch_set_finalizer_f
+native dyld warning: unresolved import: _dispatch_source_set_cancel_handler_f
+native dyld warning: unresolved import: _dispatch_source_set_event_handler_f
+native dyld warning: unresolved import: _dispatch_sync_f
+native dyld warning: unresolved import: _select
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _CGAffineTransformMakeScale
+native dyld warning: unresolved import: _CGContextBeginTransparencyLayerWithRect
+native dyld warning: unresolved import: _CGContextDrawLinearGradient
+native dyld warning: unresolved import: _CGContextEndTransparencyLayer
+native dyld warning: unresolved import: _CGContextSetAllowsFontSmoothing
+native dyld warning: unresolved import: _CGContextSetShadowWithColor
+native dyld warning: unresolved import: _CGContextSetShouldSmoothFonts
+native dyld warning: unresolved import: _CGContextSetTextPosition
+native dyld warning: unresolved import: _CGGradientCreateWithColorComponents
+native dyld warning: unresolved import: _CGGradientCreateWithColors
+native dyld warning: unresolved import: _CGGradientRelease
+native dyld warning: unresolved import: _CGPathAddArc
+native dyld warning: unresolved import: _CGPathAddArcToPoint
+native dyld warning: unresolved import: _CGPathAddCurveToPoint
+native dyld warning: unresolved import: _CGPathAddLineToPoint
+native dyld warning: unresolved import: _CGPathAddPath
+native dyld warning: unresolved import: _CGPathCloseSubpath
+native dyld warning: unresolved import: _CGPathCreateMutable
+native dyld warning: unresolved import: _CGPathMoveToPoint
+native dyld warning: unresolved import: _CGPathRelease
+native dyld warning: unresolved import: _CGPointCreateDictionaryRepresentation
+native dyld warning: unresolved import: _CGRectUnion
+native dyld warning: unresolved import: _CTFontCreateUIFontForLanguage
+native dyld warning: unresolved import: _CTLineCreateTruncatedLine
+native dyld warning: unresolved import: _CTLineCreateWithAttributedString
+native dyld warning: unresolved import: _CTLineDraw
+native dyld warning: unresolved import: _CTLineGetTypographicBounds
+native dyld warning: unresolved import: __ZdlPvSt19__type_descriptor_t
+native dyld warning: unresolved import: __ZnwmSt19__type_descriptor_t
+native dyld warning: unresolved import: _NSLocaleCountryCode
+native dyld warning: unresolved import: _NSLocaleLanguageCode
+native dyld warning: unresolved import: _kCFGregorianCalendar
+native dyld warning: unresolved import: _kCFLocaleCountryCode
+native dyld warning: unresolved import: _kSCCompAnyRegex
+native dyld warning: unresolved import: _kSCCompInterface
+native dyld warning: unresolved import: _kSCCompNetwork
+native dyld warning: unresolved import: _kSCCompService
+native dyld warning: unresolved import: _kSCDynamicStoreDomainSetup
+native dyld warning: unresolved import: _kSCDynamicStoreDomainState
+native dyld warning: unresolved import: _kSCEntNetAirPort
+native dyld warning: unresolved import: _kSCEntNetDNS
+native dyld warning: unresolved import: _kSCEntNetEthernet
+native dyld warning: unresolved import: _kSCEntNetIPv4
+native dyld warning: unresolved import: _kSCEntNetIPv6
+native dyld warning: unresolved import: _kSCEntNetInterface
+native dyld warning: unresolved import: _kSCEntNetLink
+native dyld warning: unresolved import: _kSCPropNetDNSDomainName
+native dyld warning: unresolved import: _kSCPropNetDNSServerAddresses
+native dyld warning: unresolved import: _kSCPropNetIPv4Addresses
+native dyld warning: unresolved import: _kSCPropNetIPv4Router
+native dyld warning: unresolved import: _kSCPropNetIPv4SubnetMasks
+native dyld warning: unresolved import: _kSCPropNetIPv6Addresses
+native dyld warning: unresolved import: _kSCPropNetIPv6Flags
+native dyld warning: unresolved import: _kSCPropNetInterfaceDeviceName
+native dyld warning: unresolved import: _kSCPropNetInterfaceHardware
+native dyld warning: unresolved import: _kSCPropNetInterfaceType
+native dyld warning: unresolved import: _NSKeyValueChangeKindKey
+native dyld warning: unresolved import: _NSKeyValueChangeNewKey
+native dyld warning: unresolved import: _NSKeyValueChangeOldKey
+native dyld warning: unresolved import: _kCALineCapRound
+native dyld warning: unresolved import: _kCALineJoinMiter
+native dyld warning: unresolved import: _kCALineJoinRound
+native dyld warning: unresolved import: _kCAMediaTimingFunctionEaseOut
+native dyld warning: unresolved import: _kCATransactionAnimationDuration
+native dyld warning: unresolved import: _NSAccessibilityChildrenAttribute
+native dyld warning: unresolved import: _NSAccessibilityDescriptionAttribute
+native dyld warning: unresolved import: _NSAccessibilityEnabledAttribute
+native dyld warning: unresolved import: _NSAccessibilityFocusedAttribute
+native dyld warning: unresolved import: _NSAccessibilityGroupRole
+native dyld warning: unresolved import: _NSAccessibilityHelpAttribute
+native dyld warning: unresolved import: _NSAccessibilityImageRole
+native dyld warning: unresolved import: _NSAccessibilityLinkedUIElementsAttribute
+native dyld warning: unresolved import: _NSAccessibilityParentAttribute
+native dyld warning: unresolved import: _NSAccessibilityPositionAttribute
+native dyld warning: unresolved import: _NSAccessibilityPressAction
+native dyld warning: unresolved import: _NSAccessibilityRoleAttribute
+native dyld warning: unresolved import: _NSAccessibilityRoleDescriptionAttribute
+native dyld warning: unresolved import: _NSAccessibilitySizeAttribute
+native dyld warning: unresolved import: _NSAccessibilityTitleAttribute
+native dyld warning: unresolved import: _NSAccessibilityTopLevelUIElementAttribute
+native dyld warning: unresolved import: _NSAccessibilityWindowAttribute
+native dyld warning: unresolved import: _NSAllRomanInputSourcesLocaleIdentifier
+native dyld warning: unresolved import: _NSApplicationDidFinishRestoringWindowsNotification
+native dyld warning: unresolved import: _NSApplicationWillResignActiveNotification
+native dyld warning: unresolved import: _NSBackingPropertyOldScaleFactorKey
+native dyld warning: unresolved import: _NSConditionallySetsEnabledBindingOption
+native dyld warning: unresolved import: _NSContentValuesBinding
+native dyld warning: unresolved import: _NSContinuouslyUpdatesValueBindingOption
+native dyld warning: unresolved import: _NSControlTextDidChangeNotification
+native dyld warning: unresolved import: _NSEnabledBinding
+native dyld warning: unresolved import: _NSHiddenBinding
+native dyld warning: unresolved import: _NSImageNameStatusAvailable
+native dyld warning: unresolved import: _NSImageNameStatusPartiallyAvailable
+native dyld warning: unresolved import: _NSImageNameStatusUnavailable
+native dyld warning: unresolved import: _NSNullPlaceholderBindingOption
+native dyld warning: unresolved import: _NSObservedKeyPathKey
+native dyld warning: unresolved import: _NSObservedObjectKey
+native dyld warning: unresolved import: _NSOptionsKey
+native dyld warning: unresolved import: _NSPopUpButtonWillPopUpNotification
+native dyld warning: unresolved import: _NSPopoverDidShowNotification
+native dyld warning: unresolved import: _NSPopoverWillCloseNotification
+native dyld warning: unresolved import: _NSTextColorBinding
+native dyld warning: unresolved import: _NSValueBinding
+native dyld warning: unresolved import: _NSValueTransformerBindingOption
+native dyld warning: unresolved import: _NSValueTransformerNameBindingOption
+native dyld warning: unresolved import: _NSViewAnimationEndFrameKey
+native dyld warning: unresolved import: _NSViewAnimationTargetKey
+native dyld warning: unresolved import: _NSViewBoundsDidChangeNotification
+native dyld warning: unresolved import: _NSViewFrameDidChangeNotification
+native dyld warning: unresolved import: _NSWindowDidChangeBackingPropertiesNotification
+native dyld warning: unresolved import: _CNContactFamilyNameKey
+native dyld warning: unresolved import: _CNContactGivenNameKey
+native dyld warning: unresolved import: _CNContactIdentifierKey
+native dyld warning: unresolved import: _CNContactNicknameKey
+native dyld warning: unresolved import: _kSecAttrAccess
+native dyld warning: unresolved import: _kSecAttrAccount
+native dyld warning: unresolved import: _kSecAttrDescription
+native dyld warning: unresolved import: _kSecAttrKeyClass
+native dyld warning: unresolved import: _kSecAttrKeyClassPublic
+native dyld warning: unresolved import: _kSecAttrKeyType
+native dyld warning: unresolved import: _kSecAttrKeyTypeRSA
+native dyld warning: unresolved import: _kSecAttrLabel
+native dyld warning: unresolved import: _kSecAttrProtocol
+native dyld warning: unresolved import: _kSecAttrServer
+native dyld warning: unresolved import: _kSecAttrService
+native dyld warning: unresolved import: _kSecClass
+native dyld warning: unresolved import: _kSecClassGenericPassword
+native dyld warning: unresolved import: _kSecClassInternetPassword
+native dyld warning: unresolved import: _kSecKeyAlgorithmRSASignatureDigestPKCS1v15SHA1
+native dyld warning: unresolved import: _kSecReturnAttributes
+native dyld warning: unresolved import: _kSecReturnData
+native dyld warning: unresolved import: _kSecReturnRef
+native dyld warning: unresolved import: _kSecValueData
+native dyld warning: unresolved import: _kAOSAppleAccountInfoKey
+native dyld warning: unresolved import: _kAOSErrorDomain
+native dyld warning: unresolved import: _kAOSMMeInfoKey
+native dyld warning: unresolved import: _kAOSPersonIDKey
+native dyld warning: unresolved import: _kAOSTokensKey
+native dyld warning: unresolved import: _kAOSURLKey
+native dyld warning: unresolved import: __dispatch_source_type_read
+native dyld warning: unresolved import: __dispatch_source_type_write
+native dyld warning: unresolved import: _kCTFontAttributeName
+native dyld warning: unresolved import: _kCTForegroundColorAttributeName
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/airport-utility-67428e18/AirPort Utility.app/Contents/MacOS/AirPort Utility)
+[ObjC] Method not found: [NSMenu indexOfItemWithTag:]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x10221ba40 (title: AirPort Utility)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:AirPort Utility:97:12
+DARLING_MENUBAR_ITEM:File:174:12
+DARLING_MENUBAR_ITEM:Edit:218:12
+DARLING_MENUBAR_ITEM:Base Station:290:12
+DARLING_MENUBAR_ITEM:Window:375:12
+DARLING_MENUBAR_ITEM:Help:437:12
+DARLING_WINDOW_READY:AirPort Utility:4194305:416:28:600:628
+[AppKit] loaded nib /Applications/airport-utility-67428e18/AirPort Utility.app/Contents/Resources/Base.lproj/MainMenu.nib: 508 objects, 1 windows
+[AppKit] NSApplication delegate = 0x10221a840
+[AppKit] calling applicationDidFinishLaunching on delegate 0x10221a840
+UNCAT_TRAP: pc=0x1010c8b68 instr=0x0
+XNU_EXC: exc=2 codes=0x1 0x0
+XNU_EXC: exc=10 codes=0x4200001 0x0
+Illegal instruction: 4
+PROBE_EXIT_airport-utility-67428e18:132
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 34
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Application:90:12
+DARLING_MENUBAR_ITEM:File:161:12
+DARLING_MENUBAR_ITEM:Edit:205:12
+DARLING_MENUBAR_ITEM:View:254:12
+DARLING_MENUBAR_ITEM:Window:317:12
+DARLING_MENUBAR_ITEM:Help:379:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12
+kill -9 34 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/airport-utility-67428e18/AirPort Utility.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_airport-utility-67428e18:${?})
+
+root@Darwin#

@@ -1,0 +1,77 @@
+==== Stocks ====
+Linked dylibs: 68, imported symbols: 1181
+
+  present  provided/imported  library
+  NO       0/58	/System/iOSSupport/System/Library/PrivateFrameworks/StocksAnalytics.framework/Versions/A/StocksAnalytics
+  NO       0/120	/System/Library/PrivateFrameworks/StocksCore.framework/Versions/A/StocksCore
+  NO       0/0	/System/Library/PrivateFrameworks/StocksKit.framework/Versions/A/StocksKit
+  NO       0/110	/System/iOSSupport/System/Library/PrivateFrameworks/StocksUI.framework/Versions/A/StocksUI
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/EventKitUI.framework/Versions/A/EventKitUI
+  NO       0/0	/System/Library/Frameworks/EventKit.framework/Versions/A/EventKit
+  NO       0/34	/System/Library/PrivateFrameworks/AppAnalytics.framework/Versions/A/AppAnalytics
+  NO       0/7	/System/iOSSupport/System/Library/PrivateFrameworks/NewsArticles.framework/Versions/A/NewsArticles
+  NO       0/0	/System/Library/PrivateFrameworks/NewsFoundation.framework/Versions/A/NewsFoundation
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/TeaCharts.framework/Versions/A/TeaCharts
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/TeaSnappy.framework/Versions/A/TeaSnappy
+  NO       0/135	/System/Library/PrivateFrameworks/TeaFoundation.framework/Versions/A/TeaFoundation
+  NO       0/96	/System/iOSSupport/System/Library/PrivateFrameworks/TeaUI.framework/Versions/A/TeaUI
+  yes      5/38	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV19_bridgeToObjectiveCSo14NSNotificationCyF _$s10Foundation12NotificationV4name6object8userInfoACSo18NSNotificationNamea_ypSgSDys11AnyHashableVypGSgtcfC _$s10Foundation12NotificationVMa _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+  yes      12/36	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_release_x19 _objc_release_x20 _objc_release_x21 _objc_release_x22 _objc_release_x23 _objc_release_x24
+  yes      15/19	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue _OBJC_CLASS_$_OS_os_log ___chkstk_darwin
+  NO       0/6	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/22	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      5/5	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/10	/System/Library/PrivateFrameworks/NewsCore.framework/Versions/A/NewsCore
+  NO       0/1	/System/Library/PrivateFrameworks/TeaDB.framework/Versions/A/TeaDB
+  NO       0/85	/System/Library/PrivateFrameworks/TeaSettings.framework/Versions/A/TeaSettings
+  NO       0/22	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/_AppIntents_UIKit.framework/Versions/A/_AppIntents_UIKit
+  NO       0/15	/System/iOSSupport/System/Library/PrivateFrameworks/NewsAds.framework/Versions/A/NewsAds
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/NewsEngagement.framework/Versions/A/NewsEngagement
+  NO       0/28	/System/iOSSupport/System/Library/PrivateFrameworks/NewsFeed.framework/Versions/A/NewsFeed
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/NewsPersonalization.framework/Versions/A/NewsPersonalization
+  NO       0/24	/System/iOSSupport/System/Library/PrivateFrameworks/NewsSubscription.framework/Versions/A/NewsSubscription
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/NewsUI.framework/Versions/A/NewsUI
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/ShareSheet.framework/Versions/A/ShareSheet
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/Silex.framework/Versions/A/Silex
+  NO       0/5	/System/iOSSupport/System/Library/PrivateFrameworks/StocksPersonalization.framework/Versions/A/StocksPersonalization
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/TeaTemplate.framework/Versions/A/TeaTemplate
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftGameplayKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSpriteKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCallKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/241	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/17	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/9	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Stocks: 64 of 68 linked libraries are absent from the guest root; 37 of 1181 imported symbols are provided (3.13294%).

@@ -1,0 +1,37 @@
+==== AirPort Utility ====
+Linked dylibs: 23, imported symbols: 794
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  yes      82/156	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAllocatorGetDefault _CFArrayAppendArray _CFArrayContainsValue _CFArrayCreateCopy _CFArrayCreateMutableCopy _CFArrayRemoveAllValues
+  NO       0/10	/System/Library/PrivateFrameworks/EasyConfig.framework/Versions/A/EasyConfig (weak)
+  NO       0/0	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  NO       0/49	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  yes      48/70	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _NSLocalizedFileSizeDescription __NSDictionaryOfVariableBindings _NSKeyValueChangeKindKey _NSKeyValueChangeNewKey _NSKeyValueChangeOldKey
+  NO       0/11	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+  NO       0/0	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      68/126	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityActionDescription _NSAccessibilityRoleDescriptionForUIElement _NSAccessibilityUnignoredAncestor _NSAccessibilityUnignoredChildren _NSDrawThreePartImage _NSAccessibilityChildrenAttribute
+  NO       0/5	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      0/29	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecAccessCreate _SecItemAdd _SecItemCopyMatching _SecItemUpdate _SecKeyCreateWithData _SecKeyVerifySignature
+  yes      6/6	/usr/lib/libz.1.dylib
+  NO       0/5	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  NO       0/11	/System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit
+  NO       0/0	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  NO       0/11	/System/Library/PrivateFrameworks/AppleSRP.framework/Versions/A/AppleSRP
+  yes      25/31	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_copyPropertyList _class_getInstanceMethod _method_exchangeImplementations _objc_exception_throw _objc_setAssociatedObject _property_getName
+  yes      8/23	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv117__class_type_infoE __ZNSt20bad_array_new_lengthC1Ev __ZSt9terminatev ___cxa_allocate_exception ___cxa_begin_catch ___cxa_end_catch
+  yes      125/169	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CCCryptorCreate _CCCryptorRelease _CCCryptorUpdate _CCHmac _CCKeyDerivationPBKDF _CC_SHA1
+  yes      48/70	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformMakeScale _CGContextBeginTransparencyLayerWithRect _CGContextDrawLinearGradient _CGContextEndTransparencyLayer _CGContextSetAllowsFontSmoothing _CGContextSetShadowWithColor
+  NO       0/7	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+
+Summary for AirPort Utility: 12 of 23 linked libraries are absent from the guest root; 410 of 789 imported symbols are provided (51.9645%).

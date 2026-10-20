@@ -1,0 +1,52 @@
+==== Language Chooser ====
+Linked dylibs: 41, imported symbols: 310
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/SetupAssistantSupport.framework/Versions/A/SetupAssistantSupport (weak)
+  NO       0/10	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/3	/System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities (weak)
+  NO       0/4	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/1	/System/Library/PrivateFrameworks/CSCSupport.framework/Versions/A/CSCSupport (weak)
+  NO       0/0	/System/Library/PrivateFrameworks/InternationalSupport.framework/Versions/A/InternationalSupport
+  NO       0/3	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/0	/usr/lib/libicucore.A.dylib
+  NO       0/1	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/usr/lib/libIASUnifiedProgress.dylib
+  NO       0/2	/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/LoginUIKit
+  NO       0/4	/System/Library/PrivateFrameworks/SetupAssistantSupportUI.framework/Versions/A/SetupAssistantSupportUI (weak)
+  NO       0/4	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/1	/System/Library/Frameworks/IOBluetoothUI.framework/Versions/A/IOBluetoothUI
+  NO       0/4	/System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+  NO       0/1	/usr/lib/libScreenReader.dylib
+  NO       0/0	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  NO       0/1	/System/Library/PrivateFrameworks/MobileInBoxUpdate.framework/Versions/A/MobileInBoxUpdate (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/8	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  NO       0/28	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/1	/System/Library/PrivateFrameworks/ServerInformation.framework/Versions/A/ServerInformation
+  NO       0/2	/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles (weak)
+  yes      18/25	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _NSArgumentDomain _NSLanguageIdentifierAttributeName _OBJC_CLASS_$_NSAffineTransform _OBJC_CLASS_$_NSCountedSet
+  yes      31/31	/usr/lib/libobjc.A.dylib
+  yes      37/49	/usr/lib/libSystem.B.dylib
+             e.g. missing: _arc4random_stir _devname _dispatch_group_create _dispatch_group_enter _dispatch_group_leave _dispatch_group_wait
+  NO       0/3	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio (weak)
+  yes      31/44	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityUnignoredAncestor _NSApplicationDidChangeScreenParametersNotification _NSFontCascadeListAttribute _NSFontTextStyleHeadline _NSFontTextStyleTitle2 _NSKernAttributeName
+  yes      1/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  NO       0/1	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  yes      38/52	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFPreferencesSetMultiple __CFPreferencesSetDaemonCacheEnabled _NSLocaleCountryCode _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSException
+  yes      2/17	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGContextSetShouldSmoothFonts _CGSConnectionGetPID _CGSCreateCinematicBootWindowArray _CGSGetOnScreenWindowList _CGSGetWindowCount _CGSGetWindowOwner
+  NO       0/2	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  yes      1/1	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+
+Summary for Language Chooser: 32 of 41 linked libraries are absent from the guest root; 159 of 310 imported symbols are provided (51.2903%).

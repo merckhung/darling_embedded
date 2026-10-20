@@ -1,0 +1,32 @@
+==== Archive Utility ====
+Linked dylibs: 20, imported symbols: 353
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/PackageKit.framework/Versions/A/PackageKit
+  yes      5/5	/usr/lib/libz.1.dylib
+  NO       0/3	/usr/lib/liblzma.5.dylib
+  NO       0/3	/usr/lib/libbz2.1.0.dylib
+  NO       0/3	/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+  NO       0/2	/System/Library/Frameworks/FileProvider.framework/Versions/A/FileProvider
+  NO       0/1	/usr/lib/libAppleArchive.dylib
+  NO       0/3	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/22	/System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+  NO       0/5	/usr/lib/libarchive.2.dylib
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/1	/System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  yes      22/25	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSFileCoordinator _OBJC_CLASS_$_NSProgress _OBJC_CLASS_$_NSSecurityScopedURLWrapper
+  yes      36/36	/usr/lib/libobjc.A.dylib
+  yes      0/3	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZSt9terminatev ___cxa_begin_catch ___gxx_personality_v0
+  yes      134/163	/usr/lib/libSystem.B.dylib
+             e.g. missing: __qtn_file_alloc __qtn_file_apply_to_fd __qtn_file_free __qtn_file_init_with_fd __qtn_file_to_data _asctime_r
+  yes      16/19	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSShowSystemInfoPanel _NSImageNameCaution _OBJC_CLASS_$_NSRunningApplication
+  yes      40/56	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDictionaryAddValue _CFStringCreateMutableWithExternalCharactersNoCopy _CFStringCreateWithFileSystemRepresentation _CFStringGetCharacters _CFStringGetFileSystemRepresentation _CFStringGetRangeOfComposedCharactersAtIndex
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _FNNotify _LSCopyDefaultApplicationURLForContentType
+
+Summary for Archive Utility: 11 of 20 linked libraries are absent from the guest root; 253 of 353 imported symbols are provided (71.6714%).

@@ -1,0 +1,110 @@
+==== Weather ====
+Linked dylibs: 97, imported symbols: 10082
+
+  present  provided/imported  library
+  NO       0/417	/System/Library/PrivateFrameworks/WeatherAnalytics.framework/Versions/A/WeatherAnalytics
+  NO       0/1091	/System/Library/PrivateFrameworks/WeatherCore.framework/Versions/A/WeatherCore
+  NO       0/1328	/System/Library/Frameworks/WeatherKit.framework/Versions/A/WeatherKit
+  NO       0/219	/System/iOSSupport/System/Library/PrivateFrameworks/WeatherMaps.framework/Versions/A/WeatherMaps
+  NO       0/736	/System/iOSSupport/System/Library/PrivateFrameworks/WeatherUI.framework/Versions/A/WeatherUI
+  NO       0/289	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/2	/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/GeoServices
+  NO       0/972	/System/iOSSupport/System/Library/PrivateFrameworks/WeatherAppSupport.framework/Versions/A/WeatherAppSupport
+  NO       0/85	/System/Library/PrivateFrameworks/AppAnalytics.framework/Versions/A/AppAnalytics
+  NO       0/0	/System/Library/PrivateFrameworks/AppSSOCore.framework/Versions/A/AppSSOCore
+  NO       0/5	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/0	/System/Library/Frameworks/PermissionKit.framework/Versions/A/PermissionKit
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/DeclaredAgeRange.framework/Versions/A/DeclaredAgeRange
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/_PermissionKit_UIKit.framework/Versions/A/_PermissionKit_UIKit
+  NO       0/0	/System/Library/PrivateFrameworks/SyncedDefaults.framework/Versions/A/SyncedDefaults
+  NO       0/342	/System/Library/PrivateFrameworks/TeaFoundation.framework/Versions/A/TeaFoundation
+  NO       0/138	/System/Library/PrivateFrameworks/TeaSettings.framework/Versions/A/TeaSettings
+  NO       0/77	/System/iOSSupport/System/Library/PrivateFrameworks/TeaUI.framework/Versions/A/TeaUI
+  yes      12/508	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10CocoaErrorV18fileReadNoSuchFileAC4CodeVvgZ _$s10Foundation10CocoaErrorV4CodeVMa _$s10Foundation11FormatStylePA2A4DateV08RelativebC0VRszrlE8relative12presentation05unitsC0A2G12PresentationV_AG05UnitsC0VtFZ _$s10Foundation11FormatStylePA2A4DateVABVRszrlE8dateTimeAFvgZ _$s10Foundation11FormatStylePAAE11measurement5width5usage06numberbC0AA11MeasurementVAASo11NSDimensionCRbzrlEABVyqd___GAL9UnitWidthVyqd____G_AA0hbJ5UsageVyqd__GAA013FloatingPointbC0VySdGSgtAMRszAKRbd__lFZ _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+  yes      14/44	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush _objc_release_x19 _objc_release_x20 _objc_release_x21 _objc_release_x22
+  yes      29/38	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_signpost_emit_with_name_impl _dispatch_group_create _dlsym _OBJC_CLASS_$_OS_dispatch_queue _OBJC_CLASS_$_OS_os_log
+  NO       0/19	/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+  yes      6/19	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_UIFont _OBJC_CLASS_$_UIFontDescriptor _UIFontTextStyleBody _UIFontTextStyleCaption1 _UIFontTextStyleCaption2 _UIFontTextStyleFootnote
+  NO       0/66	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/1	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      6/13	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopPerformBlock _NSCurrentLocaleDidChangeNotification _NSDefaultRunLoopMode _NSRunLoopCommonModes _NSURLIsDirectoryKey _OBJC_CLASS_$_NSRunLoop
+  yes      11/29	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics15CodingOverridesVMa _$s12CoreGraphics22OptionsTopLevelDecoderV6decode_4fromxxm_So8NSObjectCtKSeRzlF _$s12CoreGraphics22OptionsTopLevelDecoderV9overridesAcA15CodingOverridesV_tcfC _$s12CoreGraphics22OptionsTopLevelDecoderVMa _$s12CoreGraphics22OptionsTopLevelEncoderC6encodeySo8NSObjectCxKSERzlFTj _$s12CoreGraphics22OptionsTopLevelEncoderC9overridesAcA15CodingOverridesV_tcfc
+  NO       0/1	/System/Library/Frameworks/CoreHaptics.framework/Versions/A/CoreHaptics
+  NO       0/2	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationWorkspace
+  NO       0/7	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/2	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/20	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/9	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/36	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  NO       0/3	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/2	/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials
+  NO       0/1	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/2	/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement
+  NO       0/14	/System/Library/PrivateFrameworks/Coherence.framework/Versions/A/Coherence
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/3	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/23	/System/Library/PrivateFrameworks/TeaDB.framework/Versions/A/TeaDB
+  NO       0/173	/System/Library/PrivateFrameworks/WeatherDaemon.framework/Versions/A/WeatherDaemon
+  NO       0/202	/System/iOSSupport/System/Library/Frameworks/Charts.framework/Versions/A/Charts
+  NO       0/9	/System/iOSSupport/System/Library/Frameworks/MapKit.framework/Versions/A/MapKit
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/SafariServices.framework/Versions/A/SafariServices
+  NO       0/1985	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/97	/System/iOSSupport/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  NO       0/136	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/4	/System/iOSSupport/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/_AppIntents_SwiftUI.framework/Versions/A/_AppIntents_SwiftUI
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/_AppIntents_UIKit.framework/Versions/A/_AppIntents_UIKit
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/NewsFeed.framework/Versions/A/NewsFeed
+  NO       0/25	/System/iOSSupport/System/Library/PrivateFrameworks/NewsKit.framework/Versions/A/NewsKit
+  NO       0/7	/System/iOSSupport/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/ShareSheet.framework/Versions/A/ShareSheet
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/VFX.framework/Versions/A/VFX
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftGameplayKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSpriteKit.dylib (weak)
+  NO       0/1	/usr/lib/libAccessibility.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCallKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/667	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/45	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/18	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/56	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/18	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/36	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Weather: 90 of 97 linked libraries are absent from the guest root; 78 of 10082 imported symbols are provided (0.773656%).

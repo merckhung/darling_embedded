@@ -1,0 +1,14 @@
+bazel-*
+.cache/
+MODULE.bazel.lock
+*.pyc
+__pycache__/
+
+/vendor/
+.DS_Store
+._*
+
+# Editor temporary files may contain local account and host metadata.
+*.swp
+*.swo
+*~

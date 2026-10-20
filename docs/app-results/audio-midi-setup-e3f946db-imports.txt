@@ -1,0 +1,54 @@
+==== Audio MIDI Setup ====
+Linked dylibs: 42, imported symbols: 593
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/caulk.framework/Versions/A/caulk
+  NO       0/0	/usr/lib/libAudioStatistics.dylib
+  NO       0/8	/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit
+  NO       0/0	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/0	/System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+  NO       0/4	/System/Library/Frameworks/CoreAudioKit.framework/Versions/A/CoreAudioKit
+  NO       0/1	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/ScriptingBridge.framework/Versions/A/ScriptingBridge
+  NO       0/85	/System/Library/Frameworks/CoreMIDI.framework/Versions/A/CoreMIDI
+  NO       0/16	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  yes      0/0	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+  NO       0/4	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/4	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/25	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/5	/System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice
+  NO       0/7	/System/Library/Frameworks/AudioVideoBridging.framework/Versions/A/AudioVideoBridging
+  yes      33/62	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSConstantFloatNumber _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV6objectypSgvg _$s10Foundation12NotificationVMa
+  yes      42/42	/usr/lib/libobjc.A.dylib
+  yes      1/24	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv121__vmi_class_type_infoE __ZTVN10__cxxabiv117__class_type_infoE __ZTVN10__cxxabiv120__si_class_type_infoE __ZNSt20bad_array_new_lengthC1Ev __ZNSt9bad_allocC1Ev __ZNSt9exceptionD2Ev
+  yes      47/52	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_feature_enabled_impl __os_log_fault_impl _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  NO       0/3	/System/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting
+  yes      66/94	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSShowSystemInfoPanel _NSSolariumEnabled _NSAccessibilityButtonRole _NSAccessibilityGroupRole _NSAccessibilityImageRole _NSCollectionElementKindSectionFooter
+  yes      26/41	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSDefaultRunLoopMode _NSInternalInconsistencyException _NSRunLoopCommonModes _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSException
+  yes      25/47	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGColorEqualToColor _CGContextSetAllowsFontSmoothing _CGContextSetAllowsFontSubpixelQuantization _CGContextSetLineDash _CGContextSetShouldSubpixelPositionFonts _CGContextSetTextPosition
+  NO       0/3	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/52	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Audio MIDI Setup: 33 of 42 linked libraries are absent from the guest root; 240 of 588 imported symbols are provided (40.8163%).

@@ -1,0 +1,19 @@
+==== IOUIAgent ====
+Linked dylibs: 9, imported symbols: 178
+
+  present  provided/imported  library
+  NO       0/21	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationWorkspace
+  yes      14/18	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSMapTable _OBJC_CLASS_$_NSURLComponents _OBJC_CLASS_$_NSURLQueryItem
+  yes      29/29	/usr/lib/libobjc.A.dylib
+  yes      36/71	/usr/lib/libSystem.B.dylib
+             e.g. missing: _cc_cmp_safe _ccaes_gcm_decrypt_mode _ccaes_gcm_encrypt_mode _ccgcm_context_size _ccgcm_finalize _ccgcm_init
+  yes      2/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      18/35	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFUserNotificationCancel _CFUserNotificationCreate _CFUserNotificationCreateRunLoopSource _CFUserNotificationUpdate _NSDefaultRunLoopMode _OBJC_CLASS_$_NSDate
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+
+Summary for IOUIAgent: 3 of 9 linked libraries are absent from the guest root; 99 of 178 imported symbols are provided (55.618%).

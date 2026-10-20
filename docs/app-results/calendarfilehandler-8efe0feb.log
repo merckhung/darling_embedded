@@ -1,0 +1,13 @@
+(/usr/bin/darling open /Applications/calendarfilehandler-8efe0feb/CalendarFileHandler.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_calendarfilehandler-8efe0feb:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:82
+DARLING_LAUNCH_BUNDLE:/Applications/calendarfilehandler-8efe0feb/CalendarFileHandler.app:/Applications/calendarfilehandler-8efe0feb/CalendarFileHandler.app/Contents/MacOS/CalendarFileHandler
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/calendarfilehandler-8efe0feb/CalendarFileHandler.app/Contents/MacOS/CalendarFileHandler)
+[AppKit] loaded nib /Applications/calendarfilehandler-8efe0feb/CalendarFileHandler.app/Contents/Resources/Base.lproj/MainMenu.nib: 1000 objects, 0 windows
+[AppKit] NSApplication delegate = 0x10221a270
+[AppKit] delegate 0x10221a270 does not respond to applicationDidFinishLaunching
+kill -9 82 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/calendarfilehandler-8efe0feb/CalendarFileHandler.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_calendarfilehandler-8efe0feb:${?})
+
+root@Darwin#

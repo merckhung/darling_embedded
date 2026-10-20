@@ -1,0 +1,67 @@
+(/usr/bin/darling open '/Applications/captive-network-assistant-61ff3692/Captive Network Assistant.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_captive-network-assistant-61ff3692:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:84
+DARLING_LAUNCH_BUNDLE:/Applications/captive-network-assistant-61ff3692/Captive Network Assistant.app:/Applications/captive-network-assistant-61ff3692/Captive Network Assistant.app/Contents/MacOS/Captive Network Assistant
+native dyld warning: unresolved import: _DBLoggingLogWithFormat
+native dyld warning: unresolved import: _DBLoggingStartWithController
+native dyld warning: unresolved import: _DBLoggingStop
+native dyld warning: unresolved import: _CNIAmTheWebsheetApp2
+native dyld warning: unresolved import: _CNProberCreate
+native dyld warning: unresolved import: _CNProberCreateRunLoopSource
+native dyld warning: unresolved import: _CNScrapeCredentials
+native dyld warning: unresolved import: _CNWebsheetNotifyComplete
+native dyld warning: unresolved import: _SecKeychainAddCallback
+native dyld warning: unresolved import: _SecTrustEvaluateAsync
+native dyld warning: unresolved import: _SecTrustGetTrustResult
+native dyld warning: unresolved import: _SCDynamicStoreCopyProxiesWithOptions
+native dyld warning: unresolved import: _SCNetworkInterfaceCopyAll
+native dyld warning: unresolved import: _SCNetworkInterfaceGetBSDName
+native dyld warning: unresolved import: _SCNetworkInterfaceGetInterface
+native dyld warning: unresolved import: _SCNetworkInterfaceGetInterfaceType
+native dyld warning: unresolved import: _SCNetworkProxiesCopyMatching
+native dyld warning: unresolved import: __os_feature_enabled_impl
+native dyld warning: unresolved import: _CFHTTPCookieStorageSetCookieAcceptPolicy
+native dyld warning: unresolved import: _CFURLCacheCopySharedURLCache
+native dyld warning: unresolved import: _CFURLCacheMemoryCapacity
+native dyld warning: unresolved import: _CFURLCacheSetDiskCapacity
+native dyld warning: unresolved import: _CFURLCacheSetMemoryCapacity
+native dyld warning: unresolved import: __CFURLRequestSetStorageSession
+native dyld warning: unresolved import: __CFURLResponseGetSSLCertificateContext
+native dyld warning: unresolved import: __CFURLStorageSessionCopyCache
+native dyld warning: unresolved import: __CFURLStorageSessionCopyCookieStorage
+native dyld warning: unresolved import: __CFURLStorageSessionCreate
+native dyld warning: unresolved import: _CFRunLoopContainsSource
+native dyld warning: unresolved import: _CFRunLoopSourceInvalidate
+native dyld warning: unresolved import: _CWFCaptiveWebSheetJavaScriptAutoFocusFirstTextInput
+native dyld warning: unresolved import: _CWFCaptiveWebSheetJavaScriptGetClickEventInputElementSelectorName
+native dyld warning: unresolved import: _CWFCaptiveWebSheetJavaScriptResultCoordinatesHeight
+native dyld warning: unresolved import: _CWFCaptiveWebSheetJavaScriptResultCoordinatesWidth
+native dyld warning: unresolved import: _CWFCaptiveWebSheetJavaScriptResultCoordinatesX
+native dyld warning: unresolved import: _CWFCaptiveWebSheetJavaScriptResultCoordinatesY
+native dyld warning: unresolved import: _CWFCaptiveWebSheetJavaScriptScrapeCredentials
+native dyld warning: unresolved import: _CWFCaptiveWebSheetJavaScriptSetElementValueForSelectorNameFormat
+native dyld warning: unresolved import: _gDBLoggingMasks
+native dyld warning: unresolved import: _kCNSWebsheetInfoPropertyInterfaceName
+native dyld warning: unresolved import: _kCNSWebsheetInfoPropertyURL
+native dyld warning: unresolved import: _WKErrorDomain
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeEthernet
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeIEEE80211
+native dyld warning: unresolved import: _kSCProxiesNoGlobal
+native dyld warning: unresolved import: _NSURLAuthenticationMethodServerTrust
+native dyld warning: unresolved import: _NSURLErrorDomain
+native dyld warning: unresolved import: _NSURLErrorFailingURLPeerTrustErrorKey
+native dyld warning: unresolved import: _NSImageNameCaution
+native dyld warning: unresolved import: __kCFURLStorageSessionIsPrivate
+native dyld warning: unresolved import: _kCFStreamPropertySSLPeerTrust
+native dyld warning: unresolved import: _NSURLLocalizedNameKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/captive-network-assistant-61ff3692/Captive Network Assistant.app/Contents/MacOS/Captive Network Assistant)
+[AppKit] loaded nib /Applications/captive-network-assistant-61ff3692/Captive Network Assistant.app/Contents/Resources/Base.lproj/MainMenu.nib: 29 objects, 0 windows
+[AppKit] NSApplication delegate = 0x10144e3b0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x10144e3b0
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 84 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/captive-network-assistant-61ff3692/Captive Network Assistant.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_captive-network-assistant-61ff3692:${?})
+
+root@Darwin#

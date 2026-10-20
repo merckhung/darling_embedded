@@ -1,0 +1,12 @@
+==== Rosetta 2 Updater ====
+Linked dylibs: 6, imported symbols: 21
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/OAHSoftwareUpdate.framework/Versions/A/OAHSoftwareUpdate
+  yes      1/1	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      12/12	/usr/lib/libobjc.A.dylib
+  yes      3/3	/usr/lib/libSystem.B.dylib
+  yes      2/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      2/2	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+Summary for Rosetta 2 Updater: 1 of 6 linked libraries are absent from the guest root; 20 of 21 imported symbols are provided (95.2381%).

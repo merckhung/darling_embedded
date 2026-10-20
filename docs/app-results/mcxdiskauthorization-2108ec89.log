@@ -1,0 +1,10 @@
+(/usr/bin/darling open /Applications/mcxdiskauthorization-2108ec89/MCXDiskAuthorization.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_mcxdiskauthorization-2108ec89:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:28
+DARLING_LAUNCH_BUNDLE:/Applications/mcxdiskauthorization-2108ec89/MCXDiskAuthorization.app:/Applications/mcxdiskauthorization-2108ec89/MCXDiskAuthorization.app/Contents/MacOS/MCXDiskAuthorization
+PROBE_EXIT_mcxdiskauthorization-2108ec89:0
+kill -9 28 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/mcxdiskauthorization-2108ec89/MCXDiskAuthorization.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_mcxdiskauthorization-2108ec89:${?})
+
+root@Darwin#

@@ -1,0 +1,89 @@
+==== Windows App ====
+Linked dylibs: 79, imported symbols: 4193
+
+  present  provided/imported  library
+  yes      302/383	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNKSt13runtime_error4whatEv __ZNKSt9exception4whatEv __ZNSt11logic_errorD1Ev __ZNSt11logic_errorD2Ev __ZNSt11range_errorD1Ev __ZNSt11range_errorD2Ev
+  NO       0/16	/System/Library/Frameworks/GSS.framework/Versions/A/GSS
+  yes      0/53	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCertificateCopyCommonName _SecCertificateCopyData _SecCertificateCopySubjectSummary _SecCertificateCopyValues _SecCertificateCreateWithData _SecCodeCopySigningInformation
+  yes      62/418	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10CocoaErrorV13userCancelledAC4CodeVvgZ _$s10Foundation10CocoaErrorV4CodeVAA01_cD8ProtocolAAMc _$s10Foundation10CocoaErrorV4CodeVMa _$s10Foundation10NSNotFoundSivg _$s10Foundation10URLRequestV10httpMethodSSSgvs _$s10Foundation10URLRequestV19_bridgeToObjectiveCSo12NSURLRequestCyF
+  yes      76/174	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s10Foundation9IndexPathV6AppKitE4item7sectionACSi_SitcfC _$s10Foundation9IndexPathV6AppKitE4itemSivM _$s10Foundation9IndexPathV6AppKitE4itemSivg _$s10Foundation9IndexPathV6AppKitE4itemSivs _$s10Foundation9IndexPathV6AppKitE7sectionSivg _$s6AppKit11NSItemBadgeV5countyACSiFZ
+  yes      4/4	/usr/lib/libz.1.dylib
+  NO       0/41	/usr/lib/libsqlite3.dylib
+  NO       0/9	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/11	/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/AuthenticationServices
+  NO       0/0	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/0	/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL
+  NO       0/12	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/5	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight (weak)
+  NO       0/16	/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox
+  NO       0/1	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/2	/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit
+  NO       0/0	/usr/lib/libcurl.4.dylib
+  NO       0/14	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/0	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/0	/System/Library/Frameworks/CoreAudioKit.framework/Versions/A/CoreAudioKit
+  NO       0/4	/usr/lib/libresolv.9.dylib
+  NO       0/15	/System/Library/Frameworks/PCSC.framework/Versions/A/PCSC
+  NO       0/1	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  yes      42/57	/usr/lib/libobjc.A.dylib
+             e.g. missing: _OBJC_EHTYPE_id _class_addMethod _class_copyPropertyList _class_getInstanceMethod _class_replaceMethod _imp_implementationWithBlock
+  yes      268/338	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CCCrypt _CCHmac _CCHmacFinal _CCHmacInit _CCHmacUpdate _CCRandomGenerateBytes
+  NO       0/1	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  yes      1/14	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _PMCreatePageFormat _PMCreatePrintSettings _PMCreateSession _PMPrinterGetMimeTypes _PMPrinterGetName _PMPrinterIsDefault
+  NO       0/30	/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+  NO       0/12	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/53	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/2	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  yes      62/129	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAbsoluteTimeGetGregorianDate _CFArrayCreateMutableCopy _CFArrayRemoveValueAtIndex _CFDataCreateMutable _CFDataCreateWithBytesNoCopy _CFDataGetBytes
+  yes      67/116	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformMakeTranslation _CGColorSpaceCreateIndexed _CGColorSpaceCreatePattern _CGColorSpaceGetModel _CGContextEOFillPath _CGContextSetAllowsAntialiasing
+  NO       0/4	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  NO       0/23	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  yes      5/17	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _FSEventStreamCreate _FSEventStreamInvalidate _FSEventStreamRelease _FSEventStreamScheduleWithRunLoop _FSEventStreamStart _FSEventStreamStop
+  NO       0/1	/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+  NO       0/11	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/11	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/11	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/6	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/66	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/19	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit
+  NO       0/939	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/11	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  yes      0/1	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_CLASS_$_WKWebView
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/708	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMedia.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/52	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMapKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/1	/usr/lib/swift/libswiftQuartzCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/29	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/2	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftCoreGraphics.dylib
+
+Summary for Windows App: 60 of 79 linked libraries are absent from the guest root; 889 of 3873 imported symbols are provided (22.9538%).

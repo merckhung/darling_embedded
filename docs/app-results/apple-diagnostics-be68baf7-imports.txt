@@ -1,0 +1,45 @@
+==== Apple Diagnostics ====
+Linked dylibs: 35, imported symbols: 435
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/DiagnosticsSessionAvailability.framework/Versions/A/DiagnosticsSessionAvailability
+  NO       0/10	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/PrivateFrameworks/DiagnosticsKit.framework/Versions/A/DiagnosticsKit
+  NO       0/4	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  yes      4/35	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV13FailurePolicyOMa _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV17InterpretedSyntaxOMa _$s10Foundation16AttributedStringV22MarkdownParsingOptionsV24allowsExtendedAttributes17interpretedSyntax13failurePolicy12languageCodeAESb_AE011InterpretedK0OAE07FailureM0OSSSgtcfC _$s10Foundation16AttributedStringV22MarkdownParsingOptionsVMa
+  yes      11/11	/usr/lib/libobjc.A.dylib
+  yes      13/18	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dispatch_semaphore_create _os_variant_has_internal_content _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      22/26	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _NSSolariumEnabled _NSFontTextStyleBody _NSFontTextStyleTitle2
+  NO       0/21	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      2/4	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSSet _OBJC_CLASS_$_NSTimer
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/64	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/3	/System/Library/PrivateFrameworks/AppleServiceToolkit.framework/Versions/A/AppleServiceToolkit
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/3	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/181	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/25	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/14	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/7	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Apple Diagnostics: 30 of 35 linked libraries are absent from the guest root; 52 of 435 imported symbols are provided (11.954%).

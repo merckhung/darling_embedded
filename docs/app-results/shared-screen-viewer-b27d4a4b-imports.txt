@@ -1,0 +1,77 @@
+==== Shared Screen Viewer ====
+Linked dylibs: 62, imported symbols: 988
+
+  present  provided/imported  library
+  NO       0/3	/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox
+  NO       0/2	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/3	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/7	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/3	/System/Library/PrivateFrameworks/ScreenSharing.framework/Versions/A/Frameworks/ScreenSharingUI.framework/Versions/A/ScreenSharingUI
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/4	/System/Library/PrivateFrameworks/TimeSync.framework/Versions/A/TimeSync
+  NO       0/14	/System/Library/PrivateFrameworks/AVConference.framework/Versions/A/AVConference (weak)
+  yes      2/15	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _CoreEndianFlipData _Gestalt _UCKeyTranslate _UTCreateStringForOSType _UTGetOSTypeFromString _UTTypeCopyDeclaration
+  NO       0/4	/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities (weak)
+  NO       0/3	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/2	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/0	/System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook (weak)
+  yes      0/55	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecAccessCreate _SecItemCopyMatching _SecItemExport _SecItemImport _SecKeyCopyAttributes _SecKeyDecrypt
+  NO       0/10	/System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal
+  NO       0/2	/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+  NO       0/0	/System/Library/PrivateFrameworks/PhoneNumbers.framework/Versions/A/PhoneNumbers (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/16	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/17	/System/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS (weak)
+  NO       0/0	/System/Library/PrivateFrameworks/SocialAppsCore.framework/Versions/A/SocialAppsCore
+  NO       0/0	/System/Library/PrivateFrameworks/CommunicationsFilter.framework/Versions/A/CommunicationsFilter (weak)
+  NO       0/21	/System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory
+  NO       0/2	/System/Library/PrivateFrameworks/KerberosHelper.framework/Versions/A/KerberosHelper
+  NO       0/12	/System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos
+  NO       0/2	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  NO       0/2	/System/Library/PrivateFrameworks/NetAuth.framework/Versions/A/NetAuth
+  NO       0/18	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/11	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/15	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts (weak)
+  NO       0/2	/System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/Versions/A/AccessibilitySharedSupport
+  NO       0/1	/System/Library/PrivateFrameworks/ConversationKit.framework/Versions/A/ConversationKit
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/1	/System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/Versions/A/DiagnosticLogCollection (weak)
+  NO       0/1	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI (weak)
+  NO       0/18	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  yes      6/6	/usr/lib/libz.1.dylib
+  yes      0/8	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _PasteboardClear _PasteboardCopyItemFlavorData _PasteboardCopyItemFlavors _PasteboardCreate _PasteboardGetItemCount _PasteboardGetItemFlavorFlags
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  NO       0/0	/System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService
+  yes      55/69	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSConstantFloatNumber _NSFileTypeForHFSTypeCode _NSFileExtensionHidden _NSKeyValueChangeNewKey
+  yes      44/46	/usr/lib/libobjc.A.dylib
+             e.g. missing: _object_getClassName _objc_ehtype_vtable
+  yes      159/238	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CCBigNumFree _CCBigNumFromData _CCBigNumModExp _CCBigNumSetI _CCBigNumToData _CCCreateBigNum
+  yes      58/91	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityPostNotification _NSAccessibilityPostNotificationWithUserInfo _NSAccessibilityAnnouncementKey _NSAccessibilityAnnouncementRequestedNotification _NSAccessibilityCheckBoxRole _NSAccessibilityToggleSubrole
+  NO       0/17	/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+  yes      73/111	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAbsoluteTimeGetGregorianDate _CFAllocatorGetDefault _CFArrayContainsValue _CFArrayInsertValueAtIndex _CFDataAppendBytes _CFDataCreateMutable
+  yes      38/75	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformMakeRotation _CGCaptureAllDisplays _CGContextGetClipBoundingBox _CGContextSetLineJoin _CGContextSetShadow _CGDataProviderCreateWithData
+  NO       0/48	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Shared Screen Viewer: 51 of 62 linked libraries are absent from the guest root; 435 of 987 imported symbols are provided (44.0729%).

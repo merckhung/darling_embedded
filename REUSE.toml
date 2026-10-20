@@ -1,0 +1,30 @@
+version = 1
+
+[[annotations]]
+path = [
+    "MODULE.bazel",
+    "BUILD.bazel",
+    ".bazelrc",
+    ".bazelversion",
+    ".gitignore",
+    "PLAN.md",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "bazel/**",
+    "patches/**",
+    "darling/frameworks/**",
+    "darling/include/**",
+    "darling/libSystem/**",
+    "darling/objc/**",
+    "darling/tools/**",
+    "apps/**",
+    "tools/**",
+    "docs/**",
+]
+SPDX-FileCopyrightText = "2026 Merck Hung"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+[[annotations]]
+path = ["darling/dyld/**"]
+SPDX-FileCopyrightText = "2026 Darwin Embedded contributors; 2026 Merck Hung"
+SPDX-License-Identifier = "BSD-2-Clause"

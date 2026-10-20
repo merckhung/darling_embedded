@@ -1,0 +1,12 @@
+==== Computer ====
+Linked dylibs: 5, imported symbols: 8
+
+  present  provided/imported  library
+  yes      1/1	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      4/4	/usr/lib/libobjc.A.dylib
+  yes      0/1	/usr/lib/libc++.1.dylib
+             e.g. missing: ___gxx_personality_v0
+  yes      1/1	/usr/lib/libSystem.B.dylib
+  yes      1/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+Summary for Computer: 0 of 5 linked libraries are absent from the guest root; 7 of 8 imported symbols are provided (87.5%).

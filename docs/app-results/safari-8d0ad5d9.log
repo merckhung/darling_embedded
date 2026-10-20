@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/safari-8d0ad5d9/Safari.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_safari-8d0ad5d9:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:10
+DARLING_LAUNCH_BUNDLE:/Applications/safari-8d0ad5d9/Safari.app:/Applications/safari-8d0ad5d9/Safari.app/Contents/MacOS/Safari
+native dyld warning: unresolved import: _SafariMain
+PROBE_EXIT_safari-8d0ad5d9:0
+kill -9 10 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/safari-8d0ad5d9/Safari.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_safari-8d0ad5d9:${?})
+
+root@Darwin#

@@ -1,0 +1,86 @@
+==== VoiceOver Utility ====
+Linked dylibs: 73, imported symbols: 1658
+
+  present  provided/imported  library
+  NO       0/2	/usr/lib/libScreenReader.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/TextToSpeechVoiceBankingUI.framework/Versions/A/TextToSpeechVoiceBankingUI
+  NO       0/43	/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/Versions/A/AccessibilityUtilities
+  NO       0/0	/System/Library/PrivateFrameworks/AccessibilitySharedUISupport.framework/Versions/A/AccessibilitySharedUISupport
+  NO       0/1	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/UniversalAccess
+  NO       0/2	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/29	/System/Library/PrivateFrameworks/AXCoreUtilities.framework/Versions/A/AXCoreUtilities
+  NO       0/4	/System/Library/PrivateFrameworks/AXAssetLoader.framework/Versions/A/AXAssetLoader
+  NO       0/0	/System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport
+  NO       0/3	/System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Frameworks/BrailleTranslation.framework/Versions/A/BrailleTranslation
+  NO       0/1	/usr/lib/libicucore.A.dylib
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/2	/usr/lib/libAXSafeCategoryBundle.dylib
+  NO       0/5	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/8	/System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+  NO       0/1	/System/Library/Frameworks/IOBluetoothUI.framework/Versions/A/IOBluetoothUI
+  NO       0/5	/System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+  NO       0/86	/System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/ScreenReader
+  NO       0/3	/System/Library/PrivateFrameworks/AccessibilitySharedSupport.framework/Versions/A/AccessibilitySharedSupport
+  NO       0/181	/System/Library/PrivateFrameworks/ScreenReaderCore.framework/Versions/A/ScreenReaderCore
+  NO       0/19	/System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Frameworks/ScreenReaderOutput.framework/Versions/A/ScreenReaderOutput
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/1	/System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/SpeechObjects
+  NO       0/2	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  yes      37/129	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV6objectypSgvg _$s10Foundation12NotificationVMa _$s10Foundation16AttributedStringVMa _$s10Foundation16AttributedStringV_10attributesACSS_AA18AttributeContainerVtcfC
+  yes      38/38	/usr/lib/libobjc.A.dylib
+  yes      36/42	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_feature_enabled_impl _dlerror _dlsym _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  NO       0/2	/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+  yes      55/121	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo12NSStoryboardC6AppKitE21instantiateController10identifier7creatorxSS_xSgSo7NSCoderCcSgtSo06NSViewE0CRbzlF _NSAccessibilityEntryPointValueForAttribute _NSAccessibilityPostNotification _NSAccessibilityPostNotificationWithUserInfo _NSAccessibilityUnignoredChildren _NSAccessibilityUnignoredDescendant
+  yes      0/2	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _HIS_XPC_GetCapsLockModifierState _UAZoomChangeFocus
+  NO       0/14	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/10	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  yes      24/36	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSLocaleLanguageCode _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSDateComponents _OBJC_CLASS_$_NSLocale _OBJC_CLASS_$_NSMutableData
+  yes      1/5	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventGetFlags _CGEventGetIntegerValueField _CGEventSetFlags _CGEventSetIntegerValueField
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: __LSCopyApplicationInformationItem __LSCopyRunningApplicationArray
+  NO       0/507	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/2	/System/Library/PrivateFrameworks/AccessibilitySettingsUI.framework/Versions/A/AccessibilitySettingsUI
+  NO       0/1	/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/CoreBluetoothUI
+  NO       0/1	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/3	/System/Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation
+  NO       0/2	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+  NO       0/1	/System/Library/PrivateFrameworks/TextToSpeech.framework/Versions/A/TextToSpeech
+  NO       0/1	/System/Library/PrivateFrameworks/TranslationUI.framework/Versions/A/TranslationUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/301	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/2	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for VoiceOver Utility: 64 of 73 linked libraries are absent from the guest root; 191 of 1658 imported symbols are provided (11.5199%).

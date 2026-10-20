@@ -1,0 +1,239 @@
+(/usr/bin/darling open '/Applications/disk-utility-546f6347/Disk Utility.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_disk-utility-546f6347:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:46
+DARLING_LAUNCH_BUNDLE:/Applications/disk-utility-546f6347/Disk Utility.app:/Applications/disk-utility-546f6347/Disk Utility.app/Contents/MacOS/Disk Utility
+native dyld warning: unresolved import: _kSKRAIDDiskTypeJBOD
+native dyld warning: unresolved import: _kSKRAIDDiskTypeMirrored
+native dyld warning: unresolved import: _kSKRAIDDiskTypeStriped
+native dyld warning: unresolved import: _FSEventStreamCreateRelativeToDevice
+native dyld warning: unresolved import: _FSEventStreamInvalidate
+native dyld warning: unresolved import: _FSEventStreamRelease
+native dyld warning: unresolved import: _FSEventStreamSetDispatchQueue
+native dyld warning: unresolved import: _FSEventStreamStart
+native dyld warning: unresolved import: _FSEventStreamStop
+native dyld warning: unresolved import: _MDItemCopyAttribute
+native dyld warning: unresolved import: _MDItemCreate
+native dyld warning: unresolved import: __LSASNCreateWithPid
+native dyld warning: unresolved import: __LSCopyApplicationInformation
+native dyld warning: unresolved import: _dispatch_queue_attr_make_with_autorelease_frequency
+native dyld warning: unresolved import: _dispatch_queue_attr_make_with_qos_class
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _fs_snapshot_list
+native dyld warning: unresolved import: _fsctl
+native dyld warning: unresolved import: _os_variant_has_internal_ui
+native dyld warning: unresolved import: _os_variant_is_basesystem
+native dyld warning: unresolved import: _qos_class_self
+native dyld warning: unresolved import: _responsibility_get_pid_responsible_for_pid
+native dyld warning: unresolved import: _rootless_protected_volume
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _RestoreOperation
+native dyld warning: unresolved import: _DMLocalizedUserErrorString
+native dyld warning: unresolved import: _DIChecksumDelete
+native dyld warning: unresolved import: _DICopyStrError
+native dyld warning: unresolved import: _DIDiskImageConvertWithDiskImage
+native dyld warning: unresolved import: _DIDiskImageCreateChecksum
+native dyld warning: unresolved import: _DIDiskImageHasChecksum
+native dyld warning: unresolved import: _DIDiskImageObjectGetRefCon
+native dyld warning: unresolved import: _DIDiskImageObjectRelease
+native dyld warning: unresolved import: _DIDiskImageObjectSetDIProgressCallBackProcPtr
+native dyld warning: unresolved import: _DIDiskImageObjectSetRefCon
+native dyld warning: unresolved import: _DIDiskImageValidateChecksumWithFlags
+native dyld warning: unresolved import: _DIHLCopyEncryptedStatus
+native dyld warning: unresolved import: _DIHLDiskImageCreate
+native dyld warning: unresolved import: _DIInitialize
+native dyld warning: unresolved import: _DIResolvePathsToDiskImage
+native dyld warning: unresolved import: _Mobile_Obliterate
+native dyld warning: unresolved import: _Mobile_Obliterate_IsSupported
+native dyld warning: unresolved import: _abm_get_isc_device_path
+native dyld warning: unresolved import: _abm_get_recovery_device_path
+native dyld warning: unresolved import: _DUUnlockVolume
+native dyld warning: unresolved import: _DUUnlockVolumeWithOptions
+native dyld warning: unresolved import: _NSFileTypeForHFSTypeCode
+native dyld warning: unresolved import: _NSSetFocusRingStyle
+native dyld warning: unresolved import: _CGAffineTransformRotate
+native dyld warning: unresolved import: _CGPathAddLineToPoint
+native dyld warning: unresolved import: _CGPathCreateCopyByStrokingPath
+native dyld warning: unresolved import: _CGPathCreateMutable
+native dyld warning: unresolved import: _CGPathMoveToPoint
+native dyld warning: unresolved import: _CGSSetConnectionProperty
+native dyld warning: unresolved import: _DADiskCreateFromBSDName
+native dyld warning: unresolved import: _DADiskGetBSDName
+native dyld warning: unresolved import: _DASessionCreate
+native dyld warning: unresolved import: _IOPMAssertionCreateWithName
+native dyld warning: unresolved import: _IOPMAssertionRelease
+native dyld warning: unresolved import: _APFSVolumeRole
+native dyld warning: unresolved import: __kLSDisplayNameKey
+native dyld warning: unresolved import: _OBJC_IVAR_$_SKManager.allDisks
+native dyld warning: unresolved import: _SKAPFSVolumeRoleData
+native dyld warning: unresolved import: _SKAPFSVolumeRoleInstaller
+native dyld warning: unresolved import: _SKAPFSVolumeRoleNone
+native dyld warning: unresolved import: _SKAPFSVolumeRolePreboot
+native dyld warning: unresolved import: _SKAPFSVolumeRoleRecovery
+native dyld warning: unresolved import: _SKAPFSVolumeRoleSystem
+native dyld warning: unresolved import: _SKAPFSVolumeRoleUser
+native dyld warning: unresolved import: _SKAPFSVolumeRoleVM
+native dyld warning: unresolved import: _SKErrorDomain
+native dyld warning: unresolved import: _kSKDiskFileSystem3rdPartyPrefix
+native dyld warning: unresolved import: _kSKDiskFileSystemAPFS
+native dyld warning: unresolved import: _kSKDiskFileSystemExFAT
+native dyld warning: unresolved import: _kSKDiskFileSystemFAT
+native dyld warning: unresolved import: _kSKDiskFileSystemHFS
+native dyld warning: unresolved import: _kSKDiskFileSystemNTFS
+native dyld warning: unresolved import: _kSKDiskMountOptionMountPoint
+native dyld warning: unresolved import: _kSKDiskMountOptionToolOptions
+native dyld warning: unresolved import: _kSKDiskPartitionMapAPM
+native dyld warning: unresolved import: _kSKDiskPartitionMapGPT
+native dyld warning: unresolved import: _kSKDiskPartitionMapMBR
+native dyld warning: unresolved import: _kSKDiskRoleBooter
+native dyld warning: unresolved import: _kSKDiskRoleLegacyMacData
+native dyld warning: unresolved import: _kSKDiskRoleLegacyMacSystem
+native dyld warning: unresolved import: _kSKDiskRoleMacData
+native dyld warning: unresolved import: _kSKDiskRoleMacSystem
+native dyld warning: unresolved import: _kSKDiskRoleNoRole
+native dyld warning: unresolved import: _kSKDiskRolePhysicalDisk
+native dyld warning: unresolved import: _kSKDiskRoleRecovery
+native dyld warning: unresolved import: _kSKDiskRoleSnapshot
+native dyld warning: unresolved import: _kSKDiskRoleStorageImplementation
+native dyld warning: unresolved import: _kSKDiskRoleUnknown
+native dyld warning: unresolved import: _kSKDiskRoleVirtualMemory
+native dyld warning: unresolved import: _kSKDiskRoleWindowsData
+native dyld warning: unresolved import: _kSKDiskRoleWindowsSystem
+native dyld warning: unresolved import: _kSKDiskTypeAPFSContainer
+native dyld warning: unresolved import: _kSKDiskTypeAPFSLV
+native dyld warning: unresolved import: _kSKDiskTypeAPFSPS
+native dyld warning: unresolved import: _kSKDiskTypeAPMWholeDisk
+native dyld warning: unresolved import: _kSKDiskTypeAppleBoot
+native dyld warning: unresolved import: _kSKDiskTypeAppleCoreDump
+native dyld warning: unresolved import: _kSKDiskTypeCSLV
+native dyld warning: unresolved import: _kSKDiskTypeCSLVG
+native dyld warning: unresolved import: _kSKDiskTypeCSPV
+native dyld warning: unresolved import: _kSKDiskTypeEFI
+native dyld warning: unresolved import: _kSKDiskTypeExFAT
+native dyld warning: unresolved import: _kSKDiskTypeFAT
+native dyld warning: unresolved import: _kSKDiskTypeGPTWholeDisk
+native dyld warning: unresolved import: _kSKDiskTypeHFS
+native dyld warning: unresolved import: _kSKDiskTypeISOOpticalWholeDisk
+native dyld warning: unresolved import: _kSKDiskTypeMBRWholeDisk
+native dyld warning: unresolved import: _kSKDiskTypeNTFS
+native dyld warning: unresolved import: _kSKDiskTypeOtherRecognizable
+native dyld warning: unresolved import: _kSKDiskTypeOtherUnrecognized
+native dyld warning: unresolved import: _kSKDiskTypeRAID
+native dyld warning: unresolved import: _kSKDiskTypeUninitalized
+native dyld warning: unresolved import: _kSKEIAvailableSpace
+native dyld warning: unresolved import: _kSKEIBootable
+native dyld warning: unresolved import: _kSKEICanBeRepaired
+native dyld warning: unresolved import: _kSKEICanBeVerified
+native dyld warning: unresolved import: _kSKEICaseSensitive
+native dyld warning: unresolved import: _kSKEIConnectionBus
+native dyld warning: unresolved import: _kSKEICoreStorageLogicalVolumeGroupUUID
+native dyld warning: unresolved import: _kSKEICoreStorageVolumeUUID
+native dyld warning: unresolved import: _kSKEIDevNodeName
+native dyld warning: unresolved import: _kSKEIDeviceTreePath
+native dyld warning: unresolved import: _kSKEIDiskCapacity
+native dyld warning: unresolved import: _kSKEIDiskNumber
+native dyld warning: unresolved import: _kSKEIEjectable
+native dyld warning: unresolved import: _kSKEIFileCount
+native dyld warning: unresolved import: _kSKEIFileSystem
+native dyld warning: unresolved import: _kSKEIFileSystemUUID
+native dyld warning: unresolved import: _kSKEIFreeSpace
+native dyld warning: unresolved import: _kSKEIIsEncrypted
+native dyld warning: unresolved import: _kSKEIJournaled
+native dyld warning: unresolved import: _kSKEILocation
+native dyld warning: unresolved import: _kSKEIMediaName
+native dyld warning: unresolved import: _kSKEIMediaType
+native dyld warning: unresolved import: _kSKEIMountPoint
+native dyld warning: unresolved import: _kSKEIOwnersEnabled
+native dyld warning: unresolved import: _kSKEIParentDisks
+native dyld warning: unresolved import: _kSKEIPartitionMapScheme
+native dyld warning: unresolved import: _kSKEIPartitionMapSize
+native dyld warning: unresolved import: _kSKEIPartitionNumber
+native dyld warning: unresolved import: _kSKEIPurgeableSpace
+native dyld warning: unresolved import: _kSKEIRootlessEnabled
+native dyld warning: unresolved import: _kSKEISMARTStatus
+native dyld warning: unresolved import: _kSKEISolidState
+native dyld warning: unresolved import: _kSKEIUsedSpace
+native dyld warning: unresolved import: _kSKEIVolumeName
+native dyld warning: unresolved import: _kSKEIVolumeType
+native dyld warning: unresolved import: _kSKEIWritable
+native dyld warning: unresolved import: _kSKFDEUserTypeKey
+native dyld warning: unresolved import: _kSKRAIDDiskMemberTypeMember
+native dyld warning: unresolved import: _kSKRAIDDiskMemberTypeSpare
+native dyld warning: unresolved import: _kObliterationMessageKey
+native dyld warning: unresolved import: _kObliterationTypeKey
+native dyld warning: unresolved import: _kObliterationTypeWipeAndBrick
+native dyld warning: unresolved import: _kSLSConnectionHasPluginPower
+native dyld warning: unresolved import: _NSFileSystemFreeSize
+native dyld warning: unresolved import: _NSKeyValueChangeOldKey
+native dyld warning: unresolved import: _NSLocalizedFailureErrorKey
+native dyld warning: unresolved import: _NSLocalizedRecoverySuggestionErrorKey
+native dyld warning: unresolved import: _NSAccessibilityRowRole
+native dyld warning: unresolved import: _NSAppearanceNameVibrantDark
+native dyld warning: unresolved import: _NSControlTextDidChangeNotification
+native dyld warning: unresolved import: _NSPasteboardTypeFileURL
+native dyld warning: unresolved import: _NSPasteboardTypeURL
+native dyld warning: unresolved import: _NSToolbarFlexibleSpaceItemIdentifier
+native dyld warning: unresolved import: _NSToolbarSpaceItemIdentifier
+native dyld warning: unresolved import: _NSViewFrameDidChangeNotification
+native dyld warning: unresolved import: _NSWindowDidBecomeKeyNotification
+native dyld warning: unresolved import: _NSWindowDidChangeOcclusionStateNotification
+native dyld warning: unresolved import: _NSWindowDidResignKeyNotification
+native dyld warning: unresolved import: _NSURLContentTypeKey
+native dyld warning: unresolved import: _NSURLLocalizedNameKey
+native dyld warning: unresolved import: _NSURLVolumeNameKey
+native dyld warning: unresolved import: __kCFSystemVersionProductVersionExtraKey
+native dyld warning: unresolved import: _kCAMediaTimingFunctionEaseOut
+native dyld warning: unresolved import: _kCAMediaTimingFunctionLinear
+native dyld warning: unresolved import: _kCATransition
+native dyld warning: unresolved import: _kCATransitionFade
+native dyld warning: unresolved import: _UTTypeDiskImage
+native dyld warning: unresolved import: _UTTypeFileURL
+native dyld warning: unresolved import: _UTTypeFolder
+native dyld warning: unresolved import: _UTTypeImage
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/disk-utility-546f6347/Disk Utility.app/Contents/MacOS/Disk Utility)
+[ObjC] Method not found: [NSObject sharedManager]
+[ObjC] Method not found: [NSObject defaultVisibleRoles]
+[AppKit] nib: no outlet 'menu' on SUContextualOutlineView
+[ObjC] Method not found: [SUContextualOutlineView setAccessibilityLabel:]
+[ObjC] Method not found: [SUContextualOutlineView setAllowsTypeSelect:]
+[ObjC] Method not found: [NSSplitView arrangedSubviews]
+[ObjC] Method not found: [NSMutableArray makeObjectsPerformSelector:]
+[ObjC] Method not found: [SUWindow contentLayoutGuide]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101efe240 (title: Disk Utility)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Disk Utility:88:12
+DARLING_MENUBAR_ITEM:File:157:12
+DARLING_MENUBAR_ITEM:Edit:201:12
+DARLING_MENUBAR_ITEM:Images:258:12
+DARLING_MENUBAR_ITEM:View:318:12
+DARLING_MENUBAR_ITEM:Window:381:12
+DARLING_MENUBAR_ITEM:Help:443:12
+DARLING_WINDOW_READY:Disk Utility:4194305:0:28:1100:578
+[AppKit] loaded nib /Applications/disk-utility-546f6347/Disk Utility.app/Contents/Resources/Base.lproj/MainMenu.nib: 1216 objects, 1 windows
+[AppKit] NSApplication delegate = 0x101efae20
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101efae20
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Disk Utility:4194305:0:28:1100:578
+DARLING_WINDOW_READY:Disk Utility:4194305:0:28:1100:578
+DARLING_WINDOW_READY:Disk Utility:4194305:0:28:1100:578
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Disk Utility:88:12
+DARLING_MENUBAR_ITEM:File:157:12
+DARLING_MENUBAR_ITEM:Edit:201:12
+DARLING_MENUBAR_ITEM:Images:258:12
+DARLING_MENUBAR_ITEM:View:318:12
+DARLING_MENUBAR_ITEM:Window:381:12
+DARLING_MENUBAR_ITEM:Help:443:12
+kill -9 46 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/disk-utility-546f6347/Disk Utility.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_disk-utility-546f6347:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

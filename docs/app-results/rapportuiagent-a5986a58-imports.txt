@@ -1,0 +1,17 @@
+==== RapportUIAgent ====
+Linked dylibs: 8, imported symbols: 34
+
+  present  provided/imported  library
+  yes      1/1	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/7	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/1	/System/Library/PrivateFrameworks/Rapport.framework/Versions/A/Rapport
+  NO       0/1	/System/Library/PrivateFrameworks/RapportUI.framework/Versions/A/RapportUI
+  yes      1/2	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSXPCListener
+  yes      13/13	/usr/lib/libobjc.A.dylib
+  yes      5/6	/usr/lib/libSystem.B.dylib
+             e.g. missing: _os_state_add_handler
+  yes      2/3	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSMutableSet
+
+Summary for RapportUIAgent: 3 of 8 linked libraries are absent from the guest root; 22 of 34 imported symbols are provided (64.7059%).

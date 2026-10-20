@@ -1,0 +1,18 @@
+==== Stickies ====
+Linked dylibs: 9, imported symbols: 140
+
+  present  provided/imported  library
+  yes      30/32	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSUndoManager
+  yes      11/16	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSURLContentModificationDateKey _NSURLCreationDateKey _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSInvocation _OBJC_CLASS_$_NSURL
+  yes      42/46	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSPrintInfo _OBJC_CLASS_$_NSPrintOperation _OBJC_METACLASS_$_NSButtonCell _OBJC_CLASS_$_NSButtonCell
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      0/0	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+  NO       0/0	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  yes      31/31	/usr/lib/libobjc.A.dylib
+  yes      15/15	/usr/lib/libSystem.B.dylib
+
+Summary for Stickies: 2 of 9 linked libraries are absent from the guest root; 129 of 140 imported symbols are provided (92.1429%).

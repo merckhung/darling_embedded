@@ -1,0 +1,11 @@
+(/usr/bin/darling open '/Applications/screen-time-cb858a76/Screen Time.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_screen-time-cb858a76:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:101
+DARLING_LAUNCH_BUNDLE:/Applications/screen-time-cb858a76/Screen Time.app:/Applications/screen-time-cb858a76/Screen Time.app/Contents/MacOS/Screen Time
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_screen-time-cb858a76:78
+kill -9 101 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/screen-time-cb858a76/Screen Time.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_screen-time-cb858a76:${?})
+
+root@Darwin#

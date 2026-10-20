@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/passviewer-f7beaf79/PassViewer.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_passviewer-f7beaf79:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:58
+DARLING_LAUNCH_BUNDLE:/Applications/passviewer-f7beaf79/PassViewer.app:/Applications/passviewer-f7beaf79/PassViewer.app/Contents/MacOS/PassViewer
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_passviewer-f7beaf79:78
+kill -9 58 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/passviewer-f7beaf79/PassViewer.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_passviewer-f7beaf79:${?})
+
+root@Darwin#

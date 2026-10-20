@@ -1,0 +1,74 @@
+==== WallpaperAgent ====
+Linked dylibs: 62, imported symbols: 1895
+
+  present  provided/imported  library
+  NO       0/0	/usr/lib/libbsm.0.dylib
+  NO       0/18	/usr/lib/libarchive.2.dylib
+  NO       0/94	/System/Library/PrivateFrameworks/WallpaperExtensionKit.framework/Versions/A/WallpaperExtensionKit
+  NO       0/135	/System/Library/PrivateFrameworks/WallpaperFoundation.framework/Versions/A/WallpaperFoundation
+  NO       0/45	/System/Library/PrivateFrameworks/WallpaperServices.framework/Versions/A/WallpaperServices
+  NO       0/0	/System/Library/PrivateFrameworks/PhysicsKit.framework/Versions/A/PhysicsKit
+  NO       0/34	/System/Library/PrivateFrameworks/WallpaperAnalytics.framework/Versions/A/WallpaperAnalytics
+  yes      11/182	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10CocoaErrorV18coderValueNotFoundAC4CodeVvgZ _$s10Foundation10CocoaErrorV18fileReadNoSuchFileAC4CodeVvgZ _$s10Foundation10CocoaErrorV4CodeVMa _$s10Foundation10URLRequestV11cachePolicySo017NSURLRequestCacheD0Vvs _$s10Foundation10URLRequestV19_bridgeToObjectiveCSo12NSURLRequestCyF _$s10Foundation10URLRequestV3url11cachePolicy15timeoutIntervalAcA3URLV_So017NSURLRequestCacheE0VSdtcfC
+  yes      20/21	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_setAssociatedObject
+  yes      41/87	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _bootstrap_check_in _dispatch_activate _dispatch_mig_server _dispatch_queue_attr_make_with_autorelease_frequency _dispatch_semaphore_create
+  yes      1/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF
+  NO       0/45	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      8/18	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFPreferencesAppValueIsForced _NSURLContentModificationDateKey _NSURLContentTypeKey _NSURLFileSizeKey _OBJC_CLASS_$_NSCache _OBJC_CLASS_$_NSData
+  yes      11/24	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$s12CoreGraphics6RegionV1x1yAcA7CGFloatV5lower_AG5uppert_AgH_AgIttcfC _$s12CoreGraphics6RegionVMa _$s12CoreGraphics6RegionVyACSo6CGRectVcfC _$sSo10CGColorRefa12CoreGraphicsE10componentsSayAC7CGFloatVGSgvg _$sSo6CGRectV12CoreGraphicsE16debugDescriptionSSvg
+  NO       0/3	/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+  NO       0/8	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/2	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/14	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/3	/System/Library/Frameworks/Photos.framework/Versions/A/Photos
+  NO       0/10	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/6	/System/Library/Frameworks/ScreenSaver.framework/Versions/A/ScreenSaver
+  NO       0/1	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/4	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  NO       0/8	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/240	/System/Library/PrivateFrameworks/Wallpaper.framework/Versions/A/Wallpaper
+  NO       0/307	/System/Library/PrivateFrameworks/WallpaperTypes.framework/Versions/A/WallpaperTypes
+  NO       0/2	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/420	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/23	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftGLKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpriteKit.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/23	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/82	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/2	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/11	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for WallpaperAgent: 56 of 62 linked libraries are absent from the guest root; 92 of 1895 imported symbols are provided (4.85488%).

@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/peoplemessageservice-6fd52d1f/PeopleMessageService.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_peoplemessageservice-6fd52d1f:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:60
+DARLING_LAUNCH_BUNDLE:/Applications/peoplemessageservice-6fd52d1f/PeopleMessageService.app:/Applications/peoplemessageservice-6fd52d1f/PeopleMessageService.app/Contents/MacOS/PeopleMessageService
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_peoplemessageservice-6fd52d1f:78
+kill -9 60 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/peoplemessageservice-6fd52d1f/PeopleMessageService.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_peoplemessageservice-6fd52d1f:${?})
+
+root@Darwin#

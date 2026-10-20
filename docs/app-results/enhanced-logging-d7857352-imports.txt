@@ -1,0 +1,47 @@
+==== Enhanced Logging ====
+Linked dylibs: 36, imported symbols: 779
+
+  present  provided/imported  library
+  NO       0/3	/System/Library/PrivateFrameworks/AppleServiceToolkit.framework/Versions/A/AppleServiceToolkit
+  NO       0/9	/System/Library/PrivateFrameworks/DeviceIdentity.framework/Versions/A/DeviceIdentity
+  NO       0/0	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/81	/System/Library/PrivateFrameworks/EnhancedLogging.framework/Versions/A/EnhancedLogging
+  NO       0/5	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/31	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      7/137	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation11FormatStylePAAE11measurement5width5usage06numberbC0AA11MeasurementVAASo11NSDimensionCRbzrlEABVyqd___GAL9UnitWidthVyqd____G_AA0hbJ5UsageVyqd__GAA013FloatingPointbC0VySdGSgtAMRszAKRbd__lFZ _$s10Foundation11MeasurementV5value4unitACyxGSd_xtcfC _$s10Foundation11MeasurementVAASo11NSDimensionCRbzrlE11FormatStyleV9UnitWidthV4wideAIyx__GvgZ _$s10Foundation11MeasurementVAASo11NSDimensionCRbzrlE9formattedy12FormatOutputQyd__qd__AA0E5StyleRd__ACyxG0E5InputRtd__lF _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      11/14	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      25/30	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _NSSolariumEnabled _NSFontTextStyleBody _NSFontTextStyleTitle2 _OBJC_CLASS_$_NSImageSymbolConfiguration
+  yes      2/7	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSURLFileSizeKey _NSURLIsDirectoryKey _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer
+  yes      0/3	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCertificateCopyData _SecKeyCreateSignature _kSecKeyAlgorithmECDSASignatureMessageX962SHA256
+  NO       0/185	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/3	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/13	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/204	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/23	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/8	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Enhanced Logging: 29 of 36 linked libraries are absent from the guest root; 55 of 779 imported symbols are provided (7.06033%).

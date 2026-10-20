@@ -1,0 +1,23 @@
+==== iCloud ====
+Linked dylibs: 12, imported symbols: 204
+
+  present  provided/imported  library
+  yes      9/12	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAppearanceNameVibrantDark _NSAppearanceNameVibrantLight _OBJC_CLASS_$_NSWorkspaceOpenConfiguration
+  yes      0/7	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateDesc _AECreateList _AEPutDesc _LSOpenFromURLSpec _OBJC_CLASS_$_LSApplicationRecord _OBJC_CLASS_$_LSApplicationWorkspace
+  NO       0/3	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/66	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  NO       0/0	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/2	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  yes      18/25	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSURLErrorDomain _NSUserActivityTypeBrowsingWeb _OBJC_CLASS_$_NSJSONSerialization _OBJC_CLASS_$_NSPersonNameComponentsFormatter _OBJC_CLASS_$_NSURLComponents _OBJC_CLASS_$_NSURLQueryItem
+  NO       0/2	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/0	/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Versions/A/CloudKitDaemon
+  yes      31/31	/usr/lib/libobjc.A.dylib
+  yes      20/30	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_activity_create __os_feature_enabled_impl _dispatch_queue_attr_make_with_autorelease_frequency _dispatch_queue_attr_make_with_qos_class _dispatch_semaphore_create _dispatch_semaphore_signal
+  yes      13/26	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFUserNotificationCreate _CFUserNotificationReceiveResponse _NSLocaleCountryCode _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSLocale
+
+Summary for iCloud: 6 of 12 linked libraries are absent from the guest root; 91 of 204 imported symbols are provided (44.6078%).

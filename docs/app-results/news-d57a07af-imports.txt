@@ -1,0 +1,139 @@
+==== News ====
+Linked dylibs: 126, imported symbols: 812
+
+  present  provided/imported  library
+  NO       0/8	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/9	/System/iOSSupport/System/Library/PrivateFrameworks/Silex.framework/Versions/A/Silex
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/SilexWeb.framework/Versions/A/SilexWeb
+  NO       0/3	/System/Library/PrivateFrameworks/PersonalizationPortrait.framework/Versions/A/PersonalizationPortrait
+  NO       0/7	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/0	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  NO       0/4	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/MobileCoreServices.framework/Versions/A/MobileCoreServices
+  yes      0/0	/usr/lib/libz.1.dylib
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+  yes      39/51	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGContextClipToMask _CGContextDrawLinearGradient _CGContextDrawRadialGradient _CGContextReplacePathWithStrokedPath _CGContextSetFillColor _CGContextSetFillColorSpace
+  NO       0/74	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/0	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  yes      28/55	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation23LocalizedStringResourceV17BundleDescriptionOMa _$s10Foundation23LocalizedStringResourceVMa _$s10Foundation23LocalizedStringResourceV_5table6locale6bundle7commentACSSAAE17LocalizationValueV_SSSgAA6LocaleVAC17BundleDescriptionOs06StaticC0VSgtcfC _$s10Foundation3URLV22appendingPathComponentyACSSF
+  NO       0/0	/usr/lib/libsqlite3.dylib
+  NO       0/0	/usr/lib/libxml2.2.dylib
+  yes      0/0	/usr/lib/libc++.1.dylib
+  NO       0/0	/usr/lib/libicucore.A.dylib
+  NO       0/2	/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+  NO       0/10	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/Frameworks/CoreTelephony.framework/Versions/A/CoreTelephony
+  NO       0/5	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/MessageUI.framework/Versions/A/MessageUI
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+  NO       0/0	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/UIAccessibility.framework/Versions/A/UIAccessibility
+  NO       0/2	/System/Library/PrivateFrameworks/AXRuntime.framework/Versions/A/AXRuntime
+  NO       0/5	/System/Library/PrivateFrameworks/NewsTransport.framework/Versions/A/NewsTransport
+  NO       0/0	/usr/lib/libMobileGestalt.dylib
+  NO       0/2	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/ManagedConfiguration.framework/Versions/A/ManagedConfiguration
+  NO       0/4	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/0	/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/AppStoreDaemon
+  NO       0/0	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/8	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/Weather.framework/Versions/A/Weather
+  NO       0/1	/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities
+  NO       0/0	/System/Library/PrivateFrameworks/ProactiveEventTracker.framework/Versions/A/ProactiveEventTracker
+  NO       0/0	/System/Library/PrivateFrameworks/SearchFoundation.framework/Versions/A/SearchFoundation
+  NO       0/0	/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+  NO       0/0	/System/Library/PrivateFrameworks/CoreRoutine.framework/Versions/A/CoreRoutine
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/SilexVideo.framework/Versions/A/SilexVideo
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/AuthenticationServices.framework/Versions/A/AuthenticationServices
+  NO       0/0	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/NewsSubscription.framework/Versions/A/NewsSubscription
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/0	/System/Library/PrivateFrameworks/AdPlatforms.framework/Versions/A/AdPlatforms
+  NO       0/0	/System/Library/PrivateFrameworks/GraphicsServices.framework/Versions/A/GraphicsServices
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer
+  NO       0/0	/System/Library/PrivateFrameworks/InternationalSupport.framework/Versions/A/InternationalSupport
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/NewsAds.framework/Versions/A/NewsAds
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/NewsEngagement.framework/Versions/A/NewsEngagement
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/NewsAnalytics.framework/Versions/A/NewsAnalytics
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/NewsPersonalization.framework/Versions/A/NewsPersonalization
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/NewsArticles.framework/Versions/A/NewsArticles
+  NO       0/12	/System/iOSSupport/System/Library/PrivateFrameworks/NewsFeed.framework/Versions/A/NewsFeed
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/NewsKit.framework/Versions/A/NewsKit
+  NO       0/18	/System/iOSSupport/System/Library/PrivateFrameworks/NewsUI2.framework/Versions/A/NewsUI2
+  NO       0/165	/System/Library/PrivateFrameworks/NewsCore.framework/Versions/A/NewsCore
+  NO       0/0	/System/Library/PrivateFrameworks/TVAppServices.framework/Versions/A/TVAppServices
+  NO       0/0	/System/Library/PrivateFrameworks/CoreParsec.framework/Versions/A/CoreParsec
+  yes      4/16	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSStringDrawingContext _OBJC_CLASS_$_UIFont _UIFontTextStyleBody _UIFontWeightBlack _UIFontWeightBold _UIFontWeightHeavy
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/SocialLayer.framework/Versions/A/SocialLayer
+  NO       0/0	/System/Library/PrivateFrameworks/EmailAddressing.framework/Versions/A/EmailAddressing
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/CookingKit.framework/Versions/A/CookingKit
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/CookingSupport.framework/Versions/A/CookingSupport
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+  NO       0/1	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+  NO       0/0	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/0	/System/Library/PrivateFrameworks/WatchListKit.framework/Versions/A/WatchListKit
+  NO       0/0	/System/Library/PrivateFrameworks/NewsAnalyticsUpload.framework/Versions/A/NewsAnalyticsUpload
+  NO       0/0	/System/Library/PrivateFrameworks/NewsDaemon.framework/Versions/A/NewsDaemon
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Versions/A/AppleMediaServicesUI
+  NO       0/0	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/TeaSnappy.framework/Versions/A/TeaSnappy
+  NO       0/0	/System/Library/PrivateFrameworks/TeaSettings.framework/Versions/A/TeaSettings
+  NO       0/28	/System/Library/PrivateFrameworks/TeaFoundation.framework/Versions/A/TeaFoundation
+  NO       0/8	/System/iOSSupport/System/Library/PrivateFrameworks/TeaUI.framework/Versions/A/TeaUI
+  NO       0/0	/System/Library/PrivateFrameworks/DistributedEvaluation.framework/Versions/A/DistributedEvaluation
+  NO       0/7	/System/Library/PrivateFrameworks/NewsFoundation.framework/Versions/A/NewsFoundation
+  NO       0/25	/System/iOSSupport/System/Library/PrivateFrameworks/NewsServicesInternal.framework/Versions/A/NewsServicesInternal
+  NO       0/0	/System/Library/PrivateFrameworks/AppAnalytics.framework/Versions/A/AppAnalytics
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/NewsUI.framework/Versions/A/NewsUI
+  yes      36/71	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_exception_throw _objc_getAssociatedObject _objc_release_x1 _objc_release_x19 _objc_release_x2 _objc_release_x20
+  yes      28/40	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_activity_initiate __os_log_fault_impl _dispatch_block_create _dispatch_group_create _dispatch_group_enter _dispatch_group_leave
+  NO       0/49	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      20/39	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAllocatorGetDefault _CFErrorGetCode _NSCalendarIdentifierGregorian _NSInternalInconsistencyException _NSRunLoopCommonModes _NSURLContentModificationDateKey
+  yes      1/6	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationProxy _OBJC_CLASS_$_LSApplicationWorkspace _OBJC_CLASS_$_LSBundleProxy _kUTTypeContent _kUTTypeJPEG
+  NO       0/2	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftCarPlay.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftGameplayKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSpriteKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCallKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/43	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/2	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for News: 117 of 126 linked libraries are absent from the guest root; 156 of 812 imported symbols are provided (19.2118%).

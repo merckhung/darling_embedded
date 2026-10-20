@@ -1,0 +1,98 @@
+==== Dock ====
+Linked dylibs: 83, imported symbols: 3166
+
+  present  provided/imported  library
+  yes      2/14	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv120__si_class_type_infoE __ZTVN10__cxxabiv117__class_type_infoE ___cxa_pure_virtual __ZNSt20bad_array_new_lengthC1Ev ___cxa_allocate_exception ___cxa_free_exception
+  NO       0/0	/System/Library/PrivateFrameworks/MobileContainerManager.framework/Versions/A/MobileContainerManager
+  NO       0/1	/usr/appleinternal/lib/liblinkguard.dylib (weak)
+  NO       0/2	/usr/lib/libLaunchServicesSupport.dylib
+  NO       0/1	/usr/lib/libquit.dylib
+  NO       0/140	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/2	/System/Library/PrivateFrameworks/UserActivity.framework/Versions/A/UserActivity
+  NO       0/6	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  NO       0/2	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/0	/System/Library/PrivateFrameworks/CacheDelete.framework/Versions/A/CacheDelete
+  yes      0/134	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateAppleEvent _AECreateDesc _AECreateList _AEDisposeDesc _AEGetParamPtr _AEInstallEventHandler
+  NO       0/0	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/0	/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+  yes      30/212	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantFloatNumber _OBJC_CLASS_$_NSConstantDoubleNumber _$s10Foundation10NSNotFoundSivg _$s10Foundation11JSONEncoderC16OutputFormattingV10sortedKeysAEvgZ _$s10Foundation11JSONEncoderC16OutputFormattingV13prettyPrintedAEvgZ
+  NO       0/9	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/3	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/67	/System/Library/PrivateFrameworks/Gestures.framework/Versions/A/Gestures
+  NO       0/0	/System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+  NO       0/2	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  NO       0/2	/System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+  NO       0/135	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/16	/System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+  yes      0/12	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeCheckValidity _SecCodeCopyDesignatedRequirement _SecCodeCopyGuestWithAttributes _SecCodeCopySigningInformation _SecRequirementCopyData _SecRequirementCreateWithData
+  NO       0/14	/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+  yes      132/260	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CC_MD5 __Block_copy __os_feature_enabled_impl __os_signpost_emit_with_name_impl _bootstrap_check_in _bootstrap_check_in2
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/0	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/2	/System/Library/PrivateFrameworks/Uninstall.framework/Versions/A/Uninstall
+  NO       0/8	/System/Library/PrivateFrameworks/UniversalControl.framework/Versions/A/UniversalControl
+  NO       0/16	/System/Library/PrivateFrameworks/Wallpaper.framework/Versions/A/Wallpaper
+  NO       0/199	/System/Library/PrivateFrameworks/WindowManager.framework/Versions/A/WindowManager
+  NO       0/4	/System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+  NO       0/1	/System/Library/PrivateFrameworks/DeviceManagement.framework/Versions/A/DeviceManagement
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/3	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/8	/usr/lib/libbsm.0.dylib
+  NO       0/0	/usr/lib/libsqlite3.dylib
+  yes      41/46	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush _objc_exception_throw _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      0/75	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXSerializeCFType _AXUIElementGetTypeID _AXUnserializeCFType _AXValueCreate _AXValueGetTypeID _AXValueGetValue
+  NO       0/18	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      77/160	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayContainsValue _CFArrayRemoveValueAtIndex _CFAttributedStringCreate _CFBundleCopyBundleLocalizations _CFBundleCopyInfoDictionaryForURL _CFBundleCopyLocalizationForLocalizationInfo
+  yes      59/357	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics6RegionV02cgC0ACSo11CGRegionRefa_tcfC _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$s12CoreGraphics6RegionV10boundsRectSo6CGRectVvg _$s12CoreGraphics6RegionV1x1yAcA7CGFloatV5lower_AG5uppert_AgH_AgIttcfC _$s12CoreGraphics6RegionV5rectsACx_tcSTRzSo6CGRectV7ElementRtzlufC _$s12CoreGraphics6RegionV5rectsQrvg
+  NO       0/24	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/20	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/237	/System/Library/Frameworks/SwiftUICore.framework/Versions/A/SwiftUICore
+  NO       0/2	/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices
+  NO       0/9	/System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/Versions/A/AsyncAlgorithmsInternal
+  NO       0/2	/System/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices
+  NO       0/3	/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement
+  NO       0/1	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+  NO       0/3	/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+  NO       0/1	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/35	/System/Library/PrivateFrameworks/DesignLibrary.framework/Versions/A/DesignLibrary
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/9	/System/Library/PrivateFrameworks/GenerativeModels.framework/Versions/A/GenerativeModels
+  NO       0/4	/System/Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation
+  NO       0/7	/System/Library/PrivateFrameworks/RenderBox.framework/Versions/A/RenderBox
+  NO       0/1	/System/Library/PrivateFrameworks/Synapse.framework/Versions/A/Synapse
+  NO       0/16	/System/Library/PrivateFrameworks/UniversalHID.framework/Versions/A/UniversalHID
+  NO       0/5	/System/Library/PrivateFrameworks/WindowManagement.framework/Versions/A/WindowManagement
+  NO       0/3	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/632	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/62	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/38	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/60	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation2.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation3.dylib
+  NO       0/31	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Dock: 74 of 83 linked libraries are absent from the guest root; 341 of 3160 imported symbols are provided (10.7911%).

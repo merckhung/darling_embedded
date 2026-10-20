@@ -1,0 +1,43 @@
+(/usr/bin/darling open '/Applications/image-capture-261900a9/Image Capture.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_image-capture-261900a9:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:16
+DARLING_LAUNCH_BUNDLE:/Applications/image-capture-261900a9/Image Capture.app:/Applications/image-capture-261900a9/Image Capture.app/Contents/MacOS/Image Capture
+native dyld warning: unresolved import: _NSToolbarFlexibleSpaceItemIdentifier
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/image-capture-261900a9/Image Capture.app/Contents/MacOS/Image Capture)
+[AppKit] loaded nib /Applications/image-capture-261900a9/Image Capture.app/Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib: 921 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101a87020
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101a87020
+[AppKit] nib: no outlet 'storyboard' on ICDeviceSplitViewController
+[AppKit] nib: no outlet 'storyboard' on ICDeviceBrowserViewController
+[AppKit] nib: no outlet 'storyboard' on ICDeviceContentViewController
+[AppKit] nib: no outlet 'storyboard' on ICWindowController
+[AppKit] loaded nib /Applications/image-capture-261900a9/Image Capture.app/Contents/Resources/Base.lproj/Main.storyboardc/X6T-bt-3hS-view-l7h-b3-k24.nib: 43 objects, 0 windows
+[AppKit] loaded nib /Applications/image-capture-261900a9/Image Capture.app/Contents/Resources/Base.lproj/Main.storyboardc/EYv-Vf-HXK-view-EBm-d2-7J3.nib: 168 objects, 0 windows
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101a86b80 (title: Image Capture)
+DARLING_WINDOW_READY:Image Capture:4194305:101:28:915:540
+[AppKit] loaded nib /Applications/image-capture-261900a9/Image Capture.app/Contents/Resources/Base.lproj/Main.storyboardc/windowController.nib: 278 objects, 1 windows
+[AppKit] NSWindowController showWindow on 0x101a868b0
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101a86b80 (title: Image Capture)
+DARLING_WINDOW_READY:Image Capture:4194305:101:28:915:540
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Image Capture:4194305:101:28:915:540
+DARLING_WINDOW_READY:Image Capture:4194305:101:28:915:540
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Image Capture:100:12
+DARLING_MENUBAR_ITEM:Edit:181:12
+DARLING_MENUBAR_ITEM:View:230:12
+DARLING_MENUBAR_ITEM:Window:293:12
+DARLING_MENUBAR_ITEM:Help:355:12
+DARLING_WINDOW_READY:Image Capture:4194305:101:28:915:540
+kill -9 16 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/image-capture-261900a9/Image Capture.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_image-capture-261900a9:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

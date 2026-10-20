@@ -1,0 +1,65 @@
+(/usr/bin/darling open /Applications/thermaltrap-ac55f413/ThermalTrap.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_thermaltrap-ac55f413:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:451
+DARLING_LAUNCH_BUNDLE:/Applications/thermaltrap-ac55f413/ThermalTrap.app:/Applications/thermaltrap-ac55f413/ThermalTrap.app/Contents/MacOS/ThermalTrap
+native dyld warning: unresolved import: _systemstats_get_top_coalitions
+native dyld warning: unresolved import: _msgtracer_log_with_keys
+native dyld warning: unresolved import: _xpc_array_get_bool
+native dyld warning: unresolved import: _xpc_array_get_count
+native dyld warning: unresolved import: _xpc_array_get_double
+native dyld warning: unresolved import: _xpc_array_get_string
+native dyld warning: unresolved import: _xpc_array_get_uint64
+native dyld warning: unresolved import: _xpc_connection_create_mach_service
+native dyld warning: unresolved import: _xpc_connection_resume
+native dyld warning: unresolved import: _xpc_connection_send_message_with_reply_sync
+native dyld warning: unresolved import: _xpc_connection_set_event_handler
+native dyld warning: unresolved import: _xpc_copy_description
+native dyld warning: unresolved import: _xpc_dictionary_create
+native dyld warning: unresolved import: _xpc_dictionary_get_count
+native dyld warning: unresolved import: _xpc_dictionary_get_value
+native dyld warning: unresolved import: _xpc_dictionary_set_string
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _AudioDeviceDuck
+native dyld warning: unresolved import: _AudioObjectGetPropertyData
+native dyld warning: unresolved import: _AudioObjectGetPropertyDataSize
+native dyld warning: unresolved import: _CGDisplayHideCursor
+native dyld warning: unresolved import: _CGDisplayShowCursor
+native dyld warning: unresolved import: _CGSAddWindowsToSpaces
+native dyld warning: unresolved import: _CGSSetConnectionProperty
+native dyld warning: unresolved import: _CGSShowSpaces
+native dyld warning: unresolved import: _CGSSpaceCreate
+native dyld warning: unresolved import: _CGSSpaceDestroy
+native dyld warning: unresolved import: _CGSSpaceSetAbsoluteLevel
+native dyld warning: unresolved import: _CGShieldingWindowLevel
+native dyld warning: unresolved import: _LSCopyApplicationURLsForBundleIdentifier
+native dyld warning: unresolved import: __LSCopyApplicationInformationItem
+native dyld warning: unresolved import: __LSCopyMatchingApplicationsWithItems
+native dyld warning: unresolved import: __LSCopyRunningApplicationArray
+native dyld warning: unresolved import: _IOMasterPort
+native dyld warning: unresolved import: _IOPMConnectionAcknowledgeEvent
+native dyld warning: unresolved import: _IOPMConnectionCreate
+native dyld warning: unresolved import: _IOPMConnectionRelease
+native dyld warning: unresolved import: _IOPMConnectionSetDispatchQueue
+native dyld warning: unresolved import: _IOPMConnectionSetNotification
+native dyld warning: unresolved import: _IOPMFindPowerManagement
+native dyld warning: unresolved import: _IOPMGetCapabilitiesDescription
+native dyld warning: unresolved import: _IOPMGetPerformanceWarningLevel
+native dyld warning: unresolved import: _IOPMGetThermalWarningLevel
+native dyld warning: unresolved import: _IOPMIsASleep
+native dyld warning: unresolved import: _IOPMIsAUserWake
+native dyld warning: unresolved import: _IOPMSleepSystem
+native dyld warning: unresolved import: _NSURLLocalizedNameKey
+native dyld warning: unresolved import: __kLSApplicationForegroundTypeKey
+native dyld warning: unresolved import: __kLSApplicationTypeKey
+native dyld warning: unresolved import: __kLSDisplayNameKey
+native dyld warning: unresolved import: __kLSPIDKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/thermaltrap-ac55f413/ThermalTrap.app/Contents/MacOS/ThermalTrap)
+[AppKit] loaded nib /Applications/thermaltrap-ac55f413/ThermalTrap.app/Contents/Resources/Base.lproj/MainMenu.nib: 36 objects, 0 windows
+[AppKit] NSApplication delegate = 0x10199e440
+[AppKit] calling applicationDidFinishLaunching on delegate 0x10199e440
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 451 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/thermaltrap-ac55f413/ThermalTrap.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_thermaltrap-ac55f413:${?})
+
+root@Darwin#

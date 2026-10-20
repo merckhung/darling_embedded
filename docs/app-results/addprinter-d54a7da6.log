@@ -1,0 +1,132 @@
+(/usr/bin/darling open /Applications/addprinter-d54a7da6/AddPrinter.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_addprinter-d54a7da6:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:32
+DARLING_LAUNCH_BUNDLE:/Applications/addprinter-d54a7da6/AddPrinter.app:/Applications/addprinter-d54a7da6/AddPrinter.app/Contents/MacOS/AddPrinter
+native dyld warning: unresolved import: _PMAddPrinterToiCloud
+native dyld warning: unresolved import: _MatchNameAndQueueID
+native dyld warning: unresolved import: _cpl_cupsDoFileRequest
+native dyld warning: unresolved import: __ICDidInstallNewImageCaptureSoftware
+native dyld warning: unresolved import: __cupsFileCheck
+native dyld warning: unresolved import: _cupsBackendDeviceURI
+native dyld warning: unresolved import: _cupsDoRequest
+native dyld warning: unresolved import: _cupsFileClose
+native dyld warning: unresolved import: _cupsFileGetLine
+native dyld warning: unresolved import: _cupsFileOpen
+native dyld warning: unresolved import: _cupsFileOpenFd
+native dyld warning: unresolved import: _cupsFilePrintf
+native dyld warning: unresolved import: _cupsFilePuts
+native dyld warning: unresolved import: _cupsFileWrite
+native dyld warning: unresolved import: _cupsFreeOptions
+native dyld warning: unresolved import: _cupsGetConflicts
+native dyld warning: unresolved import: _cupsLastError
+native dyld warning: unresolved import: _cupsLastErrorString
+native dyld warning: unresolved import: _cupsSetPasswordCB2
+native dyld warning: unresolved import: _cupsTempFd
+native dyld warning: unresolved import: _cupsUser
+native dyld warning: unresolved import: _httpAddrConnect
+native dyld warning: unresolved import: _httpAddrFreeList
+native dyld warning: unresolved import: _httpAddrGetList
+native dyld warning: unresolved import: _httpAssembleURI
+native dyld warning: unresolved import: _httpClose
+native dyld warning: unresolved import: _httpConnect2
+native dyld warning: unresolved import: _httpGetSubField
+native dyld warning: unresolved import: _httpSeparateURI
+native dyld warning: unresolved import: _ippAddString
+native dyld warning: unresolved import: _ippAddStrings
+native dyld warning: unresolved import: _ippContainsInteger
+native dyld warning: unresolved import: _ippContainsString
+native dyld warning: unresolved import: _ippDelete
+native dyld warning: unresolved import: _ippErrorString
+native dyld warning: unresolved import: _ippFindAttribute
+native dyld warning: unresolved import: _ippFindNextAttribute
+native dyld warning: unresolved import: _ippGetCount
+native dyld warning: unresolved import: _ippGetString
+native dyld warning: unresolved import: _ippNewRequest
+native dyld warning: unresolved import: _ippSetVersion
+native dyld warning: unresolved import: _ppdClose
+native dyld warning: unresolved import: _ppdFindAttr
+native dyld warning: unresolved import: _ppdFindChoice
+native dyld warning: unresolved import: _ppdFindMarkedChoice
+native dyld warning: unresolved import: _ppdFindNextAttr
+native dyld warning: unresolved import: _ppdFindOption
+native dyld warning: unresolved import: _ppdIsMarked
+native dyld warning: unresolved import: _ppdLocalize
+native dyld warning: unresolved import: _ppdMarkOption
+native dyld warning: unresolved import: _ppdOpenFile
+native dyld warning: unresolved import: __NSDictionaryOfVariableBindings
+native dyld warning: unresolved import: _CPLAutoSelectCancel
+native dyld warning: unresolved import: _CPLAutoSelectCreateContext
+native dyld warning: unresolved import: _CPLAutoSelectHasNewPPD
+native dyld warning: unresolved import: _CPLAutoSelectInstallableOptions
+native dyld warning: unresolved import: _CPLAutoSelectReleaseContext
+native dyld warning: unresolved import: _CPLCopyLocalServerURL
+native dyld warning: unresolved import: _CPLCreateSuggestedQueueName
+native dyld warning: unresolved import: _CPLPrinterSetPPD
+native dyld warning: unresolved import: _CPLResetPrintingPermissions
+native dyld warning: unresolved import: _CPLServerCreateQueue
+native dyld warning: unresolved import: _CPLSetDefaultPrinterName
+native dyld warning: unresolved import: _CPLUseLastPrinterAsCurrentPrinter
+native dyld warning: unresolved import: _PMAnalyticsSendEventLazy
+native dyld warning: unresolved import: _PMPrinterCopyDeviceURI
+native dyld warning: unresolved import: _PMPrinterCreateFromPrinterID
+native dyld warning: unresolved import: _PMPrinterGetID
+native dyld warning: unresolved import: _PMPrinterGetMakeAndModelName
+native dyld warning: unresolved import: _PMPrinterGetName
+native dyld warning: unresolved import: _PMPrinterIsDirectConnect
+native dyld warning: unresolved import: _PMPrinterIsFax
+native dyld warning: unresolved import: _PMPrinterIsScanner
+native dyld warning: unresolved import: _PMRelease
+native dyld warning: unresolved import: _PMServerCreateDeviceList
+native dyld warning: unresolved import: _PMServerCreatePrinterList
+native dyld warning: unresolved import: __PMLog
+native dyld warning: unresolved import: _CFMakeCollectable
+native dyld warning: unresolved import: _NSHelpManagerSystemBook
+native dyld warning: unresolved import: _NSToolbarFlexibleSpaceItemIdentifier
+native dyld warning: unresolved import: _NSToolbarSpaceItemIdentifier
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/addprinter-d54a7da6/AddPrinter.app/Contents/MacOS/AddPrinter)
+[ObjC] Method not found: [APController setWindowFrameAutosaveName:]
+[ObjC] Method not found: [NSWindow setToolbarStyle:]
+[Foundation] performSelector:makeKeyAndOrderFront: withObject:0x1021f8940 afterDelay:0.750000 on 0x1021f2db0
+[AppKit] loaded nib /Applications/addprinter-d54a7da6/AddPrinter.app/Contents/Resources/Base.lproj/MainMenu.nib: 414 objects, 1 windows
+[AppKit] NSApplication delegate = 0x1021f8940
+[AppKit] delegate 0x1021f8940 does not respond to applicationDidFinishLaunching
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1021f2db0 (title: Add Printer)
+DARLING_WINDOW_READY:Add Printer:4194305:172:28:547:408
+DARLING_BUTTON_POS:Add Printer:More Infob<NUL>&:594:406
+DARLING_BUTTON_POS:Add Printer::211:407
+DARLING_BUTTON_POS:Add Printer:Add:670:407
+DARLING_WINDOW_READY:Add Printer:4194305:172:28:547:408
+DARLING_BUTTON_POS:Add Printer:More Infob<NUL>&:594:406
+DARLING_BUTTON_POS:Add Printer::211:407
+DARLING_BUTTON_POS:Add Printer:Add:670:407
+[Foundation] firing delayed perform makeKeyAndOrderFront: on 0x1021f2db0
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1021f2db0 (title: Add Printer)
+DARLING_WINDOW_READY:Add Printer:4194305:172:28:547:408
+DARLING_BUTTON_POS:Add Printer:More Infob<NUL>&:594:406
+DARLING_BUTTON_POS:Add Printer::211:407
+DARLING_BUTTON_POS:Add Printer:Add:670:407
+DARLING_WINDOW_READY:Add Printer:4194305:172:28:547:408
+DARLING_BUTTON_POS:Add Printer:More Infob<NUL>&:594:406
+DARLING_BUTTON_POS:Add Printer::211:407
+DARLING_BUTTON_POS:Add Printer:Add:670:407
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Add Printer:89:12
+DARLING_MENUBAR_ITEM:Edit:158:12
+DARLING_MENUBAR_ITEM:Window:217:12
+DARLING_MENUBAR_ITEM:Help:279:12
+DARLING_WINDOW_READY:Add Printer:4194305:172:28:547:408
+DARLING_BUTTON_POS:Add Printer:More Infob<NUL>&:594:406
+DARLING_BUTTON_POS:Add Printer::211:407
+DARLING_BUTTON_POS:Add Printer:Add:670:407
+kill -9 32 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/addprinter-d54a7da6/AddPrinter.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_addprinter-d54a7da6:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

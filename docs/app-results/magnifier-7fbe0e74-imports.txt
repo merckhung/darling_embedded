@@ -1,0 +1,39 @@
+==== Magnifier ====
+Linked dylibs: 31, imported symbols: 62
+
+  present  provided/imported  library
+  NO       0/5	/System/Library/PrivateFrameworks/MagnifierSupport.framework/Versions/A/MagnifierSupport
+  yes      0/1	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+  yes      5/5	/usr/lib/libobjc.A.dylib
+  yes      2/5	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      1/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  NO       0/11	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/25	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Magnifier: 27 of 31 linked libraries are absent from the guest root; 8 of 62 imported symbols are provided (12.9032%).

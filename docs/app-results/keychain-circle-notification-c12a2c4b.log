@@ -1,0 +1,69 @@
+(/usr/bin/darling open '/Applications/keychain-circle-notification-c12a2c4b/Keychain Circle Notification.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_keychain-circle-notification-c12a2c4b:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:18
+DARLING_LAUNCH_BUNDLE:/Applications/keychain-circle-notification-c12a2c4b/Keychain Circle Notification.app:/Applications/keychain-circle-notification-c12a2c4b/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification
+native dyld warning: unresolved import: _OctagonPlatformSupportsSOS
+native dyld warning: unresolved import: _SOSCCAcceptApplicants
+native dyld warning: unresolved import: _SOSCCCopyApplicantPeerInfo
+native dyld warning: unresolved import: _SOSCCCopyPeerPeerInfo
+native dyld warning: unresolved import: _SOSCCGetLastDepartureReason
+native dyld warning: unresolved import: _SOSCCIsSOSTrustAndSyncingEnabled
+native dyld warning: unresolved import: _SOSCCRejectApplicants
+native dyld warning: unresolved import: _SOSCCRemoveThisDeviceFromCircle
+native dyld warning: unresolved import: _SOSCCRequestToJoinCircle
+native dyld warning: unresolved import: _SOSCCResetToOffering
+native dyld warning: unresolved import: _SOSCCThisDeviceIsInCircle
+native dyld warning: unresolved import: _SOSCCValidateUserPublic
+native dyld warning: unresolved import: _SOSCCViewSet
+native dyld warning: unresolved import: _SOSCompatibilityModeEnabled
+native dyld warning: unresolved import: _SOSPeerInfoGetPeerDeviceType
+native dyld warning: unresolved import: _SOSPeerInfoGetPeerID
+native dyld warning: unresolved import: _SOSPeerInfoGetPeerName
+native dyld warning: unresolved import: _SecFrameworkCopyLocalizedString
+native dyld warning: unresolved import: _secLogObjForScope
+native dyld warning: unresolved import: _createAEDescWithAEActionAndAccountID
+native dyld warning: unresolved import: _dispatch_activate
+native dyld warning: unresolved import: _os_variant_has_internal_ui
+native dyld warning: unresolved import: _xpc_activity_register
+native dyld warning: unresolved import: _xpc_dictionary_create
+native dyld warning: unresolved import: _xpc_dictionary_set_bool
+native dyld warning: unresolved import: _xpc_dictionary_set_string
+native dyld warning: unresolved import: _xpc_dictionary_set_uint64
+native dyld warning: unresolved import: _xpc_transaction_exit_clean
+native dyld warning: unresolved import: _CFErrorGetDomain
+native dyld warning: unresolved import: _CFNotificationCenterPostNotificationWithOptions
+native dyld warning: unresolved import: _CFSetAddValue
+native dyld warning: unresolved import: _CFSetCreateMutable
+native dyld warning: unresolved import: _AEDisposeDesc
+native dyld warning: unresolved import: _LSOpenFromURLSpec
+native dyld warning: unresolved import: _AFUtilitiesSystemSettingsPath
+native dyld warning: unresolved import: _kSOSCCCircleChangedNotification
+native dyld warning: unresolved import: _kSOSViewAutofillPasswords
+native dyld warning: unresolved import: _kSOSViewOtherSyncable
+native dyld warning: unresolved import: _kSOSViewSafariCreditCards
+native dyld warning: unresolved import: _kSOSViewWiFi
+native dyld warning: unresolved import: _kSecValueData
+native dyld warning: unresolved import: _sSecXPCErrorDomain
+native dyld warning: unresolved import: _kMMPropertyKeychainAADetailsAEAction
+native dyld warning: unresolved import: _kMMPropertyKeychainMRDetailsAEAction
+native dyld warning: unresolved import: _kMMPropertyKeychainPCDetailsAEAction
+native dyld warning: unresolved import: _kMMPropertyKeychainWADetailsAEAction
+native dyld warning: unresolved import: _kMMServiceIDKeychainSync
+native dyld warning: unresolved import: _kAOSUISpyglassAppleID
+native dyld warning: unresolved import: _XPC_ACTIVITY_ALLOW_BATTERY
+native dyld warning: unresolved import: _XPC_ACTIVITY_DELAY
+native dyld warning: unresolved import: _XPC_ACTIVITY_GRACE_PERIOD
+native dyld warning: unresolved import: _XPC_ACTIVITY_INTERVAL_1_MIN
+native dyld warning: unresolved import: _XPC_ACTIVITY_PRIORITY
+native dyld warning: unresolved import: _XPC_ACTIVITY_PRIORITY_UTILITY
+native dyld warning: unresolved import: _XPC_ACTIVITY_REPEATING
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/keychain-circle-notification-c12a2c4b/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification)
+[AppKit] loaded nib /Applications/keychain-circle-notification-c12a2c4b/Keychain Circle Notification.app/Contents/Resources/Base.lproj/MainMenu.nib: 29 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1014d8550
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1014d8550
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 18 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/keychain-circle-notification-c12a2c4b/Keychain Circle Notification.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_keychain-circle-notification-c12a2c4b:${?})
+
+root@Darwin#

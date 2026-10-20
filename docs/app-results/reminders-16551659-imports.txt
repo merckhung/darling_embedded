@@ -1,0 +1,92 @@
+==== Reminders ====
+Linked dylibs: 78, imported symbols: 7222
+
+  present  provided/imported  library
+  NO       0/13	/System/Library/PrivateFrameworks/AppSupportUI.framework/Versions/A/AppSupportUI
+  NO       0/161	/System/Library/PrivateFrameworks/RemindersAppIntents.framework/Versions/A/RemindersAppIntents
+  NO       0/4671	/System/Library/PrivateFrameworks/RemindersUICore.framework/Versions/A/RemindersUICore
+  NO       0/700	/System/Library/PrivateFrameworks/ReminderKitInternal.framework/Versions/A/ReminderKitInternal
+  NO       0/2	/System/Library/PrivateFrameworks/CharacterPicker.framework/Versions/A/CharacterPicker
+  NO       0/0	/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/AOSAccounts
+  NO       0/0	/System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit
+  NO       0/0	/System/Library/Frameworks/MapKit.framework/Versions/A/MapKit
+  NO       0/0	/System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/CoreRecents
+  NO       0/3	/System/Library/PrivateFrameworks/CalendarFoundation.framework/Versions/A/CalendarFoundation
+  NO       0/0	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  NO       0/0	/System/Library/PrivateFrameworks/NLP.framework/Versions/A/NLP
+  NO       0/7	/System/Library/PrivateFrameworks/CalendarUI.framework/Versions/A/CalendarUI
+  NO       0/5	/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/51	/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/ReminderKit
+  yes      22/239	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10NSNotFoundSivg _$s10Foundation12CharacterSetV11whitespacesACvgZ _$s10Foundation12CharacterSetV12charactersInACSSh_tcfC _$s10Foundation12CharacterSetV13alphanumericsACvgZ _$s10Foundation12CharacterSetV19_bridgeToObjectiveCSo011NSCharacterC0CyF _$s10Foundation12CharacterSetV22whitespacesAndNewlinesACvgZ
+  yes      31/33	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush
+  yes      31/42	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dispatch_group_async _dispatch_group_create _dispatch_group_wait _dispatch_queue_attr_make_with_autorelease_frequency _dispatch_semaphore_create
+  NO       0/3	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/132	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      80/222	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s10Foundation9IndexPathV6AppKitE4item7sectionACSi_SitcfC _$s10Foundation9IndexPathV6AppKitE4itemSivM _$s10Foundation9IndexPathV6AppKitE4itemSivg _$s10Foundation9IndexPathV6AppKitE7sectionSivg _$s6AppKit01_abB23NumericRawRepresentablePAAE1poiyxx_0D5ValueQztFZ _$s6AppKit01_abB23NumericRawRepresentablePAAE1soiyxx_0D5ValueQztFZ
+  NO       0/8	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  NO       0/91	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/8	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/1	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  yes      5/15	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _OBJC_CLASS_$_NSCache _OBJC_CLASS_$_NSCalendar _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSDateComponents _OBJC_CLASS_$_NSMutableSet
+  yes      14/25	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics14CGPathFillRuleOMa _$sSo12CGContextRefa12CoreGraphicsE4clip5usingyAC14CGPathFillRuleO_tF _$sSo16CGMutablePathRefa12CoreGraphicsE10addEllipse2in9transformySo6CGRectV_So17CGAffineTransformVtF _$sSo16CGMutablePathRefa12CoreGraphicsE7addRect_9transformySo6CGRectV_So17CGAffineTransformVtF _$sSo6CGSizeV12CoreGraphicsE16debugDescriptionSSvg _CGEventGetIntegerValueField
+  NO       0/1	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationWorkspace
+  NO       0/2	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/9	/System/Library/Frameworks/PhotosUI.framework/Versions/A/PhotosUI
+  NO       0/6	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+  NO       0/4	/System/Library/Frameworks/SharedWithYou.framework/Versions/A/SharedWithYou
+  NO       0/214	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/10	/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  NO       0/3	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  yes      0/2	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_CLASS_$_WKNavigation _OBJC_CLASS_$_WKWebView
+  NO       0/3	/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+  NO       0/9	/System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/Versions/A/AsyncAlgorithmsInternal
+  NO       0/4	/System/Library/PrivateFrameworks/ContactsAutocomplete.framework/Versions/A/ContactsAutocomplete
+  NO       0/1	/System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/Versions/A/ContactsAutocompleteUI
+  NO       0/2	/System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/CoreSuggestions
+  NO       0/2	/System/Library/PrivateFrameworks/Feedback.framework/Versions/A/Feedback
+  NO       0/2	/System/Library/PrivateFrameworks/FeedbackService.framework/Versions/A/FeedbackService
+  NO       0/3	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/2	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/1	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/383	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/34	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/6	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/61	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/9	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Reminders: 70 of 78 linked libraries are absent from the guest root; 183 of 7222 imported symbols are provided (2.53392%).

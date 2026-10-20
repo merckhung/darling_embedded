@@ -1,0 +1,48 @@
+(/usr/bin/darling open /Applications/settingsplaceholder-d8741ebd/SettingsPlaceholder.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_settingsplaceholder-d8741ebd:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:109
+DARLING_LAUNCH_BUNDLE:/Applications/settingsplaceholder-d8741ebd/SettingsPlaceholder.app:/Applications/settingsplaceholder-d8741ebd/SettingsPlaceholder.app/Contents/MacOS/SettingsPlaceholder
+native dyld warning: unresolved import: _$sytWV
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupV2id5title11lazyContentACyxGSSSg_AA4TextVSgxyctcfC
+native dyld warning: unresolved import: _$s7SwiftUI12SceneBuilderV10buildBlockyxxAA0C0RzlFZ
+native dyld warning: unresolved import: _$s7SwiftUI3AppPAAE4mainyyFZ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZ
+native dyld warning: unresolved import: _$s7SwiftUI4ViewPAAE14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZ
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_getOpaqueTypeConformance2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContextInMetadataState2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _$sScA15unownedExecutorScevgTj
+native dyld warning: unresolved import: _$sScM6sharedScMvgZ
+native dyld warning: unresolved import: _$sScMMa
+native dyld warning: unresolved import: _swift_task_isCurrentExecutor
+native dyld warning: unresolved import: _swift_task_reportUnexpectedExecutor
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupVyxGAA5SceneAAMc
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVAA0D0AAWP
+native dyld warning: unresolved import: _$sScMScAsWP
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVMn
+native dyld warning: unresolved import: _$s7SwiftUI4ViewMp
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP4BodyAC_AaBTn
+native dyld warning: unresolved import: _$s4Body7SwiftUI4ViewPTl
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP05_makeC04view6inputsAA01_C7OutputsVAA11_GraphValueVyxG_AA01_C6InputsVtFZTq
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP05_makeC4List4view6inputsAA01_cE7OutputsVAA11_GraphValueVyxG_AA01_cE6InputsVtFZTq
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP14_viewListCount6inputsSiSgAA01_ceF6InputsV_tFZTq
+native dyld warning: unresolved import: _$s7SwiftUI4ViewP4body4BodyQzvgTq
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupVMn
+native dyld warning: unresolved import: _$s7SwiftUI3AppMp
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4BodyAC_AA5SceneTn
+native dyld warning: unresolved import: _$s4Body7SwiftUI3AppPTl
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4body4BodyQzvgTq
+native dyld warning: unresolved import: _$s7SwiftUI3AppPxycfCTq
+native dyld warning: unresolved import: _$s7SwiftUI5SceneMp
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBoWV
+PROBE_EXIT_settingsplaceholder-d8741ebd:0
+kill -9 109 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/settingsplaceholder-d8741ebd/SettingsPlaceholder.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_settingsplaceholder-d8741ebd:${?})
+
+root@Darwin#

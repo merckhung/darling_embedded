@@ -1,0 +1,35 @@
+==== TextEdit ====
+Linked dylibs: 24, imported symbols: 252
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      27/37	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ _NSFilePathErrorKey _NSLocalizedRecoveryOptionsErrorKey _NSLocalizedRecoverySuggestionErrorKey _NSNegateBooleanTransformerName
+  yes      21/21	/usr/lib/libobjc.A.dylib
+  yes      16/17	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy
+  yes      45/106	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo6CGRectV6AppKitE4fill5usingySo22NSCompositingOperationV_tF _$sSo6CGRectV6AppKitE5frame9withWidth5usingy12CoreGraphics7CGFloatV_So22NSCompositingOperationVtF _NSAccessibilityPostNotification _NSFrameRectWithWidthUsingOperation _NSAccessibilityValueChangedNotification _NSAttachmentAttributeName
+  yes      12/25	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFLogTest _CFRunLoopPerformBlock _CFStringConvertEncodingToNSStringEncoding _CFStringGetListOfAvailableEncodings _CFStringGetMostCompatibleMacStringEncoding _NSInvalidArgumentException
+  yes      3/6	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGRectIntersection _CGRectIntersectsRect _CGRectUnion
+  NO       0/7	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/3	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/28	/usr/lib/swift/libswiftCore.dylib
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for TextEdit: 17 of 24 linked libraries are absent from the guest root; 124 of 252 imported symbols are provided (49.2063%).

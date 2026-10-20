@@ -1,0 +1,47 @@
+==== PIPAgent ====
+Linked dylibs: 34, imported symbols: 1092
+
+  present  provided/imported  library
+  yes      12/19	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _NSAccessibilityCloseButtonSubrole _NSAccessibilityStaticTextRole _NSAccessibilitySystemFloatingWindowSubrole _NSApplicationDidChangeScreenParametersNotification _OBJC_CLASS_$_NSSLSTransaction
+  NO       0/5	/System/Library/PrivateFrameworks/PIP.framework/Versions/A/PIP
+  NO       0/4	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  yes      15/59	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10POSIXErrorV8_nsErrorSo7NSErrorCvg _$s10Foundation10POSIXErrorVMa _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvs _$s10Foundation12NotificationVMa
+  yes      11/13	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush
+  yes      21/40	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _os_unfair_recursive_lock_lock_with_options _os_unfair_recursive_lock_unlock _xpc_array_append_value _xpc_array_create_empty _xpc_connection_activate
+  yes      0/2	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CoreDragGetCurrentDrag __AXUIElementCreateWithRemoteToken
+  NO       0/30	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      8/11	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer
+  yes      14/36	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$s12CoreGraphics6RegionVMa _$s12CoreGraphics6RegionVyACSo6CGRectVcfC _CGAffineTransformConcat _CGAffineTransformInvert _CGAffineTransformMakeScale
+  NO       0/9	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/440	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/6	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/348	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/27	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/6	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/2	/usr/lib/swift/libswiftQuartzCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/14	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/4	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/9	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for PIPAgent: 27 of 34 linked libraries are absent from the guest root; 81 of 1092 imported symbols are provided (7.41758%).

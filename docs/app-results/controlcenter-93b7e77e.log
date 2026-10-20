@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/controlcenter-93b7e77e/ControlCenter.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_controlcenter-93b7e77e:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:90
+DARLING_LAUNCH_BUNDLE:/Applications/controlcenter-93b7e77e/ControlCenter.app:/Applications/controlcenter-93b7e77e/ControlCenter.app/Contents/MacOS/ControlCenter
+native dyld: too many native dependencies
+PROBE_EXIT_controlcenter-93b7e77e:78
+kill -9 90 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/controlcenter-93b7e77e/ControlCenter.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_controlcenter-93b7e77e:${?})
+
+root@Darwin#

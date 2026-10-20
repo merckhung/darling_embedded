@@ -1,0 +1,20 @@
+==== Bluetooth File Exchange ====
+Linked dylibs: 10, imported symbols: 94
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/16	/System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+  yes      13/21	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSBeginAlertSheet _NSGetAlertPanel _NSReleaseAlertPanel _NSShowSystemInfoPanel _NSImageNameTrashEmpty _OBJC_CLASS_$_NSBrowserCell
+  NO       0/5	/System/Library/Frameworks/IOBluetoothUI.framework/Versions/A/IOBluetoothUI
+  yes      10/11	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSFileTypeForHFSTypeCode
+  yes      22/22	/usr/lib/libobjc.A.dylib
+  yes      5/5	/usr/lib/libSystem.B.dylib
+  yes      7/10	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL _OBJC_EHTYPE_$_NSException
+  yes      2/3	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _kUTTypeApplication
+
+Summary for Bluetooth File Exchange: 3 of 10 linked libraries are absent from the guest root; 59 of 94 imported symbols are provided (62.766%).

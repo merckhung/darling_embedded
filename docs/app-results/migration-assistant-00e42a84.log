@@ -1,0 +1,92 @@
+(/usr/bin/darling open '/Applications/migration-assistant-00e42a84/Migration Assistant.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_migration-assistant-00e42a84:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:52
+DARLING_LAUNCH_BUNDLE:/Applications/migration-assistant-00e42a84/Migration Assistant.app:/Applications/migration-assistant-00e42a84/Migration Assistant.app/Contents/MacOS/Migration Assistant
+native dyld warning: unresolved import: _AnalyticsSendEvent
+native dyld warning: unresolved import: _SACLOFinishDelayedLogout
+native dyld warning: unresolved import: _SACLORegisterLogoutStatusCallbacks
+native dyld warning: unresolved import: _SACLOStartLogoutWithOptions
+native dyld warning: unresolved import: _LUICopyDesktopPictureForScreenLock
+native dyld warning: unresolved import: _LUICreateImageOfSizeFromCGImage
+native dyld warning: unresolved import: _AuthorizationCopyInfo
+native dyld warning: unresolved import: _AuthorizationFreeItemSet
+native dyld warning: unresolved import: __os_log_fault_impl
+native dyld warning: unresolved import: _dispatch_get_specific
+native dyld warning: unresolved import: _dispatch_queue_set_specific
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _NSAccessibilityUnignoredAncestor
+native dyld warning: unresolved import: _NSColorEffectiveUserAccentColor
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _CGSSessionCopyAllSessionProperties
+native dyld warning: unresolved import: _CGSSessionCopyCurrentSessionProperties
+native dyld warning: unresolved import: _CGSSetConnectionProperty
+native dyld warning: unresolved import: _kCACornerCurveContinuous
+native dyld warning: unresolved import: _kCAFilterColorBrightness
+native dyld warning: unresolved import: _kCAFilterColorSaturate
+native dyld warning: unresolved import: _kCAFilterGaussianBlur
+native dyld warning: unresolved import: _kCAFilterInputAmount
+native dyld warning: unresolved import: _kCAFilterInputHardEdges
+native dyld warning: unresolved import: _kCAFilterInputRadius
+native dyld warning: unresolved import: _kCAMediaTimingFunctionLinear
+native dyld warning: unresolved import: _kSetupAssistantWindowDataKey
+native dyld warning: unresolved import: _kSetupAssistantWindowScreenNumberKey
+native dyld warning: unresolved import: _kSetupAssistantWindowXPositionKey
+native dyld warning: unresolved import: _kSetupAssistantWindowYPositionKey
+native dyld warning: unresolved import: _kSLSConnectionHasPluginPower
+native dyld warning: unresolved import: _NSHelpManagerSystemBook
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: _kCGSSessionLongUserNameKey
+native dyld warning: unresolved import: _kCGSSessionUserNameKey
+native dyld warning: unresolved import: _kCIInputSaturationKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/migration-assistant-00e42a84/Migration Assistant.app/Contents/MacOS/Migration Assistant)
+[AppKit] nib: no outlet 'autoresizesSubviews' on NSBox
+[ObjC] Method not found: [NSApplication disableRelaunchOnLogin]
+[ObjC] Method not found: [NSObject initWithFirstButtonTitle:secondButtonTitle:linkButtonTitle:]
+[ObjC] Method not found: [MAMainWindowContentView heightAnchor]
+[ObjC] Method not found: [MAMainWindowContentView widthAnchor]
+[ObjC] Method not found: [MAMainWindowContentView leftAnchor]
+[ObjC] Method not found: [MAMainWindowContentView rightAnchor]
+[ObjC] Method not found: [MAMainWindowContentView topAnchor]
+[ObjC] Method not found: [MAMainWindowContentView bottomAnchor]
+[ObjC] Method not found: [WelcomePane isSubclassOfClass:]
+[NSException] raise Invalid Pane: Could not load a pane named %@
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101ac3960 (title: )
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Migration Assistant:116:12
+DARLING_MENUBAR_ITEM:Edit:212:12
+DARLING_MENUBAR_ITEM:Window:271:12
+DARLING_MENUBAR_ITEM:Help:333:12
+[ObjC] Method not found: [MAMainWindow styleMask]
+DARLING_WINDOW_READY::4194305:112:84:800:628
+[AppKit] loaded nib /Applications/migration-assistant-00e42a84/Migration Assistant.app/Contents/Resources/Base.lproj/MainMenu.nib: 422 objects, 1 windows
+[AppKit] NSApplication delegate = 0x101abf3e0
+[AppKit] delegate 0x101abf3e0 does not respond to applicationDidFinishLaunching
+[ObjC] Method not found: [MAMainWindow styleMask]
+DARLING_WINDOW_READY::4194305:112:84:800:628
+[ObjC] Method not found: [MAMainWindow styleMask]
+DARLING_WINDOW_READY::4194305:112:84:800:628
+[ObjC] Method not found: [MAMainWindow styleMask]
+DARLING_WINDOW_READY::4194305:112:84:800:628
+[ObjC] Method not found: [MAMainWindow styleMask]
+DARLING_WINDOW_READY::4194305:112:84:800:628
+[ObjC] Method not found: [MAMainWindow styleMask]
+[ObjC] Method not found: [MAMainWindow styleMask]
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Migration Assistant:116:12
+DARLING_MENUBAR_ITEM:Edit:212:12
+DARLING_MENUBAR_ITEM:Window:271:12
+DARLING_MENUBAR_ITEM:Help:333:12
+kill -9 52 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/migration-assistant-00e42a84/Migration Assistant.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_migration-assistant-00e42a84:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

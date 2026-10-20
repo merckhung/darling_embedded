@@ -1,0 +1,37 @@
+(/usr/bin/darling open '/Applications/software-update-ea4d5d02/Software Update.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_software-update-ea4d5d02:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:123
+DARLING_LAUNCH_BUNDLE:/Applications/software-update-ea4d5d02/Software Update.app:/Applications/software-update-ea4d5d02/Software Update.app/Contents/MacOS/Software Update
+native dyld warning: unresolved import: _NSLocalizedFileSizeDescription
+native dyld warning: unresolved import: __SULogObject
+native dyld warning: unresolved import: _qos_class_self
+native dyld warning: unresolved import: _CPSBringNextToFront
+native dyld warning: unresolved import: _NSArgumentDomain
+native dyld warning: unresolved import: _NSHelpManagerSystemBook
+native dyld warning: unresolved import: _SUOSUPrefPaneURLSchemeBase
+native dyld warning: unresolved import: _SUForcePostLogoutConfirmationKey
+native dyld warning: unresolved import: _SUPostLogoutCountdownIntervalOverrideKey
+native dyld warning: unresolved import: _SUPredicateInstallActivePIDKey
+native dyld warning: unresolved import: _SUPredicateInstallConfirmKey
+native dyld warning: unresolved import: _SUPredicateInstallHelpAnchorKey
+native dyld warning: unresolved import: _SUPredicateInstallHelpURLStringKey
+native dyld warning: unresolved import: _SUPredicateInstallIconPathKey
+native dyld warning: unresolved import: _SUPredicateInstallInstalledPrintersKey
+native dyld warning: unresolved import: _SUPredicateInstallLegalTextTypeKey
+native dyld warning: unresolved import: _SUPredicateInstallPredicateKey
+native dyld warning: unresolved import: _SUPredicateInstallPrimaryTitleKey
+native dyld warning: unresolved import: _SUPredicateInstallRequireSLAKey
+native dyld warning: unresolved import: _SUSoftwareUpdateErrorDomain
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/software-update-ea4d5d02/Software Update.app/Contents/MacOS/Software Update)
+[AppKit] loaded nib /Applications/software-update-ea4d5d02/Software Update.app/Contents/Resources/Base.lproj/MainMenu.nib: 242 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101e0b500
+[ObjC] Method not found: [NSUserDefaults volatileDomainForName:]
+[ObjC] Method not found: [NSWorkspace openURL:]
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101e0b500
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 123 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/software-update-ea4d5d02/Software Update.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_software-update-ea4d5d02:${?})
+
+root@Darwin#

@@ -1,0 +1,9 @@
+==== Codex (GPU) ====
+Linked dylibs: 2, imported symbols: 59
+
+  present  provided/imported  library
+  NO       0/1	/usr/lib/libsandbox.1.dylib
+  yes      52/58	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dlerror _dlsym _dlopen _os_release _sandbox_free_error _sandbox_init_with_parameters
+
+Summary for Codex (GPU): 1 of 2 linked libraries are absent from the guest root; 52 of 59 imported symbols are provided (88.1356%).

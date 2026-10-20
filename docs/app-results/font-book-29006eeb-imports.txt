@@ -1,0 +1,54 @@
+==== Font Book ====
+Linked dylibs: 40, imported symbols: 2539
+
+  present  provided/imported  library
+  yes      0/7	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _kATSValidationPostScriptName _kATSValidationRuleResult _kATSValidationRuleSeverity _kATSValidationRulesList _kATSValidationTestsFailed _kATSValidationTestsPassed
+  NO       0/121	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/0	/System/Library/PrivateFrameworks/FontServices.framework/Versions/A/FontServices
+  NO       0/11	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib
+  NO       0/1	/System/Library/PrivateFrameworks/FontServices.framework/libFontParser.dylib
+  yes      20/295	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10NSNotFoundSivg _$s10Foundation11FormatStylePA2A4DateVABVRszrlE8dateTimeAFvgZ _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj _$s10Foundation11JSONDecoderCACycfc _$s10Foundation11JSONDecoderCMa _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
+  yes      15/17	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      26/32	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dlsym _os_variant_has_internal_content _os_variant_has_internal_ui _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      26/46	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo7NSColorC6AppKitE12quinaryLabelABvgZ _$sSo7NSSoundC6AppKitE4beepyyFZ _$s10Foundation15AttributeScopesO6AppKitE0dE10AttributesV04FontB0OAA19AttributedStringKeyADMc _$s10Foundation15AttributeScopesO6AppKitE0dE10AttributesV04FontB0ON _NSAppearanceNameAccessibilityHighContrastDarkAqua _NSControlTextDidChangeNotification
+  NO       0/3	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/64	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      8/25	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAttributedStringCreate _CFCharacterSetInitInlineBuffer _CFErrorCopyDescription _CFErrorGetCode __CFCharacterSetIsLongCharacterMemberForInline _NSCurrentLocaleDidChangeNotification
+  yes      10/25	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$sSo10CGColorRefa12CoreGraphicsE10componentsSayAC7CGFloatVGSgvg _$sSo10CGColorRefa12CoreGraphicsE5blackABvgZ _$sSo10CGColorRefa12CoreGraphicsE5whiteABvgZ _CGAffineTransformConcat _CGAffineTransformMakeScale _CGAffineTransformMakeTranslation
+  yes      0/16	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _Count1Resources _FSCloseFork _FSGetForkSize _FSGetResourceForkName _FSOpenFork _FSOpenResourceFileMapped
+  NO       0/11	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/1	/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+  NO       0/1224	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/1	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/3	/System/Library/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/503	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/11	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/30	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/11	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/61	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/8	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Font Book: 32 of 40 linked libraries are absent from the guest root; 105 of 2539 imported symbols are provided (4.13549%).

@@ -1,0 +1,66 @@
+==== Tips ====
+Linked dylibs: 53, imported symbols: 1866
+
+  present  provided/imported  library
+  NO       0/40	/System/Library/PrivateFrameworks/HelpData.framework/Versions/A/HelpData
+  NO       0/0	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      15/174	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10NSNotFoundSivg _$s10Foundation10URLRequestV10httpMethodSSSgvs _$s10Foundation10URLRequestV19_bridgeToObjectiveCSo12NSURLRequestCyF _$s10Foundation10URLRequestV23httpShouldHandleCookiesSbvs _$s10Foundation10URLRequestV36_unconditionallyBridgeFromObjectiveCyACSo12NSURLRequestCSgFZ _$s10Foundation10URLRequestV3url11cachePolicy15timeoutIntervalAcA3URLV_So017NSURLRequestCacheE0VSdtcfC
+  yes      20/20	/usr/lib/libobjc.A.dylib
+  yes      22/27	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dlsym _OBJC_CLASS_$_OS_dispatch_queue _OBJC_CLASS_$_OS_os_log ___chkstk_darwin
+  NO       0/176	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      23/52	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit16NSSuggestionItemV16representedValue5titleACyxGx_SStcfC _$s6AppKit16NSSuggestionItemV16representedValuexvg _$s6AppKit24NSSuggestionItemResponseV5itemsACyxGSayAA0cD0VyxGG_tcfC _$s6AppKit24NSSuggestionItemResponseVACyxGycfC _$s6AppKit25NSTextSuggestionsDelegatePAAE10_textField_32didSelectTrailingHeaderButtonForSbSo0cG0C_AA23NSSuggestionItemSectionVy010SuggestionO4TypeQzGtF _$sSo11NSTextFieldC6AppKitE19suggestionsDelegateAC0a11SuggestionsF0_pSgvs
+  NO       0/24	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      7/13	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _OBJC_CLASS_$_NSLocale _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer _OBJC_EHTYPE_$_NSException __kCFBundleIconFileKey
+  yes      4/5	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGRectIntersection
+  NO       0/2	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/10	/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+  NO       0/4	/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/2	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      0/3	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecRequirementCreateWithString _SecStaticCodeCheckValidity _SecStaticCodeCreateWithPath
+  NO       0/762	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  yes      0/8	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_CLASS_$_WKBrowsingContextController _OBJC_CLASS_$_WKContentWorld _OBJC_CLASS_$_WKUserScript _OBJC_CLASS_$_WKWebView _OBJC_CLASS_$_WKWebViewConfiguration _OBJC_CLASS_$__WKCustomHeaderFields
+  NO       0/2	/System/Library/Frameworks/_AppIntents_SwiftUI.framework/Versions/A/_AppIntents_SwiftUI
+  NO       0/1	/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/1	/System/Library/PrivateFrameworks/IntentsCore.framework/Versions/A/IntentsCore
+  NO       0/3	/System/Library/PrivateFrameworks/PegasusAPI.framework/Versions/A/PegasusAPI
+  NO       0/29	/System/Library/PrivateFrameworks/TipsCore.framework/Versions/A/TipsCore
+  NO       0/129	/System/Library/PrivateFrameworks/TipsUI.framework/Versions/A/TipsUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/291	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/20	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/32	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/4	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/3	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Tips: 45 of 53 linked libraries are absent from the guest root; 91 of 1866 imported symbols are provided (4.87674%).

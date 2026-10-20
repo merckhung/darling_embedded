@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/previewshell-ee11123c/PreviewShell.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_previewshell-ee11123c:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:66
+DARLING_LAUNCH_BUNDLE:/Applications/previewshell-ee11123c/PreviewShell.app:/Applications/previewshell-ee11123c/PreviewShell.app/Contents/MacOS/PreviewShell
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_previewshell-ee11123c:78
+kill -9 66 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/previewshell-ee11123c/PreviewShell.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_previewshell-ee11123c:${?})
+
+root@Darwin#

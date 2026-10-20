@@ -1,0 +1,14 @@
+Computing main repo mapping:
+Loading:
+Loading: 0 packages loaded
+Analyzing: 10 targets (0 packages loaded, 0 targets configured)
+Analyzing: 10 targets (0 packages loaded, 0 targets configured)
+
+INFO: Analyzed 10 targets (0 packages loaded, 8 targets configured).
+[397 / 403] Compiling tools/build_darling_root.cc; 1s local ... (2 actions running)
+[398 / 403] Compiling tools/verify_darling_qemu.cc; 6s local ... (2 actions, 1 running)
+[402 / 403] [Prepa] runfiles for //:run_gui
+INFO: Found 10 targets...
+INFO: Elapsed time: 9.025s, Critical Path: 7.68s
+INFO: 13 processes: 18 action cache hit, 9 internal, 4 local.
+INFO: Build completed successfully, 13 total actions

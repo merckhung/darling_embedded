@@ -1,0 +1,137 @@
+(/usr/bin/darling open '/Applications/system-events-2693058c/System Events.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_system-events-2693058c:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:441
+DARLING_LAUNCH_BUNDLE:/Applications/system-events-2693058c/System Events.app:/Applications/system-events-2693058c/System Events.app/Contents/MacOS/System Events
+native dyld warning: unresolved import: _AXIsProcessTrusted
+native dyld warning: unresolved import: _AXUIElementCopyActionDescription
+native dyld warning: unresolved import: _AXUIElementCopyActionNames
+native dyld warning: unresolved import: _AXUIElementCopyAttributeNames
+native dyld warning: unresolved import: _AXUIElementCopyAttributeValue
+native dyld warning: unresolved import: _AXUIElementCopyElementAtPosition
+native dyld warning: unresolved import: _AXUIElementCreateApplication
+native dyld warning: unresolved import: _AXUIElementCreateSystemWide
+native dyld warning: unresolved import: _AXUIElementGetPid
+native dyld warning: unresolved import: _AXUIElementGetTypeID
+native dyld warning: unresolved import: _AXUIElementIsAttributeSettable
+native dyld warning: unresolved import: _AXUIElementPerformAction
+native dyld warning: unresolved import: _AXUIElementSetAttributeValue
+native dyld warning: unresolved import: _AXValueCreate
+native dyld warning: unresolved import: _AXValueGetType
+native dyld warning: unresolved import: _AXValueGetValue
+native dyld warning: unresolved import: _CopyProcessName
+native dyld warning: unresolved import: _CoreMenuExtraGetMenuExtra
+native dyld warning: unresolved import: _GetProcessForPID
+native dyld warning: unresolved import: _IsProcessVisible
+native dyld warning: unresolved import: _SameProcess
+native dyld warning: unresolved import: _SetFrontProcess
+native dyld warning: unresolved import: _ShowHideProcess
+native dyld warning: unresolved import: __GetFrontUIProcess
+native dyld warning: unresolved import: _AESend
+native dyld warning: unresolved import: _LMGetKbdType
+native dyld warning: unresolved import: _TISCopyCurrentKeyboardLayoutInputSource
+native dyld warning: unresolved import: _TISGetInputSourceProperty
+native dyld warning: unresolved import: _msgtracer_log_with_keys
+native dyld warning: unresolved import: __NSObjectByConvertingAEDescriptorToTypeInSuite
+native dyld warning: unresolved import: _CFAllocatorAllocateTyped
+native dyld warning: unresolved import: _CFAllocatorDeallocate
+native dyld warning: unresolved import: _CFArrayGetFirstIndexOfValue
+native dyld warning: unresolved import: _CFDataGetBytes
+native dyld warning: unresolved import: _CFErrorCopyDescription
+native dyld warning: unresolved import: _CFNullGetTypeID
+native dyld warning: unresolved import: _CFPropertyListCreateFromStream
+native dyld warning: unresolved import: _CFPropertyListCreateXMLData
+native dyld warning: unresolved import: _CFPropertyListWriteToStream
+native dyld warning: unresolved import: _CFReadStreamClose
+native dyld warning: unresolved import: _CFReadStreamCreateWithFile
+native dyld warning: unresolved import: _CFReadStreamOpen
+native dyld warning: unresolved import: _CFURLCopyFileSystemPath
+native dyld warning: unresolved import: _CFURLCopyResourcePropertyForKey
+native dyld warning: unresolved import: _CFURLCreateBookmarkDataFromAliasRecord
+native dyld warning: unresolved import: _CFURLCreateFromFSRef
+native dyld warning: unresolved import: _CFURLCreateResourcePropertyForKeyFromBookmarkData
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _CFURLCreateWithString
+native dyld warning: unresolved import: _CFURLGetFSRef
+native dyld warning: unresolved import: _CFURLHasDirectoryPath
+native dyld warning: unresolved import: _CFURLResourceIsReachable
+native dyld warning: unresolved import: _CFURLSetResourcePropertyForKey
+native dyld warning: unresolved import: _CFWriteStreamClose
+native dyld warning: unresolved import: _CFWriteStreamCreateWithFile
+native dyld warning: unresolved import: _CFWriteStreamOpen
+native dyld warning: unresolved import: _CGPostKeyboardEvent
+native dyld warning: unresolved import: _AECreateAppleEvent
+native dyld warning: unresolved import: _AECreateDesc
+native dyld warning: unresolved import: _AEDisposeDesc
+native dyld warning: unresolved import: _AEGetAttributePtr
+native dyld warning: unresolved import: _AEPutAttributeDesc
+native dyld warning: unresolved import: _AEPutParamDesc
+native dyld warning: unresolved import: _AESendMessage
+native dyld warning: unresolved import: _FSCatalogSearch
+native dyld warning: unresolved import: _FSCloseIterator
+native dyld warning: unresolved import: _FSFindFolder
+native dyld warning: unresolved import: _FSGetCatalogInfo
+native dyld warning: unresolved import: _FSGetCatalogInfoBulk
+native dyld warning: unresolved import: _FSGetVolumeInfo
+native dyld warning: unresolved import: _FSGetVolumeMountInfo
+native dyld warning: unresolved import: _FSGetVolumeMountInfoSize
+native dyld warning: unresolved import: _FSNewAlias
+native dyld warning: unresolved import: _FSOpenIterator
+native dyld warning: unresolved import: _FSPathMakeRef
+native dyld warning: unresolved import: _LSCopyItemInfoForRef
+native dyld warning: unresolved import: _LSCopyItemInfoForURL
+native dyld warning: unresolved import: _LSCopyKindStringForURL
+native dyld warning: unresolved import: _LSGetApplicationForURL
+native dyld warning: unresolved import: _LSOpenCFURLRef
+native dyld warning: unresolved import: _UCKeyTranslate
+native dyld warning: unresolved import: _UTCreateStringForOSType
+native dyld warning: unresolved import: _UTGetOSTypeFromString
+native dyld warning: unresolved import: __FSGetVolumePermissions
+native dyld warning: unresolved import: __FSSetVolumePermissions
+native dyld warning: unresolved import: __LSASNExtractHighAndLowParts
+native dyld warning: unresolved import: __LSCopyApplicationArray
+native dyld warning: unresolved import: __LSCopyApplicationInformation
+native dyld warning: unresolved import: __LSFindApplicationsItem
+native dyld warning: unresolved import: _kTISPropertyInputSourceID
+native dyld warning: unresolved import: _kTISPropertyUnicodeKeyLayoutData
+native dyld warning: unresolved import: _NSFileBusy
+native dyld warning: unresolved import: _NSFileHFSCreatorCode
+native dyld warning: unresolved import: _NSFileHFSTypeCode
+native dyld warning: unresolved import: _NSFileSystemFileNumber
+native dyld warning: unresolved import: _NSWorkspaceLaunchConfigurationArchitecture
+native dyld warning: unresolved import: _NSURLIsDirectoryKey
+native dyld warning: unresolved import: _NSURLIsHiddenKey
+native dyld warning: unresolved import: _NSURLIsPackageKey
+native dyld warning: unresolved import: _NSURLIsVolumeKey
+native dyld warning: unresolved import: _NSURLLocalizedNameKey
+native dyld warning: unresolved import: _NSURLNameKey
+native dyld warning: unresolved import: _NSURLParentDirectoryURLKey
+native dyld warning: unresolved import: _NSURLPathKey
+native dyld warning: unresolved import: _NSURLTotalFileAllocatedSizeKey
+native dyld warning: unresolved import: _NSURLTotalFileSizeKey
+native dyld warning: unresolved import: _NSURLTypeIdentifierKey
+native dyld warning: unresolved import: _NSURLVolumeAvailableCapacityKey
+native dyld warning: unresolved import: _NSURLVolumeIdentifierKey
+native dyld warning: unresolved import: _NSURLVolumeIsEjectableKey
+native dyld warning: unresolved import: _NSURLVolumeIsLocalKey
+native dyld warning: unresolved import: _NSURLVolumeTotalCapacityKey
+native dyld warning: unresolved import: _NSURLVolumeURLKey
+native dyld warning: unresolved import: __kCFBundlePackageTypeKey
+native dyld warning: unresolved import: __kCFBundleSignatureKey
+native dyld warning: unresolved import: __kCFURLFinderInfoKey
+native dyld warning: unresolved import: __kCFURLStrongBindingKey
+native dyld warning: unresolved import: _kCFURLIsDirectoryKey
+native dyld warning: unresolved import: _kCFURLPathKey
+native dyld warning: unresolved import: __kLSApplicationForegroundTypeKey
+native dyld warning: unresolved import: __kLSApplicationTypeKey
+native dyld warning: unresolved import: __kLSBundlePathKey
+native dyld warning: unresolved import: __kLSDisplayNameKey
+native dyld warning: unresolved import: __kLSExecutablePathKey
+native dyld warning: unresolved import: __kLSPIDKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/system-events-2693058c/System Events.app/Contents/MacOS/System Events)
+[AppKit] loaded nib /Applications/system-events-2693058c/System Events.app/Contents/Resources/Base.lproj/MainMenu.nib: 410 objects, 0 windows
+[AppKit] NSApplication delegate = 0xc00c0d600
+kill -9 441 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/system-events-2693058c/System Events.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_system-events-2693058c:${?})
+
+root@Darwin#

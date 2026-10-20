@@ -1,0 +1,102 @@
+==== VoiceMemos ====
+Linked dylibs: 87, imported symbols: 2898
+
+  present  provided/imported  library
+  NO       0/7	/System/iOSSupport/System/Library/Frameworks/Cinematic.framework/Versions/A/Cinematic
+  NO       0/0	/System/Library/PrivateFrameworks/MediaExperience.framework/Versions/A/MediaExperience
+  NO       0/0	/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices
+  NO       0/6	/System/iOSSupport/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit
+  NO       0/0	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/BaseBoardUI.framework/Versions/A/BaseBoardUI
+  NO       0/1	/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/Versions/A/AccessibilityUtilities
+  NO       0/0	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/0	/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/PencilKit.framework/Versions/A/PencilKit
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/6	/System/iOSSupport/System/Library/PrivateFrameworks/AppSupportUI.framework/Versions/A/AppSupportUI
+  NO       0/1	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/2	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/0	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/0	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/UIAccessibility.framework/Versions/A/UIAccessibility
+  NO       0/8	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/14	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  NO       0/361	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/0	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  NO       0/0	/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+  NO       0/35	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  yes      18/23	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformMakeScale _CGRectIntersection _CGRectIntersectsRect _CGRectIsInfinite _CGRectUnion
+  NO       0/20	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/199	/System/Library/PrivateFrameworks/AppAnalytics.framework/Versions/A/AppAnalytics
+  yes      32/345	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _$s10Foundation11JSONDecoderC20DateDecodingStrategyOMa _$s10Foundation11JSONDecoderC20dateDecodingStrategyAC04DatedE0OvsTj _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj _$s10Foundation11JSONDecoderCACycfc
+  NO       0/1	/System/Library/PrivateFrameworks/UserManagement.framework/Versions/A/UserManagement
+  NO       0/0	/System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+  NO       0/0	/System/Library/PrivateFrameworks/NetAppsUtilities.framework/Versions/A/NetAppsUtilities
+  NO       0/0	/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote
+  NO       0/0	/System/Library/PrivateFrameworks/MediaServices.framework/Versions/A/MediaServices
+  NO       0/19	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/3	/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities
+  NO       0/237	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/97	/System/iOSSupport/System/Library/PrivateFrameworks/VoiceMemos.framework/Versions/A/VoiceMemos
+  yes      43/79	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_release_x1 _objc_release_x10 _objc_release_x19 _objc_release_x20 _objc_release_x21
+  yes      1/12	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNSt20bad_array_new_lengthC1Ev __ZSt9terminatev ___cxa_allocate_exception ___cxa_begin_catch ___cxa_free_exception ___cxa_throw
+  yes      60/82	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_log_fault_impl __os_signpost_emit_with_name_impl _dispatch_group_create _dispatch_group_enter _dispatch_group_leave
+  NO       0/35	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  NO       0/2	/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+  yes      5/35	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSHyphenationFactorDocumentAttribute _OBJC_CLASS_$_NSButtonTouchBarItem _OBJC_CLASS_$_NSCollectionLayoutBoundarySupplementaryItem _OBJC_CLASS_$_NSCollectionLayoutDimension _OBJC_CLASS_$_NSCollectionLayoutSection _OBJC_CLASS_$_NSCollectionLayoutSize
+  NO       0/81	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      14/31	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopPerformBlock _NSCurrentLocaleDidChangeNotification _NSRunLoopCommonModes _NSURLFileSizeKey _OBJC_CLASS_$_NSCache _OBJC_CLASS_$_NSCalendar
+  NO       0/3	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: __LSVersionNumberGetMajorComponent __LSVersionNumberMakeWithString
+  NO       0/1	/System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+  yes      0/10	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCopyErrorMessageString _SecItemAdd _SecItemCopyMatching _SecItemDelete _kSecAttrApplicationTag _kSecAttrSynchronizable
+  NO       0/64	/System/Library/Frameworks/Speech.framework/Versions/A/Speech
+  NO       0/7	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/12	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/14	/System/Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore
+  NO       0/371	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/35	/System/iOSSupport/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+  NO       0/13	/System/iOSSupport/System/Library/Frameworks/_AppIntents_UIKit.framework/Versions/A/_AppIntents_UIKit
+  NO       0/7	/System/iOSSupport/System/Library/PrivateFrameworks/ShareSheet.framework/Versions/A/ShareSheet
+  NO       0/2	/usr/lib/libMobileGestalt.dylib
+  NO       0/9	/usr/lib/swift/libswiftAVFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/403	/usr/lib/swift/libswiftCore.dylib
+  NO       0/9	/usr/lib/swift/libswiftCoreAudio.dylib
+  NO       0/8	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/35	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftNaturalLanguage.dylib
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/15	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/79	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/29	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for VoiceMemos: 78 of 87 linked libraries are absent from the guest root; 173 of 2894 imported symbols are provided (5.97789%).

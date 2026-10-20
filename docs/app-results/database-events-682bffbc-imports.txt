@@ -1,0 +1,22 @@
+==== Database Events ====
+Linked dylibs: 13, imported symbols: 71
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/0	/System/Library/Frameworks/ExtensionKit.framework/Versions/A/ExtensionKit
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      6/16	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSAEDescriptorTranslator _OBJC_CLASS_$_NSArchiver _OBJC_CLASS_$_NSDecimalNumber _OBJC_CLASS_$_NSIndexSpecifier _OBJC_CLASS_$_NSNameSpecifier _OBJC_CLASS_$_NSScriptClassDescription
+  yes      13/13	/usr/lib/libobjc.A.dylib
+  yes      2/2	/usr/lib/libSystem.B.dylib
+  yes      3/3	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  NO       0/13	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  yes      9/21	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFErrorCopyDescription _CFNumberGetType _CFURLCopyFileSystemPath _CFURLCopyResourcePropertyForKey _CFURLCreateFromFSRef _CFURLCreateWithFileSystemPath
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _FSCreateDirectoryUnicode _FSFindFolder
+  NO       0/0	/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+
+Summary for Database Events: 5 of 13 linked libraries are absent from the guest root; 33 of 71 imported symbols are provided (46.4789%).

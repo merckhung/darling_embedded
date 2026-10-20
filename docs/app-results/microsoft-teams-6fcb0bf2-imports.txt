@@ -1,0 +1,70 @@
+==== MSTeams ====
+Linked dylibs: 61, imported symbols: 3578
+
+  present  provided/imported  library
+  NO       0/14	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/11	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/2	/System/Library/Frameworks/MetricKit.framework/Versions/A/MetricKit
+  NO       0/222	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/4	/System/Library/Frameworks/ScreenCaptureKit.framework/Versions/A/ScreenCaptureKit
+  NO       0/75	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/25	/usr/lib/libxml2.2.dylib
+  NO       0/2	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/1	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      49/142	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation14DateComponentsV6minuteSiSgvg _$s10Foundation14DateComponentsV8calendar8timeZone3era4year5month3day4hour6minute6second10nanosecond7weekday0O7Ordinal7quarter11weekOfMonth0rS4Year0h7ForWeeksU0AcA8CalendarVSg_AA04TimeF0VSgSiSgA13ZtcfC _$s10Foundation14DateComponentsV8timeZoneAA04TimeE0VSgvs _$s10Foundation14DateComponentsVMa _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF _$s10Foundation23LocalizedStringResourceV13stringLiteralACSS_tcfC
+  NO       0/5	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  yes      47/84	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo10NSMenuItemC6AppKitE13sectionHeader5titleABSS_tFZ _NSAboutPanelOptionVersion _NSAccessibilityAnnouncementKey _NSAccessibilityAnnouncementRequestedNotification _NSAccessibilityPostNotification _NSAccessibilityPostNotificationWithUserInfo
+  yes      56/88	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDictionaryAddValue _CFErrorGetCode _CFErrorGetDomain _CFRunLoopCopyCurrentMode _CFSetApplyFunction _CFStringConvertEncodingToNSStringEncoding
+  NO       0/4	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  NO       0/19	/usr/lib/libcurl.4.dylib
+  yes      0/25	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeCheckValidity _SecCodeCopySelf _SecCopyErrorMessageString _SecItemAdd _SecItemCopyMatching _SecItemDelete
+  NO       0/41	/usr/lib/libsqlite3.dylib
+  NO       0/9	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  yes      3/3	/usr/lib/libz.1.dylib
+  yes      370/457	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNKSt13runtime_error4whatEv __ZNSt11logic_errorD1Ev __ZNSt11logic_errorD2Ev __ZNSt11range_errorD1Ev __ZNSt12domain_errorD1Ev __ZNSt12domain_errorD2Ev
+  yes      46/56	/usr/lib/libobjc.A.dylib
+             e.g. missing: _OBJC_EHTYPE_id _class_addMethod _class_getInstanceMethod _method_exchangeImplementations _method_getImplementation _method_getTypeEncoding
+  yes      242/314	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CCCrypt _CCHmac _CCHmacFinal _CCHmacInit _CCHmacUpdate _CC_SHA256
+  NO       0/3	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  NO       0/123	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/3	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/5	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  yes      11/45	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformMakeScale _CGBeginDisplayConfiguration _CGCompleteDisplayConfiguration _CGConfigureDisplayMirrorOfDisplay _CGDisplayCopyDisplayMode _CGDisplayIsBuiltin
+  NO       0/2	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  NO       0/1	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/1	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  NO       0/1	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/4	/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+  NO       0/3	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/1	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/3	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/7	/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit (weak)
+  NO       0/304	/usr/lib/swift/libswiftCore.dylib
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDarwin.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/13	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/7	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for MSTeams: 46 of 61 linked libraries are absent from the guest root; 824 of 2140 imported symbols are provided (38.5047%).

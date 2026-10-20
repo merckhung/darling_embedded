@@ -1,0 +1,936 @@
+(/usr/bin/darling open /Applications/softwareupdatelauncher-14b89878/SoftwareUpdateLauncher.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_softwareupdatelauncher-14b89878:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:125
+DARLING_LAUNCH_BUNDLE:/Applications/softwareupdatelauncher-14b89878/SoftwareUpdateLauncher.app:/Applications/softwareupdatelauncher-14b89878/SoftwareUpdateLauncher.app/Contents/MacOS/SoftwareUpdateLauncher
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/softwareupdatelauncher-14b89878/SoftwareUpdateLauncher.app/Contents/MacOS/SoftwareUpdateLauncher)
+[AppKit] loaded nib /Applications/softwareupdatelauncher-14b89878/SoftwareUpdateLauncher.app/Contents/Resources/DummyMainMenu.nib: 729 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101704b10
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101704b10
+[ObjC] Method not found: [NSMenu setMenuBarVisible:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (1 args) -> pid 126
+[Darling SoftwareUpdateLauncher:125] Software Update exited: launching for reconnect
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 127
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 128
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 129
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 130
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 131
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 132
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 133
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 134
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 135
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 136
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 137
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 138
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 139
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 140
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 141
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 142
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 143
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 144
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 145
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 146
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 147
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 148
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 149
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 150
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 151
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 152
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 153
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 154
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 155
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 156
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 157
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 158
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 159
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 160
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 161
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 162
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 163
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 164
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 165
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 166
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 167
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 168
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 169
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 170
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 171
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 172
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 173
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 174
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 175
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 176
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 177
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 178
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 179
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 180
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 181
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 182
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 183
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 184
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 185
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 186
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 187
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 188
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 189
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 190
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 191
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 192
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 193
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 194
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 195
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 196
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 197
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 198
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 199
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 200
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 201
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 202
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 203
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 204
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 205
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 206
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 207
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 208
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 209
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 210
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 211
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 212
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 213
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 214
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 215
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 216
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 217
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 218
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 219
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 220
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 221
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 222
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 223
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 224
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 225
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 226
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 227
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 228
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 229
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 230
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 231
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 232
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 233
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 234
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 235
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 236
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 237
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 238
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 239
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 240
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 241
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 242
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 243
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 244
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 245
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 246
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 247
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 248
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 249
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 250
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 251
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 252
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 253
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 254
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 255
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 256
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 257
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 258
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 259
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 260
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 261
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 262
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 263
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 264
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 265
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 266
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 267
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 268
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 269
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 270
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 271
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 272
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 273
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 274
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 275
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 276
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 277
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 278
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 279
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 280
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 281
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 282
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 283
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 284
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 285
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 286
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 287
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 288
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 289
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 290
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 291
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 292
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 293
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 294
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 295
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 296
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 297
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 298
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 299
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 300
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 301
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 302
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 303
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 304
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 305
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 306
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 307
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 308
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 309
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 310
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 311
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 312
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 313
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 314
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 315
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 316
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 317
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 318
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 319
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 320
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 321
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 322
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 323
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 324
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 325
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 326
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 327
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 328
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 329
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 330
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 331
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 332
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 333
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 334
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 335
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 336
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 337
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 338
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 339
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 340
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 341
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 342
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 343
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 344
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 345
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 346
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 347
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 348
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 349
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 350
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 351
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 352
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 353
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 354
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 355
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 356
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 357
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 358
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 359
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 360
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 361
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 362
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 363
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 364
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 365
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 366
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 367
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 368
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 369
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 370
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 371
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 372
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 373
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 374
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 375
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 376
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 377
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 378
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 379
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 380
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 381
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 382
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 383
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 384
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 385
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 386
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 387
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 388
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 389
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 390
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 391
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 392
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 393
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 394
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 395
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 396
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 397
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 398
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 399
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 400
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 401
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 402
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 403
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 404
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 405
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 406
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 407
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 408
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 409
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 410
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 411
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 412
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 413
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 414
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 415
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 416
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 417
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 418
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 419
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 420
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 421
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 422
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 423
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 424
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 425
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 426
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 427
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 428
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 429
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 430
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 431
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 432
+[Darling SoftwareUpdateLauncher:125] Software Update reconnect exited non-zero: relaunching
+[ObjC] Method not found: [NSMutableArray arrayByAddingObjectsFromArray:]
+[Foundation] NSTask launch /System/Library/CoreServices/Software Update.app/Contents/MacOS/Software Update (0 args) -> pid 433
+kill -9 125 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/softwareupdatelauncher-14b89878/SoftwareUpdateLauncher.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_softwareupdatelauncher-14b89878:${?})
+
+root@Darwin#

@@ -1,0 +1,98 @@
+==== Calendar ====
+Linked dylibs: 84, imported symbols: 1230
+
+  present  provided/imported  library
+  NO       0/12	/System/Library/PrivateFrameworks/CalendarUIKitInternal.framework/Versions/A/CalendarUIKitInternal
+  NO       0/1	/AppleInternal/Library/Frameworks/CalendarDiagnosticsUI.framework/Versions/A/CalendarDiagnosticsUI (weak)
+  NO       0/6	/System/Library/PrivateFrameworks/CalendarDatabase.framework/Versions/A/CalendarDatabase
+  NO       0/2	/System/Library/PrivateFrameworks/DataAccess.framework/Versions/A/DataAccess
+  NO       0/72	/System/Library/Frameworks/EventKit.framework/Versions/A/EventKit
+  NO       0/11	/System/Library/PrivateFrameworks/DataAccessExpress.framework/Versions/A/DataAccessExpress
+  NO       0/4	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/1	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/8	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      104/224	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityActionDescription _NSAccessibilityPostNotification _NSAccessibilityRoleDescription _NSAccessibilityRoleDescriptionForUIElement _NSAccessibilityUnignoredAncestor _NSAccessibilityUnignoredChildren
+  NO       0/6	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/4	/System/Library/PrivateFrameworks/AccountsUI.framework/Versions/A/AccountsUI
+  yes      0/5	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CoreDragChangeBehaviors _PMCreatePageFormatWithPMPaper _PMPaperGetMargins _PMPrinterCreatePaperInfoListForMenuPriv _PMRelease
+  NO       0/1	/System/Library/PrivateFrameworks/CalDAV.framework/Versions/A/CalDAV
+  NO       0/6	/System/Library/PrivateFrameworks/CalendarDraw.framework/Versions/A/CalendarDraw
+  NO       0/67	/System/Library/PrivateFrameworks/CalendarFoundation.framework/Versions/A/CalendarFoundation
+  NO       0/52	/System/Library/PrivateFrameworks/CalendarUI.framework/Versions/A/CalendarUI
+  NO       0/72	/System/Library/PrivateFrameworks/CalendarUIKit.framework/Versions/A/CalendarUIKit
+  NO       0/2	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/3	/System/Library/PrivateFrameworks/CoreDAV.framework/Versions/A/CoreDAV
+  NO       0/0	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/4	/System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/CoreRecents
+  yes      0/9	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: __LSSetDefaultSchemeHandlerURL __LSSetWeakBindingURLForUTI _OBJC_CLASS_$_LSOpenWithMenuConstructor _OBJC_CLASS_$_NSUserActivity _kMDItemAuthors _kMDItemComment
+  NO       0/1	/System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/CoreSuggestions
+  NO       0/10	/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+  NO       0/1	/System/Library/PrivateFrameworks/EmailAddressing.framework/Versions/A/EmailAddressing
+  NO       0/0	/System/Library/PrivateFrameworks/GeoKit.framework/Versions/A/GeoKit
+  NO       0/1	/System/Library/PrivateFrameworks/iCalendar.framework/Versions/A/iCalendar
+  NO       0/1	/System/Library/PrivateFrameworks/IntlPreferences.framework/Versions/A/IntlPreferences
+  NO       0/0	/usr/lib/libicucore.A.dylib
+  NO       0/0	/System/Library/Frameworks/MapKit.framework/Versions/A/MapKit
+  NO       0/0	/System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+  NO       0/0	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  yes      0/0	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/0	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  NO       0/8	/System/Library/PrivateFrameworks/Suggestions.framework/Versions/A/Suggestions
+  NO       0/1	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/1	/System/Library/PrivateFrameworks/CalendarWeatherKit.framework/Versions/A/CalendarWeatherKit
+  yes      56/148	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantFloatNumber _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg _$s10Foundation12NotificationVMa
+  yes      47/48	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_exception_throw
+  yes      38/53	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_feature_enabled_impl _dispatch_group_create _dispatch_group_enter _dispatch_group_leave _dispatch_group_notify
+  NO       0/5	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/1	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  yes      38/73	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFBundleCopyInfoDictionaryForURL _CFDateFormatterCopyProperty _CFDateFormatterCreate _CFDateFormatterCreateStringWithDate _CFDateGetAbsoluteTime _CFLocaleCopyCurrent
+  yes      41/70	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformConcat _CGAffineTransformInvert _CGAffineTransformMakeTranslation _CGAffineTransformScale _CGAffineTransformTranslate _CGColorEqualToColor
+  NO       0/3	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/2	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/8	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/3	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+  NO       0/31	/System/Library/PrivateFrameworks/CalendarLink.framework/Versions/A/CalendarLink
+  NO       0/1	/System/Library/PrivateFrameworks/CommunicationsFilter.framework/Versions/A/CommunicationsFilter
+  NO       0/2	/System/Library/PrivateFrameworks/ContactsAutocomplete.framework/Versions/A/ContactsAutocomplete
+  NO       0/1	/System/Library/PrivateFrameworks/ExchangeWebServices.framework/Versions/A/ExchangeWebServices
+  NO       0/8	/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/ReminderKit
+  NO       0/58	/System/Library/PrivateFrameworks/RemindersAppIntents.framework/Versions/A/RemindersAppIntents
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/96	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/13	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/5	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Calendar: 75 of 84 linked libraries are absent from the guest root; 324 of 1230 imported symbols are provided (26.3415%).

@@ -1,0 +1,22 @@
+==== Pass Viewer ====
+Linked dylibs: 13, imported symbols: 68
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/PassKitUI.framework/Versions/A/PassKitUI
+  NO       0/8	/System/Library/PrivateFrameworks/PassKitCore.framework/Versions/A/PassKitCore
+  NO       0/0	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/1	/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+  yes      6/8	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSUserActivityTypeBrowsingWeb _OBJC_CLASS_$_NSURLComponents
+  yes      20/20	/usr/lib/libobjc.A.dylib
+  yes      9/13	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_group_create _dispatch_group_enter _dispatch_group_leave _dispatch_group_wait
+  yes      6/6	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      1/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  yes      4/7	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSURLContentTypeKey _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSURL
+  NO       0/1	/System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+  NO       0/2	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+
+Summary for Pass Viewer: 6 of 13 linked libraries are absent from the guest root; 46 of 68 imported symbols are provided (67.6471%).

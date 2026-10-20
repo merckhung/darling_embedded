@@ -1,0 +1,53 @@
+==== PeopleMessageService ====
+Linked dylibs: 44, imported symbols: 336
+
+  present  provided/imported  library
+  NO       0/92	/System/Library/PrivateFrameworks/People.framework/Versions/A/People
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/IMCore.framework/Versions/A/IMCore
+  NO       0/0	/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+  NO       0/0	/System/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS
+  NO       0/5	/System/iOSSupport/System/Library/Frameworks/Messages.framework/Versions/A/Messages
+  NO       0/0	/System/Library/PrivateFrameworks/BiomePubSub.framework/Versions/A/BiomePubSub
+  NO       0/0	/System/Library/PrivateFrameworks/BiomeStorage.framework/Versions/A/BiomeStorage
+  NO       0/0	/System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams
+  yes      1/35	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12URLQueryItemV4nameSSvg _$s10Foundation12URLQueryItemVMa _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvg _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvs _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC _$s10Foundation13URLComponentsV3urlAA3URLVSgvg
+  yes      14/34	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_release_x19 _objc_release_x20 _objc_release_x21 _objc_release_x22 _objc_release_x23 _objc_release_x24
+  yes      8/10	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy ___chkstk_darwin
+  yes      1/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  NO       0/9	/System/Library/PrivateFrameworks/AskToCore.framework/Versions/A/AskToCore
+  NO       0/2	/System/Library/PrivateFrameworks/IDSFoundation.framework/Versions/A/IDSFoundation
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/18	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/106	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/14	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/6	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for PeopleMessageService: 40 of 44 linked libraries are absent from the guest root; 24 of 336 imported symbols are provided (7.14286%).

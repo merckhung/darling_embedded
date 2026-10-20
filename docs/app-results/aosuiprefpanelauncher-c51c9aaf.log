@@ -1,0 +1,20 @@
+(/usr/bin/darling open /Applications/aosuiprefpanelauncher-c51c9aaf/AOSUIPrefPaneLauncher.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_aosuiprefpanelauncher-c51c9aaf:$?) & PROBE_PID=$!
+PROBE_CHILD:24
+
+root@Darwin# DARLING_LAUNCH_BUNDLE:/Applications/aosuiprefpanelauncher-c51c9aaf/AOSUIPrefPaneLauncher.app:/Applications/aosuiprefpanelauncher-c51c9aaf/AOSUIPrefPaneLauncher.app/Contents/MacOS/AOSUIPrefPaneLauncher
+native dyld warning: unresolved import: __AALogSystem
+native dyld warning: unresolved import: _os_signpost_id_generate
+native dyld warning: unresolved import: _AAURLKeyFlowType
+native dyld warning: unresolved import: _AAURLKeyFlowTypeBeneficiary
+native dyld warning: unresolved import: _AAURLKeyFlowTypeCustodian
+native dyld warning: unresolved import: _AAURLKeyID
+native dyld warning: unresolved import: _NSUserActivityTypeBrowsingWeb
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/aosuiprefpanelauncher-c51c9aaf/AOSUIPrefPaneLauncher.app/Contents/MacOS/AOSUIPrefPaneLauncher)
+[AppKit] loaded nib /Applications/aosuiprefpanelauncher-c51c9aaf/AOSUIPrefPaneLauncher.app/Contents/Resources/Base.lproj/MainMenu.nib: 28 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101892380
+[AppKit] delegate 0x101892380 does not respond to applicationDidFinishLaunching
+kill -9 24 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/aosuiprefpanelauncher-c51c9aaf/AOSUIPrefPaneLauncher.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_aosuiprefpanelauncher-c51c9aaf:${?})
+
+root@Darwin#

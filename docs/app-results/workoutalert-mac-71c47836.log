@@ -1,0 +1,55 @@
+(/usr/bin/darling open /Applications/workoutalert-mac-71c47836/WorkoutAlert-Mac.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_workoutalert-mac-71c47836:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:481
+DARLING_LAUNCH_BUNDLE:/Applications/workoutalert-mac-71c47836/WorkoutAlert-Mac.app:/Applications/workoutalert-mac-71c47836/WorkoutAlert-Mac.app/Contents/MacOS/WorkoutAlert-Mac
+native dyld warning: unresolved import: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
+native dyld warning: unresolved import: _$s10Foundation12NotificationVMa
+native dyld warning: unresolved import: _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+native dyld warning: unresolved import: _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+native dyld warning: unresolved import: _$s7SwiftUI12MenuBarExtraVA2A4TextVRszrlE_7contentACyAEq_GAA18LocalizedStringKeyV_q_yXEtcfC
+native dyld warning: unresolved import: _$s7SwiftUI12SceneBuilderV10buildBlockyxxAA0C0RzlFZ
+native dyld warning: unresolved import: _$s7SwiftUI18LocalizedStringKeyV13stringLiteralACSS_tcfC
+native dyld warning: unresolved import: _$s7SwiftUI28NSApplicationDelegateAdaptorVMa
+native dyld warning: unresolved import: _$s7SwiftUI28NSApplicationDelegateAdaptorVyACyxGxmcfC
+native dyld warning: unresolved import: _$s7SwiftUI3AppPAAE4mainyyFZ
+native dyld warning: unresolved import: _$sSS10uppercasedSSyF
+native dyld warning: unresolved import: _swift_allocObject
+native dyld warning: unresolved import: _swift_bridgeObjectRelease
+native dyld warning: unresolved import: _swift_cvw_initStructMetadataWithLayoutString
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_getEnumTagSinglePayloadGeneric
+native dyld warning: unresolved import: _swift_getOpaqueTypeConformance2
+native dyld warning: unresolved import: _swift_getSingletonMetadata
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContextInMetadataState2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _swift_storeEnumTagSinglePayloadGeneric
+native dyld warning: unresolved import: _$s7SwiftUI12MenuBarExtraVyxq_GAA5SceneAAMc
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVAA0D0AAWP
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVN
+native dyld warning: unresolved import: _$s7SwiftUI28NSApplicationDelegateAdaptorVMn
+native dyld warning: unresolved import: _$s7SwiftUI12MenuBarExtraVMn
+native dyld warning: unresolved import: _$s7SwiftUI4TextVMn
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVMn
+native dyld warning: unresolved import: _$s7SwiftUI3AppMp
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4BodyAC_AA5SceneTn
+native dyld warning: unresolved import: _$s4Body7SwiftUI3AppPTl
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4body4BodyQzvgTq
+native dyld warning: unresolved import: _$s7SwiftUI3AppPxycfCTq
+native dyld warning: unresolved import: _$s7SwiftUI5SceneMp
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBOWV
+native dyld warning: unresolved import: _$sBoWV
+native dyld warning: unresolved import: _swift_cvw_assignWithTake
+native dyld warning: unresolved import: _swift_cvw_initWithTake
+native dyld warning: unresolved import: _swift_cvw_assignWithCopy
+native dyld warning: unresolved import: _swift_cvw_initWithCopy
+native dyld warning: unresolved import: _swift_cvw_destroy
+native dyld warning: unresolved import: _swift_cvw_initializeBufferWithCopyOfBuffer
+PROBE_EXIT_workoutalert-mac-71c47836:0
+kill -9 481 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/workoutalert-mac-71c47836/WorkoutAlert-Mac.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_workoutalert-mac-71c47836:${?})
+
+root@Darwin#

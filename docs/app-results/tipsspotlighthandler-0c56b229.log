@@ -1,0 +1,91 @@
+(/usr/bin/darling open /Applications/tipsspotlighthandler-0c56b229/TipsSpotlightHandler.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_tipsspotlighthandler-0c56b229:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:455
+DARLING_LAUNCH_BUNDLE:/Applications/tipsspotlighthandler-0c56b229/TipsSpotlightHandler.app:/Applications/tipsspotlighthandler-0c56b229/TipsSpotlightHandler.app/Contents/MacOS/TipsSpotlightHandler
+native dyld warning: unresolved import: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
+native dyld warning: unresolved import: _$s10Foundation12NotificationVMa
+native dyld warning: unresolved import: _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+native dyld warning: unresolved import: _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+native dyld warning: unresolved import: _$s10Foundation3URLVMa
+native dyld warning: unresolved import: _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+native dyld warning: unresolved import: _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+native dyld warning: unresolved import: _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+native dyld warning: unresolved import: _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupV2id5title11lazyContentACyxGSSSg_AA4TextVSgxyctcfC
+native dyld warning: unresolved import: _$s7SwiftUI12SceneBuilderV10buildBlockyxxAA0C0RzlFZ
+native dyld warning: unresolved import: _$s7SwiftUI28NSApplicationDelegateAdaptorVMa
+native dyld warning: unresolved import: _$s7SwiftUI28NSApplicationDelegateAdaptorVyACyxGxmcfC
+native dyld warning: unresolved import: _$s7SwiftUI3AppPAAE4mainyyFZ
+native dyld warning: unresolved import: _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+native dyld warning: unresolved import: _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
+native dyld warning: unresolved import: _$ss11AnyHashableV2eeoiySbAB_ABtFZ
+native dyld warning: unresolved import: _$ss11AnyHashableVyABxcSHRzlufC
+native dyld warning: unresolved import: _$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFyXl_Ts5
+native dyld warning: unresolved import: _$ss18_CocoaArrayWrapperV8endIndexSivg
+native dyld warning: unresolved import: _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+native dyld warning: unresolved import: _swift_allocObject
+native dyld warning: unresolved import: _swift_beginAccess
+native dyld warning: unresolved import: _swift_bridgeObjectRelease
+native dyld warning: unresolved import: _swift_bridgeObjectRetain
+native dyld warning: unresolved import: _swift_cvw_initStructMetadataWithLayoutString
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_deallocObject
+native dyld warning: unresolved import: _swift_dynamicCast
+native dyld warning: unresolved import: _swift_getEnumTagSinglePayloadGeneric
+native dyld warning: unresolved import: _swift_getObjCClassMetadata
+native dyld warning: unresolved import: _swift_getObjectType
+native dyld warning: unresolved import: _swift_getOpaqueTypeConformance2
+native dyld warning: unresolved import: _swift_getSingletonMetadata
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContextInMetadataState2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _swift_retain
+native dyld warning: unresolved import: _swift_storeEnumTagSinglePayloadGeneric
+native dyld warning: unresolved import: _swift_unknownObjectWeakDestroy
+native dyld warning: unresolved import: _swift_unknownObjectWeakInit
+native dyld warning: unresolved import: _swift_unknownObjectWeakLoadStrong
+native dyld warning: unresolved import: _$s8Dispatch0A13WorkItemFlagsVMa
+native dyld warning: unresolved import: _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+native dyld warning: unresolved import: _$s8Dispatch0A3QoSVMa
+native dyld warning: unresolved import: _$sSo17OS_dispatch_queueC8DispatchE4mainABvgZ
+native dyld warning: unresolved import: _$sSo17OS_dispatch_queueC8DispatchE5async5group3qos5flags7executeySo0a1_b1_F0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF
+native dyld warning: unresolved import: _CSSearchableItemActionType
+native dyld warning: unresolved import: _CSSearchableItemActivityIdentifier
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupVyxGAA5SceneAAMc
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVAA0D0AAWP
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVN
+native dyld warning: unresolved import: _$sSSN
+native dyld warning: unresolved import: _$sSSSHsWP
+native dyld warning: unresolved import: _$sSayxGSTsMc
+native dyld warning: unresolved import: _$ss11AnyHashableVN
+native dyld warning: unresolved import: _$ss11AnyHashableVSHsWP
+native dyld warning: unresolved import: _$sypN
+native dyld warning: unresolved import: __swiftEmptyArrayStorage
+native dyld warning: unresolved import: _$s8Dispatch0A13WorkItemFlagsVs10SetAlgebraAAMc
+native dyld warning: unresolved import: _$s8Dispatch0A13WorkItemFlagsVMn
+native dyld warning: unresolved import: _$s7SwiftUI28NSApplicationDelegateAdaptorVMn
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupVMn
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVMn
+native dyld warning: unresolved import: _$s7SwiftUI3AppMp
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4BodyAC_AA5SceneTn
+native dyld warning: unresolved import: _$s4Body7SwiftUI3AppPTl
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4body4BodyQzvgTq
+native dyld warning: unresolved import: _$s7SwiftUI3AppPxycfCTq
+native dyld warning: unresolved import: _$s7SwiftUI5SceneMp
+native dyld warning: unresolved import: _$sBOWV
+native dyld warning: unresolved import: _swift_cvw_assignWithTake
+native dyld warning: unresolved import: _swift_cvw_initWithTake
+native dyld warning: unresolved import: _swift_cvw_assignWithCopy
+native dyld warning: unresolved import: _swift_cvw_initWithCopy
+native dyld warning: unresolved import: _swift_cvw_destroy
+native dyld warning: unresolved import: _swift_cvw_initializeBufferWithCopyOfBuffer
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBoWV
+PROBE_EXIT_tipsspotlighthandler-0c56b229:0
+kill -9 455 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/tipsspotlighthandler-0c56b229/TipsSpotlightHandler.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_tipsspotlighthandler-0c56b229:${?})
+
+root@Darwin#

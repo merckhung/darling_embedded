@@ -1,0 +1,61 @@
+==== System Information ====
+Linked dylibs: 50, imported symbols: 563
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/AppleDeviceQuerySupport.framework/Versions/A/AppleDeviceQuerySupport
+  NO       0/20	/System/Library/PrivateFrameworks/DeviceRegulatoryInfo.framework/Versions/A/DeviceRegulatoryInfo
+  NO       0/2	/System/Library/PrivateFrameworks/AboutSettings.framework/Versions/A/AboutSettings
+  NO       0/0	/System/Library/PrivateFrameworks/AOSUI.framework/Versions/A/AOSUI
+  NO       0/0	/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+  NO       0/9	/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/1	/System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+  NO       0/0	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/1	/System/Library/PrivateFrameworks/ExpansionSlotSupport.framework/Versions/A/ExpansionSlotSupport
+  NO       0/2	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/NewDeviceOutreachMacUI.framework/Versions/A/NewDeviceOutreachMacUI
+  NO       0/4	/System/Library/Frameworks/PDFKit.framework/Versions/A/PDFKit
+  NO       0/0	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  NO       0/0	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/PrivateFrameworks/Seeding.framework/Versions/A/Seeding
+  NO       0/1	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/2	/System/Library/PrivateFrameworks/SPSupport.framework/Versions/A/SPSupport
+  NO       0/1	/System/Library/PrivateFrameworks/SystemDesktopAppearance.framework/Versions/A/SystemDesktopAppearance
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/0	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  yes      17/50	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation11FormatStylePA2A4DateVABVRszrlE8dateTimeAFvgZ _$s10Foundation3URLV13pathExtensionSSvg _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ _$s10Foundation3URLV4pathSSvg
+  yes      28/28	/usr/lib/libobjc.A.dylib
+  yes      34/48	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _os_variant_has_internal_ui _xpc_connection_create_mach_service _xpc_connection_resume _xpc_connection_set_event_handler _xpc_connection_set_target_queue
+  yes      32/46	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityPostNotification _NSShowSystemInfoPanel __NSLocalizedUserInterfaceWidthFactor _NSAccessibilityValueChangedNotification _NSFontTextStyleFootnote _NSFontTextStyleSubheadline
+  NO       0/18	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      21/33	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFPreferencesCopyMultiple __CFCopySupplementalVersionDictionary _NSCurrentLocaleDidChangeNotification _NSLocaleCountryCode _NSLocaleLanguageCode _OBJC_CLASS_$_NSDate
+  yes      1/10	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSCopyDisplayInfoDictionary _CGSCopyDisplayUUID _CGSDisplayStatusQuery _CGSGetCurrentDisplayMode _CGSGetDisplayModeDescriptionsOfLength _CGSGetNumberOfDisplayModes
+  NO       0/139	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/105	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/19	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/5	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for System Information: 43 of 50 linked libraries are absent from the guest root; 133 of 563 imported symbols are provided (23.6234%).

@@ -1,0 +1,32 @@
+(/usr/bin/darling open /Applications/filesystemuiagent-2a0476f3/FileSystemUIAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_filesystemuiagent-2a0476f3:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:12
+DARLING_LAUNCH_BUNDLE:/Applications/filesystemuiagent-2a0476f3/FileSystemUIAgent.app:/Applications/filesystemuiagent-2a0476f3/FileSystemUIAgent.app/Contents/MacOS/FileSystemUIAgent
+native dyld warning: unresolved import: _launch_data_array_get_index
+native dyld warning: unresolved import: _launch_data_dict_get_count
+native dyld warning: unresolved import: _launch_data_dict_lookup
+native dyld warning: unresolved import: _launch_data_free
+native dyld warning: unresolved import: _launch_data_get_errno
+native dyld warning: unresolved import: _launch_data_get_fd
+native dyld warning: unresolved import: _launch_data_get_type
+native dyld warning: unresolved import: _launch_data_new_string
+native dyld warning: unresolved import: _launch_msg
+native dyld warning: unresolved import: _sysctlnametomib
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _warn
+native dyld warning: unresolved import: _CFLocaleCopyCurrent
+native dyld warning: unresolved import: _CFNumberFormatterCreate
+native dyld warning: unresolved import: _CFNumberFormatterCreateStringWithValue
+native dyld warning: unresolved import: _CFURLCopyHostName
+native dyld warning: unresolved import: _CFURLCreateStringByReplacingPercentEscapes
+native dyld warning: unresolved import: _CFURLCreateWithBytes
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _CFUserNotificationCreate
+native dyld warning: unresolved import: _CFUserNotificationReceiveResponse
+native dyld warning: unresolved import: _kCFUserNotificationLocalizationURLKey
+PROBE_EXIT_filesystemuiagent-2a0476f3:1
+kill -9 12 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/filesystemuiagent-2a0476f3/FileSystemUIAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_filesystemuiagent-2a0476f3:${?})
+
+root@Darwin#

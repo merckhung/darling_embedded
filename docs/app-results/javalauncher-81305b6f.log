@@ -1,0 +1,17 @@
+(/usr/bin/darling open /Applications/javalauncher-81305b6f/JavaLauncher.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_javalauncher-81305b6f:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:10
+DARLING_LAUNCH_BUNDLE:/Applications/javalauncher-81305b6f/JavaLauncher.app:/Applications/javalauncher-81305b6f/JavaLauncher.app/Contents/MacOS/JavaLauncher
+native dyld warning: unresolved import: _dispatch_activate
+native dyld warning: unresolved import: __dispatch_source_type_proc
+native dyld warning: unresolved import: _NSURLLocalizedNameKey
+native dyld warning: unresolved import: _kLSQuarantineAgentNameKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/javalauncher-81305b6f/JavaLauncher.app/Contents/MacOS/JavaLauncher)
+[AppKit] loaded nib /Applications/javalauncher-81305b6f/JavaLauncher.app/Contents/Resources/Base.lproj/Default.nib: 17 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101640b10
+[AppKit] delegate 0x101640b10 does not respond to applicationDidFinishLaunching
+kill -9 10 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/javalauncher-81305b6f/JavaLauncher.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_javalauncher-81305b6f:${?})
+
+root@Darwin#

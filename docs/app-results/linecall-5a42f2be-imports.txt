@@ -1,0 +1,43 @@
+==== LineCall ====
+Linked dylibs: 48, imported symbols: 4127
+
+  present  provided/imported  library
+  NO       0/0	/usr/lib/libbz2.1.0.dylib
+  NO       0/0	/usr/lib/libresolv.9.dylib
+  NO       0/6	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/4	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      19/30	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSHTTPCookieDomain _NSHTTPCookieName _NSHTTPCookiePath _NSHTTPCookieValue _NSKeyValueChangeNewKey _NSURLErrorDomain
+  NO       0/8	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  yes      0/5	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_CLASS_$_WKWebViewConfiguration _OBJC_CLASS_$_WKProcessPool _OBJC_CLASS_$_WKUserScript _OBJC_CLASS_$_WKWebView _OBJC_METACLASS_$_WKWebView
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  yes      33/48	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSApplicationDidChangeScreenParametersNotification _NSDrawThreePartImage _NSTextInputContextKeyboardSelectionDidChangeNotification _NSViewFrameDidChangeNotification _NSWorkspaceActiveSpaceDidChangeNotification _NSWorkspaceWillSleepNotification
+  NO       0/3	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/23	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/4	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  yes      0/0	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/0	/System/Library/Frameworks/Vision.framework/Versions/A/Vision
+  yes      182/218	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNKSt9exception4whatEv __ZNSt11logic_errorD2Ev __ZNSt12length_errorD1Ev __ZNSt12out_of_rangeD1Ev __ZNSt20bad_array_new_lengthC1Ev __ZNSt20bad_array_new_lengthD1Ev
+  NO       0/1	/System/Library/Frameworks/AdSupport.framework/Versions/A/AdSupport
+  NO       0/1	/System/Library/Frameworks/AppTrackingTransparency.framework/Versions/A/AppTrackingTransparency
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      22/28	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_addMethod _class_getInstanceMethod _method_exchangeImplementations _method_getImplementation _method_getTypeEncoding _objc_copyCppObjectAtomic
+  NO       0/0	/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+  NO       0/0	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/0	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  yes      160/168	/usr/lib/libSystem.B.dylib
+             e.g. missing: ___chkstk_darwin _dladdr _dlclose _dlerror _dlopen _dlsym
+  yes      15/24	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSURLFileProtectionComplete _NSURLFileProtectionKey _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSSet _OBJC_CLASS_$_NSURL _OBJC_CLASS_$_NSNull
+  yes      13/29	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGDataProviderCreateWithData _CGDataProviderRelease _CGDisplayCopyColorSpace _CGDisplayStreamCreate _CGImageCreate _CGPathAddArcToPoint
+  NO       0/2	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  yes      0/0	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+
+Summary for LineCall: 17 of 48 linked libraries are absent from the guest root; 444 of 604 imported symbols are provided (73.5099%).

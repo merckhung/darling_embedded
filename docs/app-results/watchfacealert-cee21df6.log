@@ -1,0 +1,26 @@
+(/usr/bin/darling open /Applications/watchfacealert-cee21df6/WatchFaceAlert.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_watchfacealert-cee21df6:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:471
+DARLING_LAUNCH_BUNDLE:/Applications/watchfacealert-cee21df6/WatchFaceAlert.app:/Applications/watchfacealert-cee21df6/WatchFaceAlert.app/Contents/MacOS/WatchFaceAlert
+native dyld warning: unresolved import: _IDSCopyIDForDevice
+native dyld warning: unresolved import: _archive_entry_filetype
+native dyld warning: unresolved import: _archive_entry_pathname
+native dyld warning: unresolved import: _archive_entry_set_pathname
+native dyld warning: unresolved import: _archive_read_extract
+native dyld warning: unresolved import: _archive_read_free
+native dyld warning: unresolved import: _archive_read_new
+native dyld warning: unresolved import: _archive_read_next_header
+native dyld warning: unresolved import: _archive_read_open_filename
+native dyld warning: unresolved import: _archive_read_support_filter_gzip
+native dyld warning: unresolved import: _archive_read_support_format_zip
+native dyld warning: unresolved import: _dispatch_queue_create_with_target$V2
+native dyld warning: unresolved import: _IDSSendMessageOptionAlwaysSkipSelfKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/watchfacealert-cee21df6/WatchFaceAlert.app/Contents/MacOS/WatchFaceAlert)
+[AppKit] loaded nib /Applications/watchfacealert-cee21df6/WatchFaceAlert.app/Contents/Resources/Base.lproj/MainMenu.nib: 28 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1015846f0
+[AppKit] delegate 0x1015846f0 does not respond to applicationDidFinishLaunching
+kill -9 471 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/watchfacealert-cee21df6/WatchFaceAlert.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_watchfacealert-cee21df6:${?})
+
+root@Darwin#

@@ -1,0 +1,43 @@
+==== Family ====
+Linked dylibs: 34, imported symbols: 191
+
+  present  provided/imported  library
+  NO       0/13	/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/4	/System/Library/PrivateFrameworks/FamilyCircleUI.framework/Versions/A/FamilyCircleUI
+  NO       0/0	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  yes      3/21	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12URLQueryItemV4nameSSvg _$s10Foundation12URLQueryItemV5valueSSSgvg _$s10Foundation12URLQueryItemVMa _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvg _$s10Foundation13URLComponentsV36_unconditionallyBridgeFromObjectiveCyACSo15NSURLComponentsCSgFZ _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC
+  yes      22/22	/usr/lib/libobjc.A.dylib
+  yes      19/23	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dispatch_queue_attr_make_with_autorelease_frequency _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      2/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      0/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSMutableSet
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/82	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/4	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Family: 28 of 34 linked libraries are absent from the guest root; 46 of 191 imported symbols are provided (24.0838%).

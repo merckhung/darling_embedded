@@ -1,0 +1,10 @@
+(/usr/bin/darling open '/Applications/icloud-drive-72973940/iCloud Drive.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_icloud-drive-72973940:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:138
+DARLING_LAUNCH_BUNDLE:/Applications/icloud-drive-72973940/iCloud Drive.app:/Applications/icloud-drive-72973940/iCloud Drive.app/Contents/MacOS/iCloud Drive
+PROBE_EXIT_icloud-drive-72973940:0
+kill -9 138 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/icloud-drive-72973940/iCloud Drive.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_icloud-drive-72973940:${?})
+
+root@Darwin#

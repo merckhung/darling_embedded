@@ -1,0 +1,127 @@
+==== Books ====
+Linked dylibs: 126, imported symbols: 8519
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/AXRuntime.framework/Versions/A/AXRuntime
+  NO       0/0	/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/TSReading.framework/Versions/A/TSReading
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/TSUtility.framework/Versions/A/TSUtility
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/UIAccessibility.framework/Versions/A/UIAccessibility
+  yes      41/427	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _$s10Foundation10NSNotFoundSivg _$s10Foundation10URLRequestV19_bridgeToObjectiveCSo12NSURLRequestCyF _$s10Foundation10URLRequestV3url11cachePolicy15timeoutIntervalAcA3URLV_So017NSURLRequestCacheE0VSdtcfC _$s10Foundation10URLRequestV8setValue_18forHTTPHeaderFieldySSSg_SStF
+  yes      41/78	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_release_x1 _objc_release_x19 _objc_release_x2 _objc_release_x20 _objc_release_x21
+  yes      1/10	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNSt20bad_array_new_lengthC1Ev ___cxa_allocate_exception ___cxa_free_exception ___cxa_throw ___gxx_personality_v0 __ZNSt12length_errorD1Ev
+  yes      57/96	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CC_SHA256_Final _CC_SHA256_Init _CC_SHA256_Update __Block_copy __os_activity_create __os_feature_enabled_impl
+  NO       0/2	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  NO       0/10	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/1	/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+  NO       0/2	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/504	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      8/25	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSCollectionLayoutSection _OBJC_CLASS_$_NSTextAttachment _OBJC_CLASS_$_UIFont _OBJC_CLASS_$_UIFontDescriptor _UIFontDescriptorSystemDesignSerif _UIFontTextStyleBody
+  NO       0/1	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  NO       0/106	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/5	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/24	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  yes      27/53	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFURLCopyFragment _CFURLCopyPath _CFURLCreateStringByReplacingPercentEscapes __CFURLPromiseCopyPhysicalURL _NSDefaultRunLoopMode _NSInvalidArgumentException
+  yes      43/61	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$sSo6CGSizeV12CoreGraphicsE16debugDescriptionSSvg _CGAffineTransformConcat _CGAffineTransformMakeScale _CGAffineTransformMakeTranslation _CGBitmapContextGetBitmapInfo _CGColorSpaceCreateWithID
+  NO       0/1	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  NO       0/7	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationWorkspace _OBJC_CLASS_$_LSBundleRecord
+  NO       0/6	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/12	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/13	/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+  NO       0/2	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/7	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/2	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/9	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/11	/System/Library/Frameworks/MediaIntents.framework/Versions/A/MediaIntents
+  NO       0/1	/System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+  NO       0/30	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/2	/System/Library/Frameworks/QuickLookThumbnailing.framework/Versions/A/QuickLookThumbnailing
+  NO       0/7	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/9	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/Frameworks/_MediaIntents_AppIntents.framework/Versions/A/_MediaIntents_AppIntents
+  NO       0/27	/System/Library/PrivateFrameworks/AppAnalytics.framework/Versions/A/AppAnalytics
+  NO       0/26	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/2	/System/Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore
+  NO       0/1	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/4	/System/Library/PrivateFrameworks/BookCoverUtility.framework/Versions/A/BookCoverUtility
+  NO       0/195	/System/Library/PrivateFrameworks/BookDataStore.framework/Versions/A/BookDataStore
+  NO       0/221	/System/Library/PrivateFrameworks/BookFoundation.framework/Versions/A/BookFoundation
+  NO       0/5	/System/Library/PrivateFrameworks/BookKit.framework/Versions/A/BookKit
+  NO       0/20	/System/Library/PrivateFrameworks/BookLibraryCore.framework/Versions/A/BookLibraryCore
+  NO       0/35	/System/Library/PrivateFrameworks/BookUtility.framework/Versions/A/BookUtility
+  NO       0/7	/System/Library/PrivateFrameworks/InternalSwiftProtobuf.framework/Versions/A/InternalSwiftProtobuf
+  NO       0/1	/System/Library/PrivateFrameworks/RevealCore.framework/Versions/A/RevealCore
+  NO       0/53	/System/Library/PrivateFrameworks/TeaFoundation.framework/Versions/A/TeaFoundation
+  NO       0/29	/System/Library/PrivateFrameworks/TeaSettings.framework/Versions/A/TeaSettings
+  NO       0/5	/System/Library/PrivateFrameworks/iTunesCloud.framework/Versions/A/iTunesCloud
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit
+  NO       0/1300	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  NO       0/476	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/_AppIntents_SwiftUI.framework/Versions/A/_AppIntents_SwiftUI
+  NO       0/13	/System/iOSSupport/System/Library/Frameworks/_AppIntents_UIKit.framework/Versions/A/_AppIntents_UIKit
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/_MediaPlayer_AppIntents.framework/Versions/A/_MediaPlayer_AppIntents
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Versions/A/AppleMediaServicesUI
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/BookLibrary.framework/Versions/A/BookLibrary
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/DataDetectorsUI.framework/Versions/A/DataDetectorsUI
+  NO       0/71	/System/iOSSupport/System/Library/PrivateFrameworks/JetEngine.framework/Versions/A/JetEngine
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/JetUI.framework/Versions/A/JetUI
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/MediaCoreUI.framework/Versions/A/MediaCoreUI
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/ShareSheet.framework/Versions/A/ShareSheet
+  NO       0/45	/System/iOSSupport/System/Library/PrivateFrameworks/TeaUI.framework/Versions/A/TeaUI
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftARKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSpriteKit.dylib (weak)
+  NO       0/1	/usr/lib/libAccessibility.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCallKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/579	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/11	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/52	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/11	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/14	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/5	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/63	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/21	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/36	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Books: 105 of 126 linked libraries are absent from the guest root; 218 of 4909 imported symbols are provided (4.44082%).

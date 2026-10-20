@@ -1,0 +1,69 @@
+==== SystemUIServer ====
+Linked dylibs: 55, imported symbols: 1049
+
+  present  provided/imported  library
+  NO       0/13	/System/Library/PrivateFrameworks/ControlCenter.framework/Versions/A/ControlCenter
+  NO       0/0	/System/Library/PrivateFrameworks/SidecarUI.framework/Versions/A/SidecarUI
+  NO       0/3	/System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+  NO       0/0	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/0	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/0	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  NO       0/0	/usr/lib/libDiagnosticMessagesClient.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/1	/System/Library/PrivateFrameworks/SystemUIPlugin.framework/Versions/A/SystemUIPlugin
+  NO       0/29	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  yes      20/33	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityEntryPointValueForAttribute __NSApplicationMetricsGatheringEnabled _NSAccessibilityChildrenAttribute _NSAccessibilityExtrasMenuBarAttribute _NSAccessibilityMenuBarAttribute _NSAccessibilityWindowsAttribute
+  yes      2/14	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeCheckValidity _SecCodeCopyDesignatedRequirement _SecCodeCopyGuestWithAttributes _SecCodeCopySigningInformation _SecRequirementCopyData _SecRequirementCreateWithData
+  NO       0/2	/System/Library/PrivateFrameworks/iPod.framework/Versions/A/iPod
+  NO       0/36	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  NO       0/0	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/6	/System/Library/Frameworks/DiscRecording.framework/Versions/A/DiscRecording
+  NO       0/0	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/0	/System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+  NO       0/0	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  NO       0/8	/usr/lib/libbsm.0.dylib
+  yes      0/37	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateAppleEvent _AECreateDesc _AECreateList _AEDisposeDesc _AEFlattenDesc _AEGetAttributeDesc
+  yes      16/64	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation13__DataStorageC6_bytesSvSgvg _$s10Foundation13__DataStorageC7_lengthSivg _$s10Foundation13__DataStorageC7_offsetSivg _$s10Foundation17URLResourceValuesV03allC0SDySo16NSURLResourceKeyaypGvg _$s10Foundation17URLResourceValuesVMa _$s10Foundation21_BridgedStoredNSErrorPAAE_8userInfox4CodeQz_SDySSypGtcfC
+  yes      35/37	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      98/197	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_feature_enabled_impl _bootstrap_check_in _bootstrap_check_in2 _confstr _dispatch_group_async
+  yes      62/83	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDataGetBytes _CFLogTest _CFPreferencesAppValueIsForced _CFPreferencesCopyMultiple _CFPreferencesSetMultiple _CFRunLoopPerformBlock
+  yes      2/21	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventCreateNextEvent _CGEventGetIntegerValueField _CGEventGetType _CGSGetEventPort _CGSInputModifierKeyState _CGSIsSymbolicHotKeyEnabled
+  NO       0/4	/System/Library/PrivateFrameworks/GenerativeModels.framework/Versions/A/GenerativeModels
+  NO       0/12	/System/Library/PrivateFrameworks/VisualIntelligenceServices.framework/Versions/A/VisualIntelligenceServices
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/364	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/47	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/13	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation2.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation3.dylib
+  NO       0/7	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for SystemUIServer: 47 of 55 linked libraries are absent from the guest root; 235 of 1049 imported symbols are provided (22.4023%).

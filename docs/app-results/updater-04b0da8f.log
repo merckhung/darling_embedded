@@ -1,0 +1,10 @@
+(/usr/bin/darling open /Applications/updater-04b0da8f/Updater.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_updater-04b0da8f:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:30
+DARLING_LAUNCH_BUNDLE:/Applications/updater-04b0da8f/Updater.app:/Applications/updater-04b0da8f/Updater.app/Contents/MacOS/Updater
+PROBE_EXIT_updater-04b0da8f:1
+kill -9 30 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/updater-04b0da8f/Updater.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_updater-04b0da8f:${?})
+
+root@Darwin#

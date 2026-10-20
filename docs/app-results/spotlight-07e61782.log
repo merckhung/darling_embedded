@@ -1,0 +1,119 @@
+(/usr/bin/darling open /Applications/spotlight-07e61782/Spotlight.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_spotlight-07e61782:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:437
+DARLING_LAUNCH_BUNDLE:/Applications/spotlight-07e61782/Spotlight.app:/Applications/spotlight-07e61782/Spotlight.app/Contents/MacOS/Spotlight
+native dyld warning: unresolved import: _$sytWV
+native dyld warning: unresolved import: _CGEventCreateNextEvent
+native dyld warning: unresolved import: _CGEventGetType
+native dyld warning: unresolved import: _CGSGetEventPort
+native dyld warning: unresolved import: _CGSNewConnection
+native dyld warning: unresolved import: _CGSRegisterConnectionNotifyProc
+native dyld warning: unresolved import: __CPSGetCurrentProcess
+native dyld warning: unresolved import: _$s8SearchUI0A19UIAppIntentsPackageVMa
+native dyld warning: unresolved import: _$s19SpotlightUIInternal11WindowStatePA2A0acD0VRszrlE4appsAaB_pvgZ
+native dyld warning: unresolved import: _$s19SpotlightUIInternal11WindowStatePA2A0acD0VRszrlE9spotlightAaB_pvgZ
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC05fetchC20ControllerForTesting3forAA04MaincF0CAA0C5State_p_tFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC06launchC03for13resetPosition8animated7trigger10completionAA04MainC10ControllerCSgAA0C5State_p_S2bAA0C7TriggerOyycSgtFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC07dismissC03for8animated6reasonAA04MainC10ControllerCAA0C5State_p_SbSo20SFViewDisappearEventVtFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC10dismissAllyyFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC15windowIsVisible6domainSbSS_tFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC18launchAppsBrowsing7trigger10completionyAA0C7TriggerO_yycSgtF
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC20applicationLostFocus10withReasonySo20SFViewDisappearEventV_tFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC9bootstrapyyFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerC9keepAliveACShyAA03AnyC5StateVG_tcfc
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerCMa
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowTriggerO6TargetOMa
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowTriggerOMa
+native dyld warning: unresolved import: _$s19SpotlightUIInternal14AnyWindowStateVMa
+native dyld warning: unresolved import: _$s19SpotlightUIInternal14AnyWindowStateVyAcA0dE0_pcfC
+native dyld warning: unresolved import: _$s19SpotlightUIInternal16OnenessUtilitiesC013startFetchingC7DevicesyyFZ
+native dyld warning: unresolved import: _$s19SpotlightUIInternal16OnenessUtilitiesCMa
+native dyld warning: unresolved import: _$s19SpotlightUIInternal16PerformanceTestsC10canPerform4testSbSS_tFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal16PerformanceTestsC7runTest4test0G7OptionsySS_SDySSypGSgtFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal20DockGestureXPCClientC13windowCreatedyys6UInt32VKF
+native dyld warning: unresolved import: _$s19SpotlightUIInternal20DockGestureXPCClientC6sharedACvgZ
+native dyld warning: unresolved import: _$s19SpotlightUIInternal20DockGestureXPCClientC8delegateAA0cD14ClientDelegate_pSgvs
+native dyld warning: unresolved import: _$s19SpotlightUIInternal20DockGestureXPCClientCMa
+native dyld warning: unresolved import: _$s19SpotlightUIInternal20MainWindowControllerC21createPerformanceTestAA0G5TestsCSgyFTj
+native dyld warning: unresolved import: _$s19SpotlightUIInternal22ContactWindowPresenterC13windowManagerAcA0dG0C_tcfc
+native dyld warning: unresolved import: _$s19SpotlightUIInternal22ContactWindowPresenterC7present17contactIdentifier26preferredBundleIdentifiersySS_SaySSGSgtF
+native dyld warning: unresolved import: _$s19SpotlightUIInternal22ContactWindowPresenterCMa
+native dyld warning: unresolved import: _$sSS19SpotlightUIInternalE9spotlightSSvgZ
+native dyld warning: unresolved import: _$s17SpotlightUIShared0aB7PackageVMa
+native dyld warning: unresolved import: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
+native dyld warning: unresolved import: _$s10Foundation12NotificationVMa
+native dyld warning: unresolved import: _$s10Foundation3URLV6stringACSgSSh_tcfC
+native dyld warning: unresolved import: _$s10Foundation3URLVMa
+native dyld warning: unresolved import: _$s10Foundation5NSLogyySS_s7CVarArg_pdtF
+native dyld warning: unresolved import: _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+native dyld warning: unresolved import: _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+native dyld warning: unresolved import: _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ
+native dyld warning: unresolved import: _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: _MSHCreateMachServerSource
+native dyld warning: unresolved import: _$sSH13_rawHashValue4seedS2i_tFTj
+native dyld warning: unresolved import: _$sSQ2eeoiySbx_xtFZTj
+native dyld warning: unresolved import: _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
+native dyld warning: unresolved import: _$ss11AnyHashableV2eeoiySbAB_ABtFZ
+native dyld warning: unresolved import: _$ss11AnyHashableVyABxcSHRzlufC
+native dyld warning: unresolved import: _$ss11_SetStorageC8allocate8capacityAByxGSi_tFZ
+native dyld warning: unresolved import: _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+native dyld warning: unresolved import: _swift_allocObject
+native dyld warning: unresolved import: _swift_arrayDestroy
+native dyld warning: unresolved import: _swift_bridgeObjectRelease
+native dyld warning: unresolved import: _swift_bridgeObjectRetain
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_deallocObject
+native dyld warning: unresolved import: _swift_dynamicCast
+native dyld warning: unresolved import: _swift_errorRelease
+native dyld warning: unresolved import: _swift_getObjCClassFromMetadata
+native dyld warning: unresolved import: _swift_getObjCClassMetadata
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _swift_retain
+native dyld warning: unresolved import: _swift_setDeallocating
+native dyld warning: unresolved import: _$s8SearchUI0A19UIAppIntentsPackageV03AppD00fdE0AAMc
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerCAA25DockGestureClientDelegateAAWP
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowTriggerO3urlyA2C6TargetOcACmFWC
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowTriggerO4testyA2C6TargetOcACmFWC
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowTriggerO6TargetO10appBrowseryA2EmFWC
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowTriggerO6TargetO11unspecifiedyA2EmFWC
+native dyld warning: unresolved import: _$s19SpotlightUIInternal14AnyWindowStateVSHAAMc
+native dyld warning: unresolved import: _$s19SpotlightUIInternal14AnyWindowStateVSQAAMc
+native dyld warning: unresolved import: _$s17SpotlightUIShared0aB7PackageV10AppIntents0deC0AAMc
+native dyld warning: unresolved import: _SpotlightContactIdentifierKey
+native dyld warning: unresolved import: _SpotlightContactUserActivityType
+native dyld warning: unresolved import: _SpotlightPreferredBundleIDsKey
+native dyld warning: unresolved import: _$s10Foundation3URLVSQAAMc
+native dyld warning: unresolved import: _NSCurrentLocaleDidChangeNotification
+native dyld warning: unresolved import: _$sSSN
+native dyld warning: unresolved import: _$sSSSHsWP
+native dyld warning: unresolved import: _$ss11AnyHashableVN
+native dyld warning: unresolved import: _$ss11AnyHashableVSHsWP
+native dyld warning: unresolved import: _$sypN
+native dyld warning: unresolved import: __swiftEmptyArrayStorage
+native dyld warning: unresolved import: __swiftEmptySetSingleton
+native dyld warning: unresolved import: _$ss23_ContiguousArrayStorageCMn
+native dyld warning: unresolved import: _$s19SpotlightUIInternal14AnyWindowStateVMn
+native dyld warning: unresolved import: _$s19SpotlightUIInternal13WindowManagerCMn
+native dyld warning: unresolved import: _$s19SpotlightUIInternal16PerformanceTestsCMn
+native dyld warning: unresolved import: _$s19SpotlightUIInternal22ContactWindowPresenterCMn
+native dyld warning: unresolved import: _$s10Foundation3URLVMn
+native dyld warning: unresolved import: _$ss11_SetStorageCMn
+native dyld warning: unresolved import: _$s10AppIntents0aB7PackageMp
+native dyld warning: unresolved import: _$s10AppIntents0aB7PackageP16includedPackagesSayAaB_pXpGvgZTq
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBOWV
+native dyld warning: unresolved import: _$sBoWV
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/spotlight-07e61782/Spotlight.app/Contents/MacOS/Spotlight)
+XNU_EXC: exc=1 codes=0x1 0xfffffffffffffff8
+XNU_EXC: exc=10 codes=0xb100001 0xfffffffffffffff8
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 437
+Segmentation fault: 11
+PROBE_EXIT_spotlight-07e61782:139
+kill -9 437 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/spotlight-07e61782/Spotlight.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_spotlight-07e61782:${?})
+
+root@Darwin#

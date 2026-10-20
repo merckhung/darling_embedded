@@ -1,0 +1,26 @@
+==== Image Events ====
+Linked dylibs: 15, imported symbols: 136
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/0	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/Frameworks/ExtensionKit.framework/Versions/A/ExtensionKit
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      12/31	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSFileBusy _NSFileHFSCreatorCode _NSFileHFSTypeCode _NSFileHandleReadToEndOfFileCompletionNotification _NSFileSystemFileNumber _OBJC_CLASS_$_NSAEDescriptorTranslator
+  yes      14/14	/usr/lib/libobjc.A.dylib
+  yes      5/5	/usr/lib/libSystem.B.dylib
+  yes      3/3	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      0/5	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CMCopyProfileDescriptionString _CMCopyProfileLocalizedString _CMGetDefaultProfileBySpace _CMGetProfileByAVID _CMGetSystemProfile
+  NO       0/8	/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+  yes      10/51	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDataGetBytes _CFErrorCopyDescription _CFURLCopyFileSystemPath _CFURLCopyResourcePropertyForKey _CFURLCreateBookmarkDataFromAliasRecord _CFURLCreateFromFSRef
+  yes      0/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSGetOnlineDisplayList
+  yes      0/17	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _FSCatalogSearch _FSCloseIterator _FSFindFolder _FSGetCatalogInfo _FSGetVolumeInfo _FSGetVolumeMountInfo
+  NO       0/0	/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+
+Summary for Image Events: 6 of 15 linked libraries are absent from the guest root; 44 of 136 imported symbols are provided (32.3529%).

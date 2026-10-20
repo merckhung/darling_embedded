@@ -1,0 +1,17 @@
+==== WatchFaceAlert ====
+Linked dylibs: 8, imported symbols: 76
+
+  present  provided/imported  library
+  NO       0/3	/System/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS
+  NO       0/10	/usr/lib/libarchive.2.dylib
+  yes      7/8	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSJSONSerialization
+  yes      23/23	/usr/lib/libobjc.A.dylib
+  yes      15/16	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_queue_create_with_target$V2
+  yes      7/7	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      3/7	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSMutableSet _OBJC_CLASS_$_NSSet _OBJC_CLASS_$_NSURL
+  NO       0/2	/System/Library/Frameworks/QuickLookThumbnailing.framework/Versions/A/QuickLookThumbnailing
+
+Summary for WatchFaceAlert: 3 of 8 linked libraries are absent from the guest root; 55 of 76 imported symbols are provided (72.3684%).

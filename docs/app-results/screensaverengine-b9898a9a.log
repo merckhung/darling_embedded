@@ -1,0 +1,16 @@
+(/usr/bin/darling open /Applications/screensaverengine-b9898a9a/ScreenSaverEngine.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_screensaverengine-b9898a9a:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:103
+DARLING_LAUNCH_BUNDLE:/Applications/screensaverengine-b9898a9a/ScreenSaverEngine.app:/Applications/screensaverengine-b9898a9a/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine
+native dyld warning: unresolved import: _OSLogForCategory
+[ObjC] Method not found: [NSObject controller]
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/screensaverengine-b9898a9a/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine)
+[AppKit] nib: class 'ScreenSaverEngine' not found
+[AppKit] loaded nib /Applications/screensaverengine-b9898a9a/ScreenSaverEngine.app/Contents/Resources/Base.lproj/ScreenSaverEngine.nib: 134 objects, 0 windows
+[AppKit] NSApplication delegate = 0x0
+[AppKit] delegate 0x0 does not respond to applicationDidFinishLaunching
+kill -9 103 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/screensaverengine-b9898a9a/ScreenSaverEngine.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_screensaverengine-b9898a9a:${?})
+
+root@Darwin#

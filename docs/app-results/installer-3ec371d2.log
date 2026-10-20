@@ -1,0 +1,113 @@
+(/usr/bin/darling open /Applications/installer-3ec371d2/Installer.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_installer-3ec371d2:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:158
+DARLING_LAUNCH_BUNDLE:/Applications/installer-3ec371d2/Installer.app:/Applications/installer-3ec371d2/Installer.app/Contents/MacOS/Installer
+native dyld warning: unresolved import: _IFDescriptionForDiskSize
+native dyld warning: unresolved import: _NSHomeDirectoryWithSymlinksResolved
+native dyld warning: unresolved import: _saveOSInstallLogWithMountPoint
+native dyld warning: unresolved import: _setup_instlog_shmem
+native dyld warning: unresolved import: _start_log_listen_thread
+native dyld warning: unresolved import: _teardown_instlog_shmem
+native dyld warning: unresolved import: _SACLOStartLogout
+native dyld warning: unresolved import: _NSAccessibilityUnignoredAncestor
+native dyld warning: unresolved import: _NSAccessibilityUnignoredChildren
+native dyld warning: unresolved import: _NSBeginAlertSheet
+native dyld warning: unresolved import: _NSBeginInformationalAlertSheet
+native dyld warning: unresolved import: _NSRunCriticalAlertPanel
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _IOPSCopyPowerSourcesInfo
+native dyld warning: unresolved import: _IOPSCopyPowerSourcesList
+native dyld warning: unresolved import: _IOPSGetPowerSourceDescription
+native dyld warning: unresolved import: _SecAssessmentCopyResult
+native dyld warning: unresolved import: _SecAssessmentCreate
+native dyld warning: unresolved import: _NSFileTypeForHFSTypeCode
+native dyld warning: unresolved import: _NSOpenStepRootDirectory
+native dyld warning: unresolved import: _AudioServicesPlaySystemSound
+native dyld warning: unresolved import: _DUUnlockVolume
+native dyld warning: unresolved import: _DUUnlockVolumeOverWindow
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _openlog
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _CFBundleCopyExecutableArchitecturesForURL
+native dyld warning: unresolved import: _CFLogTest
+native dyld warning: unresolved import: _CFStringCreateWithFormatAndArguments
+native dyld warning: unresolved import: __CFBundleURLLooksLikeBundle
+native dyld warning: unresolved import: _GetIconRefFromUTI
+native dyld warning: unresolved import: _ReleaseIconRef
+native dyld warning: unresolved import: _UpdateSystemActivity
+native dyld warning: unresolved import: __CSBackupRequestFreeSpaceOnVolume
+native dyld warning: unresolved import: __LSCopyApplicationInformationItem
+native dyld warning: unresolved import: __LSCreateDeviceTypeIdentifierWithModelCode
+native dyld warning: unresolved import: __LSGetCurrentApplicationASN
+native dyld warning: unresolved import: _msgtracer_log_with_keys
+native dyld warning: unresolved import: _OAHSoftwareUpdateOptionsTitleKey
+native dyld warning: unresolved import: _IFDocument_Option_Customize
+native dyld warning: unresolved import: _IFDocument_Option_Customize_Always
+native dyld warning: unresolved import: _IFDocument_Option_Customize_Never
+native dyld warning: unresolved import: _IFDocument_Option_RootVolumeOnly
+native dyld warning: unresolved import: _IFDocument_Option_WindowAllowResize
+native dyld warning: unresolved import: _IFDocument_Resource_BackgroundImage
+native dyld warning: unresolved import: _IFDocument_Resource_BackgroundImage_Alignment
+native dyld warning: unresolved import: _IFDocument_Resource_BackgroundImage_DarkAqua
+native dyld warning: unresolved import: _IFDocument_Resource_BackgroundImage_LayoutDirection
+native dyld warning: unresolved import: _IFDocument_Resource_BackgroundImage_Scaling
+native dyld warning: unresolved import: _IFDocument_Resource_Conclusion
+native dyld warning: unresolved import: _IFDocument_Resource_License
+native dyld warning: unresolved import: _IFDocument_Resource_ReadMe
+native dyld warning: unresolved import: _IFDocument_Resource_Welcome
+native dyld warning: unresolved import: _IFDocument_Special_MIMEType_NSNumber
+native dyld warning: unresolved import: _IFDocument_Special_MIMEType_Pathname
+native dyld warning: unresolved import: _kInstallActionQuitProcess_ProcessName
+native dyld warning: unresolved import: _kInstallerSizeTransformerKey
+native dyld warning: unresolved import: _InstallerSection_IsRunningFromInstallMedia
+native dyld warning: unresolved import: _InstallerState_Choice_CustomLocation
+native dyld warning: unresolved import: _InstallerState_Choice_Identifier
+native dyld warning: unresolved import: _InstallerState_Choice_Installed
+native dyld warning: unresolved import: _InstallerState_InstallStarted
+native dyld warning: unresolved import: _InstallerState_InstallSucceeded
+native dyld warning: unresolved import: _InstallerState_LicenseAgreed
+native dyld warning: unresolved import: _InstallerState_LicenseAgreedLanguage
+native dyld warning: unresolved import: _InstallerState_TargetPath
+native dyld warning: unresolved import: _InstallerState_TargetVolumePath
+native dyld warning: unresolved import: _TMC_MatrixContentsDidChangeNotification
+native dyld warning: unresolved import: _TMC_TargetProcessingDidCompleteNotification
+native dyld warning: unresolved import: _logdatasource_notify
+native dyld warning: unresolved import: _NSAccessibilityChildrenAttribute
+native dyld warning: unresolved import: _NSAccessibilityParentAttribute
+native dyld warning: unresolved import: _NSBaselineOffsetAttributeName
+native dyld warning: unresolved import: _NSViewAnimationEndFrameKey
+native dyld warning: unresolved import: _NSViewAnimationTargetKey
+native dyld warning: unresolved import: _NSViewFocusDidChangeNotification
+native dyld warning: unresolved import: _NSWindowDidBecomeKeyNotification
+native dyld warning: unresolved import: _NSWindowDidResignKeyNotification
+native dyld warning: unresolved import: _NSWorkspaceDidLaunchApplicationNotification
+native dyld warning: unresolved import: _kSecAssessmentAssessmentAuthority
+native dyld warning: unresolved import: _kSecAssessmentAssessmentAuthorityOverride
+native dyld warning: unresolved import: _kSecAssessmentAssessmentVerdict
+native dyld warning: unresolved import: _kSecAssessmentContextKeyOperation
+native dyld warning: unresolved import: _kSecAssessmentOperationTypeInstall
+native dyld warning: unresolved import: _NSLocalizedRecoverySuggestionErrorKey
+native dyld warning: unresolved import: _NSURLIsWritableKey
+native dyld warning: unresolved import: _NSURLVolumeIdentifierKey
+native dyld warning: unresolved import: _NSURLVolumeIsReadOnlyKey
+native dyld warning: unresolved import: __kLSArchitectureKey
+native dyld warning: unresolved import: __kLSArchitecturex86_64Value
+native dyld warning: unresolved import: _kLSCurrentDeviceModelCode
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/installer-3ec371d2/Installer.app/Contents/MacOS/Installer)
+[AppKit] loaded nib /Applications/installer-3ec371d2/Installer.app/Contents/Resources/Base.lproj/MainMenu.nib: 307 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101ef1b30
+[ObjC] Method not found: [NSObject setValueTransformer:forName:]
+[ObjC] Method not found: [NSObject installFrameworkVersionString]
+[ObjC] Method not found: [NSObject logSystemInfo]
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101ef1b30
+[ObjC] Method not found: [NSApplication disableRelaunchOnLogin]
+[ObjC] Method not found: [NSObject showVerboseLog]
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 158 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/installer-3ec371d2/Installer.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_installer-3ec371d2:${?})
+
+root@Darwin#

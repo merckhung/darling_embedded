@@ -1,0 +1,94 @@
+(/usr/bin/darling open /Applications/stickies-79b465c0/Stickies.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_stickies-79b465c0:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:18
+DARLING_LAUNCH_BUNDLE:/Applications/stickies-79b465c0/Stickies.app:/Applications/stickies-79b465c0/Stickies.app/Contents/MacOS/Stickies
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/stickies-79b465c0/Stickies.app/Contents/MacOS/Stickies)
+[AppKit] nib: class 'NSFontEffectsBox' not found
+[AppKit] loaded nib /Applications/stickies-79b465c0/Stickies.app/Contents/Resources/Base.lproj/MainMenu.nib: 1369 objects, 1 windows
+[AppKit] NSApplication delegate = 0x101572ec0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101572ec0
+[Darling Stickies:18] defaultStickiesLocationWritten
+[Darling Stickies:18] defaultStickiesLocationWritten but numberOfDocuments < 1, load sample stickies
+[AppKit] NSWindow makeKeyAndOrderFront on 0x10157d9f0 (title: Stickies)
+DARLING_WINDOW_READY:Stickies:4194305:86:233:300:228
+DARLING_BUTTON_POS:Stickies::370:267
+DARLING_BUTTON_POS:Stickies::358:267
+DARLING_BUTTON_POS:Stickies::102:267
+[AppKit] loaded nib /Applications/stickies-79b465c0/Stickies.app/Contents/Resources/Base.lproj/SNDocument.nib: 369 objects, 1 windows
+[ObjC] Method not found: [NSWindowController setShouldCascadeWindows:]
+[ObjC] Method not found: [SNDocument fileURL]
+[Darling Stickies:18] Could not get creation date. Error: (null)
+[ObjC] Method not found: [SNDocument fileURL]
+[Darling Stickies:18] Could not get modification date. Error: (null)
+[ObjC] Method not found: [NSConstantString enumerateLinesUsingBlock:]
+[ObjC] Method not found: [NSApplication changeWindowsItem:title:filename:]
+[AppKit] NSWindowController showWindow on 0x90ad64010
+[AppKit] NSWindow makeKeyAndOrderFront on 0x10157d9f0 (title: ELLIPSES)
+DARLING_WINDOW_READY:ELLIPSES:4194305:86:233:300:228
+DARLING_BUTTON_POS:ELLIPSES::370:267
+DARLING_BUTTON_POS:ELLIPSES::358:267
+DARLING_BUTTON_POS:ELLIPSES::102:267
+[AppKit] NSWindow makeKeyAndOrderFront on 0x10157d9f0 (title: ELLIPSES)
+DARLING_WINDOW_READY:ELLIPSES:4194305:86:233:300:228
+DARLING_BUTTON_POS:ELLIPSES::370:267
+DARLING_BUTTON_POS:ELLIPSES::358:267
+DARLING_BUTTON_POS:ELLIPSES::102:267
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101575ec0 (title: Find)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Stickies:79:12
+DARLING_MENUBAR_ITEM:File:139:12
+DARLING_MENUBAR_ITEM:Edit:183:12
+DARLING_MENUBAR_ITEM:Font:231:12
+DARLING_MENUBAR_ITEM:Color:284:12
+DARLING_MENUBAR_ITEM:Window:348:12
+DARLING_MENUBAR_ITEM:Help:410:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Stickies:79:12
+DARLING_MENUBAR_ITEM:File:139:12
+DARLING_MENUBAR_ITEM:Edit:183:12
+DARLING_MENUBAR_ITEM:Font:231:12
+DARLING_MENUBAR_ITEM:Color:284:12
+DARLING_MENUBAR_ITEM:Window:348:12
+DARLING_MENUBAR_ITEM:Help:410:12
+DARLING_WINDOW_READY:Find:4194316:458:28:558:214
+DARLING_BUTTON_POS:Find:Next:970:210
+DARLING_BUTTON_POS:Find:Replace:617:210
+DARLING_BUTTON_POS:Find:Replace & Find:723:210
+DARLING_BUTTON_POS:Find:Replace All:523:210
+DARLING_BUTTON_POS:Find:Previous:893:210
+DARLING_BUTTON_POS:Find:Ignore Case:779:173
+DARLING_BUTTON_POS:Find:Current Note:620:149
+DARLING_BUTTON_POS:Find:All Notes:717:149
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Find:4194316:458:28:558:214
+DARLING_BUTTON_POS:Find:Next:970:210
+DARLING_BUTTON_POS:Find:Replace:617:210
+DARLING_BUTTON_POS:Find:Replace & Find:723:210
+DARLING_BUTTON_POS:Find:Replace All:523:210
+DARLING_BUTTON_POS:Find:Previous:893:210
+DARLING_BUTTON_POS:Find:Ignore Case:779:173
+DARLING_BUTTON_POS:Find:Current Note:620:149
+DARLING_BUTTON_POS:Find:All Notes:717:149
+DARLING_WINDOW_READY:ELLIPSES:4194305:86:233:300:228
+DARLING_BUTTON_POS:ELLIPSES::370:267
+DARLING_BUTTON_POS:ELLIPSES::358:267
+DARLING_BUTTON_POS:ELLIPSES::102:267
+DARLING_WINDOW_READY:ELLIPSES:4194305:86:233:300:228
+DARLING_BUTTON_POS:ELLIPSES::370:267
+DARLING_BUTTON_POS:ELLIPSES::358:267
+DARLING_BUTTON_POS:ELLIPSES::102:267
+DARLING_WINDOW_READY:ELLIPSES:4194305:86:233:300:228
+DARLING_BUTTON_POS:ELLIPSES::370:267
+DARLING_BUTTON_POS:ELLIPSES::358:267
+DARLING_BUTTON_POS:ELLIPSES::102:267
+kill -9 18 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/stickies-79b465c0/Stickies.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_stickies-79b465c0:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Application:90:12
+DARLING_MENUBAR_ITEM:File:161:12
+DARLING_MENUBAR_ITEM:Edit:205:12
+DARLING_MENUBAR_ITEM:View:254:12
+DARLING_MENUBAR_ITEM:Window:317:12
+DARLING_MENUBAR_ITEM:Help:379:12

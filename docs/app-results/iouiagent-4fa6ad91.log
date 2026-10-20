@@ -1,0 +1,72 @@
+(/usr/bin/darling open /Applications/iouiagent-4fa6ad91/IOUIAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_iouiagent-4fa6ad91:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:148
+DARLING_LAUNCH_BUNDLE:/Applications/iouiagent-4fa6ad91/IOUIAgent.app:/Applications/iouiagent-4fa6ad91/IOUIAgent.app/Contents/MacOS/IOUIAgent
+native dyld warning: unresolved import: _IOConnectCallScalarMethod
+native dyld warning: unresolved import: _IONotificationPortCreate
+native dyld warning: unresolved import: _IONotificationPortDestroy
+native dyld warning: unresolved import: _IONotificationPortSetDispatchQueue
+native dyld warning: unresolved import: _IOObjectRetain
+native dyld warning: unresolved import: _IORegistryEntryCreateCFProperties
+native dyld warning: unresolved import: _IORegistryEntryCreateCFProperty
+native dyld warning: unresolved import: _IORegistryEntryGetChildIterator
+native dyld warning: unresolved import: _IORegistryEntryGetRegistryEntryID
+native dyld warning: unresolved import: _IOServiceAddInterestNotification
+native dyld warning: unresolved import: _IOServiceAddMatchingNotification
+native dyld warning: unresolved import: _IOServiceGetMatchingService
+native dyld warning: unresolved import: _IOServiceGetMatchingServices
+native dyld warning: unresolved import: _IOServiceMatching
+native dyld warning: unresolved import: _cc_cmp_safe
+native dyld warning: unresolved import: _ccaes_gcm_decrypt_mode
+native dyld warning: unresolved import: _ccaes_gcm_encrypt_mode
+native dyld warning: unresolved import: _ccgcm_context_size
+native dyld warning: unresolved import: _ccgcm_finalize
+native dyld warning: unresolved import: _ccgcm_init
+native dyld warning: unresolved import: _ccgcm_set_iv
+native dyld warning: unresolved import: _ccgcm_update
+native dyld warning: unresolved import: _cchkdf
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _os_transaction_create
+native dyld warning: unresolved import: _os_transaction_get_description
+native dyld warning: unresolved import: _os_variant_has_internal_ui
+native dyld warning: unresolved import: _xpc_connection_activate
+native dyld warning: unresolved import: _xpc_connection_cancel
+native dyld warning: unresolved import: _xpc_connection_create_mach_service
+native dyld warning: unresolved import: _xpc_connection_send_message
+native dyld warning: unresolved import: _xpc_connection_send_message_with_reply_sync
+native dyld warning: unresolved import: _xpc_connection_set_event_handler
+native dyld warning: unresolved import: _xpc_copy_description
+native dyld warning: unresolved import: _xpc_dictionary_create
+native dyld warning: unresolved import: _xpc_dictionary_get_bool
+native dyld warning: unresolved import: _xpc_dictionary_get_count
+native dyld warning: unresolved import: _xpc_dictionary_get_string
+native dyld warning: unresolved import: _xpc_dictionary_get_uint64
+native dyld warning: unresolved import: _xpc_dictionary_set_uint64
+native dyld warning: unresolved import: _xpc_get_type
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _CFUserNotificationCancel
+native dyld warning: unresolved import: _CFUserNotificationCreate
+native dyld warning: unresolved import: _CFUserNotificationCreateRunLoopSource
+native dyld warning: unresolved import: _CFUserNotificationUpdate
+native dyld warning: unresolved import: _AnalyticsSendEvent
+native dyld warning: unresolved import: _kIOMainPortDefault
+native dyld warning: unresolved import: _kIOMasterPortDefault
+native dyld warning: unresolved import: __xpc_error_key_description
+native dyld warning: unresolved import: __xpc_event_key_name
+native dyld warning: unresolved import: __xpc_type_connection
+native dyld warning: unresolved import: __xpc_type_error
+native dyld warning: unresolved import: _kCFUserNotificationAlertTopMostKey
+native dyld warning: unresolved import: _kCFUserNotificationCheckBoxTitlesKey
+native dyld warning: unresolved import: _kCFUserNotificationHelpAnchorKey
+native dyld warning: unresolved import: _kCFUserNotificationHelpBookKey
+native dyld warning: unresolved import: _kCFUserNotificationIconURLKey
+native dyld warning: unresolved import: _kCFUserNotificationOtherButtonTitleKey
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101a8cb10
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 148 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/iouiagent-4fa6ad91/IOUIAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_iouiagent-4fa6ad91:${?})
+
+root@Darwin#

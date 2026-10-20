@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/home-81b7daa9/Home.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_home-81b7daa9:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:14
+DARLING_LAUNCH_BUNDLE:/Applications/home-81b7daa9/Home.app:/Applications/home-81b7daa9/Home.app/Contents/MacOS/Home
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_home-81b7daa9:78
+kill -9 14 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/home-81b7daa9/Home.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_home-81b7daa9:${?})
+
+root@Darwin#

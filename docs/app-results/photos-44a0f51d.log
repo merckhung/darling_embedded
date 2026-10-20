@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/photos-44a0f51d/Photos.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_photos-44a0f51d:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:24
+DARLING_LAUNCH_BUNDLE:/Applications/photos-44a0f51d/Photos.app:/Applications/photos-44a0f51d/Photos.app/Contents/MacOS/Photos
+native dyld: too many native dependencies
+PROBE_EXIT_photos-44a0f51d:78
+kill -9 24 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/photos-44a0f51d/Photos.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_photos-44a0f51d:${?})
+
+root@Darwin#

@@ -1,0 +1,96 @@
+==== System Settings ====
+Linked dylibs: 83, imported symbols: 2292
+
+  present  provided/imported  library
+  NO       0/17	/System/Library/PrivateFrameworks/CoreFollowUp.framework/Versions/A/CoreFollowUp
+  NO       0/1	/System/Library/PrivateFrameworks/CoreFollowUpUI.framework/Versions/A/CoreFollowUpUI
+  NO       0/652	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/96	/System/Library/PrivateFrameworks/Settings.framework/Versions/A/Settings
+  NO       0/305	/System/Library/PrivateFrameworks/SettingsHost.framework/Versions/A/SettingsHost
+  NO       0/27	/System/Library/PrivateFrameworks/SettingsHostUI.framework/Versions/A/SettingsHostUI
+  NO       0/0	/System/Library/PrivateFrameworks/AccountsUI.framework/Versions/A/AccountsUI
+  NO       0/0	/System/Library/PrivateFrameworks/AOSUI.framework/Versions/A/AOSUI
+  NO       0/3	/System/Library/Frameworks/PreferencePanes.framework/Versions/A/PreferencePanes
+  NO       0/0	/System/Library/PrivateFrameworks/PreferencePanesSupport.framework/Versions/A/PreferencePanesSupport
+  NO       0/1	/System/Library/PrivateFrameworks/SystemDesktopAppearance.framework/Versions/A/SystemDesktopAppearance
+  NO       0/1	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  NO       0/1	/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles
+  yes      19/268	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12CharacterSetV14urlHostAllowedACvgZ _$s10Foundation12CharacterSetVMa _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg _$s10Foundation12NotificationVMa _$s10Foundation12URLQueryItemV11descriptionSSvg
+  yes      17/17	/usr/lib/libobjc.A.dylib
+  yes      31/42	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_signpost_emit_with_name_impl _dlerror _dlopen_preflight _dlsym _dyld_get_active_platform
+  NO       0/20	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  yes      8/12	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSSidebarMetricsForRowSize __NSLocalizedUserInterfaceWidthFactor _OBJC_CLASS_$_NSHelpManager _OBJC_CLASS_$_NSRunningApplication
+  NO       0/1	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/9	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/1	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  yes      15/17	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSCurrentLocaleDidChangeNotification _OBJC_CLASS_$_NSMutableSet
+  yes      1/3	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSSessionCopyCurrentSessionProperties _CGSSetConnectionProperty
+  yes      0/16	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECountItems _AEDisposeDesc _AEDuplicateDesc _AEGetAttributePtr _AEGetDescData _AEGetDescDataSize
+  NO       0/4	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/27	/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+  NO       0/1	/System/Library/Frameworks/NetworkExtension.framework/Versions/A/NetworkExtension
+  yes      0/1	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _AuthorizationMakeExternalForm
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/1	/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+  NO       0/1	/System/Library/PrivateFrameworks/AppleAccount.framework/Versions/A/AppleAccount
+  NO       0/3	/System/Library/PrivateFrameworks/AppleIDSSOAuthentication.framework/Versions/A/AppleIDSSOAuthentication
+  NO       0/1	/System/Library/PrivateFrameworks/AppleIDSetup.framework/Versions/A/AppleIDSetup
+  NO       0/5	/System/Library/PrivateFrameworks/AppleIDSetupUI.framework/Versions/A/AppleIDSetupUI
+  NO       0/3	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/7	/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Versions/A/AppleMediaServicesUI
+  NO       0/2	/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+  NO       0/23	/System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/Versions/A/AsyncAlgorithmsInternal
+  NO       0/1	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/1	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  NO       0/3	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/2	/System/Library/PrivateFrameworks/BiometricKit.framework/Versions/A/BiometricKit
+  NO       0/1	/System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/Versions/A/CloudSubscriptionFeatures
+  NO       0/4	/System/Library/PrivateFrameworks/ConversationKit.framework/Versions/A/ConversationKit
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/3	/System/Library/PrivateFrameworks/FamilyCircleUI.framework/Versions/A/FamilyCircleUI
+  NO       0/6	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/1	/System/Library/PrivateFrameworks/GenerativeModels.framework/Versions/A/GenerativeModels
+  NO       0/3	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/1	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/1	/System/Library/PrivateFrameworks/UserManagement.framework/Versions/A/UserManagement
+  NO       0/5	/System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/Versions/A/_IconServices_SwiftUI
+  NO       0/10	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/521	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/15	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSafariServices.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/80	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/27	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for System Settings: 75 of 83 linked libraries are absent from the guest root; 91 of 2292 imported symbols are provided (3.97033%).

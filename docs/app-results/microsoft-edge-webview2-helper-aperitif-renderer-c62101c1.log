@@ -1,0 +1,12 @@
+(/usr/bin/darling open '/Applications/microsoft-edge-webview2-helper-aperitif-renderer-c62101c1/Microsoft Edge WebView2 Helper (Aperitif Renderer).app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_microsoft-edge-webview2-helper-aperitif-renderer-c62101c1:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:14
+DARLING_LAUNCH_BUNDLE:/Applications/microsoft-edge-webview2-helper-aperitif-renderer-c62101c1/Microsoft Edge WebView2 Helper (Aperitif Renderer).app:/Applications/microsoft-edge-webview2-helper-aperitif-renderer-c62101c1/Microsoft Edge WebView2 Helper (Aperitif Renderer).app/Contents/MacOS/Microsoft Edge WebView2 Helper (Aperitif Renderer)
+native dyld warning: unresolved import: _AperitifCheckInitialized
+native dyld warning: unresolved import: _ChromeMain
+PROBE_EXIT_microsoft-edge-webview2-helper-aperitif-renderer-c62101c1:0
+kill -9 14 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/microsoft-edge-webview2-helper-aperitif-renderer-c62101c1/Microsoft Edge WebView2 Helper (Aperitif Renderer).app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_microsoft-edge-webview2-helper-aperitif-renderer-c62101c1:${?})
+
+root@Darwin#

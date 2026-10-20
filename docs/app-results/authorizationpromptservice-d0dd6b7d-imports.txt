@@ -1,0 +1,43 @@
+==== AuthorizationPromptService ====
+Linked dylibs: 32, imported symbols: 245
+
+  present  provided/imported  library
+  NO       0/3	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles (weak)
+  NO       0/0	/System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+  NO       0/1	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  yes      1/34	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF _$s10Foundation23LocalizedStringResourceV17BundleDescriptionOMa _$s10Foundation23LocalizedStringResourceVMa _$s10Foundation23LocalizedStringResourceV_12defaultValue5table6locale6bundle7commentACs06StaticC0V_SSAAE012LocalizationF0VSSSgAA6LocaleVAC17BundleDescriptionOAJSgtcfC _$s10Foundation23LocalizedStringResourceV_5table6locale6bundle7commentACSSAAE17LocalizationValueV_SSSgAA6LocaleVAC17BundleDescriptionOs06StaticC0VSgtcfC
+  yes      10/15	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit (weak)
+             e.g. missing: _$sSo6CGRectV6AppKitE4fill5usingySo22NSCompositingOperationV_tF _NSAccessibilityPostNotification _NSAccessibilityLayoutChangedNotification _NSFontTextStyleLargeTitle _OBJC_CLASS_$_NSImageSymbolConfiguration
+  NO       0/34	/System/Library/PrivateFrameworks/TCCAuthorizationService.framework/Versions/A/TCCAuthorizationService (weak)
+  yes      11/11	/usr/lib/libobjc.A.dylib
+  yes      9/12	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      0/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSRunLoop
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationRecord
+  NO       0/1	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/104	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/13	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/4	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for AuthorizationPromptService: 26 of 32 linked libraries are absent from the guest root; 31 of 245 imported symbols are provided (12.6531%).

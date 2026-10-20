@@ -1,0 +1,36 @@
+==== Installer ====
+Linked dylibs: 24, imported symbols: 275
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/GraphKit.framework/Versions/A/GraphKit (weak)
+  NO       0/2	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface (weak)
+  NO       0/4	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/1	/System/Library/PrivateFrameworks/PackageUIKit.framework/Versions/A/PackageUIKit
+  NO       0/2	/System/Library/PrivateFrameworks/OAHSoftwareUpdate.framework/Versions/A/OAHSoftwareUpdate
+  NO       0/31	/System/Library/PrivateFrameworks/Install.framework/Versions/A/Install
+  NO       0/1	/System/Library/PrivateFrameworks/SystemPolicy.framework/Versions/A/SystemPolicy
+  NO       0/1	/System/Library/PrivateFrameworks/PackageKit.framework/Versions/A/PackageKit
+  NO       0/1	/System/Library/PrivateFrameworks/StorageManagement.framework/Versions/A/StorageManagement
+  NO       0/0	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/1	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/23	/System/Library/Frameworks/InstallerPlugins.framework/Versions/A/InstallerPlugins
+  yes      34/59	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityUnignoredAncestor _NSAccessibilityUnignoredChildren _NSBeginAlertSheet _NSBeginInformationalAlertSheet _NSRunCriticalAlertPanel _NSShowSystemInfoPanel
+  NO       0/3	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  yes      0/7	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecAssessmentCopyResult _SecAssessmentCreate _kSecAssessmentAssessmentAuthority _kSecAssessmentAssessmentAuthorityOverride _kSecAssessmentAssessmentVerdict _kSecAssessmentContextKeyOperation
+  yes      35/45	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSFileTypeForHFSTypeCode _NSOpenStepRootDirectory _NSLocalizedRecoverySuggestionErrorKey _OBJC_CLASS_$_NSFileWrapper _OBJC_CLASS_$_NSLayoutConstraint _OBJC_CLASS_$_NSNotificationQueue
+  NO       0/1	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/2	/usr/lib/libDiskUnlock.dylib
+  yes      24/24	/usr/lib/libobjc.A.dylib
+  yes      24/30	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_release _dispatch_semaphore_create _dispatch_semaphore_signal _dispatch_semaphore_wait _openlog _syslog$DARWIN_EXTSN
+  yes      11/26	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFBundleCopyExecutableArchitecturesForURL _CFLogTest _CFStringCreateWithFormatAndArguments __CFBundleURLLooksLikeBundle _NSRunLoopCommonModes _NSURLIsWritableKey
+  yes      0/10	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _GetIconRefFromUTI _ReleaseIconRef _UpdateSystemActivity __CSBackupRequestFreeSpaceOnVolume __LSCopyApplicationInformationItem __LSCreateDeviceTypeIdentifierWithModelCode
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+
+Summary for Installer: 17 of 24 linked libraries are absent from the guest root; 128 of 275 imported symbols are provided (46.5455%).

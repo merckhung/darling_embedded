@@ -1,0 +1,19 @@
+(/usr/bin/darling open '/Applications/automator-installer-7dd4170e/Automator Installer.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_automator-installer-7dd4170e:$?) & PROBE_PID=$!
+PROBE_CHILD:72
+
+root@Darwin# DARLING_LAUNCH_BUNDLE:/Applications/automator-installer-7dd4170e/Automator Installer.app:/Applications/automator-installer-7dd4170e/Automator Installer.app/Contents/MacOS/Automator Installer
+native dyld warning: unresolved import: __AMURLToAutomatorApp
+native dyld warning: unresolved import: _AMFileUTIWorkflow
+native dyld warning: unresolved import: _NSURLTypeIdentifierKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/automator-installer-7dd4170e/Automator Installer.app/Contents/MacOS/Automator Installer)
+[AppKit] loaded nib /Applications/automator-installer-7dd4170e/Automator Installer.app/Contents/Resources/Base.lproj/MainMenu.nib: 1027 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101a56330
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101a56330
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_APP_TERMINATE:pid=72
+PROBE_EXIT_automator-installer-7dd4170e:0
+kill -9 72 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/automator-installer-7dd4170e/Automator Installer.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_automator-installer-7dd4170e:${?})
+
+root@Darwin#

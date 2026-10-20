@@ -1,0 +1,56 @@
+(/usr/bin/darling open /Applications/bluetoothsetupassistant-d78bedae/BluetoothSetupAssistant.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_bluetoothsetupassistant-d78bedae:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:76
+DARLING_LAUNCH_BUNDLE:/Applications/bluetoothsetupassistant-d78bedae/BluetoothSetupAssistant.app:/Applications/bluetoothsetupassistant-d78bedae/BluetoothSetupAssistant.app/Contents/MacOS/BluetoothSetupAssistant
+native dyld warning: unresolved import: _CGSIsScreenWatcherPresent
+native dyld warning: unresolved import: _SIIsOSXServerVolumeConfigured
+native dyld warning: unresolved import: _SCError
+native dyld warning: unresolved import: _SCNetworkInterfaceGetConfiguration
+native dyld warning: unresolved import: _SCNetworkInterfaceGetInterface
+native dyld warning: unresolved import: _SCNetworkInterfaceGetInterfaceType
+native dyld warning: unresolved import: _SCNetworkInterfaceSetConfiguration
+native dyld warning: unresolved import: _SCNetworkServiceGetInterface
+native dyld warning: unresolved import: _SCNetworkSetCopyCurrent
+native dyld warning: unresolved import: _SCNetworkSetCopyServices
+native dyld warning: unresolved import: _SCPreferencesApplyChanges
+native dyld warning: unresolved import: _SCPreferencesCommitChanges
+native dyld warning: unresolved import: _SCPreferencesCreate
+native dyld warning: unresolved import: _SCPreferencesCreateWithAuthorization
+native dyld warning: unresolved import: _IOAllowPowerChange
+native dyld warning: unresolved import: _IONotificationPortGetRunLoopSource
+native dyld warning: unresolved import: _IOPMAssertionCreateWithDescription
+native dyld warning: unresolved import: _IOPMAssertionRelease
+native dyld warning: unresolved import: _IORegisterForSystemPower
+native dyld warning: unresolved import: _IOBluetoothGetGenericTypeStringForDevice
+native dyld warning: unresolved import: _IOBluetoothOpenBluetoothHelpAtPath
+native dyld warning: unresolved import: _IOBluetoothValidateHardwareWithDescription
+native dyld warning: unresolved import: _IOBluetoothNotificationLibNotificationCreate
+native dyld warning: unresolved import: _IOBluetoothNotificationLibNotificationDelete
+native dyld warning: unresolved import: _IOBluetoothPreferenceGetAutoSeekForKeyboard
+native dyld warning: unresolved import: _IOBluetoothPreferenceSetControllerPowerState
+native dyld warning: unresolved import: _srandomdev
+native dyld warning: unresolved import: _xpc_connection_create_mach_service
+native dyld warning: unresolved import: _xpc_connection_resume
+native dyld warning: unresolved import: _xpc_connection_set_event_handler
+native dyld warning: unresolved import: _xpc_connection_set_target_queue
+native dyld warning: unresolved import: _xpc_dictionary_get_bool
+native dyld warning: unresolved import: _xpc_get_type
+native dyld warning: unresolved import: _NSBeginAlertSheet
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _kODAttributeTypeFullName
+native dyld warning: unresolved import: _kODAttributeTypeUniqueID
+native dyld warning: unresolved import: _kODRecordTypeUsers
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypeBluetooth
+native dyld warning: unresolved import: _kSCNetworkInterfaceTypePPP
+native dyld warning: unresolved import: __xpc_type_connection
+native dyld warning: unresolved import: __xpc_type_dictionary
+native dyld warning: unresolved import: _NSImageNameCaution
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/bluetoothsetupassistant-d78bedae/BluetoothSetupAssistant.app/Contents/MacOS/BluetoothSetupAssistant)
+[AppKit] loaded nib /Applications/bluetoothsetupassistant-d78bedae/BluetoothSetupAssistant.app/Contents/Resources/Base.lproj/MainMenu.nib: 210 objects, 0 windows
+[AppKit] NSApplication delegate = 0x0
+[AppKit] delegate 0x0 does not respond to applicationDidFinishLaunching
+kill -9 76 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/bluetoothsetupassistant-d78bedae/BluetoothSetupAssistant.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_bluetoothsetupassistant-d78bedae:${?})
+
+root@Darwin#

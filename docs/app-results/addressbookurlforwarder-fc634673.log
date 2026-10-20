@@ -1,0 +1,13 @@
+(/usr/bin/darling open /Applications/addressbookurlforwarder-fc634673/AddressBookUrlForwarder.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_addressbookurlforwarder-fc634673:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:34
+DARLING_LAUNCH_BUNDLE:/Applications/addressbookurlforwarder-fc634673/AddressBookUrlForwarder.app:/Applications/addressbookurlforwarder-fc634673/AddressBookUrlForwarder.app/Contents/MacOS/AddressBookUrlForwarder
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/addressbookurlforwarder-fc634673/AddressBookUrlForwarder.app/Contents/MacOS/AddressBookUrlForwarder)
+[AppKit] loaded nib /Applications/addressbookurlforwarder-fc634673/AddressBookUrlForwarder.app/Contents/Resources/Base.lproj/ABUrlForwarderMainMenu.nib: 992 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1016af460
+[AppKit] delegate 0x1016af460 does not respond to applicationDidFinishLaunching
+kill -9 34 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/addressbookurlforwarder-fc634673/AddressBookUrlForwarder.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_addressbookurlforwarder-fc634673:${?})
+
+root@Darwin#

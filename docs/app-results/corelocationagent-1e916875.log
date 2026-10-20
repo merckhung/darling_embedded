@@ -1,0 +1,78 @@
+(/usr/bin/darling open /Applications/corelocationagent-1e916875/CoreLocationAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_corelocationagent-1e916875:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:94
+DARLING_LAUNCH_BUNDLE:/Applications/corelocationagent-1e916875/CoreLocationAgent.app:/Applications/corelocationagent-1e916875/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent
+native dyld warning: unresolved import: _SecCodeCheckValidity
+native dyld warning: unresolved import: _SecCodeCopyDesignatedRequirement
+native dyld warning: unresolved import: _SecCodeCopyGuestWithAttributes
+native dyld warning: unresolved import: _SecCodeCopySigningInformation
+native dyld warning: unresolved import: _SecCodeSetDetachedSignature
+native dyld warning: unresolved import: _SecCodeSignerAddSignature
+native dyld warning: unresolved import: _SecCodeSignerCreate
+native dyld warning: unresolved import: _SecRequirementCopyString
+native dyld warning: unresolved import: _SecStaticCodeCheckValidity
+native dyld warning: unresolved import: _SecStaticCodeCreateWithPath
+native dyld warning: unresolved import: _SecTaskCopyValueForEntitlement
+native dyld warning: unresolved import: _SecTaskCreateWithAuditToken
+native dyld warning: unresolved import: _audit_token_to_au32
+native dyld warning: unresolved import: _audit_token_to_pid
+native dyld warning: unresolved import: _SASNotifyWhenAppropriateToShowUIForUser
+native dyld warning: unresolved import: __ZN18CLConnectionClient11sendMessageENSt3__110shared_ptrI19CLConnectionMessageEEb
+native dyld warning: unresolved import: __ZN18CLConnectionClient20setHandlerForMessageERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEU13block_pointerFvNS0_10shared_ptrI19CLConnectionMessageEEE
+native dyld warning: unresolved import: __ZN18CLConnectionClient24setDefaultMessageHandlerEU13block_pointerFvNSt3__110shared_ptrI19CLConnectionMessageEEE
+native dyld warning: unresolved import: __ZN18CLConnectionClient5startEv
+native dyld warning: unresolved import: __ZN18CLConnectionClientC1ENSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPU28objcproto17OS_dispatch_queue8NSObject
+native dyld warning: unresolved import: __ZN18CLConnectionClientD1Ev
+native dyld warning: unresolved import: __ZN19CLConnectionMessageC1ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE
+native dyld warning: unresolved import: __ZN19CLConnectionMessageC1ERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEEPU25objcproto14NSSecureCoding11objc_object
+native dyld warning: unresolved import: __ZN19CLConnectionMessageD1Ev
+native dyld warning: unresolved import: __ZNK19CLConnectionMessage22getDictionaryOfClassesEP5NSSet
+native dyld warning: unresolved import: __ZNK19CLConnectionMessage4nameEv
+native dyld warning: unresolved import: __os_log_fault_impl
+native dyld warning: unresolved import: _bootstrap_look_up
+native dyld warning: unresolved import: _dispatch_queue_attr_make_with_autorelease_frequency
+native dyld warning: unresolved import: _dispatch_queue_create_with_target$V2
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _launch_data_dict_lookup
+native dyld warning: unresolved import: _launch_data_free
+native dyld warning: unresolved import: _launch_data_get_errno
+native dyld warning: unresolved import: _launch_data_get_machport
+native dyld warning: unresolved import: _launch_data_get_type
+native dyld warning: unresolved import: _launch_data_new_string
+native dyld warning: unresolved import: _launch_msg
+native dyld warning: unresolved import: _mach_msg_server_once
+native dyld warning: unresolved import: _mig_strncpy
+native dyld warning: unresolved import: _os_transaction_create
+native dyld warning: unresolved import: _proc_pidpath_audittoken
+native dyld warning: unresolved import: _CFDataCreateMutable
+native dyld warning: unresolved import: _CFDataCreateWithBytesNoCopy
+native dyld warning: unresolved import: _CFDictionaryContainsKey
+native dyld warning: unresolved import: _CFURLCopyFileSystemPath
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _CGWindowLevelForKey
+native dyld warning: unresolved import: __LSASNCreateWithPid
+native dyld warning: unresolved import: __LSCopyApplicationInformationItem
+native dyld warning: unresolved import: __LSCopyBundleURLWithIdentifier
+native dyld warning: unresolved import: __ZdlPvSt19__type_descriptor_t
+native dyld warning: unresolved import: __ZnwmSt19__type_descriptor_t
+native dyld warning: unresolved import: _kSecCodeInfoMainExecutable
+native dyld warning: unresolved import: _kSecCodeInfoPList
+native dyld warning: unresolved import: _kSecCodeSignerDetached
+native dyld warning: unresolved import: _kSecCodeSignerIdentity
+native dyld warning: unresolved import: _kSecGuestAttributeAudit
+native dyld warning: unresolved import: __dispatch_source_type_mach_recv
+native dyld warning: unresolved import: _NSApplicationDidBecomeActiveNotification
+native dyld warning: unresolved import: __kCFBundleDisplayNameKey
+native dyld warning: unresolved import: _kCFNull
+native dyld warning: unresolved import: __kLSExecutablePathKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/corelocationagent-1e916875/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent)
+XNU_EXC: exc=1 codes=0x1 0x0
+XNU_EXC: exc=10 codes=0xb100001 0x0
+Segmentation fault: 11
+PROBE_EXIT_corelocationagent-1e916875:139
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 94
+kill -9 94 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/corelocationagent-1e916875/CoreLocationAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_corelocationagent-1e916875:${?})
+
+root@Darwin#

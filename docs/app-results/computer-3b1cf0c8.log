@@ -1,0 +1,10 @@
+(/usr/bin/darling open /Applications/computer-3b1cf0c8/Computer.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_computer-3b1cf0c8:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:132
+DARLING_LAUNCH_BUNDLE:/Applications/computer-3b1cf0c8/Computer.app:/Applications/computer-3b1cf0c8/Computer.app/Contents/MacOS/Computer
+PROBE_EXIT_computer-3b1cf0c8:0
+kill -9 132 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/computer-3b1cf0c8/Computer.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_computer-3b1cf0c8:${?})
+
+root@Darwin#

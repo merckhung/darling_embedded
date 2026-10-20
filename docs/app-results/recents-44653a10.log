@@ -1,0 +1,10 @@
+(/usr/bin/darling open /Applications/recents-44653a10/Recents.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_recents-44653a10:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:136
+DARLING_LAUNCH_BUNDLE:/Applications/recents-44653a10/Recents.app:/Applications/recents-44653a10/Recents.app/Contents/MacOS/Recents
+PROBE_EXIT_recents-44653a10:0
+kill -9 136 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/recents-44653a10/Recents.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_recents-44653a10:${?})
+
+root@Darwin#

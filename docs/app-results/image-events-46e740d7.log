@@ -1,0 +1,85 @@
+(/usr/bin/darling open '/Applications/image-events-46e740d7/Image Events.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_image-events-46e740d7:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:150
+DARLING_LAUNCH_BUNDLE:/Applications/image-events-46e740d7/Image Events.app:/Applications/image-events-46e740d7/Image Events.app/Contents/MacOS/Image Events
+native dyld warning: unresolved import: _msgtracer_log_with_keys
+native dyld warning: unresolved import: _CMCopyProfileDescriptionString
+native dyld warning: unresolved import: _CMCopyProfileLocalizedString
+native dyld warning: unresolved import: _CMGetDefaultProfileBySpace
+native dyld warning: unresolved import: _CMGetProfileByAVID
+native dyld warning: unresolved import: _CMGetSystemProfile
+native dyld warning: unresolved import: _ColorSyncIterateInstalledProfiles
+native dyld warning: unresolved import: _ColorSyncProfileCopyHeader
+native dyld warning: unresolved import: _ColorSyncProfileCreate
+native dyld warning: unresolved import: _ColorSyncProfileCreateWithURL
+native dyld warning: unresolved import: _ColorSyncProfileGetURL
+native dyld warning: unresolved import: _CFDataGetBytes
+native dyld warning: unresolved import: _CFErrorCopyDescription
+native dyld warning: unresolved import: _CFURLCopyFileSystemPath
+native dyld warning: unresolved import: _CFURLCopyResourcePropertyForKey
+native dyld warning: unresolved import: _CFURLCreateBookmarkDataFromAliasRecord
+native dyld warning: unresolved import: _CFURLCreateFromFSRef
+native dyld warning: unresolved import: _CFURLCreateResourcePropertyForKeyFromBookmarkData
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _CFURLGetFSRef
+native dyld warning: unresolved import: _CFURLResourceIsReachable
+native dyld warning: unresolved import: _CFURLSetResourcePropertyForKey
+native dyld warning: unresolved import: _CGSGetOnlineDisplayList
+native dyld warning: unresolved import: _FSCatalogSearch
+native dyld warning: unresolved import: _FSCloseIterator
+native dyld warning: unresolved import: _FSFindFolder
+native dyld warning: unresolved import: _FSGetCatalogInfo
+native dyld warning: unresolved import: _FSGetVolumeInfo
+native dyld warning: unresolved import: _FSGetVolumeMountInfo
+native dyld warning: unresolved import: _FSGetVolumeMountInfoSize
+native dyld warning: unresolved import: _FSNewAlias
+native dyld warning: unresolved import: _FSOpenIterator
+native dyld warning: unresolved import: _LSCopyItemInfoForURL
+native dyld warning: unresolved import: _LSCopyKindStringForURL
+native dyld warning: unresolved import: _LSGetApplicationForURL
+native dyld warning: unresolved import: _LSOpenCFURLRef
+native dyld warning: unresolved import: _UTCreateStringForOSType
+native dyld warning: unresolved import: _UTGetOSTypeFromString
+native dyld warning: unresolved import: __FSGetVolumePermissions
+native dyld warning: unresolved import: __FSSetVolumePermissions
+native dyld warning: unresolved import: _NSFileBusy
+native dyld warning: unresolved import: _NSFileHFSCreatorCode
+native dyld warning: unresolved import: _NSFileHFSTypeCode
+native dyld warning: unresolved import: _NSFileHandleReadToEndOfFileCompletionNotification
+native dyld warning: unresolved import: _NSFileSystemFileNumber
+native dyld warning: unresolved import: _kColorSyncProfileDescription
+native dyld warning: unresolved import: _kColorSyncProfileURL
+native dyld warning: unresolved import: _NSURLIsDirectoryKey
+native dyld warning: unresolved import: _NSURLIsHiddenKey
+native dyld warning: unresolved import: _NSURLIsPackageKey
+native dyld warning: unresolved import: _NSURLIsVolumeKey
+native dyld warning: unresolved import: _NSURLLocalizedNameKey
+native dyld warning: unresolved import: _NSURLNameKey
+native dyld warning: unresolved import: _NSURLParentDirectoryURLKey
+native dyld warning: unresolved import: _NSURLPathKey
+native dyld warning: unresolved import: _NSURLTotalFileAllocatedSizeKey
+native dyld warning: unresolved import: _NSURLTotalFileSizeKey
+native dyld warning: unresolved import: _NSURLTypeIdentifierKey
+native dyld warning: unresolved import: _NSURLVolumeAvailableCapacityKey
+native dyld warning: unresolved import: _NSURLVolumeIdentifierKey
+native dyld warning: unresolved import: _NSURLVolumeIsEjectableKey
+native dyld warning: unresolved import: _NSURLVolumeIsLocalKey
+native dyld warning: unresolved import: _NSURLVolumeTotalCapacityKey
+native dyld warning: unresolved import: _NSURLVolumeURLKey
+native dyld warning: unresolved import: __kCFBundlePackageTypeKey
+native dyld warning: unresolved import: __kCFBundleSignatureKey
+native dyld warning: unresolved import: __kCFURLFinderInfoKey
+native dyld warning: unresolved import: __kCFURLStrongBindingKey
+native dyld warning: unresolved import: _kCFURLIsDirectoryKey
+native dyld warning: unresolved import: _kCFURLPathKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/image-events-46e740d7/Image Events.app/Contents/MacOS/Image Events)
+[AppKit] loaded nib /Applications/image-events-46e740d7/Image Events.app/Contents/Resources/Base.lproj/MainMenu.nib: 410 objects, 0 windows
+[AppKit] NSApplication delegate = 0xa6ac10280
+[ObjC] Method not found: [NSObject sharedScriptSuiteRegistry]
+[AppKit] calling applicationDidFinishLaunching on delegate 0xa6ac10280
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 150 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/image-events-46e740d7/Image Events.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_image-events-46e740d7:${?})
+
+root@Darwin#

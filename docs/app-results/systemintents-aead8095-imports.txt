@@ -1,0 +1,40 @@
+==== SystemIntents ====
+Linked dylibs: 30, imported symbols: 134
+
+  present  provided/imported  library
+  NO       0/56	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/1	/System/Library/PrivateFrameworks/SystemIntentsSupport.framework/Versions/A/SystemIntentsSupport
+  yes      1/10	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF _$s10Foundation23LocalizedStringResourceV13stringLiteralACSS_tcfC _$s10Foundation23LocalizedStringResourceVMa _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ _$s10Foundation3URLVMa
+  yes      8/8	/usr/lib/libobjc.A.dylib
+  yes      4/5	/usr/lib/libSystem.B.dylib
+             e.g. missing: ___chkstk_darwin
+  yes      1/1	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      0/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CoreDockSendNotification
+  yes      0/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSSet
+  NO       0/14	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/2	/System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/26	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for SystemIntents: 24 of 30 linked libraries are absent from the guest root; 14 of 134 imported symbols are provided (10.4478%).

@@ -1,0 +1,25 @@
+==== Dictionary ====
+Linked dylibs: 13, imported symbols: 308
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/RTTUtilities.framework/Versions/A/RTTUtilities
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/4	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/6	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_CLASS_$_WKContentWorld _OBJC_CLASS_$_WKUserContentController _OBJC_CLASS_$_WKUserScript _OBJC_CLASS_$_WKWebView _OBJC_CLASS_$_WKWebViewConfiguration _OBJC_CLASS_$_WKWebsiteDataStore
+  NO       0/2	/System/Library/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset
+  NO       0/0	/usr/lib/libicucore.A.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/InternationalSupport.framework/Versions/A/InternationalSupport
+  yes      36/57	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _NSIntersectsRect _NSLocaleLanguageConfidenceHigh _NSLocaleLanguageConfidenceMedium _NSURLErrorDomain _OBJC_CLASS_$_NSAffineTransform
+  yes      21/21	/usr/lib/libobjc.A.dylib
+  yes      20/25	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_group_async _dispatch_group_create _dispatch_group_wait _dispatch_release _os_variant_has_internal_diagnostics
+  yes      49/83	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityRoleDescription _NSAccessibilityUnignoredChildren _NSAccessibilityUnignoredDescendant _NSShowSystemInfoPanel _NSAccessibilityChildrenAttribute _NSAccessibilityDescriptionAttribute
+  yes      30/55	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayAppendArray _CFArrayContainsValue _CFArrayCreateMutableCopy _CFArrayGetValues _CFGetRetainCount _CFLocaleCreateCanonicalLocaleIdentifierFromString
+  yes      0/54	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _DCSCopyAvailableDictionaries _DCSCopyRecordForReference _DCSCopyRecordsForSearchString _DCSCopyRecordsWithHeadword _DCSCreateHeadwordList _DCSCreateUserDictionariesDirectory
+
+Summary for Dictionary: 5 of 13 linked libraries are absent from the guest root; 156 of 308 imported symbols are provided (50.6494%).

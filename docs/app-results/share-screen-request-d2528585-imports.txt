@@ -1,0 +1,17 @@
+==== Share Screen Request ====
+Linked dylibs: 8, imported symbols: 36
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/Versions/A/DiagnosticLogCollection (weak)
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      5/5	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      11/11	/usr/lib/libSystem.B.dylib
+  yes      4/5	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSRunCriticalAlertPanel
+  yes      3/4	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSMutableData
+  yes      0/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CPSSetFrontProcess
+
+Summary for Share Screen Request: 1 of 8 linked libraries are absent from the guest root; 33 of 36 imported symbols are provided (91.6667%).

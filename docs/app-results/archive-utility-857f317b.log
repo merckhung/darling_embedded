@@ -1,0 +1,95 @@
+(/usr/bin/darling open '/Applications/archive-utility-857f317b/Archive Utility.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_archive-utility-857f317b:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:46
+DARLING_LAUNCH_BUNDLE:/Applications/archive-utility-857f317b/Archive Utility.app:/Applications/archive-utility-857f317b/Archive Utility.app/Contents/MacOS/Archive Utility
+native dyld warning: unresolved import: _lzma_auto_decoder
+native dyld warning: unresolved import: _lzma_code
+native dyld warning: unresolved import: _lzma_end
+native dyld warning: unresolved import: _BZ2_bzDecompress
+native dyld warning: unresolved import: _BZ2_bzDecompressEnd
+native dyld warning: unresolved import: _BZ2_bzDecompressInit
+native dyld warning: unresolved import: _AEAKeychainGenerateItem
+native dyld warning: unresolved import: _BOMCopierCancelCopy
+native dyld warning: unresolved import: _BOMCopierCopyWithOptions
+native dyld warning: unresolved import: _BOMCopierCountFilesInArchive
+native dyld warning: unresolved import: _BOMCopierCountFilesInDirectory
+native dyld warning: unresolved import: _BOMCopierFree
+native dyld warning: unresolved import: _BOMCopierGetArchiveFileDescriptor
+native dyld warning: unresolved import: _BOMCopierNew
+native dyld warning: unresolved import: _BOMCopierNewWithSys
+native dyld warning: unresolved import: _BOMCopierSetCopyFileFinishedHandler
+native dyld warning: unresolved import: _BOMCopierSetCopyFileStartedHandler
+native dyld warning: unresolved import: _BOMCopierSetCopyFileUpdateHandler
+native dyld warning: unresolved import: _BOMCopierSetCountFilesUpdateHandler
+native dyld warning: unresolved import: _BOMCopierSetFatalErrorHandler
+native dyld warning: unresolved import: _BOMCopierSetFatalFileErrorHandler
+native dyld warning: unresolved import: _BOMCopierSetFileErrorHandler
+native dyld warning: unresolved import: _BOMCopierSetPKZipPasswordRequester
+native dyld warning: unresolved import: _BOMCopierSetUserData
+native dyld warning: unresolved import: _BOMCopierUserData
+native dyld warning: unresolved import: _BOMFSObjectTypeForMode
+native dyld warning: unresolved import: _BomSys_free
+native dyld warning: unresolved import: _BomSys_init
+native dyld warning: unresolved import: _BomSys_set_open
+native dyld warning: unresolved import: _archive_read_free
+native dyld warning: unresolved import: _archive_read_new
+native dyld warning: unresolved import: _archive_read_open_filename
+native dyld warning: unresolved import: _archive_read_support_filter_all
+native dyld warning: unresolved import: _archive_read_support_format_all
+native dyld warning: unresolved import: _DIAuthOpen
+native dyld warning: unresolved import: __qtn_file_alloc
+native dyld warning: unresolved import: __qtn_file_apply_to_fd
+native dyld warning: unresolved import: __qtn_file_free
+native dyld warning: unresolved import: __qtn_file_init_with_fd
+native dyld warning: unresolved import: __qtn_file_to_data
+native dyld warning: unresolved import: _asctime_r
+native dyld warning: unresolved import: _clock
+native dyld warning: unresolved import: _compat_mode
+native dyld warning: unresolved import: _dispatch_block_cancel
+native dyld warning: unresolved import: _dispatch_block_create
+native dyld warning: unresolved import: _dispatch_block_testcancel
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _fmtcheck
+native dyld warning: unresolved import: _fts_close
+native dyld warning: unresolved import: _fts_open
+native dyld warning: unresolved import: _fts_read
+native dyld warning: unresolved import: _fts_set
+native dyld warning: unresolved import: _macho_arch_name_for_cpu_type
+native dyld warning: unresolved import: _mbr_check_membership_by_id
+native dyld warning: unresolved import: _mbr_uid_to_uuid
+native dyld warning: unresolved import: _openlog
+native dyld warning: unresolved import: _select
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _uuid_clear
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _CFDictionaryAddValue
+native dyld warning: unresolved import: _CFStringCreateMutableWithExternalCharactersNoCopy
+native dyld warning: unresolved import: _CFStringCreateWithFileSystemRepresentation
+native dyld warning: unresolved import: _CFStringGetCharacters
+native dyld warning: unresolved import: _CFStringGetFileSystemRepresentation
+native dyld warning: unresolved import: _CFStringGetRangeOfComposedCharactersAtIndex
+native dyld warning: unresolved import: _CFStringSetExternalCharactersNoCopy
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _CFURLGetFSRef
+native dyld warning: unresolved import: _FNNotify
+native dyld warning: unresolved import: _LSCopyDefaultApplicationURLForContentType
+native dyld warning: unresolved import: _DSArchiveServiceErrorDomain
+native dyld warning: unresolved import: _UTTypeItem
+native dyld warning: unresolved import: __UTTypeAppleEncryptedArchive
+native dyld warning: unresolved import: _NSImageNameCaution
+native dyld warning: unresolved import: _NSURLFileSizeKey
+native dyld warning: unresolved import: _NSURLIsHiddenKey
+native dyld warning: unresolved import: _NSURLPathKey
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/archive-utility-857f317b/Archive Utility.app/Contents/MacOS/Archive Utility)
+[AppKit] loaded nib /Applications/archive-utility-857f317b/Archive Utility.app/Contents/Resources/Base.lproj/MainMenu.nib: 293 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1020bc990
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1020bc990
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 46 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/archive-utility-857f317b/Archive Utility.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_archive-utility-857f317b:${?})
+
+root@Darwin#

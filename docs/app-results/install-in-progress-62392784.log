@@ -1,0 +1,36 @@
+(/usr/bin/darling open '/Applications/install-in-progress-62392784/Install in Progress.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_install-in-progress-62392784:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:154
+DARLING_LAUNCH_BUNDLE:/Applications/install-in-progress-62392784/Install in Progress.app:/Applications/install-in-progress-62392784/Install in Progress.app/Contents/MacOS/Install in Progress
+native dyld warning: unresolved import: _AECreateAppleEvent
+native dyld warning: unresolved import: _AECreateDesc
+native dyld warning: unresolved import: _AEDisposeDesc
+native dyld warning: unresolved import: _AESendMessage
+native dyld warning: unresolved import: _FSEventStreamCreate
+native dyld warning: unresolved import: _FSEventStreamInvalidate
+native dyld warning: unresolved import: _FSEventStreamRelease
+native dyld warning: unresolved import: _FSEventStreamSetDispatchQueue
+native dyld warning: unresolved import: _FSEventStreamStart
+native dyld warning: unresolved import: _FSEventStreamStop
+native dyld warning: unresolved import: _CGSSessionCopyCurrentSessionProperties
+native dyld warning: unresolved import: _os_transaction_create
+native dyld warning: unresolved import: _os_transaction_needs_more_time
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _xpc_dictionary_get_string
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _SULoginWindowCookiePath
+native dyld warning: unresolved import: __xpc_event_key_name
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/install-in-progress-62392784/Install in Progress.app/Contents/MacOS/Install in Progress)
+[AppKit] loaded nib /Applications/install-in-progress-62392784/Install in Progress.app/Contents/Resources/Base.lproj/MainMenu.nib: 232 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101309c20
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101309c20
+XNU_EXC: exc=1 codes=0x1 0xd65f03c0aa1f03e0
+XNU_EXC: exc=10 codes=0xb100001 0xd65f03c0aa1f03e0
+Segmentation fault: 11
+PROBE_EXIT_install-in-progress-62392784:139
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 154
+kill -9 154 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/install-in-progress-62392784/Install in Progress.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_install-in-progress-62392784:${?})
+
+root@Darwin#

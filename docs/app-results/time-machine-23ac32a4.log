@@ -1,0 +1,15 @@
+(/usr/bin/darling open '/Applications/time-machine-23ac32a4/Time Machine.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_time-machine-23ac32a4:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:28
+DARLING_LAUNCH_BUNDLE:/Applications/time-machine-23ac32a4/Time Machine.app:/Applications/time-machine-23ac32a4/Time Machine.app/Contents/MacOS/Time Machine
+native dyld warning: unresolved import: _CFURLCreateWithString
+native dyld warning: unresolved import: _LSOpenCFURLRef
+native dyld warning: unresolved import: __CSBackupGetSharedServerProxy
+native dyld warning: unresolved import: __CSBackupServerIsActive
+native dyld warning: unresolved import: __CSBackupServerProxyCancelBackup
+PROBE_EXIT_time-machine-23ac32a4:0
+kill -9 28 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/time-machine-23ac32a4/Time Machine.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_time-machine-23ac32a4:${?})
+
+root@Darwin#

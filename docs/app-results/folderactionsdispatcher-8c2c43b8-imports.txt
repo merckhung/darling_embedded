@@ -1,0 +1,19 @@
+==== FolderActionsDispatcher ====
+Linked dylibs: 9, imported symbols: 108
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/Frameworks/Automator.framework/Versions/A/Automator
+  NO       0/0	/usr/lib/libDiagnosticMessagesClient.dylib
+  NO       0/5	/System/Library/PrivateFrameworks/FolderActionsKit.framework/Versions/A/FolderActionsKit
+  yes      13/19	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSFileBusy _OBJC_CLASS_$_NSHashTable _OBJC_CLASS_$_NSNameSpecifier _OBJC_CLASS_$_NSUserAppleScriptTask _OBJC_METACLASS_$_NSScriptCommand _OBJC_CLASS_$_NSScriptCommand
+  yes      28/28	/usr/lib/libobjc.A.dylib
+  yes      26/28	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_source_get_data __dispatch_source_type_vnode
+  yes      2/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      11/24	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFURLCreateBookmarkDataFromAliasRecord __CFURLBookmarkDataToAliasHandle _NSURLContentModificationDateKey _NSURLLocalizedNameKey _NSURLNameKey _NSURLPathKey
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _GetHandleSize
+
+Summary for FolderActionsDispatcher: 3 of 9 linked libraries are absent from the guest root; 80 of 108 imported symbols are provided (74.0741%).

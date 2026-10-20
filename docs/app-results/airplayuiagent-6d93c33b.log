@@ -1,0 +1,132 @@
+(/usr/bin/darling open /Applications/airplayuiagent-6d93c33b/AirPlayUIAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_airplayuiagent-6d93c33b:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:38
+DARLING_LAUNCH_BUNDLE:/Applications/airplayuiagent-6d93c33b/AirPlayUIAgent.app:/Applications/airplayuiagent-6d93c33b/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent
+native dyld warning: unresolved import: _FigShareAndAirPlayHelperStartServer
+native dyld warning: unresolved import: _FigVirtualDisplayServerSLVDStart
+native dyld warning: unresolved import: _APSIsDemoModeEnabled
+native dyld warning: unresolved import: _APSLogErrorAt
+native dyld warning: unresolved import: _APSSettingsCopyValue
+native dyld warning: unresolved import: _APSSettingsSetValue
+native dyld warning: unresolved import: _APSSettingsSynchronize
+native dyld warning: unresolved import: _KUY675K4ryxHGzD5GVD
+native dyld warning: unresolved import: _gQblcfSzZBQsYCCV
+native dyld warning: unresolved import: _i9kF3TCOFmU
+native dyld warning: unresolved import: _xOvZekdnwD6
+native dyld warning: unresolved import: _CMBaseObjectGetVTable
+native dyld warning: unresolved import: _FigCFEqual
+native dyld warning: unresolved import: _FigEndpointUIAgentXPCRemoteCreate
+native dyld warning: unresolved import: _CFArrayApplyBlock
+native dyld warning: unresolved import: _CFDictionaryGetInt64
+native dyld warning: unresolved import: _CFDictionaryGetInt64Ranged
+native dyld warning: unresolved import: _CFDictionaryGetTypedValue
+native dyld warning: unresolved import: _HardwareAddressToCString
+native dyld warning: unresolved import: _IsAppleInternalBuild
+native dyld warning: unresolved import: _LogControl
+native dyld warning: unresolved import: _LogControlCF
+native dyld warning: unresolved import: _LogPrintF
+native dyld warning: unresolved import: _LogSetAppID
+native dyld warning: unresolved import: _PairingSessionCopyIdentity
+native dyld warning: unresolved import: _PairingSessionCreate
+native dyld warning: unresolved import: _PairingSessionFindPeer
+native dyld warning: unresolved import: _PairingSessionSavePeer
+native dyld warning: unresolved import: _PairingSessionSetKeychainInfo
+native dyld warning: unresolved import: __LogCategory_Initialize
+native dyld warning: unresolved import: _xpc_connection_has_entitlement
+native dyld warning: unresolved import: _IOPMAssertionCreateWithDescription
+native dyld warning: unresolved import: _IOPMAssertionRelease
+native dyld warning: unresolved import: _SecItemAdd
+native dyld warning: unresolved import: _SecItemCopyMatching
+native dyld warning: unresolved import: _SecItemDelete
+native dyld warning: unresolved import: _SecItemUpdate
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _notify_cancel
+native dyld warning: unresolved import: _notify_post
+native dyld warning: unresolved import: _notify_register_check
+native dyld warning: unresolved import: _notify_set_state
+native dyld warning: unresolved import: _os_transaction_create
+native dyld warning: unresolved import: _xpc_connection_cancel
+native dyld warning: unresolved import: _xpc_connection_create_mach_service
+native dyld warning: unresolved import: _xpc_connection_get_pid
+native dyld warning: unresolved import: _xpc_connection_resume
+native dyld warning: unresolved import: _xpc_connection_send_message
+native dyld warning: unresolved import: _xpc_connection_set_event_handler
+native dyld warning: unresolved import: _xpc_dictionary_create_reply
+native dyld warning: unresolved import: _xpc_dictionary_get_bool
+native dyld warning: unresolved import: _xpc_dictionary_get_data
+native dyld warning: unresolved import: _xpc_dictionary_get_string
+native dyld warning: unresolved import: _xpc_dictionary_get_uint64
+native dyld warning: unresolved import: _xpc_dictionary_set_data
+native dyld warning: unresolved import: _xpc_dictionary_set_int64
+native dyld warning: unresolved import: _xpc_dictionary_set_string
+native dyld warning: unresolved import: _xpc_get_type
+native dyld warning: unresolved import: _xpc_release
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _CFRunLoopPerformBlock
+native dyld warning: unresolved import: _CFStringCreateExternalRepresentation
+native dyld warning: unresolved import: _CFStringCreateFromExternalRepresentation
+native dyld warning: unresolved import: _CFStringLowercase
+native dyld warning: unresolved import: _CFURLGetString
+native dyld warning: unresolved import: _NSWorkspaceDidWakeNotification
+native dyld warning: unresolved import: _NSWorkspaceSessionDidBecomeActiveNotification
+native dyld warning: unresolved import: _NSWorkspaceSessionDidResignActiveNotification
+native dyld warning: unresolved import: _NSWorkspaceWillPowerOffNotification
+native dyld warning: unresolved import: _NSWorkspaceWillSleepNotification
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotificationPayloadKey_CopyPasswordFromKeychainContext
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotificationPayloadKey_CopyPasswordFromKeychainInfo
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotificationPayloadKey_FinishedWithPromptInfo
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotificationPayloadKey_ShowAuthPromptInfo
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotificationPayloadKey_ShowErrorPromptInfo
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotification_AirPlayScreenStarted
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotification_AirPlayScreenStopped
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotification_CopyPasswordFromKeychain
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotification_FinishedWithPrompt
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotification_ServerConnectionDied
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotification_ShowAuthPrompt
+native dyld warning: unresolved import: _kFigEndpointUIAgentNotification_ShowErrorPrompt
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ATVName
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_AirPlayTypeAudioOnly
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_MACAddress
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_PINMode
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_Reason
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonErrorAuthenticationFailed
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonErrorHijackFailed
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonErrorUnauthorizedNotHomeUser
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonIncomingConnectionsBlocked
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonStartCannotTalkToUIAgent
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonStartError
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonStartErrorLowSignal
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonStartFailedToGetConsoleUser
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_ReasonStartKeychainAccessError
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_SavePassword
+native dyld warning: unresolved import: _kFigEndpointUIAgentPromptInfo_UniqueID
+native dyld warning: unresolved import: _kSecAttrAccessGroup
+native dyld warning: unresolved import: _kSecAttrAccount
+native dyld warning: unresolved import: _kSecAttrDescription
+native dyld warning: unresolved import: _kSecAttrLabel
+native dyld warning: unresolved import: _kSecAttrService
+native dyld warning: unresolved import: _kSecAttrSynchronizable
+native dyld warning: unresolved import: _kSecClass
+native dyld warning: unresolved import: _kSecClassGenericPassword
+native dyld warning: unresolved import: _kSecMatchLimit
+native dyld warning: unresolved import: _kSecMatchLimitAll
+native dyld warning: unresolved import: _kSecReturnAttributes
+native dyld warning: unresolved import: _kSecReturnData
+native dyld warning: unresolved import: _kSecUseDataProtectionKeychain
+native dyld warning: unresolved import: _kSecValueData
+native dyld warning: unresolved import: __xpc_error_connection_invalid
+native dyld warning: unresolved import: __xpc_event_key_name
+native dyld warning: unresolved import: __xpc_type_connection
+native dyld warning: unresolved import: __xpc_type_dictionary
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/airplayuiagent-6d93c33b/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent)
+[AppKit] loaded nib /Applications/airplayuiagent-6d93c33b/AirPlayUIAgent.app/Contents/Resources/Base.lproj/AirPlayUIAgent.nib: 25 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1014082c0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1014082c0
+[ObjC] Method not found: [NSObject initWithMachServiceName:]
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 38 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/airplayuiagent-6d93c33b/AirPlayUIAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_airplayuiagent-6d93c33b:${?})
+
+root@Darwin#

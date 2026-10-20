@@ -1,0 +1,29 @@
+==== PowerChime ====
+Linked dylibs: 18, imported symbols: 190
+
+  present  provided/imported  library
+  NO       0/4	/usr/lib/libSMC.dylib
+  NO       0/2	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/1	/System/Library/PrivateFrameworks/BatteryUIKit.framework/Versions/A/BatteryUIKit
+  NO       0/4	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+  NO       0/22	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  yes      0/0	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+  NO       0/2	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/7	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUARP.framework/Versions/A/CoreUARP (weak)
+  yes      10/11	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSLayoutConstraint
+  yes      26/26	/usr/lib/libobjc.A.dylib
+  yes      28/42	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_log_fault_impl _dispatch_release _notify_cancel _xpc_copy_description _xpc_dictionary_create
+  yes      11/14	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSWorkspaceDidWakeNotification _NSWorkspaceSessionDidBecomeActiveNotification _OBJC_CLASS_$_NSSound
+  yes      31/34	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFNumberIsFloatType _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSMutableSet
+  yes      1/13	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGDisplayHideCursor _CGDisplayShowCursor _CGSAddWindowsToSpaces _CGSDisplayStatusQuery _CGSGetOnlineDisplayList _CGSRegisterNotifyProc
+  NO       0/3	/System/Library/PrivateFrameworks/RemoteServiceDiscovery.framework/Versions/A/RemoteServiceDiscovery
+  NO       0/5	/System/Library/PrivateFrameworks/RemoteXPC.framework/Versions/A/RemoteXPC
+
+Summary for PowerChime: 11 of 18 linked libraries are absent from the guest root; 107 of 190 imported symbols are provided (56.3158%).

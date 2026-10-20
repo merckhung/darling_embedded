@@ -1,0 +1,16 @@
+==== RegisterPluginIMApp ====
+Linked dylibs: 9, imported symbols: 34
+
+  present  provided/imported  library
+  yes      4/4	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      2/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/0	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  NO       0/11	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      7/7	/usr/lib/libobjc.A.dylib
+  yes      2/2	/usr/lib/libSystem.B.dylib
+  yes      7/8	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSTimer
+
+Summary for RegisterPluginIMApp: 3 of 9 linked libraries are absent from the guest root; 22 of 34 imported symbols are provided (64.7059%).

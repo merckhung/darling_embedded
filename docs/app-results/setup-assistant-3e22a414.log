@@ -1,0 +1,11 @@
+(/usr/bin/darling open '/Applications/setup-assistant-3e22a414/Setup Assistant.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_setup-assistant-3e22a414:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:111
+DARLING_LAUNCH_BUNDLE:/Applications/setup-assistant-3e22a414/Setup Assistant.app:/Applications/setup-assistant-3e22a414/Setup Assistant.app/Contents/MacOS/Setup Assistant
+native dyld: too many native dependencies
+PROBE_EXIT_setup-assistant-3e22a414:78
+kill -9 111 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/setup-assistant-3e22a414/Setup Assistant.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_setup-assistant-3e22a414:${?})
+
+root@Darwin#

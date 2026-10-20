@@ -1,0 +1,17 @@
+==== JavaLauncher ====
+Linked dylibs: 7, imported symbols: 50
+
+  present  provided/imported  library
+  yes      7/9	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSPathControl _OBJC_CLASS_$_NSRunningApplication
+  NO       0/1	/System/Library/PrivateFrameworks/JavaLaunching.framework/Versions/A/JavaLaunching
+  yes      8/8	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      14/14	/usr/lib/libobjc.A.dylib
+  yes      10/12	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_activate __dispatch_source_type_proc
+  yes      3/5	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSURLLocalizedNameKey _OBJC_CLASS_$_NSURL
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _kLSQuarantineAgentNameKey
+
+Summary for JavaLauncher: 1 of 7 linked libraries are absent from the guest root; 42 of 50 imported symbols are provided (84%).

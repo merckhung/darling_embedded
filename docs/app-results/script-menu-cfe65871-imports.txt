@@ -1,0 +1,22 @@
+==== Script Menu ====
+Linked dylibs: 10, imported symbols: 133
+
+  present  provided/imported  library
+  NO       0/2	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  yes      9/9	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      0/5	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _GetFrontProcess _GetProcessBundleLocation _GetProcessInformation _ProcessInformationCopyDictionary _SetFrontProcess
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      5/7	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSUserAppleScriptTask _OBJC_CLASS_$_NSUserScriptTask
+  yes      17/17	/usr/lib/libobjc.A.dylib
+  yes      0/3	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZSt9terminatev ___cxa_begin_catch ___gxx_personality_v0
+  yes      24/25	/usr/lib/libSystem.B.dylib
+             e.g. missing: ___chkstk_darwin
+  yes      31/36	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDictionaryAddValue _CFStringCreateWithPascalString _CFStringGetCharacters _CFURLCreateFromFSRef _CFUserNotificationCreate
+  yes      0/26	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _CompositeIconRef _FSCloseIterator _FSCompareFSRefs _FSCreateDirectoryUnicode _FSFindFolder _FSGetCatalogInfo
+
+Summary for Script Menu: 2 of 10 linked libraries are absent from the guest root; 86 of 131 imported symbols are provided (65.6489%).

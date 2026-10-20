@@ -1,0 +1,11 @@
+==== About This Mac ====
+Linked dylibs: 4, imported symbols: 23
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      7/7	/usr/lib/libobjc.A.dylib
+  yes      8/14	/usr/lib/libSystem.B.dylib
+             e.g. missing: _xpc_connection_create_mach_service _xpc_connection_resume _xpc_connection_send_message _xpc_connection_set_event_handler _xpc_dictionary_create _xpc_dictionary_set_string
+  yes      2/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+Summary for About This Mac: 0 of 4 linked libraries are absent from the guest root; 17 of 23 imported symbols are provided (73.913%).

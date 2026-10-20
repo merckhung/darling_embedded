@@ -1,0 +1,33 @@
+(/usr/bin/darling open /Applications/diskimagemounter-c9792f4b/DiskImageMounter.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_diskimagemounter-c9792f4b:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:108
+DARLING_LAUNCH_BUNDLE:/Applications/diskimagemounter-c9792f4b/DiskImageMounter.app:/Applications/diskimagemounter-c9792f4b/DiskImageMounter.app/Contents/MacOS/DiskImageMounter
+native dyld warning: unresolved import: _CFUserNotificationDisplayNotice
+native dyld warning: unresolved import: _AESendMessage
+native dyld warning: unresolved import: _kDADiskDescriptionVolumeMountableKey
+native dyld warning: unresolved import: _NSURLIsDirectoryKey
+native dyld warning: unresolved import: _NSURLIsPackageKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/diskimagemounter-c9792f4b/DiskImageMounter.app/Contents/MacOS/DiskImageMounter)
+[AppKit] loaded nib /Applications/diskimagemounter-c9792f4b/DiskImageMounter.app/Contents/Resources/Base.lproj/MainMenu.nib: 131 objects, 1 windows
+[AppKit] NSApplication delegate = 0x102483870
+[AppKit] calling applicationDidFinishLaunching on delegate 0x102483870
+[AppKit] returned from applicationDidFinishLaunching
+[AppKit] NSWindow makeKeyAndOrderFront on 0x102484130 (title: DiskImageMounter)
+DARLING_WINDOW_READY:DiskImageMounter:4194305:335:28:480:388
+DARLING_WINDOW_READY:DiskImageMounter:4194305:335:28:480:388
+DARLING_WINDOW_READY:DiskImageMounter:4194305:335:28:480:388
+DARLING_WINDOW_READY:DiskImageMounter:4194305:335:28:480:388
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:DiskImageMounter:114:12
+kill -9 108 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/diskimagemounter-c9792f4b/DiskImageMounter.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_diskimagemounter-c9792f4b:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

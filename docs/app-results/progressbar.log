@@ -1,0 +1,50 @@
+(/usr/bin/darling open /Applications/ProgressBar.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_progressbar:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:19
+DARLING_LAUNCH_BUNDLE:/Applications/ProgressBar.app:/Applications/ProgressBar.app/Contents/MacOS/ProgressBar
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/ProgressBar.app/Contents/MacOS/ProgressBar)
+[AppKit] nib: no outlet 'autoresizesSubviews' on NSBox
+[AppKit] nib: no outlet 'delegate' on ThemeObservingTextView
+[AppKit] nib: no outlet 'delegate' on ThemeObservingTextView
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101ad64f0 (title: ProgressBar)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:ProgressBar:92:12
+DARLING_MENUBAR_ITEM:File:164:12
+DARLING_MENUBAR_ITEM:Edit:208:12
+DARLING_MENUBAR_ITEM:View:257:12
+DARLING_MENUBAR_ITEM:Window:320:12
+DARLING_MENUBAR_ITEM:Help:382:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12
+DARLING_WINDOW_READY:ProgressBar:4194305:549:257:438:115
+DARLING_BUTTON_POS:ProgressBar:Quit:930:332
+DARLING_BUTTON_POS:ProgressBar::575:351
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:ProgressBar:92:12
+DARLING_MENUBAR_ITEM:File:164:12
+DARLING_MENUBAR_ITEM:Edit:208:12
+DARLING_MENUBAR_ITEM:View:257:12
+DARLING_MENUBAR_ITEM:Window:320:12
+DARLING_MENUBAR_ITEM:Help:382:12
+[AppKit] loaded nib /Applications/ProgressBar.app/Contents/Resources/MainMenu.nib/keyedobjects.nib: 850 objects, 4 windows
+[AppKit] NSApplication delegate = 0x101ad5f60
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101ad5f60
+[Foundation] NSTask launch /bin/sh (1 args) -> pid 20
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:ProgressBar:4194305:549:257:438:115
+DARLING_BUTTON_POS:ProgressBar:Cancel:930:332
+DARLING_BUTTON_POS:ProgressBar::575:351
+DARLING_WINDOW_READY:ProgressBar:4194305:549:257:438:115
+DARLING_BUTTON_POS:ProgressBar:Cancel:930:332
+DARLING_BUTTON_POS:ProgressBar::575:351
+kill -9 19 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/ProgressBar.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_progressbar:${?})
+
+root@Darwin#

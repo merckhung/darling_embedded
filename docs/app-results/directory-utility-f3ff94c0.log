@@ -1,0 +1,134 @@
+(/usr/bin/darling open '/Applications/directory-utility-f3ff94c0/Directory Utility.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_directory-utility-f3ff94c0:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:52
+DARLING_LAUNCH_BUNDLE:/Applications/directory-utility-f3ff94c0/Directory Utility.app:/Applications/directory-utility-f3ff94c0/Directory Utility.app/Contents/MacOS/Directory Utility
+native dyld warning: unresolved import: _select
+native dyld warning: unresolved import: _AuthorizationMakeExternalForm
+native dyld warning: unresolved import: _CFLogTest
+native dyld warning: unresolved import: _CFPropertyListCreateDeepCopy
+native dyld warning: unresolved import: _CFPropertyListCreateXMLData
+native dyld warning: unresolved import: _SCDynamicStoreCreate
+native dyld warning: unresolved import: _SCDynamicStoreCreateRunLoopSource
+native dyld warning: unresolved import: _SCDynamicStoreSetNotificationKeys
+native dyld warning: unresolved import: _SCNetworkSetCopyAll
+native dyld warning: unresolved import: _SCNetworkSetCopyCurrent
+native dyld warning: unresolved import: _SCNetworkSetGetName
+native dyld warning: unresolved import: _SCNetworkSetGetSetID
+native dyld warning: unresolved import: _SCPreferencesCreate
+native dyld warning: unresolved import: _ODNodeGetDSRef
+native dyld warning: unresolved import: _ODSessionGetDSRef
+native dyld warning: unresolved import: _NSBeginAlertSheet
+native dyld warning: unresolved import: _NSFrameRectWithWidthUsingOperation
+native dyld warning: unresolved import: _NSGetAlertPanel
+native dyld warning: unresolved import: _NSReleaseAlertPanel
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: _kSCPrefCurrentSet
+native dyld warning: unresolved import: _kSCPrefSets
+native dyld warning: unresolved import: _kSCPropNetLocalHostName
+native dyld warning: unresolved import: _kSCPropUserDefinedName
+native dyld warning: unresolved import: _ODSessionProxyAddress
+native dyld warning: unresolved import: _ODSessionProxyPassword
+native dyld warning: unresolved import: _ODSessionProxyUsername
+native dyld warning: unresolved import: _kODAttributeTypeAllAttributes
+native dyld warning: unresolved import: _kODAttributeTypeAuthenticationAuthority
+native dyld warning: unresolved import: _kODAttributeTypeAutomaticSearchPath
+native dyld warning: unresolved import: _kODAttributeTypeConfigAvailable
+native dyld warning: unresolved import: _kODAttributeTypeConfigFile
+native dyld warning: unresolved import: _kODAttributeTypeCustomSearchPath
+native dyld warning: unresolved import: _kODAttributeTypeFunctionalState
+native dyld warning: unresolved import: _kODAttributeTypeLocalOnlySearchPath
+native dyld warning: unresolved import: _kODAttributeTypeOperatingSystemVersion
+native dyld warning: unresolved import: _kODAttributeTypePassword
+native dyld warning: unresolved import: _kODAttributeTypePasswordPolicyOptions
+native dyld warning: unresolved import: _kODAttributeTypeRecordName
+native dyld warning: unresolved import: _kODAttributeTypeSearchPolicy
+native dyld warning: unresolved import: _kODAttributeTypeVersion
+native dyld warning: unresolved import: _kODAuthenticationTypeWithAuthorizationRef
+native dyld warning: unresolved import: _kODRecordTypeAttributeTypes
+native dyld warning: unresolved import: _kODRecordTypeRecordTypes
+native dyld warning: unresolved import: _kODRecordTypeUsers
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/directory-utility-f3ff94c0/Directory Utility.app/Contents/MacOS/Directory Utility)
+[AppKit] loaded nib /Applications/directory-utility-f3ff94c0/Directory Utility.app/Contents/Resources/Base.lproj/MainMenu.nib: 337 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1010c9000
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1010c9000
+[ObjC] Method not found: [NSObject defaultSession]
+[ObjC] Method not found: [NSObject defaultSession]
+[ObjC] Method not found: [ODNodeConfig nodeWithSession:type:error:]
+[ObjC] Method not found: [NSObject queryWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:]
+[ObjC] Method not found: [NSMutableArray sortUsingFunction:context:]
+[AppKit] NSWindowController showWindow on 0x1010cb730
+[ObjC] Method not found: [NSWindowController instancesRespondToSelector:]
+[ObjC] Method not found: [NSObject setButtonType:]
+[ObjC] Method not found: [NSObject setTitle:]
+[ObjC] Method not found: [NSObject setAlternateTitle:]
+[ObjC] Method not found: [NSObject setImagePosition:]
+[ObjC] Method not found: [NSTableColumn setDataCell:]
+[ObjC] Method not found: [NSView setDelegate:]
+[ObjC] Method not found: [NSView setAuthorizationRights:]
+[ObjC] Method not found: [NSView authorization]
+[ObjC] Method not found: [NSView updateStatus:]
+[ObjC] Method not found: [NSPopUpButton synchronizeTitleAndSelectedItem]
+[ObjC] Method not found: [NSPopUpButton synchronizeTitleAndSelectedItem]
+[ObjC] Method not found: [NSWindow setDocumentEdited:]
+[ObjC] Method not found: [NSWindow setDocumentEdited:]
+[ObjC] Method not found: [NSWindow setShowsToolbarButton:]
+[ObjC] Method not found: [NSWindow setToolbarStyle:]
+[ObjC] Method not found: [NSWindow setContentMinSize:]
+[ObjC] Method not found: [NSWindow standardWindowButton:]
+[ObjC] Method not found: [NSView updateStatus:]
+[ObjC] Method not found: [NSApplication isActive]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1010cd060 (title: Directory Utility)
+DARLING_WINDOW_READY:Directory Utility:4194305:207:28:809:577
+DARLING_BUTTON_POS:Directory Utility::902:604
+DARLING_BUTTON_POS:Directory Utility:Apply:952:604
+DARLING_BUTTON_POS:Directory Utility::254:578
+[AppKit] loaded nib /Applications/directory-utility-f3ff94c0/Directory Utility.app/Contents/Resources/Base.lproj/MainWindow.nib: 1031 objects, 4 windows
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1010cd060 (title: Directory Utility)
+DARLING_WINDOW_READY:Directory Utility:4194305:207:28:809:577
+DARLING_BUTTON_POS:Directory Utility::902:604
+DARLING_BUTTON_POS:Directory Utility:Apply:952:604
+DARLING_BUTTON_POS:Directory Utility::254:578
+[ObjC] Method not found: [NSObject defaultSession]
+[ObjC] Method not found: [ODNodeConfig nodeWithSession:type:error:]
+[ObjC] Method not found: [NSObject queryWithNode:forRecordTypes:attribute:matchType:queryValues:returnAttributes:maximumResults:error:]
+[ObjC] Method not found: [NSMutableArray sortUsingFunction:context:]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1010cd060 (title: Directory Utility)
+DARLING_WINDOW_READY:Directory Utility:4194305:207:28:809:577
+DARLING_BUTTON_POS:Directory Utility::902:604
+DARLING_BUTTON_POS:Directory Utility:Apply:952:604
+DARLING_BUTTON_POS:Directory Utility::254:578
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Directory Utility:104:12
+DARLING_MENUBAR_ITEM:File:189:12
+DARLING_MENUBAR_ITEM:Edit:233:12
+DARLING_MENUBAR_ITEM:Window:292:12
+DARLING_MENUBAR_ITEM:Help:354:12
+DARLING_WINDOW_READY:Directory Utility:4194305:207:28:809:577
+DARLING_BUTTON_POS:Directory Utility::902:604
+DARLING_BUTTON_POS:Directory Utility:Apply:952:604
+DARLING_BUTTON_POS:Directory Utility::254:578
+DARLING_WINDOW_READY:Directory Utility:4194305:207:28:809:577
+DARLING_BUTTON_POS:Directory Utility::902:604
+DARLING_BUTTON_POS:Directory Utility:Apply:952:604
+DARLING_BUTTON_POS:Directory Utility::254:578
+kill -9 52 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/directory-utility-f3ff94c0/Directory Utility.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_directory-utility-f3ff94c0:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Application:90:12
+DARLING_MENUBAR_ITEM:File:161:12
+DARLING_MENUBAR_ITEM:Edit:205:12
+DARLING_MENUBAR_ITEM:View:254:12
+DARLING_MENUBAR_ITEM:Window:317:12
+DARLING_MENUBAR_ITEM:Help:379:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

@@ -1,0 +1,89 @@
+==== App Store ====
+Linked dylibs: 77, imported symbols: 6866
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/StoreJavaScript.framework/Versions/A/StoreJavaScript
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/229	/System/Library/PrivateFrameworks/JetEngine.framework/Versions/A/JetEngine
+  NO       0/382	/System/Library/PrivateFrameworks/JetUI.framework/Versions/A/JetUI
+  NO       0/2	/System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/AskPermission
+  NO       0/1	/System/Library/PrivateFrameworks/StoreFoundation.framework/Versions/A/StoreFoundation
+  NO       0/7	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/0	/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate
+  NO       0/0	/System/Library/PrivateFrameworks/AppStoreUI.framework/Versions/A/AppStoreUI
+  NO       0/2	/System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook
+  NO       0/1	/System/Library/PrivateFrameworks/AOSUI.framework/Versions/A/AOSUI
+  NO       0/7	/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/CommerceKit
+  NO       0/4444	/System/Library/PrivateFrameworks/AppStoreKit.framework/Versions/A/AppStoreKit
+  NO       0/2	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/60	/System/Library/PrivateFrameworks/UnifiedMessagingKit.framework/Versions/A/UnifiedMessagingKit
+  NO       0/1	/System/Library/PrivateFrameworks/StoreUI.framework/Versions/A/StoreUI
+  NO       0/2	/System/Library/Frameworks/VideoSubscriberAccount.framework/Versions/A/VideoSubscriberAccount
+  yes      18/207	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10NSNotFoundSivg _$s10Foundation10URLRequestV19_bridgeToObjectiveCSo12NSURLRequestCyF _$s10Foundation10URLRequestV36_unconditionallyBridgeFromObjectiveCyACSo12NSURLRequestCSgFZ _$s10Foundation10URLRequestVMa _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj _$s10Foundation11JSONDecoderCACycfc
+  yes      23/25	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      28/37	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dispatch_group_create _dispatch_group_enter _dispatch_group_leave _dispatch_semaphore_create _dlsym
+  NO       0/4	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/2	/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+  NO       0/4	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/162	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      79/267	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s10Foundation9IndexPathV6AppKitE4item7sectionACSi_SitcfC _$s10Foundation9IndexPathV6AppKitE4itemSivg _$s10Foundation9IndexPathV6AppKitE7sectionSivg _$s6AppKit16NSSuggestionItemV16representedValue5titleACyxGx_SStcfC _$s6AppKit16NSSuggestionItemV16representedValuexvg _$s6AppKit16NSSuggestionItemV5imageSo7NSImageCSgvs
+  yes      18/26	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _OBJC_CLASS_$_NSCache _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSMutableSet _OBJC_CLASS_$_NSNull _OBJC_CLASS_$_NSRunLoop
+  yes      19/31	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics22_CGColorInitTrampolinePAAE16_colorLiteralRed5green4blue5alphaxSf_S3ftcfC _$sSo10CGColorRefa12CoreGraphicsE5blackABvgZ _$sSo10CGColorRefa12CoreGraphicsE5clearABvgZ _$sSo12CGContextRefa12CoreGraphicsE4move2toySo7CGPointV_tF _$sSo12CGContextRefa12CoreGraphicsE7addLine2toySo7CGPointV_tF _CGAffineTransformMakeRotation
+  NO       0/1	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/1	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/1	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/3	/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/29	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      1/1	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/202	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/3	/System/Library/Frameworks/_AppIntents_AppKit.framework/Versions/A/_AppIntents_AppKit
+  NO       0/23	/System/Library/PrivateFrameworks/AppState.framework/Versions/A/AppState
+  NO       0/9	/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Versions/A/AppStoreDaemon
+  NO       0/5	/System/Library/PrivateFrameworks/AppStoreFoundation.framework/Versions/A/AppStoreFoundation
+  NO       0/27	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/24	/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Versions/A/AppleMediaServicesUI
+  NO       0/28	/System/Library/PrivateFrameworks/AppleMediaServicesUIKitInternal.framework/Versions/A/AppleMediaServicesUIKitInternal
+  NO       0/1	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/2	/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+  NO       0/1	/System/Library/PrivateFrameworks/FamilyCircleUI.framework/Versions/A/FamilyCircleUI
+  NO       0/1	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/43	/System/Library/PrivateFrameworks/GameCenterUI.framework/Versions/A/GameCenterUI
+  NO       0/3	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/30	/System/Library/PrivateFrameworks/_JetEngine_SwiftUI.framework/Versions/A/_JetEngine_SwiftUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/411	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/43	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/6	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/39	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/7	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/2	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for App Store: 70 of 77 linked libraries are absent from the guest root; 186 of 6866 imported symbols are provided (2.709%).

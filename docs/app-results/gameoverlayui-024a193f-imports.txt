@@ -1,0 +1,73 @@
+==== GameOverlayUI ====
+Linked dylibs: 61, imported symbols: 2146
+
+  present  provided/imported  library
+  NO       0/52	/System/Library/PrivateFrameworks/GameCenterFoundation.framework/Versions/A/GameCenterFoundation
+  NO       0/34	/System/Library/PrivateFrameworks/GameCenterOverlayService.framework/Versions/A/GameCenterOverlayService
+  NO       0/0	/System/Library/PrivateFrameworks/GameCenterUI.framework/Versions/A/GameCenterUI
+  NO       0/529	/System/Library/PrivateFrameworks/GameStoreKit.framework/Versions/A/GameStoreKit
+  NO       0/3	/System/Library/PrivateFrameworks/ShimGameServices.framework/Versions/A/ShimGameServices
+  yes      12/91	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj _$s10Foundation11JSONDecoderCACycfc _$s10Foundation11JSONDecoderCMa _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj _$s10Foundation11JSONEncoderCACycfc _$s10Foundation11JSONEncoderCMa
+  yes      11/11	/usr/lib/libobjc.A.dylib
+  yes      25/32	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __set_user_dir_suffix _confstr _dlsym _sandbox_init_with_parameters _OBJC_CLASS_$_OS_dispatch_queue
+  NO       0/1	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  yes      13/22	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit01_abB23NumericRawRepresentablePAAE1poiyxx_0D5ValueQztFZ _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _$sSo8NSScreenC6AppKitE17cgDirectDisplayIDs6UInt32VSgvg _$sSo13NSWindowLevela6AppKit01_cdD23NumericRawRepresentableACMc _NSApplicationDidChangeScreenParametersNotification _NSWindowDidResignKeyNotification
+  NO       0/1	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      5/9	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSMutableData _OBJC_CLASS_$_NSSet
+  yes      11/19	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$sSo10CGColorRefa12CoreGraphicsE5blackABvgZ _CGAffineTransformTranslate _CGColorCreateCopyWithAlpha _CGDisplayIsBuiltin _CGSGetActiveSpace _CGSSpaceGetRect
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationRecord _OBJC_CLASS_$_LSApplicationWorkspace
+  NO       0/1	/System/Library/Frameworks/GameController.framework/Versions/A/GameController
+  NO       0/2	/System/Library/Frameworks/Photos.framework/Versions/A/Photos
+  NO       0/16	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/713	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/24	/System/Library/PrivateFrameworks/AppState.framework/Versions/A/AppState
+  NO       0/3	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  NO       0/3	/System/Library/PrivateFrameworks/BoardServices.framework/Versions/A/BoardServices
+  NO       0/1	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/4	/System/Library/PrivateFrameworks/GameServices.framework/Versions/A/GameServices
+  NO       0/110	/System/Library/PrivateFrameworks/JetEngine.framework/Versions/A/JetEngine
+  NO       0/1	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  NO       0/10	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/103	/System/Library/PrivateFrameworks/_JetEngine_SwiftUI.framework/Versions/A/_JetEngine_SwiftUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/272	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftGLKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/41	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/9	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for GameOverlayUI: 54 of 61 linked libraries are absent from the guest root; 77 of 2146 imported symbols are provided (3.58807%).

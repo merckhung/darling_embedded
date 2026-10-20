@@ -1,0 +1,72 @@
+==== LINE ====
+Linked dylibs: 79, imported symbols: 6625
+
+  present  provided/imported  library
+  NO       0/0	/usr/lib/libbz2.1.0.dylib
+  NO       0/3	/usr/lib/libresolv.9.dylib
+  NO       0/0	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/1	/System/Library/Frameworks/AdSupport.framework/Versions/A/AdSupport
+  yes      34/49	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSDrawThreePartImage _NSTextInputContextKeyboardSelectionDidChangeNotification _NSTouchBarItemIdentifierOtherItemsProxy _NSViewFrameDidChangeNotification _NSWorkspaceActiveSpaceDidChangeNotification _OBJC_CLASS_$_NSSound
+  NO       0/0	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/0	/System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  NO       0/1	/System/Library/Frameworks/AppTrackingTransparency.framework/Versions/A/AppTrackingTransparency
+  NO       0/41	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/4	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/2	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/14	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  yes      0/3	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _kLSQuarantineTypeKey _kLSQuarantineTypeOtherDownload _kUTTypeJPEG
+  NO       0/18	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/0	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  yes      26/53	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF _$s10Foundation4DateV20timeIntervalSinceNowACSd_tcfC _$s10Foundation4DateVMa _$s10Foundation6LocaleV8LanguageV10identifierAESS_tcfC _$s10Foundation6LocaleV8LanguageVMa
+  NO       0/18	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+  NO       0/0	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/0	/System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL
+  NO       0/0	/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      0/73	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecAccessControlCreateWithFlags _SecCopyErrorMessageString _SecItemAdd _SecItemCopyMatching _SecItemDelete _SecItemUpdate
+  NO       0/6	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/34	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI (weak)
+  NO       0/25	/System/Library/Frameworks/Translation.framework/Versions/A/Translation (weak)
+  NO       0/2	/System/Library/Frameworks/Vision.framework/Versions/A/Vision
+  NO       0/8	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  yes      0/5	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_CLASS_$_WKWebViewConfiguration _OBJC_CLASS_$_WKProcessPool _OBJC_CLASS_$_WKUserScript _OBJC_CLASS_$_WKWebView _OBJC_METACLASS_$_WKWebView
+  yes      18/46	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformConcat _CGAffineTransformScale _CGAffineTransformTranslate _CGAssociateMouseAndMouseCursorPosition _CGDataProviderCreateWithData _CGDataProviderRelease
+  yes      285/352	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNKSt13runtime_error4whatEv __ZNKSt9exception4whatEv __ZNSt11logic_errorD1Ev __ZNSt11logic_errorD2Ev __ZNSt12length_errorD1Ev __ZNSt12out_of_rangeD1Ev
+  yes      33/40	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_addMethod _class_getInstanceMethod _class_replaceMethod _method_exchangeImplementations _method_getImplementation _method_getTypeEncoding
+  NO       0/3	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  yes      278/312	/usr/lib/libSystem.B.dylib
+             e.g. missing: _OSAtomicCompareAndSwapPtrBarrier __Block_copy ___chkstk_darwin ___umodti3 ___vsnprintf_chk __longjmp
+  NO       0/5	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  NO       0/12	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      35/53	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFGetRetainCount _CFStringNormalize _CFTimeZoneCopyDefault _CFTimeZoneGetName _NSLocaleCountryCode _NSURLFileProtectionComplete
+  NO       0/2	/System/Library/Frameworks/_Translation_SwiftUI.framework/Versions/A/_Translation_SwiftUI (weak)
+  NO       0/88	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDarwin.dylib (weak)
+  NO       0/13	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for LINE: 44 of 79 linked libraries are absent from the guest root; 709 of 1299 imported symbols are provided (54.5804%).

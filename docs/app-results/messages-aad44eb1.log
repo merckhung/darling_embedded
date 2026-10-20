@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/messages-aad44eb1/Messages.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_messages-aad44eb1:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:26
+DARLING_LAUNCH_BUNDLE:/Applications/messages-aad44eb1/Messages.app:/Applications/messages-aad44eb1/Messages.app/Contents/MacOS/Messages
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_messages-aad44eb1:78
+kill -9 26 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/messages-aad44eb1/Messages.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_messages-aad44eb1:${?})
+
+root@Darwin#

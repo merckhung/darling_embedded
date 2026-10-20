@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/podcasts-ce7fefc8/Podcasts.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_podcasts-ce7fefc8:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:26
+DARLING_LAUNCH_BUNDLE:/Applications/podcasts-ce7fefc8/Podcasts.app:/Applications/podcasts-ce7fefc8/Podcasts.app/Contents/MacOS/Podcasts
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_podcasts-ce7fefc8:78
+kill -9 26 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/podcasts-ce7fefc8/Podcasts.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_podcasts-ce7fefc8:${?})
+
+root@Darwin#

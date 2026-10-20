@@ -1,0 +1,12 @@
+==== ScreenSaverEngine ====
+Linked dylibs: 6, imported symbols: 10
+
+  present  provided/imported  library
+  yes      1/1	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  NO       0/2	/System/Library/Frameworks/ScreenSaver.framework/Versions/A/ScreenSaver
+  yes      5/5	/usr/lib/libobjc.A.dylib
+  yes      2/2	/usr/lib/libSystem.B.dylib
+
+Summary for ScreenSaverEngine: 1 of 6 linked libraries are absent from the guest root; 8 of 10 imported symbols are provided (80%).

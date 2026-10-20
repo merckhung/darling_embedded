@@ -1,0 +1,33 @@
+==== Automator ====
+Linked dylibs: 19, imported symbols: 278
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  NO       0/2	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/47	/System/Library/Frameworks/Automator.framework/Versions/A/Automator
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/OSAKit.framework/Versions/A/OSAKit
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AEGetDescData
+  NO       0/0	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/0	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  yes      0/15	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCertificateCopyCommonName _SecCertificateCopyData _SecCertificateCopyValues _SecCertificateGetTypeID _SecIdentityCopyCertificate _SecIdentityGetTypeID
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      31/46	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber __NSDictionaryOfVariableBindings _NSFileExtensionHidden _NSHelpAnchorErrorKey _NSLocalizedRecoveryOptionsErrorKey _NSLocalizedRecoverySuggestionErrorKey
+  yes      35/35	/usr/lib/libobjc.A.dylib
+  yes      15/16	/usr/lib/libSystem.B.dylib
+             e.g. missing: _srandom
+  yes      45/72	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSShowSystemInfoPanel _NSAccessibilityButtonRole _NSAccessibilityDescriptionAttribute _NSAccessibilityEnabledAttribute _NSAccessibilityRoleAttribute _NSApplicationDidBecomeActiveNotification
+  yes      0/2	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXIsProcessTrustedWithOptions _kAXTrustedCheckOptionPrompt
+  yes      21/34	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFLogTest _CFURLCopyFileSystemPath _CFURLCreateFromFSRef _NSURLHasHiddenExtensionKey _NSURLPathKey _OBJC_CLASS_$_NSDate
+  yes      1/6	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventSourceFlagsState _CGSGetWindowTransformAtPlacement _CGSServerOperationState _CGSSetWindowAlpha _CGSSetWindowTransformAtPlacement
+
+Summary for Automator: 9 of 19 linked libraries are absent from the guest root; 148 of 278 imported symbols are provided (53.2374%).

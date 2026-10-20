@@ -1,0 +1,59 @@
+(/usr/bin/darling open /Applications/textinputswitcher-2b5e69d6/TextInputSwitcher.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_textinputswitcher-2b5e69d6:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:449
+DARLING_LAUNCH_BUNDLE:/Applications/textinputswitcher-2b5e69d6/TextInputSwitcher.app:/Applications/textinputswitcher-2b5e69d6/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher
+native dyld warning: unresolved import: _MessageTracerLogDidSwitch
+native dyld warning: unresolved import: _CFMachPortCreateWithPort
+native dyld warning: unresolved import: _TISCopyCurrentKeyboardInputSource
+native dyld warning: unresolved import: _TISCopyInputSourceRefForInputSourceID
+native dyld warning: unresolved import: _TISEnableInputSource
+native dyld warning: unresolved import: _TISGetFnUsageType
+native dyld warning: unresolved import: _TISGetInputSourceProperty
+native dyld warning: unresolved import: _TISSelectInputSource
+native dyld warning: unresolved import: _TSMGetInputSourceProperty
+native dyld warning: unresolved import: __CreateUnflattenedInputSource
+native dyld warning: unresolved import: __InvalidateAllSelectedInputSourceState
+native dyld warning: unresolved import: __TSMCopySelectableInputSourcesInUIOrder
+native dyld warning: unresolved import: _bootstrap_check_in
+native dyld warning: unresolved import: _notify_get_state
+native dyld warning: unresolved import: _notify_register_check
+native dyld warning: unresolved import: _xpc_connection_create_mach_service
+native dyld warning: unresolved import: _xpc_connection_resume
+native dyld warning: unresolved import: _xpc_connection_send_message
+native dyld warning: unresolved import: _xpc_connection_set_event_handler
+native dyld warning: unresolved import: _xpc_dictionary_create
+native dyld warning: unresolved import: _xpc_dictionary_set_double
+native dyld warning: unresolved import: _xpc_dictionary_set_int64
+native dyld warning: unresolved import: _xpc_dictionary_set_value
+native dyld warning: unresolved import: _GetCGSConnectionID
+native dyld warning: unresolved import: _CGEventCreateKeyboardEvent
+native dyld warning: unresolved import: _CGEventPost
+native dyld warning: unresolved import: _CGEventSetFlags
+native dyld warning: unresolved import: _CGSAreEventsCapturedReturningMask
+native dyld warning: unresolved import: _CGSGetSymbolicHotKeyValue
+native dyld warning: unresolved import: _CGSInputModifierKeyState
+native dyld warning: unresolved import: _CGSIsSymbolicHotKeyEnabled
+native dyld warning: unresolved import: _CGSRegisterNotifyProc
+native dyld warning: unresolved import: _CGSSetBackgroundEventMask
+native dyld warning: unresolved import: _CGSSetEventCapture
+native dyld warning: unresolved import: _CGSSetSymbolicHotKey
+native dyld warning: unresolved import: _ISWHotKeyDidPressedNotification
+native dyld warning: unresolved import: _kIMSReceiveUIServerMessagesPortName
+native dyld warning: unresolved import: _kTISAppleChineseHandwritingInputSourceID
+native dyld warning: unresolved import: _kTISNotifySelectedKeyboardInputSourceChanged
+native dyld warning: unresolved import: _kTISPropertyInputSourceID
+native dyld warning: unresolved import: _kTISPropertyLocalizedName
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/textinputswitcher-2b5e69d6/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher)
+[ObjC] Method not found: [NSObject newHUDWindowController]
+[ObjC] Method not found: [NSObject newSourceIndicatorWindowController]
+UNCAT_TRAP: pc=0x100680b68 instr=0x0
+XNU_EXC: exc=2 codes=0x1 0x0
+XNU_EXC: exc=10 codes=0x4200001 0x0
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 449
+Illegal instruction: 4
+PROBE_EXIT_textinputswitcher-2b5e69d6:132
+kill -9 449 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/textinputswitcher-2b5e69d6/TextInputSwitcher.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_textinputswitcher-2b5e69d6:${?})
+
+root@Darwin#

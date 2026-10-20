@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/batteries-0fb6d3c1/Batteries.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_batteries-0fb6d3c1:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:74
+DARLING_LAUNCH_BUNDLE:/Applications/batteries-0fb6d3c1/Batteries.app:/Applications/batteries-0fb6d3c1/Batteries.app/Contents/MacOS/Batteries
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_batteries-0fb6d3c1:78
+kill -9 74 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/batteries-0fb6d3c1/Batteries.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_batteries-0fb6d3c1:${?})
+
+root@Darwin#

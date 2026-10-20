@@ -1,0 +1,31 @@
+==== Messages ====
+Linked dylibs: 21, imported symbols: 367
+
+  present  provided/imported  library
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/4	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/0	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  yes      10/10	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/PrivateFrameworks/IDSFoundation.framework/Versions/A/IDSFoundation
+  NO       0/2	/System/Library/PrivateFrameworks/FTServices.framework/Versions/A/FTServices
+  NO       0/0	/System/Library/PrivateFrameworks/CoreParsec.framework/Versions/A/CoreParsec
+  NO       0/1	/System/Library/PrivateFrameworks/FTClientServices.framework/Versions/A/FTClientServices
+  NO       0/0	/System/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices
+  NO       0/19	/System/iOSSupport/System/Library/PrivateFrameworks/IMSharedUtilities.framework/Versions/A/IMSharedUtilities
+  NO       0/32	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/0	/System/Library/Frameworks/Photos.framework/Versions/A/Photos
+  NO       0/93	/System/iOSSupport/System/Library/PrivateFrameworks/ChatKit.framework/Versions/A/ChatKit
+  NO       0/39	/System/iOSSupport/System/Library/PrivateFrameworks/IMCore.framework/Versions/A/IMCore
+  NO       0/0	/System/Library/PrivateFrameworks/Marco.framework/Versions/A/Marco
+  yes      14/22	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSIndexPath _OBJC_CLASS_$_NSScriptClassDescription _OBJC_CLASS_$_NSURLCache _OBJC_CLASS_$_NSURLComponents _OBJC_CLASS_$_NSUniqueIDSpecifier
+  yes      34/67	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_addMethod _class_copyMethodList _method_getImplementation _method_getName _method_getTypeEncoding _objc_release_x1
+  yes      42/50	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_signpost_emit_with_name_impl _ledger _os_signpost_enabled _os_signpost_id_generate _popen _sandbox_check_by_audit_token
+  yes      15/22	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _OBJC_CLASS_$_NSCalendar _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSDateComponents _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSURL
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+
+Summary for Messages: 16 of 21 linked libraries are absent from the guest root; 115 of 367 imported symbols are provided (31.3351%).

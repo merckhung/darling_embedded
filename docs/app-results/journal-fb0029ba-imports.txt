@@ -1,0 +1,127 @@
+==== Journal ====
+Linked dylibs: 113, imported symbols: 7833
+
+  present  provided/imported  library
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/UIAccessibility.framework/Versions/A/UIAccessibility
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/137	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  yes      23/885	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg _$s10Foundation10CocoaErrorV4CodeV16fileWriteUnknownAEvgZ _$s10Foundation10CocoaErrorV4CodeV17coderInvalidValueAEvgZ _$s10Foundation10CocoaErrorV4CodeV18featureUnsupportedAEvgZ _$s10Foundation10CocoaErrorV4CodeV19fileReadCorruptFileAEvgZ _$s10Foundation10CocoaErrorV4CodeVMa
+  yes      22/62	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush _class_getInstanceMethod _method_exchangeImplementations _objc_release_x1 _objc_release_x10
+  yes      1/12	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNSt20bad_array_new_lengthC1Ev __ZSt9terminatev ___cxa_allocate_exception ___cxa_begin_catch ___cxa_free_exception ___cxa_throw
+  yes      47/56	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_signpost_emit_with_name_impl _dispatch_group_create _dispatch_group_enter _dispatch_group_leave _dispatch_semaphore_create
+  NO       0/19	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  NO       0/24	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/3	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/9	/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+  NO       0/297	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      16/78	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo8NSCursorC6AppKitE11frameResize8position10directionsABSo0a5FrameE8PositionV_AbCE0hE9DirectionO3SetVtFZ _$sSo8NSCursorC6AppKitE20FrameResizeDirectionO3SetV3allAGvgZ _$sSo8NSCursorC6AppKitE20FrameResizeDirectionO3SetVMa _NSAdaptiveImageGlyphAttributeName _NSAttachmentAttributeName _NSDirectionalEdgeInsetsZero
+  NO       0/52	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/46	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  yes      10/27	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFPreferencesAppValueIsForced __CFCopySupplementalVersionDictionary _NSURLContentTypeKey _NSURLCreationDateKey _NSURLFileProtectionCompleteUnlessOpen _NSURLFileProtectionNone
+  yes      36/66	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics14CGPathFillRuleOMa _$sSo12CGContextRefa12CoreGraphicsE11setLineDash5phase7lengthsyAC7CGFloatV_SayAHGtF _$sSo12CGContextRefa12CoreGraphicsE4clip5usingyAC14CGPathFillRuleO_tF _$sSo12CGContextRefa12CoreGraphicsE4move2toySo7CGPointV_tF _$sSo12CGContextRefa12CoreGraphicsE7addLine2toySo7CGPointV_tF _$sSo12CGContextRefa12CoreGraphicsE8fillPath5usingyAC14CGPathFillRuleO_tF
+  NO       0/5	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  NO       0/2	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/9	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  yes      0/3	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationRecord _OBJC_CLASS_$_LSApplicationWorkspace _OBJC_CLASS_$__LSOpenConfiguration
+  NO       0/42	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/16	/System/Library/Frameworks/CoreTransferable.framework/Versions/A/CoreTransferable
+  NO       0/4	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/102	/System/Library/Frameworks/FoundationModels.framework/Versions/A/FoundationModels
+  NO       0/6	/System/Library/Frameworks/GeoToolbox.framework/Versions/A/GeoToolbox
+  NO       0/11	/System/Library/Frameworks/HealthKit.framework/Versions/A/HealthKit
+  NO       0/25	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/3	/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+  NO       0/8	/System/Library/Frameworks/MusicKit.framework/Versions/A/MusicKit
+  NO       0/13	/System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage
+  NO       0/26	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/18	/System/Library/Frameworks/PermissionKit.framework/Versions/A/PermissionKit
+  NO       0/9	/System/Library/Frameworks/Photos.framework/Versions/A/Photos
+  NO       0/34	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/67	/System/Library/Frameworks/Speech.framework/Versions/A/Speech
+  NO       0/9	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/10	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/2	/System/Library/Frameworks/_GeoToolbox_AppIntents.framework/Versions/A/_GeoToolbox_AppIntents
+  NO       0/3	/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials
+  NO       0/179	/System/Library/PrivateFrameworks/AppAnalytics.framework/Versions/A/AppAnalytics
+  NO       0/20	/System/Library/PrivateFrameworks/AsyncAlgorithmsInternal.framework/Versions/A/AsyncAlgorithmsInternal
+  NO       0/77	/System/Library/PrivateFrameworks/Coherence.framework/Versions/A/Coherence
+  NO       0/15	/System/Library/PrivateFrameworks/CollectionsInternal.framework/Versions/A/CollectionsInternal
+  NO       0/1	/System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji
+  NO       0/29	/System/Library/PrivateFrameworks/FeedbackService.framework/Versions/A/FeedbackService
+  NO       0/5	/System/Library/PrivateFrameworks/GenerativeFunctionsFoundation.framework/Versions/A/GenerativeFunctionsFoundation
+  NO       0/46	/System/Library/PrivateFrameworks/GenerativeModels.framework/Versions/A/GenerativeModels
+  NO       0/2	/System/Library/PrivateFrameworks/GenerativeModelsFoundation.framework/Versions/A/GenerativeModelsFoundation
+  NO       0/2	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/996	/System/Library/PrivateFrameworks/JournalShared.framework/Versions/A/JournalShared
+  NO       0/1	/System/Library/PrivateFrameworks/MobileKeyBag.framework/Versions/A/MobileKeyBag
+  NO       0/4	/System/Library/PrivateFrameworks/ModelCatalog.framework/Versions/A/ModelCatalog
+  NO       0/13	/System/Library/PrivateFrameworks/PromptKit.framework/Versions/A/PromptKit
+  NO       0/9	/System/Library/PrivateFrameworks/RemoteConfiguration.framework/Versions/A/RemoteConfiguration
+  NO       0/8	/System/Library/PrivateFrameworks/SensitiveContentAnalysisML.framework/Versions/A/SensitiveContentAnalysisML
+  NO       0/1	/System/Library/PrivateFrameworks/TokenGeneration.framework/Versions/A/TokenGeneration
+  NO       0/1	/System/Library/PrivateFrameworks/UIKitServices.framework/Versions/A/UIKitServices
+  NO       0/124	/System/iOSSupport/System/Library/Frameworks/Charts.framework/Versions/A/Charts
+  NO       0/27	/System/iOSSupport/System/Library/Frameworks/DeclaredAgeRange.framework/Versions/A/DeclaredAgeRange
+  NO       0/11	/System/iOSSupport/System/Library/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation
+  NO       0/117	/System/iOSSupport/System/Library/Frameworks/MapKit.framework/Versions/A/MapKit
+  NO       0/9	/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer
+  NO       0/95	/System/iOSSupport/System/Library/Frameworks/PaperKit.framework/Versions/A/PaperKit
+  NO       0/4	/System/iOSSupport/System/Library/Frameworks/PencilKit.framework/Versions/A/PencilKit
+  NO       0/31	/System/iOSSupport/System/Library/Frameworks/PhotosUI.framework/Versions/A/PhotosUI
+  NO       0/11	/System/iOSSupport/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit
+  NO       0/1561	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/126	/System/iOSSupport/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  NO       0/799	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+  NO       0/18	/System/iOSSupport/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+  NO       0/16	/System/iOSSupport/System/Library/Frameworks/_MapKit_SwiftUI.framework/Versions/A/_MapKit_SwiftUI
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/_PermissionKit_SwiftUI.framework/Versions/A/_PermissionKit_SwiftUI
+  NO       0/105	/System/iOSSupport/System/Library/PrivateFrameworks/JournalUI.framework/Versions/A/JournalUI
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/13	/System/iOSSupport/System/Library/PrivateFrameworks/PhotosUICore.framework/Versions/A/PhotosUICore
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/PrintKitUI.framework/Versions/A/PrintKitUI
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/3	/usr/lib/libMobileGestalt.dylib
+  NO       0/15	/usr/lib/swift/libswiftAVFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/759	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/10	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/23	/usr/lib/swift/libswiftCoreLocation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/38	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftNaturalLanguage.dylib
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/15	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/32	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/4	/usr/lib/swift/libswiftSystem.dylib
+  NO       0/34	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/132	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/30	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/29	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Journal: 105 of 113 linked libraries are absent from the guest root; 155 of 7829 imported symbols are provided (1.97982%).

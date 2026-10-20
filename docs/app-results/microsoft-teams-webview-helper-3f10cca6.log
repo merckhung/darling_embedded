@@ -1,0 +1,17 @@
+(/usr/bin/darling open '/Applications/microsoft-teams-webview-helper-3f10cca6/Microsoft Teams WebView Helper.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_microsoft-teams-webview-helper-3f10cca6:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:22
+DARLING_LAUNCH_BUNDLE:/Applications/microsoft-teams-webview-helper-3f10cca6/Microsoft Teams WebView Helper.app:/Applications/microsoft-teams-webview-helper-3f10cca6/Microsoft Teams WebView Helper.app/Contents/MacOS/Microsoft Teams WebView Helper
+native dyld warning: unresolved import: _os_release
+native dyld warning: unresolved import: _sandbox_free_error
+native dyld warning: unresolved import: _sandbox_init_with_parameters
+native dyld warning: unresolved import: _sandbox_apply
+dlopen /Applications/microsoft-teams-webview-helper-3f10cca6/Microsoft Teams WebView Helper.app/Contents/MacOS/../../../../Microsoft Edge Framework: cannot open native library: /Applications/microsoft-teams-webview-helper-3f10cca6/Microsoft Teams WebView Helper.app/Contents/MacOS/../../../../Microsoft Edge Framework.XNU_EXC: exc=10 codes=0x6000000 0x0
+Abort trap: 6
+PROBE_EXIT_microsoft-teams-webview-helper-3f10cca6:134
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 22
+kill -9 22 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/microsoft-teams-webview-helper-3f10cca6/Microsoft Teams WebView Helper.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_microsoft-teams-webview-helper-3f10cca6:${?})
+
+root@Darwin#

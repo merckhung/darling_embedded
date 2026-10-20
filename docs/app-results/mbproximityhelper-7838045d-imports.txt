@@ -1,0 +1,37 @@
+==== mbproximityhelper ====
+Linked dylibs: 26, imported symbols: 193
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/SetupAssistantFramework.framework/Versions/A/SetupAssistantFramework
+  yes      1/19	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF _$s10Foundation4DateV18addingTimeIntervalyACSdF _$s10Foundation4DateV19_bridgeToObjectiveCSo6NSDateCyF _$s10Foundation4DateVACycfC
+  yes      19/19	/usr/lib/libobjc.A.dylib
+  yes      11/19	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_log_fault_impl _os_variant_has_internal_content _syslog$DARWIN_EXTSN _xpc_dictionary_get_string _xpc_set_event_stream_handler
+  yes      1/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF
+  NO       0/1	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  yes      7/10	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: __LSOpenURLWithCompletionHandler __kLSOpenOptionArgumentsKey
+  NO       0/8	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/84	/usr/lib/swift/libswiftCore.dylib
+  NO       0/5	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/14	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for mbproximityhelper: 20 of 26 linked libraries are absent from the guest root; 39 of 193 imported symbols are provided (20.2073%).

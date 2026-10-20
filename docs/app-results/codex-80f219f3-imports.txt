@@ -1,0 +1,8 @@
+==== Codex ====
+Linked dylibs: 1, imported symbols: 39
+
+  present  provided/imported  library
+  yes      36/39	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dlerror _dlsym _dlopen
+
+Summary for Codex: 0 of 1 linked libraries are absent from the guest root; 36 of 39 imported symbols are provided (92.3077%).

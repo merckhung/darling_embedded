@@ -1,0 +1,35 @@
+(/usr/bin/darling open /Applications/mediaremoteuiservice-18e2c50f/MediaRemoteUIService.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_mediaremoteuiservice-18e2c50f:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:32
+DARLING_LAUNCH_BUNDLE:/Applications/mediaremoteuiservice-18e2c50f/MediaRemoteUIService.app:/Applications/mediaremoteuiservice-18e2c50f/MediaRemoteUIService.app/Contents/MacOS/MediaRemoteUIService
+native dyld warning: unresolved import: _$sytWV
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupV2id5title11lazyContentACyxGSSSg_AA4TextVSgxyctcfC
+native dyld warning: unresolved import: _$s7SwiftUI12SceneBuilderV10buildBlockyxxAA0C0RzlFZ
+native dyld warning: unresolved import: _$s7SwiftUI3AppPAAE4mainyyFZ
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_getOpaqueTypeConformance2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContextInMetadataState2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupVyxGAA5SceneAAMc
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVAA0D0AAWP
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVN
+native dyld warning: unresolved import: _FBSOpenApplicationOptionKeyPayloadURL
+native dyld warning: unresolved import: _FBSOpenApplicationOptionKeyPromptUnlockDevice
+native dyld warning: unresolved import: _FBSOpenApplicationOptionKeyUnlockDevice
+native dyld warning: unresolved import: _$s7SwiftUI11WindowGroupVMn
+native dyld warning: unresolved import: _$s7SwiftUI9EmptyViewVMn
+native dyld warning: unresolved import: _$s7SwiftUI3AppMp
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4BodyAC_AA5SceneTn
+native dyld warning: unresolved import: _$s4Body7SwiftUI3AppPTl
+native dyld warning: unresolved import: _$s7SwiftUI3AppP4body4BodyQzvgTq
+native dyld warning: unresolved import: _$s7SwiftUI3AppPxycfCTq
+native dyld warning: unresolved import: _$s7SwiftUI5SceneMp
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBoWV
+PROBE_EXIT_mediaremoteuiservice-18e2c50f:0
+kill -9 32 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/mediaremoteuiservice-18e2c50f/MediaRemoteUIService.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_mediaremoteuiservice-18e2c50f:${?})
+
+root@Darwin#

@@ -1,0 +1,19 @@
+==== iCloud+ ====
+Linked dylibs: 10, imported symbols: 32
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/iCloudNotification.framework/Versions/A/iCloudNotification
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationWorkspace
+  yes      3/3	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/0	/System/Library/PrivateFrameworks/iCloudQuotaUI.framework/Versions/A/iCloudQuotaUI
+  NO       0/4	/System/Library/PrivateFrameworks/iCloudQuota.framework/Versions/A/iCloudQuota
+  NO       0/1	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  yes      0/3	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSUserActivityTypeBrowsingWeb _OBJC_CLASS_$_NSURLComponents _OBJC_CLASS_$_NSURLQueryItem
+  yes      12/12	/usr/lib/libobjc.A.dylib
+  yes      5/5	/usr/lib/libSystem.B.dylib
+  yes      1/2	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSURL
+
+Summary for iCloud+: 4 of 10 linked libraries are absent from the guest root; 21 of 32 imported symbols are provided (65.625%).

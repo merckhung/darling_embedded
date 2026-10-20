@@ -1,0 +1,19 @@
+==== BluetoothUIService ====
+Linked dylibs: 13, imported symbols: 7
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (weak)
+  NO       0/0	/System/Library/PrivateFrameworks/BluetoothServices.framework/Versions/A/BluetoothServices
+  NO       0/0	/System/Library/PrivateFrameworks/BluetoothServicesUI.framework/Versions/A/BluetoothServicesUI
+  yes      2/2	/usr/lib/libobjc.A.dylib
+  yes      0/0	/usr/lib/libSystem.B.dylib
+  NO       0/5	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+
+Summary for BluetoothUIService: 10 of 13 linked libraries are absent from the guest root; 2 of 7 imported symbols are provided (28.5714%).

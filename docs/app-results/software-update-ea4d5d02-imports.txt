@@ -1,0 +1,22 @@
+==== Software Update ====
+Linked dylibs: 11, imported symbols: 86
+
+  present  provided/imported  library
+  yes      8/11	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSLocalizedFileSizeDescription _NSArgumentDomain _OBJC_CLASS_$_NSLayoutConstraint
+  yes      11/14	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSHelpManagerSystemBook _NSUnderlineStyleAttributeName _OBJC_CLASS_$_NSHelpManager
+  NO       0/1	/System/Library/PrivateFrameworks/PackageKit.framework/Versions/A/PackageKit
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/2	/System/Library/PrivateFrameworks/OSUpdate.framework/Versions/A/OSUpdate
+  yes      0/0	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+  NO       0/17	/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate
+  yes      18/18	/usr/lib/libobjc.A.dylib
+  yes      13/14	/usr/lib/libSystem.B.dylib
+             e.g. missing: _qos_class_self
+  yes      4/8	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL
+  yes      0/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CPSBringNextToFront
+
+Summary for Software Update: 3 of 11 linked libraries are absent from the guest root; 54 of 86 imported symbols are provided (62.7907%).

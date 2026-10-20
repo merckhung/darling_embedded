@@ -1,0 +1,94 @@
+(/usr/bin/darling open '/Applications/codex-computer-use-installer-c911e33f/Codex Computer Use Installer.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_codex-computer-use-installer-c911e33f:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:46
+DARLING_LAUNCH_BUNDLE:/Applications/codex-computer-use-installer-c911e33f/Codex Computer Use Installer.app:/Applications/codex-computer-use-installer-c911e33f/Codex Computer Use Installer.app/Contents/MacOS/Codex Computer Use Installer
+native dyld warning: unresolved import: _$s10Foundation12CharacterSetV22whitespacesAndNewlinesACvgZ
+native dyld warning: unresolved import: _$s10Foundation12CharacterSetVMa
+native dyld warning: unresolved import: _$s10Foundation13__DataStorageC5bytes6length4copy11deallocator6offsetACSvSg_SiSbySv_SitcSgSitcfc
+native dyld warning: unresolved import: _$s10Foundation13__DataStorageC5bytes6lengthACSVSg_Sitcfc
+native dyld warning: unresolved import: _$s10Foundation13__DataStorageC6_bytesSvSgvg
+native dyld warning: unresolved import: _$s10Foundation13__DataStorageC6lengthACSi_tcfc
+native dyld warning: unresolved import: _$s10Foundation13__DataStorageC7_lengthSivg
+native dyld warning: unresolved import: _$s10Foundation13__DataStorageC7_offsetSivg
+native dyld warning: unresolved import: _$s10Foundation13__DataStorageCMa
+native dyld warning: unresolved import: _$s10Foundation15ContiguousBytesMp
+native dyld warning: unresolved import: _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
+native dyld warning: unresolved import: _$s10Foundation22_convertNSErrorToErrorys0E0_pSo0C0CSgF
+native dyld warning: unresolved import: _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF
+native dyld warning: unresolved import: _$s10Foundation3URLV22appendingPathComponentyACSSF
+native dyld warning: unresolved import: _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+native dyld warning: unresolved import: _$s10Foundation3URLV4pathSSvg
+native dyld warning: unresolved import: _$s10Foundation3URLVMa
+native dyld warning: unresolved import: _$s10Foundation4DataV10LargeSliceV21ensureUniqueReferenceyyF
+native dyld warning: unresolved import: _$s10Foundation4DataV14RangeReferenceCMa
+native dyld warning: unresolved import: _$s10Foundation4DataV15_RepresentationO15replaceSubrange_4with5countySnySiG_SVSgSitF
+native dyld warning: unresolved import: _$s10Foundation4DataV15_RepresentationO6append10contentsOfySW_tF
+native dyld warning: unresolved import: _$s10Foundation4DataV15_RepresentationON
+native dyld warning: unresolved import: _$s10Foundation4DataV19_bridgeToObjectiveCSo6NSDataCyF
+native dyld warning: unresolved import: _$s10Foundation4DataV36_unconditionallyBridgeFromObjectiveCyACSo6NSDataCSgFZ
+native dyld warning: unresolved import: _$sSS10FoundationE4data8encodingSSSgAA4DataVh_SSAAE8EncodingVtcfC
+native dyld warning: unresolved import: _$sSS10FoundationE8EncodingV4utf8ACvgZ
+native dyld warning: unresolved import: _$sSS10FoundationE8EncodingVMa
+native dyld warning: unresolved import: _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF
+native dyld warning: unresolved import: _$sSy10FoundationE18trimmingCharacters2inSSAA12CharacterSetV_tF
+native dyld warning: unresolved import: _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
+native dyld warning: unresolved import: _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
+native dyld warning: unresolved import: _$sSS14_fromSubstringySSSshFZ
+native dyld warning: unresolved import: _$sSS18_fromUTF8RepairingySS6result_Sb11repairsMadetSRys5UInt8VGFZ
+native dyld warning: unresolved import: _$sSS5index_8offsetBy07limitedC0SS5IndexVSgAE_SiAEtF
+native dyld warning: unresolved import: _$sSS6appendyySSF
+native dyld warning: unresolved import: _$sSS8UTF8ViewV13_foreignCountSiyF
+native dyld warning: unresolved import: _$sSS8UTF8ViewV13_foreignIndex5afterSS0D0VAF_tF
+native dyld warning: unresolved import: _$sSS8UTF8ViewV13_foreignIndex_8offsetBySS0D0VAF_SitF
+native dyld warning: unresolved import: _$sSS8UTF8ViewV17_foreignSubscript8positions5UInt8VSS5IndexV_tF
+native dyld warning: unresolved import: _$sSS8UTF8ViewVN
+native dyld warning: unresolved import: _$sSS9UTF16ViewV5index_8offsetBySS5IndexVAF_SitF
+native dyld warning: unresolved import: _$sSS9hasPrefixySbSSF
+native dyld warning: unresolved import: _$sSSN
+native dyld warning: unresolved import: _$sSSSysMc
+native dyld warning: unresolved import: _$sSSySsSnySS5IndexVGcig
+native dyld warning: unresolved import: _$sSa28_allocateBufferUninitialized15minimumCapacitys06_ArrayB0VyxGSi_tFZ
+native dyld warning: unresolved import: _$sSayxGSKsMc
+native dyld warning: unresolved import: _$ss11CommandLineO9argumentsSaySSGvgZ
+native dyld warning: unresolved import: _$ss11_StringGutsV16_slowWithCStringyxxSPys4Int8VGKXEKlF
+native dyld warning: unresolved import: _$ss11_StringGutsV4growyySiF
+native dyld warning: unresolved import: _$ss11_StringGutsV8copyUTF84intoSiSgSrys5UInt8VG_tF
+native dyld warning: unresolved import: _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+native dyld warning: unresolved import: _$ss23CustomStringConvertibleP11descriptionSSvgTj
+native dyld warning: unresolved import: _$ss23_ContiguousArrayStorageCMn
+native dyld warning: unresolved import: _$ss27_stringCompareWithSmolCheck__9expectingSbs11_StringGutsV_ADs01_G16ComparisonResultOtF
+native dyld warning: unresolved import: _$ss4Int8VMn
+native dyld warning: unresolved import: _$ss4Int8VN
+native dyld warning: unresolved import: _$ss5Int32VN
+native dyld warning: unresolved import: _$ss5Int32Vs23CustomStringConvertiblesWP
+native dyld warning: unresolved import: __swiftEmptyArrayStorage
+native dyld warning: unresolved import: _swift_allocObject
+native dyld warning: unresolved import: _swift_arrayDestroy
+native dyld warning: unresolved import: _swift_arrayInitWithCopy
+native dyld warning: unresolved import: _swift_bridgeObjectRelease
+native dyld warning: unresolved import: _swift_bridgeObjectRelease_n
+native dyld warning: unresolved import: _swift_bridgeObjectRetain
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_dynamicCast
+native dyld warning: unresolved import: _swift_errorRelease
+native dyld warning: unresolved import: _swift_getErrorValue
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContextInMetadataState2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _swift_isUniquelyReferenced_nonNull_native
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _swift_release_n
+native dyld warning: unresolved import: _swift_retain
+native dyld warning: unresolved import: _swift_willThrow
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBoWV
+XNU_EXC: exc=1 codes=0x1 0xfffffffffffffff8
+XNU_EXC: exc=10 codes=0xb100001 0xfffffffffffffff8
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 46
+Segmentation fault: 11
+PROBE_EXIT_codex-computer-use-installer-c911e33f:139
+kill -9 46 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/codex-computer-use-installer-c911e33f/Codex Computer Use Installer.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_codex-computer-use-installer-c911e33f:${?})
+
+root@Darwin#

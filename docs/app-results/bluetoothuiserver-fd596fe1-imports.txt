@@ -1,0 +1,25 @@
+==== BluetoothUIServer ====
+Linked dylibs: 14, imported symbols: 133
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/0	/System/Library/PrivateFrameworks/BezelServices.framework/Versions/A/BezelServices
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/usr/lib/libsysdiagnose.dylib
+  yes      0/4	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CPLRemovePrinter _PMPrinterCopyDeviceURI _PMPrinterGetID _PMServerCreatePrinterList
+  NO       0/1	/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/CoreBluetoothUI
+  NO       0/9	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  NO       0/2	/System/Library/Frameworks/IOBluetoothUI.framework/Versions/A/IOBluetoothUI
+  NO       0/11	/System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+  yes      11/13	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSUserNotificationAction
+  yes      24/24	/usr/lib/libobjc.A.dylib
+  yes      17/44	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dlopen _xpc_array_get_bool _xpc_array_get_count _xpc_array_get_int64 _xpc_array_get_string _xpc_array_get_value
+  yes      6/8	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSApplicationLaunchUserNotificationKey _OBJC_CLASS_$_NSWorkspaceOpenConfiguration
+  yes      12/17	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFURLGetString __CFXPCCreateCFObjectFromXPCObject _OBJC_CLASS_$_NSDateComponents _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL
+
+Summary for BluetoothUIServer: 7 of 14 linked libraries are absent from the guest root; 70 of 133 imported symbols are provided (52.6316%).

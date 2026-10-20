@@ -1,0 +1,12 @@
+==== Time Machine ====
+Linked dylibs: 4, imported symbols: 10
+
+  present  provided/imported  library
+  yes      4/5	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFURLCreateWithString
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  yes      1/1	/usr/lib/libSystem.B.dylib
+  yes      0/4	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSOpenCFURLRef __CSBackupGetSharedServerProxy __CSBackupServerIsActive __CSBackupServerProxyCancelBackup
+
+Summary for Time Machine: 0 of 4 linked libraries are absent from the guest root; 5 of 10 imported symbols are provided (50%).

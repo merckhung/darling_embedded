@@ -1,0 +1,71 @@
+==== Phone ====
+Linked dylibs: 61, imported symbols: 584
+
+  present  provided/imported  library
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/FaceTimeSettingsUI.framework/Versions/A/FaceTimeSettingsUI
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/CallsSearch.framework/Versions/A/CallsSearch
+  NO       0/4	/System/iOSSupport/System/Library/PrivateFrameworks/PhoneKit.framework/Versions/A/PhoneKit
+  NO       0/41	/System/iOSSupport/System/Library/PrivateFrameworks/FaceTimeMac.framework/Versions/A/FaceTimeMac
+  NO       0/0	/System/Library/PrivateFrameworks/FaceTimeDockSupport.framework/Versions/A/FaceTimeDockSupport
+  NO       0/6	/System/iOSSupport/System/Library/PrivateFrameworks/CommunicationsUICore.framework/Versions/A/CommunicationsUICore
+  NO       0/17	/System/iOSSupport/System/Library/PrivateFrameworks/CallsAppUI.framework/Versions/A/CallsAppUI
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/FaceTimeAuthentication.framework/Versions/A/FaceTimeAuthentication
+  NO       0/11	/System/iOSSupport/System/Library/PrivateFrameworks/CallsAppServices.framework/Versions/A/CallsAppServices
+  NO       0/2	/System/Library/PrivateFrameworks/FaceTimeMacHelperCore.framework/Versions/A/FaceTimeMacHelperCore
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/CallsDialer.framework/Versions/A/CallsDialer
+  yes      9/47	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12URLQueryItemV4nameSSvg _$s10Foundation12URLQueryItemV5valueSSSgvg _$s10Foundation12URLQueryItemVMa _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvg _$s10Foundation13URLComponentsV10queryItemsSayAA12URLQueryItemVGSgvs _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC
+  yes      30/58	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_release_x1 _objc_release_x19 _objc_release_x20 _objc_release_x21 _objc_release_x22 _objc_release_x23
+  yes      26/35	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_feature_enabled_impl _dispatch_barrier_async _dispatch_get_specific _dispatch_queue_attr_make_with_qos_class _dispatch_queue_set_specific
+  NO       0/13	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      7/12	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSCurrentLocaleDidChangeNotification _OBJC_CLASS_$_NSCache _OBJC_CLASS_$_NSMutableOrderedSet _OBJC_CLASS_$_NSMutableSet _OBJC_CLASS_$_NSSet
+  NO       0/9	/System/Library/Frameworks/LiveCommunicationKit.framework/Versions/A/LiveCommunicationKit
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+  NO       0/9	/System/Library/PrivateFrameworks/CallHistory.framework/Versions/A/CallHistory
+  NO       0/1	/System/Library/PrivateFrameworks/CommonUtilities.framework/Versions/A/CommonUtilities
+  NO       0/4	/System/Library/PrivateFrameworks/CommunicationTrust.framework/Versions/A/CommunicationTrust
+  NO       0/2	/System/Library/PrivateFrameworks/FaceTimeMessageStore.framework/Versions/A/FaceTimeMessageStore
+  NO       0/1	/System/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS
+  NO       0/22	/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/12	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/20	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/CommunicationsUI.framework/Versions/A/CommunicationsUI
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/ConversationKit.framework/Versions/A/ConversationKit
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCallKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/216	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/14	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/7	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Phone: 57 of 61 linked libraries are absent from the guest root; 72 of 584 imported symbols are provided (12.3288%).

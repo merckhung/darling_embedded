@@ -1,0 +1,21 @@
+==== Digital Color Meter ====
+Linked dylibs: 11, imported symbols: 171
+
+  present  provided/imported  library
+  NO       0/2	/System/Library/Frameworks/ScreenCaptureKit.framework/Versions/A/ScreenCaptureKit
+  NO       0/4	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/4	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      7/7	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      23/23	/usr/lib/libobjc.A.dylib
+  yes      17/19	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_release ___chkstk_darwin
+  yes      11/14	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSScreenColorSpaceDidChangeNotification _NSWindowDidChangeOcclusionStateNotification _OBJC_CLASS_$_NSTrackingArea
+  NO       0/16	/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+  yes      24/25	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDictionaryContainsValue
+  yes      35/57	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGColorCreateCopyByMatchingToColorSpace _CGColorSpaceCreateExtended _CGColorSpaceCreateExtendedLinearized _CGColorSpaceCreateWithColorSyncProfile _CGColorSpaceCreateWithID _CGColorSpaceUsesExtendedRange
+
+Summary for Digital Color Meter: 4 of 11 linked libraries are absent from the guest root; 117 of 171 imported symbols are provided (68.4211%).

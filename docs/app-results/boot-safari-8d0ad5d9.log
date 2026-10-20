@@ -1,0 +1,121 @@
+!Raspberry Pi 4B loader: linked ARM64 Mach-O entry
+Framebuffer: base=0x000000003c100000 width=0x0000000000000400 height=0x0000000000000300 pitch=0x0000000000001000
+VC reserved: base=0x000000003c000000 size=0x0000000004000000 managed RAM=0x000000003c000000
+Host wall clock supplied via boot-time
+Kernel entry physical 0x0000000007379488, virtual bias 0xfffffff000000000
+Darwin Kernel Version 25.5.0: Tue Oct 20 02:41:17 PDT 2026; DarwinEmbedded:xnu-12377.121.6/RELEASE_ARM64
+pmap_startup() init/release time: 30852 microsec
+vm_page_bootstrap: 104409 free pages, 141351 wired pages
+VM bootstrap: 73 maps, 128 entries and 16 nodes available
+Maximum number of VM swap files: 100
+vm: "vm_compressor_mode" is 4
+VM bootstrap done: 71 maps, 107 entries and 12 nodes left
+standard timeslicing quantum is 10000 us
+standard background quantum is 2500 us
+Log queues configured: slot count: 9, per-slot size: 32768, total size: 294912
+Long logs support configured: size: 16384
+OSLog stream configured: stream: 8192 bytes, cache: 2112 bytes
+Firehose configured: 16 chunks, 8 io pages
+[trap_telemetry] trap_telemetry_init
+mig_table_max_displ = 90 mach_kobj_count = 384
+debug_log_init: Error!! gPanicBase is still not initialized
+debug_log_init: Error!! gPanicBase is still not initialized
+kdp_core zlib memory 0x7000
+Serial requested, consistent debug disabled or debug boot arg not present, configuring debugging over serial
+iBoot version:
+iBoot Stage 2 version:
+WARNING: did not find UUID in Primary KC!
+Embedded crypto known-answer tests passed
+Embedded AES-128/192/256 CBC known-answer tests passed
+Embedded MD5/SHA-1 compatibility known-answer tests passed
+Embedded SHA-2/HMAC-DRBG provider initialized
+vm: creating swapout thread
+vm: creating swapfile creation thread
+vm: creating swapfile GC thread
+lockdown_mode: error getting state from nvram
+lockdown_mode: lockdown mode in nvram is off
+Apple signed trust caches unavailable on this embedded target
+keepsyms boot arg specified; keeping linkedit segment for symbols.
+IOMediaBSDClient: devsw major=1
+IOServicePH::kIOMessageSystemCapabilityChange: will 0xf->0xf
+IOServicePH::systemPowerChange to 0x30
+IOServicePH::kIOMessageSystemCapabilityChange: did 0xf->0xf
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California. All rights reserved.
+
+MAC Framework successfully initialized
+using 2128 buffer headers and 2128 cluster IO buffer headers
+BCM2711Platform: published framebuffer nub, 1024x768
+BCM2711Platform: Raspberry Pi 4B, Cortex-A72, GIC-400
+NativeBootFramebuffer: registered 1024x768 stride 4096, 3145728 bytes
+ktriage_register_subsystem_strings: set subsystem 8 strings
+mbinit: done [64 MB total pool size, (42/21) split]
+New aio workqueue implementation selected
+dlil_init: Waiting for all the create dlil kernel threads to get scheduled at least once.
+dlil_init: All the created dlil kernel threads have been scheduled at least once. Proceeding.
+ifnet_attach: All kernel threads created for interface lo0 have been scheduled at least once. Proceeding.
+ifnet_attach: Waiting for all kernel threads created for interface gif0 to get scheduled at least once.
+ifnet_attach: All kernel threads created for interface gif0 have been scheduled at least once. Proceeding.
+skip attaching fsw to lo0 using legacy TX model
+ifnet_attach: Waiting for all kernel threads created for interface stf0 to get scheduled at least once.
+ifnet_attach: All kernel threads created for interface stf0 have been scheduled at least once. Proceeding.
+Added memory device md0/rmd0 (02000000/12000000) at <ptr> for 0000000018000000
+BSD root: md0, major 2, minor 0
+spec_open : si_devbsdunit initialized to (0), throttle_mask is (0x0), isssd is (0)
+hfs: mounted DarwinEmbedded on device b(2, 0)
+NativeBootInput: DWC2 id=4f54294a port=2100d DMA=e2827000
+NativeBootInput: USB device addr=1 speed=1 class=9 vendor=409 product=55aa configs=1
+NativeBootInput: USB device addr=2 speed=1 class=0 vendor=627 product=1 configs=1
+NativeBootInput: USB boot HID addr=2 ep=1 protocol=1 packet=8
+NativeBootInput: USB device addr=3 speed=1 class=0 vendor=627 product=1 configs=1
+NativeBootInput: USB boot HID addr=3 ep=1 protocol=2 packet=4
+NativeBootInput: USB device addr=4 speed=1 class=2 vendor=525 product=a4a2 configs=2
+NativeBootInput: USB CDC-ECM addr=4 in=2 out=2 packet=64/64 mtu=1514 mac=40:54:00:12:34:57
+NativeBootInput: registered native DWC2 USB keyboard and mouse
+vm: initializing swap
+vm: starting swapout thread
+vm: starting swapfile creation thread
+vm: starting swapfile GC thread
+VM Swap Subsystem is ON
+load_init_program: attempting to load /sbin/launchd
+ifnet_attach: Waiting for all kernel threads created for interface en0 to get scheduled at least once.
+ifnet_attach: All kernel threads created for interface en0 have been scheduled at least once. Proceeding.
+NativeUSBNet: attached en0 (USB CDC-ECM) lladdr 40:54:00:12:34:57
+Native init: PID 1, writable HFS root, starting /bin/sh
+Native init desktop spawned: 2
+Native init spawned: 3
+
+root@Darwin# skip attaching fsw to en0 using legacy TX model
+NativeUSBNet: first frame sent (42 bytes)
+netcfg: en0 up, inet 10.0.2.15/24
+netcfg: default route via 10.0.2.2
+netcfg: lo0 flags=0x8049 inet 127.0.0.1 netmask 255.0.0.0
+netcfg: en0 flags=0x8843 ether 40:54:00:12:34:57
+netcfg: en0 flags=0x8843 inet 10.0.2.15 netmask 255.255.255.0
+NativeBootFramebuffer: console claimed
+Xorg native scanout: 1024x768 stride 4096, actual IOUserClient mapping
+DARLING_XFCE_DESKTOP_UP:xorg=5:shell=8
+DARLING_DESKTOP_SESSION_READY:ptr=512:384
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12
+DARLING_DOCK_ITEM:Finder:184:730
+DARLING_DOCK_ITEM:FastDMG:238:730
+DARLING_DOCK_ITEM:WidgetGallery:292:730
+DARLING_DOCK_ITEM:System Info:346:730
+DARLING_DOCK_ITEM:ProgressBar:400:730
+DARLING_DOCK_ITEM:Stickies:454:730
+DARLING_DOCK_ITEM:Digital Color Meter:508:730
+DARLING_DOCK_ITEM:Image Capture:562:730
+DARLING_DOCK_ITEM:AppleScript Utility:616:730
+DARLING_DOCK_ITEM:Directory Utility:670:730
+DARLING_DOCK_ITEM:ZoomUninstaller:724:730
+DARLING_DOCK_ITEM:Chromium:778:730
+DARLING_DOCK_ITEM:Trash:839:730
+DARLING_SHELL_READY:menubar=24:dock=152,674,719,90:items=14
+(/usr/bin/darling open /Applications/safari-8d0ad5d9/Safari.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_safari-8

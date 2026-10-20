@@ -1,0 +1,18 @@
+==== Automator Application Stub ====
+Linked dylibs: 9, imported symbols: 58
+
+  present  provided/imported  library
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib (weak)
+  NO       0/5	/System/Library/Frameworks/Automator.framework/Versions/A/Automator
+  NO       0/0	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      11/15	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _NSConnectionDidDieNotification _NSFilePathErrorKey _NSLocalizedRecoverySuggestionErrorKey _OBJC_CLASS_$_NSConnection
+  yes      13/13	/usr/lib/libobjc.A.dylib
+  yes      7/8	/usr/lib/libSystem.B.dylib
+             e.g. missing: dyld_stub_binder
+  yes      4/4	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      7/12	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSDefaultRunLoopMode _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSURL _OBJC_EHTYPE_$_NSException
+
+Summary for Automator Application Stub: 3 of 9 linked libraries are absent from the guest root; 42 of 58 imported symbols are provided (72.4138%).

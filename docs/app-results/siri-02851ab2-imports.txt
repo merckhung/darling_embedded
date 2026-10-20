@@ -1,0 +1,70 @@
+==== Siri ====
+Linked dylibs: 57, imported symbols: 516
+
+  present  provided/imported  library
+  NO       0/15	/System/Library/PrivateFrameworks/SiriUIFoundation.framework/Versions/A/SiriUIFoundation
+  NO       0/4	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/53	/System/Library/PrivateFrameworks/SiriFoundation.framework/Versions/A/SiriFoundation
+  NO       0/41	/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/SiriUI
+  NO       0/3	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      18/23	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityFloatingWindowSubrole _NSWindowDidBecomeKeyNotification _NSWindowDidResignKeyNotification _NSWorkspaceSessionDidBecomeActiveNotification _OBJC_CLASS_$_NSRunningApplication
+  NO       0/2	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/23	/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices
+  NO       0/1	/System/Library/Frameworks/CallKit.framework/Versions/A/CallKit
+  NO       0/1	/System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/Frameworks/DictationServices.framework/Versions/A/DictationServices
+  NO       0/1	/System/Library/PrivateFrameworks/SiriCrossDeviceArbitration.framework/Versions/A/SiriCrossDeviceArbitration
+  NO       0/0	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  NO       0/1	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/3	/System/Library/PrivateFrameworks/NotificationCenterUI.framework/Versions/A/NotificationCenterUI
+  NO       0/0	/System/Library/PrivateFrameworks/SnippetUI.framework/Versions/A/SnippetUI
+  NO       0/1	/System/Library/PrivateFrameworks/SAObjects.framework/Versions/A/SAObjects (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/SpeechObjects.framework/Versions/A/SpeechObjects
+  NO       0/15	/System/Library/PrivateFrameworks/SiriActivationFoundation.framework/Versions/A/SiriActivationFoundation
+  NO       0/6	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  yes      20/32	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation22_convertErrorToNSErrorySo0E0Cs0C0_pF _$s10Foundation4UUIDV10uuidStringSSvg _$s10Foundation4UUIDVACycfC _$s10Foundation4UUIDVMa _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+  yes      37/37	/usr/lib/libobjc.A.dylib
+  yes      36/50	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_log_fault_impl _bootstrap_check_in _notify_cancel _os_variant_has_internal_diagnostics _xpc_bool_get_value
+  yes      0/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXIsProcessTrusted
+  yes      30/39	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDataGetBytes __CFLocaleResetCurrent _NSCurrentLocaleDidChangeNotification _NSInvalidArgumentException _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSException
+  yes      1/21	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventCreateCopy _CGEventCreateKeyboardEvent _CGEventGetFlags _CGEventGetIntegerValueField _CGEventGetTimestamp _CGEventPost
+  yes      0/6	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSCopyApplicationURLsForBundleIdentifier _LSOpenCFURLRef _LSOpenFromURLSpec __LSCopyApplicationInformationItem __LSCopyFrontUIApplication __kLSAuditTokenKey
+  NO       0/2	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/3	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+  NO       0/5	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  NO       0/2	/System/Library/PrivateFrameworks/SiriInstrumentation.framework/Versions/A/SiriInstrumentation
+  NO       0/1	/System/Library/PrivateFrameworks/SiriSharedUI.framework/Versions/A/SiriSharedUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/100	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/15	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/6	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Siri: 49 of 57 linked libraries are absent from the guest root; 142 of 516 imported symbols are provided (27.5194%).

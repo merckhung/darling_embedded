@@ -1,0 +1,69 @@
+(/usr/bin/darling open /Applications/fastdmg-2bbdfcf2/FastDMG.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_fastdmg-2bbdfcf2:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:50
+DARLING_LAUNCH_BUNDLE:/Applications/fastdmg-2bbdfcf2/FastDMG.app:/Applications/fastdmg-2bbdfcf2/FastDMG.app/Contents/MacOS/FastDMG
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/fastdmg-2bbdfcf2/FastDMG.app/Contents/MacOS/FastDMG)
+[AppKit] loaded nib /Applications/fastdmg-2bbdfcf2/FastDMG.app/Contents/Resources/Base.lproj/MainMenu.nib: 171 objects, 0 windows
+[AppKit] NSApplication delegate = 0xb46c09160
+[AppKit] calling applicationDidFinishLaunching on delegate 0xb46c09160
+[Foundation] performSelector:showPrefs withObject:0x0 afterDelay:0.500000 on 0xb46c09160
+[AppKit] returned from applicationDidFinishLaunching
+[AppKit] nib: no outlet 'aboutTextView' on FastDMGAppDelegate
+[AppKit] nib: no outlet 'versionTextField' on FastDMGAppDelegate
+[AppKit] nib: no outlet 'window' on FastDMGAppDelegate
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1015f4100 (title: FastDMG)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:FastDMG:82:12
+DARLING_MENUBAR_ITEM:File:145:12
+DARLING_MENUBAR_ITEM:Window:203:12
+DARLING_WINDOW_READY:FastDMG:4194305:618:90:300:448
+DARLING_BUTTON_POS:FastDMG:Quit:768:509
+DARLING_BUTTON_POS:FastDMG:Run in background:778:394
+DARLING_BUTTON_POS:FastDMG:Quit after mounting:778:445
+DARLING_BUTTON_POS:FastDMG:Open image after mounting:778:419
+[AppKit] loaded nib /Applications/fastdmg-2bbdfcf2/FastDMG.app/Contents/Resources/Base.lproj/MainWindow.nib: 221 objects, 1 windows
+DARLING_WINDOW_READY:FastDMG:4194305:618:90:300:448
+DARLING_BUTTON_POS:FastDMG:Quit:768:509
+DARLING_BUTTON_POS:FastDMG:Run in background:778:394
+DARLING_BUTTON_POS:FastDMG:Quit after mounting:778:445
+DARLING_BUTTON_POS:FastDMG:Open image after mounting:778:419
+[Foundation] firing delayed perform showPrefs on 0xb46c09160
+[AppKit] NSWindowController showWindow on 0xb46db4a00
+[AppKit] NSWindow makeKeyAndOrderFront on 0xb4715c000 (title: FastDMG)
+DARLING_WINDOW_READY:FastDMG:4194313:618:90:300:448
+DARLING_BUTTON_POS:FastDMG:Quit:768:509
+DARLING_BUTTON_POS:FastDMG:Run in background:778:394
+DARLING_BUTTON_POS:FastDMG:Quit after mounting:778:445
+DARLING_BUTTON_POS:FastDMG:Open image after mounting:778:419
+[AppKit] loaded nib /Applications/fastdmg-2bbdfcf2/FastDMG.app/Contents/Resources/Base.lproj/MainWindow.nib: 221 objects, 1 windows
+[AppKit] NSWindow makeKeyAndOrderFront on 0xb4715c000 (title: FastDMG)
+DARLING_WINDOW_READY:FastDMG:4194313:618:90:300:448
+DARLING_BUTTON_POS:FastDMG:Quit:768:509
+DARLING_BUTTON_POS:FastDMG:Run in background:778:394
+DARLING_BUTTON_POS:FastDMG:Quit after mounting:778:445
+DARLING_BUTTON_POS:FastDMG:Open image after mounting:778:419
+[AppKit] NSWindow makeKeyAndOrderFront on 0xb4715c000 (title: FastDMG)
+DARLING_WINDOW_READY:FastDMG:4194313:618:90:300:448
+DARLING_BUTTON_POS:FastDMG:Quit:768:509
+DARLING_BUTTON_POS:FastDMG:Run in background:778:394
+DARLING_BUTTON_POS:FastDMG:Quit after mounting:778:445
+DARLING_BUTTON_POS:FastDMG:Open image after mounting:778:419
+kill -9 50 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/fastdmg-2bbdfcf2/FastDMG.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_fastdmg-2bbdfcf2:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Application:90:12
+DARLING_MENUBAR_ITEM:File:161:12
+DARLING_MENUBAR_ITEM:Edit:205:12
+DARLING_MENUBAR_ITEM:View:254:12
+DARLING_MENUBAR_ITEM:Window:317:12
+DARLING_MENUBAR_ITEM:Help:379:12
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

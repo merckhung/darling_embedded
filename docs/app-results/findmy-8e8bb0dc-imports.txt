@@ -1,0 +1,104 @@
+==== FindMy ====
+Linked dylibs: 92, imported symbols: 4346
+
+  present  provided/imported  library
+  NO       0/0	/System/iOSSupport/System/Library/PrivateFrameworks/ManagedConfiguration.framework/Versions/A/ManagedConfiguration
+  NO       0/1	/System/Library/PrivateFrameworks/BluetoothManager.framework/Versions/A/BluetoothManager
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/AuthKitUI.framework/Versions/A/AuthKitUI
+  NO       0/1	/System/Library/PrivateFrameworks/SPShared.framework/Versions/A/SPShared
+  NO       0/5	/System/Library/PrivateFrameworks/FindMyBase.framework/Versions/A/FindMyBase
+  NO       0/169	/System/iOSSupport/System/Library/PrivateFrameworks/FindMyUICore.framework/Versions/A/FindMyUICore
+  NO       0/923	/System/Library/PrivateFrameworks/FMIPCore.framework/Versions/A/FMIPCore
+  NO       0/0	/System/Library/Frameworks/CoreTelephony.framework/Versions/A/CoreTelephony
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/AppSupportUI.framework/Versions/A/AppSupportUI
+  NO       0/14	/System/Library/PrivateFrameworks/FindMyFeatureFlags.framework/Versions/A/FindMyFeatureFlags
+  NO       0/11	/System/Library/PrivateFrameworks/FindMyMessaging.framework/Versions/A/FindMyMessaging
+  NO       0/2	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/FMF.framework/Versions/A/FMF
+  NO       0/120	/System/Library/PrivateFrameworks/FindMyCore.framework/Versions/A/FindMyCore
+  NO       0/4	/System/Library/PrivateFrameworks/IDS.framework/Versions/A/IDS
+  NO       0/3	/System/Library/PrivateFrameworks/CoreDuet.framework/Versions/A/CoreDuet
+  NO       0/1	/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+  NO       0/417	/System/Library/PrivateFrameworks/FMFCore.framework/Versions/A/FMFCore
+  yes      23/396	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantFloatNumber _$s10Foundation10NSNotFoundSivg _$s10Foundation10URLRequestV3url11cachePolicy15timeoutIntervalAcA3URLV_So017NSURLRequestCacheE0VSdtcfC _$s10Foundation10URLRequestVMa _$s10Foundation11FormatStylePAAE4list4type5widthAA04ListbC0VyAA06StringC0Vqd__GAH0G4TypeOyAJqd___G_AH5WidthOyAJqd___GtAKRszSTRd__SS7ElementRtd__lFZ
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/MapsUI.framework/Versions/A/MapsUI
+  yes      24/58	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_getAssociatedObject _objc_release_x1 _objc_release_x10 _objc_release_x19 _objc_release_x20 _objc_release_x21
+  yes      20/31	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dispatch_group_create _dispatch_group_enter _dispatch_group_leave _dispatch_semaphore_create _sysdir_get_next_search_path_enumeration
+  NO       0/7	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/5	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/2	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      6/31	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSDirectionalEdgeInsetsZero _NSToolbarFlexibleSpaceItemIdentifier _OBJC_CLASS_$_NSTextAttachment _OBJC_CLASS_$_UIFont _OBJC_CLASS_$_UIFontDescriptor _UIFontDescriptorTextStyleAttribute
+  NO       0/2	/System/Library/Frameworks/CloudKit.framework/Versions/A/CloudKit
+  NO       0/81	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/19	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/3	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  yes      8/15	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSDefaultRunLoopMode _NSRunLoopCommonModes _OBJC_CLASS_$_NSCalendar _OBJC_CLASS_$_NSLocale _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSSet
+  yes      25/36	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$sSo10CGColorRefa12CoreGraphicsE10componentsSayAC7CGFloatVGSgvg _$sSo12CGContextRefa12CoreGraphicsE4draw_2in8byTilingySo07CGImageB0a_So6CGRectVSbtF _$sSo7CGPointV12CoreGraphicsE16debugDescriptionSSvg _CGAffineTransformMakeScale _CGContextSetFillColor _CGContextSetLineJoin
+  NO       0/5	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/4	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationWorkspace
+  NO       0/10	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/10	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/26	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/11	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/4	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/5	/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials
+  NO       0/2	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/2	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/1	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+  NO       0/2	/System/Library/PrivateFrameworks/CorePhoneNumbers.framework/Versions/A/CorePhoneNumbers
+  NO       0/5	/System/Library/PrivateFrameworks/FMCore.framework/Versions/A/FMCore
+  NO       0/1	/System/Library/PrivateFrameworks/FMCoreLite.framework/Versions/A/FMCoreLite
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/3	/System/Library/PrivateFrameworks/FindMyBluetooth.framework/Versions/A/FindMyBluetooth
+  NO       0/1	/System/Library/PrivateFrameworks/FindMyDevice.framework/Versions/A/FindMyDevice
+  NO       0/23	/System/Library/PrivateFrameworks/FindMyLocate.framework/Versions/A/FindMyLocate
+  NO       0/2	/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/GeoServices
+  NO       0/16	/System/Library/PrivateFrameworks/SPOwner.framework/Versions/A/SPOwner
+  NO       0/1	/System/Library/PrivateFrameworks/UIKitMacHelper.framework/Versions/A/UIKitMacHelper
+  NO       0/5	/System/iOSSupport/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/41	/System/iOSSupport/System/Library/Frameworks/MapKit.framework/Versions/A/MapKit
+  NO       0/3	/System/iOSSupport/System/Library/Frameworks/MessageUI.framework/Versions/A/MessageUI
+  NO       0/529	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/293	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/2	/System/iOSSupport/System/Library/Frameworks/_AppIntents_SwiftUI.framework/Versions/A/_AppIntents_SwiftUI
+  NO       0/10	/System/iOSSupport/System/Library/Frameworks/_MapKit_SwiftUI.framework/Versions/A/_MapKit_SwiftUI
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/FMCoreUI.framework/Versions/A/FMCoreUI
+  NO       0/5	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/497	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/60	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/6	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/47	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/13	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for FindMy: 84 of 92 linked libraries are absent from the guest root; 106 of 4038 imported symbols are provided (2.62506%).

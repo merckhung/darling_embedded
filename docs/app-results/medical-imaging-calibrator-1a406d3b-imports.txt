@@ -1,0 +1,49 @@
+==== Medical Imaging Calibrator ====
+Linked dylibs: 38, imported symbols: 957
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/SpectroKit.framework/Versions/A/SpectroKit
+  NO       0/0	/System/Library/PrivateFrameworks/AppleDisplayTCONControl.framework/Versions/A/AppleDisplayTCONControl
+  NO       0/0	/System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay
+  NO       0/10	/System/Library/PrivateFrameworks/OSEligibility.framework/Versions/A/OSEligibility
+  NO       0/1	/System/Library/PrivateFrameworks/SPSupport.framework/Versions/A/SPSupport
+  NO       0/24	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  yes      10/119	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation14LocalizedErrorMp _$s10Foundation14LocalizedErrorPs0C0Tb _$s10Foundation14LocalizedErrorP16errorDescriptionSSSgvgTq _$s10Foundation14LocalizedErrorP13failureReasonSSSgvgTq _$s10Foundation14LocalizedErrorP18recoverySuggestionSSSgvgTq _$s10Foundation14LocalizedErrorP10helpAnchorSSSgvgTq
+  yes      16/16	/usr/lib/libobjc.A.dylib
+  yes      27/32	/usr/lib/libSystem.B.dylib
+             e.g. missing: _OBJC_CLASS_$_OS_dispatch_queue _OBJC_CLASS_$_OS_os_log __Block_copy ___chkstk_darwin _dlsym
+  yes      13/18	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s10Foundation15AttributeScopesO6AppKitE0dE10AttributesV015ForegroundColorB0OAA19AttributedStringKeyADMc _$s10Foundation15AttributeScopesO6AppKitE0dE10AttributesV015ForegroundColorB0ON _NSApplicationDidChangeScreenParametersNotification _OBJC_CLASS_$_NSPrintInfo _OBJC_CLASS_$_NSTrackingArea
+  NO       0/1	/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+  yes      9/11	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSMutableData _OBJC_CLASS_$_NSTimer
+  yes      3/11	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGDataConsumerCreateWithCFData _CGDisplayModelNumber _CGDisplayVendorNumber _CGGetActiveDisplayList _CGPDFContextBeginPage _CGPDFContextClose
+  NO       0/11	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/382	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/6	/System/Library/PrivateFrameworks/ProDisplayLibrary.framework/Versions/A/ProDisplayLibrary
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/242	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/11	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/31	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/9	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Medical Imaging Calibrator: 32 of 38 linked libraries are absent from the guest root; 78 of 957 imported symbols are provided (8.15047%).

@@ -1,0 +1,82 @@
+==== CUALockScreenGuardian ====
+Linked dylibs: 65, imported symbols: 4231
+
+  present  provided/imported  library
+  yes      52/76	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNSt12length_errorD1Ev __ZNSt13runtime_errorD2Ev __ZNSt20bad_array_new_lengthC1Ev __ZNSt20bad_array_new_lengthD1Ev __ZNSt9bad_allocC1Ev __ZNSt9bad_allocD1Ev
+  NO       0/1	/usr/lib/libbsm.0.dylib
+  NO       0/31	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      41/696	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10CocoaErrorV03_nsC0So7NSErrorCvg _$s10Foundation10CocoaErrorV15fileReadUnknownAC4CodeVvgZ _$s10Foundation10CocoaErrorV4CodeV13userCancelledAEvgZ _$s10Foundation10CocoaErrorV4CodeV15fileReadUnknownAEvgZ _$s10Foundation10CocoaErrorV4CodeV16coderReadCorruptAEvgZ _$s10Foundation10CocoaErrorV4CodeVAA01_cD8ProtocolAAMc
+  yes      27/31	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_copyMethodList _method_getName _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      191/240	/usr/lib/libSystem.B.dylib
+             e.g. missing: _CC_SHA256 __Block_copy ___chkstk_darwin ___sqrtf16 __dyld_get_image_header __dyld_get_image_name
+  NO       0/3	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  yes      30/70	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _NSAccessibilityActivationPointAttribute _NSAccessibilityAttachmentTextAttribute _NSAccessibilityAttributedStringForRangeParameterizedAttribute _NSAccessibilityBoundsForRangeParameterizedAttribute _NSAccessibilityFontFamilyKey
+  yes      0/31	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXIsProcessTrusted _AXObserverAddNotification _AXObserverCreateWithInfoCallback _AXObserverGetRunLoopSource _AXObserverRemoveNotification _AXTextMarkerGetTypeID
+  NO       0/4	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/4	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/1	/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+  NO       0/16	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/1	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  yes      39/58	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFHash _CFNumberIsFloatType _NSCurrentLocaleDidChangeNotification _NSRunLoopCommonModes _NSSystemTimeZoneDidChangeNotification _NSURLContentTypeKey
+  yes      33/65	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformMakeScale _CGAffineTransformMakeTranslation _CGColorCreateCopyByMatchingToColorSpace _CGColorCreateSRGB _CGContextSetAllowsAntialiasing _CGEventGetFlags
+  NO       0/2	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/4	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  yes      0/26	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AEDeterminePermissionToAutomateTarget _CreateObjSpecifier _FSEventStreamCreate _FSEventStreamInvalidate _FSEventStreamRelease _FSEventStreamSetDispatchQueue
+  NO       0/1	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/2	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/13	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/1	/System/Library/Frameworks/EventKit.framework/Versions/A/EventKit
+  NO       0/9	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/19	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/1	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/40	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/1	/System/Library/Frameworks/OSLog.framework/Versions/A/OSLog
+  NO       0/5	/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+  NO       0/10	/System/Library/Frameworks/ScreenCaptureKit.framework/Versions/A/ScreenCaptureKit
+  NO       0/1	/System/Library/Frameworks/ScriptingBridge.framework/Versions/A/ScriptingBridge
+  yes      0/9	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeCopyGuestWithAttributes _SecCodeCopySelf _SecCodeCopySigningInformation _SecCodeCopyStaticCode _SecTaskCreateWithAuditToken _kSecCodeInfoIdentifier
+  NO       0/308	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  yes      0/2	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _OBJC_METACLASS_$_WebArchive _OBJC_CLASS_$_WebArchive
+  NO       0/3	/usr/lib/libcompression.dylib
+  yes      6/6	/usr/lib/libz.1.dylib
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/2005	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftCoreMedia.dylib
+  NO       0/16	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/61	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftOSLog.dylib
+  NO       0/6	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/9	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/23	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/22	/usr/lib/swift/libswiftSystem.dylib
+  NO       0/14	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/1	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/193	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/22	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/30	/usr/lib/swift/libswiftos.dylib
+  NO       0/2	/usr/lib/swift/libswiftsimd.dylib
+  NO       0/1	/usr/lib/swift/libswiftSystem_Foundation.dylib
+  NO       0/11	/usr/lib/swift/libswiftCoreGraphics.dylib
+
+Summary for CUALockScreenGuardian: 53 of 65 linked libraries are absent from the guest root; 419 of 4219 imported symbols are provided (9.93126%).

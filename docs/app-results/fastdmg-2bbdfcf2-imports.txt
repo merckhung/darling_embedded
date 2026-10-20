@@ -1,0 +1,13 @@
+==== FastDMG ====
+Linked dylibs: 6, imported symbols: 49
+
+  present  provided/imported  library
+  yes      9/9	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      15/15	/usr/lib/libobjc.A.dylib
+  yes      9/10	/usr/lib/libSystem.B.dylib
+             e.g. missing: dyld_stub_binder
+  yes      10/10	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      1/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  yes      4/4	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+Summary for FastDMG: 0 of 6 linked libraries are absent from the guest root; 48 of 49 imported symbols are provided (97.9592%).

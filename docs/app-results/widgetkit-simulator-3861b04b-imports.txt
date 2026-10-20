@@ -1,0 +1,51 @@
+==== WidgetKit Simulator ====
+Linked dylibs: 39, imported symbols: 1179
+
+  present  provided/imported  library
+  NO       0/4	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  yes      13/101	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation15_BridgedNSErrorPAAE08_bridgedC0xSgSo0C0Ch_tcfC _$s10Foundation15_BridgedNSErrorPAAE4hash4intoys6HasherVz_tF _$s10Foundation15_BridgedNSErrorPAAE5_codeSivg _$s10Foundation15_BridgedNSErrorPAAE7_domainSSvg
+  yes      15/15	/usr/lib/libobjc.A.dylib
+  yes      25/32	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _confstr _dlsym _os_variant_has_internal_ui _OBJC_CLASS_$_OS_dispatch_queue _OBJC_CLASS_$_OS_dispatch_source
+  yes      18/22	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _NSApplicationDidChangeScreenParametersNotification _NSWorkspaceAccessibilityDisplayOptionsDidChangeNotification _OBJC_CLASS_$_NSWorkspaceOpenConfiguration
+  NO       0/34	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      6/14	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFBundleCopyBundleLocalizations _CFUUIDCreateFromString _CFUUIDCreateFromUUIDBytes _NSURLContentModificationDateKey _NSURLFileSizeKey _OBJC_CLASS_$_NSData
+  yes      11/42	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$s12CoreGraphics6RegionVMa _$s12CoreGraphics6RegionVyACSo6CGRectVcfC _CGDisplayCreateImage _CGEventCopyNextEvent _CGEventCreateNextEvent
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationExtensionRecord _OBJC_CLASS_$_LSApplicationRecord
+  NO       0/3	/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+  NO       0/1	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/2	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/384	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/82	/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+  NO       0/24	/System/Library/PrivateFrameworks/ChronoKit.framework/Versions/A/ChronoKit
+  NO       0/29	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+  NO       0/2	/System/Library/PrivateFrameworks/WidgetRenderer.framework/Versions/A/WidgetRenderer
+  NO       0/2	/System/Library/PrivateFrameworks/WorkflowUIServices.framework/Versions/A/WorkflowUIServices
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/317	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/50	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation3.dylib
+  NO       0/9	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for WidgetKit Simulator: 32 of 39 linked libraries are absent from the guest root; 88 of 1179 imported symbols are provided (7.46395%).

@@ -1,0 +1,89 @@
+(/usr/bin/darling open /Applications/powerchime-be348bcc/PowerChime.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_powerchime-be348bcc:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:64
+DARLING_LAUNCH_BUNDLE:/Applications/powerchime-be348bcc/PowerChime.app:/Applications/powerchime-be348bcc/PowerChime.app/Contents/MacOS/PowerChime
+native dyld warning: unresolved import: _SMCCloseConnection
+native dyld warning: unresolved import: _SMCOpenConnectionWithDefaultService
+native dyld warning: unresolved import: _SMCReadKeyWithKnownSize
+native dyld warning: unresolved import: _SMCWriteKeyWithKnownSize
+native dyld warning: unresolved import: _SLSDisplayManagerRegisterPowerStateNotification
+native dyld warning: unresolved import: _SLSDisplayManagerUnregisterPowerStateNotification
+native dyld warning: unresolved import: _IOMasterPort
+native dyld warning: unresolved import: _IOPMAssertionCreateWithProperties
+native dyld warning: unresolved import: _IOPMAssertionRelease
+native dyld warning: unresolved import: _IOPMConnectionAcknowledgeEvent
+native dyld warning: unresolved import: _IOPMConnectionCreate
+native dyld warning: unresolved import: _IOPMConnectionGetSystemCapabilities
+native dyld warning: unresolved import: _IOPMConnectionRelease
+native dyld warning: unresolved import: _IOPMConnectionSetDispatchQueue
+native dyld warning: unresolved import: _IOPMConnectionSetNotification
+native dyld warning: unresolved import: _IOPMIsADarkWake
+native dyld warning: unresolved import: _IOPMIsASleep
+native dyld warning: unresolved import: _IOPMIsAUserWake
+native dyld warning: unresolved import: _IOPMScheduleUserActiveChangedNotification
+native dyld warning: unresolved import: _IOPMUnregisterNotification
+native dyld warning: unresolved import: _IOPSCopyPowerSourcesInfo
+native dyld warning: unresolved import: _IOPSCopyPowerSourcesList
+native dyld warning: unresolved import: _IOPSGetPowerSourceDescription
+native dyld warning: unresolved import: _IOPSGetProvidingPowerSourceType
+native dyld warning: unresolved import: _IORegistryEntryCreateCFProperty
+native dyld warning: unresolved import: _IORegistryEntryFromPath
+native dyld warning: unresolved import: _AudioServicesGetProperty
+native dyld warning: unresolved import: _AudioServicesSetProperty
+native dyld warning: unresolved import: _AudioObjectAddPropertyListenerBlock
+native dyld warning: unresolved import: _AudioObjectGetPropertyData
+native dyld warning: unresolved import: _AudioObjectGetPropertyDataSize
+native dyld warning: unresolved import: _AudioObjectHasProperty
+native dyld warning: unresolved import: _AudioObjectIsPropertySettable
+native dyld warning: unresolved import: _AudioObjectRemovePropertyListenerBlock
+native dyld warning: unresolved import: _AudioObjectSetPropertyData
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: __os_log_fault_impl
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _notify_cancel
+native dyld warning: unresolved import: _xpc_copy_description
+native dyld warning: unresolved import: _xpc_dictionary_create
+native dyld warning: unresolved import: _xpc_dictionary_get_bool
+native dyld warning: unresolved import: _xpc_dictionary_get_date
+native dyld warning: unresolved import: _xpc_dictionary_get_string
+native dyld warning: unresolved import: _xpc_dictionary_set_bool
+native dyld warning: unresolved import: _xpc_get_type
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _CFNumberIsFloatType
+native dyld warning: unresolved import: _CGDisplayHideCursor
+native dyld warning: unresolved import: _CGDisplayShowCursor
+native dyld warning: unresolved import: _CGSAddWindowsToSpaces
+native dyld warning: unresolved import: _CGSDisplayStatusQuery
+native dyld warning: unresolved import: _CGSGetOnlineDisplayList
+native dyld warning: unresolved import: _CGSRegisterNotifyProc
+native dyld warning: unresolved import: _CGSShowSpaces
+native dyld warning: unresolved import: _CGSSpaceCreate
+native dyld warning: unresolved import: _CGSSpaceDestroy
+native dyld warning: unresolved import: _CGSSpaceSetAbsoluteLevel
+native dyld warning: unresolved import: _CGSessionCopyCurrentDictionary
+native dyld warning: unresolved import: _CGShieldingWindowLevel
+native dyld warning: unresolved import: _remote_device_copy_service
+native dyld warning: unresolved import: _remote_device_copy_unique_of_type
+native dyld warning: unresolved import: _remote_device_set_connected_callback
+native dyld warning: unresolved import: _xpc_remote_connection_activate
+native dyld warning: unresolved import: _xpc_remote_connection_cancel
+native dyld warning: unresolved import: _xpc_remote_connection_create_with_remote_service
+native dyld warning: unresolved import: _xpc_remote_connection_send_message
+native dyld warning: unresolved import: _xpc_remote_connection_set_event_handler
+native dyld warning: unresolved import: _kCAMediaTimingFunctionEaseIn
+native dyld warning: unresolved import: _kCAMediaTimingFunctionEaseOut
+native dyld warning: unresolved import: _kCAMediaTimingFunctionLinear
+native dyld warning: unresolved import: _kIOMasterPortDefault
+native dyld warning: unresolved import: __xpc_event_key_name
+native dyld warning: unresolved import: __xpc_type_dictionary
+native dyld warning: unresolved import: _NSWorkspaceDidWakeNotification
+native dyld warning: unresolved import: _NSWorkspaceSessionDidBecomeActiveNotification
+[Darling PowerChime:64] ========= powerchime starting =============
+[Darling PowerChime:64] PowerChime: chime enabled by hardware: 1
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/powerchime-be348bcc/PowerChime.app/Contents/MacOS/PowerChime)
+PROBE_EXIT_powerchime-be348bcc:0
+kill -9 64 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/powerchime-be348bcc/PowerChime.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_powerchime-be348bcc:${?})
+
+root@Darwin#

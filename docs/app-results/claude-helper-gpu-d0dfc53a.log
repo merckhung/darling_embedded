@@ -1,0 +1,17 @@
+(/usr/bin/darling open '/Applications/claude-helper-gpu-d0dfc53a/Claude Helper (GPU).app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_claude-helper-gpu-d0dfc53a:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:12
+DARLING_LAUNCH_BUNDLE:/Applications/claude-helper-gpu-d0dfc53a/Claude Helper (GPU).app:/Applications/claude-helper-gpu-d0dfc53a/Claude Helper (GPU).app/Contents/MacOS/Claude Helper (GPU)
+native dyld warning: unresolved import: _ElectronInitializeICUandStartNode
+native dyld warning: unresolved import: _ElectronMain
+native dyld warning: unresolved import: __ZN8electron5fuses18IsRunAsNodeEnabledEv
+native dyld warning: unresolved import: _os_release
+native dyld warning: unresolved import: _sandbox_free_error
+native dyld warning: unresolved import: _sandbox_init_with_parameters
+native dyld warning: unresolved import: _sandbox_apply
+PROBE_EXIT_claude-helper-gpu-d0dfc53a:0
+kill -9 12 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/claude-helper-gpu-d0dfc53a/Claude Helper (GPU).app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_claude-helper-gpu-d0dfc53a:${?})
+
+root@Darwin#

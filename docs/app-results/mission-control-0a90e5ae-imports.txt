@@ -1,0 +1,11 @@
+==== Mission Control ====
+Linked dylibs: 4, imported symbols: 3
+
+  present  provided/imported  library
+  yes      1/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      0/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CoreDockSendNotification
+  yes      1/1	/usr/lib/libSystem.B.dylib
+
+Summary for Mission Control: 0 of 4 linked libraries are absent from the guest root; 2 of 3 imported symbols are provided (66.6667%).

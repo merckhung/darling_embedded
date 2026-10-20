@@ -1,0 +1,75 @@
+(/usr/bin/darling open /Applications/netauthagent-4912788e/NetAuthAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_netauthagent-4912788e:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:42
+DARLING_LAUNCH_BUNDLE:/Applications/netauthagent-4912788e/NetAuthAgent.app:/Applications/netauthagent-4912788e/NetAuthAgent.app/Contents/MacOS/NetAuthAgent
+native dyld warning: unresolved import: _NAAccountUpdated
+native dyld warning: unresolved import: _NAUpdateAccount
+native dyld warning: unresolved import: _SASSessionStateForUser
+native dyld warning: unresolved import: _SecAccessCreate
+native dyld warning: unresolved import: _SecCopyErrorMessageString
+native dyld warning: unresolved import: _SecItemCopyMatching
+native dyld warning: unresolved import: _SecKeychainCopyDefault
+native dyld warning: unresolved import: _SecKeychainCopyDomainSearchList
+native dyld warning: unresolved import: _SecKeychainFindGenericPassword
+native dyld warning: unresolved import: _SecKeychainItemCopyContent
+native dyld warning: unresolved import: _SecKeychainItemCreateFromContent
+native dyld warning: unresolved import: _SecKeychainItemFreeContent
+native dyld warning: unresolved import: _SecKeychainItemModifyAttributesAndData
+native dyld warning: unresolved import: _SecTaskCopyValueForEntitlement
+native dyld warning: unresolved import: _SecTaskCreateWithAuditToken
+native dyld warning: unresolved import: _SecTrustedApplicationCreateApplicationGroup
+native dyld warning: unresolved import: _SecTrustedApplicationCreateFromPath
+native dyld warning: unresolved import: _DBLoggingLogWithFormat
+native dyld warning: unresolved import: _DBLoggingStartWithController
+native dyld warning: unresolved import: _DBLoggingStop
+native dyld warning: unresolved import: _netfs_CreateURL
+native dyld warning: unresolved import: _HFSCreateInstalledEncodingDictionary
+native dyld warning: unresolved import: _audit_token_to_au32
+native dyld warning: unresolved import: _NSFileTypeForHFSTypeCode
+native dyld warning: unresolved import: __NSDictionaryOfVariableBindings
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: _bootstrap_check_in
+native dyld warning: unresolved import: _dispatch_mig_server
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _dispatch_source_set_cancel_handler
+native dyld warning: unresolved import: _mig_deallocate
+native dyld warning: unresolved import: _CFArrayAppendArray
+native dyld warning: unresolved import: _CFDictionaryApplyFunction
+native dyld warning: unresolved import: _CFStringConvertEncodingToNSStringEncoding
+native dyld warning: unresolved import: _CFStringCreateWithBytes
+native dyld warning: unresolved import: _CFUUIDCreateFromUUIDBytes
+native dyld warning: unresolved import: _CGSessionCopyCurrentDictionary
+native dyld warning: unresolved import: _kSecAttrAccount
+native dyld warning: unresolved import: _kSecAttrPath
+native dyld warning: unresolved import: _kSecAttrPort
+native dyld warning: unresolved import: _kSecAttrProtocol
+native dyld warning: unresolved import: _kSecAttrProtocolAFP
+native dyld warning: unresolved import: _kSecAttrProtocolFTP
+native dyld warning: unresolved import: _kSecAttrProtocolFTPS
+native dyld warning: unresolved import: _kSecAttrProtocolHTTP
+native dyld warning: unresolved import: _kSecAttrProtocolHTTPS
+native dyld warning: unresolved import: _kSecAttrProtocolSMB
+native dyld warning: unresolved import: _kSecAttrServer
+native dyld warning: unresolved import: _kSecClass
+native dyld warning: unresolved import: _kSecClassInternetPassword
+native dyld warning: unresolved import: _kSecMatchItemList
+native dyld warning: unresolved import: _kSecMatchLimit
+native dyld warning: unresolved import: _kSecMatchLimitAll
+native dyld warning: unresolved import: _kSecMatchSearchList
+native dyld warning: unresolved import: _kSecReturnAttributes
+native dyld warning: unresolved import: _kSecReturnData
+native dyld warning: unresolved import: _kSecReturnRef
+native dyld warning: unresolved import: _kSecValueRef
+native dyld warning: unresolved import: _gDBLoggingMasks
+native dyld warning: unresolved import: __dispatch_source_type_mach_recv
+native dyld warning: unresolved import: __dispatch_source_type_mach_send
+native dyld warning: unresolved import: _NSAccessibilityTitleAttribute
+native dyld warning: unresolved import: _NSWindowDidBecomeKeyNotification
+native dyld warning: unresolved import: _NSWindowDidBecomeMainNotification
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101320c00
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 42 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/netauthagent-4912788e/NetAuthAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_netauthagent-4912788e:${?})
+
+root@Darwin#

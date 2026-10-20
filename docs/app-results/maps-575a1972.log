@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/maps-575a1972/Maps.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_maps-575a1972:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:24
+DARLING_LAUNCH_BUNDLE:/Applications/maps-575a1972/Maps.app:/Applications/maps-575a1972/Maps.app/Contents/MacOS/Maps
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_maps-575a1972:78
+kill -9 24 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/maps-575a1972/Maps.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_maps-575a1972:${?})
+
+root@Darwin#

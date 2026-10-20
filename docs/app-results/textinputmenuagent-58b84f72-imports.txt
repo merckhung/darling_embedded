@@ -1,0 +1,30 @@
+==== TextInputMenuAgent ====
+Linked dylibs: 17, imported symbols: 187
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/IntlPreferences.framework/Versions/A/IntlPreferences
+  NO       0/1	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  NO       0/12	/System/Library/PrivateFrameworks/TextInputMenuUI.framework/Versions/A/TextInputMenuUI
+  NO       0/28	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/5	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _GetCurrentProcess _GetProcessForPID _GetProcessInformation _GetProcessPID _SameProcess
+  NO       0/1	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/0	/System/Library/PrivateFrameworks/SystemUIPlugin.framework/Versions/A/SystemUIPlugin
+  NO       0/1	/System/Library/PrivateFrameworks/KeyboardLayouts.framework/Versions/A/KeyboardLayouts
+  yes      10/12	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantDoubleNumber _NSKeyValueChangeNewKey
+  yes      33/33	/usr/lib/libobjc.A.dylib
+  yes      20/27	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_feature_enabled_impl __os_log_fault_impl _dispatch_queue_attr_make_with_qos_class _notify_get_state _notify_post _notify_register_check
+  yes      16/22	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: __NSGetCarbonMenu2 _NSKernAttributeName _NSMenuDidEndTrackingNotification _OBJC_CLASS_$_NSWorkspaceOpenConfiguration _OBJC_METACLASS_$_NSSegmentedCell _OBJC_CLASS_$_NSSegmentedCell
+  yes      27/33	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFPropertyListCreateData _CFStringGetCharacterAtIndex _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL _OBJC_EHTYPE_$_NSException
+  yes      1/5	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSGetSymbolicHotKeyValue _CGSIsSymbolicHotKeyEnabled _CGSSetSymbolicHotKey _CGSessionCopyCurrentDictionary
+  yes      0/4	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: __LSASNCreate __LSASNCreateWithPid __LSCompareASNs __LSCopyApplicationInformationItem
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+
+Summary for TextInputMenuAgent: 9 of 17 linked libraries are absent from the guest root; 107 of 187 imported symbols are provided (57.2193%).

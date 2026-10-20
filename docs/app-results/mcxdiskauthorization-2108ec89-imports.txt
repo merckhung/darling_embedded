@@ -1,0 +1,10 @@
+==== MCXDiskAuthorization ====
+Linked dylibs: 4, imported symbols: 3
+
+  present  provided/imported  library
+  yes      1/1	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      0/0	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      1/1	/usr/lib/libobjc.A.dylib
+  yes      1/1	/usr/lib/libSystem.B.dylib
+
+Summary for MCXDiskAuthorization: 0 of 4 linked libraries are absent from the guest root; 3 of 3 imported symbols are provided (100%).

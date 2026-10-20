@@ -1,0 +1,130 @@
+==== TV ====
+Linked dylibs: 113, imported symbols: 3050
+
+  present  provided/imported  library
+  NO       0/329	/System/Library/PrivateFrameworks/AVFoundationCF.framework/Versions/A/AVFoundationCF
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/13	/System/Library/PrivateFrameworks/TVLibrary.framework/Versions/A/TVLibrary
+  NO       0/15	/System/Library/PrivateFrameworks/RTCReporting.framework/Versions/A/RTCReporting
+  NO       0/1	/System/Library/PrivateFrameworks/ApplicationFirewall.framework/Versions/A/ApplicationFirewall
+  NO       0/22	/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/AMPDevices
+  NO       0/0	/System/Library/Frameworks/iTunesLibrary.framework/Versions/A/iTunesLibrary
+  NO       0/8	/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/AMPLibrary
+  NO       0/1	/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation
+  NO       0/4	/System/Library/PrivateFrameworks/PhotosFormats.framework/Versions/A/PhotosFormats
+  NO       0/0	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/26	/System/Library/PrivateFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices
+  NO       0/7	/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/Versions/A/AppleMediaServicesUI (weak)
+  NO       0/8	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/0	/System/Library/PrivateFrameworks/AppleSRP.framework/Versions/A/AppleSRP
+  NO       0/1	/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles
+  NO       0/9	/System/Library/Frameworks/MediaAccessibility.framework/Versions/A/MediaAccessibility
+  NO       0/0	/System/Library/PrivateFrameworks/InternationalSupport.framework/Versions/A/InternationalSupport
+  NO       0/0	/System/Library/PrivateFrameworks/ClassroomKit.framework/Versions/A/ClassroomKit
+  NO       0/3	/System/Library/PrivateFrameworks/ApplePushService.framework/Versions/A/ApplePushService
+  NO       0/0	/System/Library/PrivateFrameworks/IntlPreferences.framework/Versions/A/IntlPreferences
+  NO       0/0	/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+  NO       0/2	/System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/AskPermission
+  yes      8/8	/usr/lib/libexpat.1.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/0	/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/AOSAccounts
+  NO       0/2	/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+  NO       0/2	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/0	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/8	/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+  NO       0/0	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/1	/System/Library/PrivateFrameworks/AuthKitUI.framework/Versions/A/AuthKitUI
+  NO       0/0	/System/Library/PrivateFrameworks/AccessibilitySupport.framework/Versions/A/AccessibilitySupport
+  NO       0/1	/System/Library/PrivateFrameworks/RemoteServiceDiscovery.framework/Versions/A/RemoteServiceDiscovery
+  NO       0/0	/System/Library/Frameworks/CryptoTokenKit.framework/Versions/A/CryptoTokenKit
+  NO       0/4	/System/Library/PrivateFrameworks/CoreRecognition.framework/Versions/A/CoreRecognition
+  NO       0/49	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/7	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/4	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/0	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/77	/System/Library/PrivateFrameworks/AMPDesktopUI.framework/Versions/A/AMPDesktopUI
+  NO       0/3	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/5	/usr/lib/libAccessibility.dylib
+  NO       0/1	/System/Library/PrivateFrameworks/PIP.framework/Versions/A/PIP
+  NO       0/7	/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+  NO       0/6	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/59	/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote
+  NO       0/20	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  NO       0/0	/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+  NO       0/1	/System/Library/PrivateFrameworks/SymptomDiagnosticReporter.framework/Versions/A/SymptomDiagnosticReporter
+  NO       0/8	/System/Library/PrivateFrameworks/WatchListKit.framework/Versions/A/WatchListKit (weak)
+  yes      0/84	/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+             e.g. missing: _WKArrayAppendItem _WKArrayGetItemAtIndex _WKArrayGetSize _WKArrayGetTypeID _WKBooleanCreate _WKBooleanGetTypeID
+  NO       0/31	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/19	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/1	/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+  NO       0/2	/System/Library/PrivateFrameworks/iTunesCloud.framework/Versions/A/iTunesCloud
+  NO       0/81	/System/Library/PrivateFrameworks/VideosUI.framework/Versions/A/VideosUI
+  NO       0/0	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  NO       0/1	/usr/lib/libsqlite3.dylib
+  yes      10/10	/usr/lib/libz.1.dylib
+  yes      52/140	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV6objectypSgvg _$s10Foundation12NotificationVMa _$s10Foundation12URLQueryItemV4nameSSvg
+  yes      43/52	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_addMethod _class_getInstanceMethod _class_replaceMethod _method_exchangeImplementations _method_getImplementation _method_getTypeEncoding
+  yes      100/139	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv117__class_type_infoE __ZTVN10__cxxabiv120__si_class_type_infoE __ZTVN10__cxxabiv119__pointer_type_infoE __ZTVN10__cxxabiv120__function_type_infoE __ZTVN10__cxxabiv121__vmi_class_type_infoE ___cxa_pure_virtual
+  yes      223/336	/usr/lib/libSystem.B.dylib
+             e.g. missing: _xpc_connection_set_event_handler _xpc_connection_create_mach_service _notify_check _xpc_connection_activate _bootstrap_look_up _xpc_dictionary_create_empty
+  NO       0/4	/System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+  NO       0/5	/System/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting
+  NO       0/2	/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+  yes      108/330	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSFontWeightBlack _NSFontWeightHeavy _NSFontWeightLight _NSFontWeightThin _NSFontWeightUltraLight _$sSo11NSImageViewC6AppKitE15addSymbolEffect_7options8animatedyx_7Symbols0fG7OptionsVSbtAG08DiscretefG0RzAG010IndefinitefG0RzAG0fG0RzlF
+  yes      0/21	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _GetCurrentProcess _GetFrontProcess _GetNextProcess _GetProcessInformation _PasteboardClear _PasteboardCopyItemFlavorData
+  NO       0/93	/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+  NO       0/19	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      111/381	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAbsoluteTimeGetDayOfWeek _CFAbsoluteTimeGetGregorianDate _CFAllocatorAllocate _CFAllocatorDeallocate _CFAllocatorReallocate _CFArrayAppendArray
+  yes      85/167	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$sSo10CGColorRefa12CoreGraphicsE5whiteABvgZ _$sSo12CGContextRefa12CoreGraphicsE4draw_2in8byTilingySo07CGImageB0a_So6CGRectVSbtF _CGAffineTransformConcat _CGAffineTransformMakeRotation _CGAffineTransformMakeScale _CGAffineTransformMakeTranslation
+  NO       0/0	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  yes      3/107	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECoerceDesc _AECoercePtr _AECountItems _AECreateAppleEvent _AECreateDesc _AECreateList
+  NO       0/31	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/3	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/15	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  NO       0/2	/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+  NO       0/24	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  yes      0/13	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeMapMemory _SecKeychainFindGenericPassword _SecKeychainGetUserInteractionAllowed _SecKeychainItemCopyContent _SecKeychainItemCreateFromContent _SecKeychainItemDelete
+  NO       0/7	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/5	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/0	/System/Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/165	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for TV: 99 of 113 linked libraries are absent from the guest root; 743 of 3040 imported symbols are provided (24.4408%).

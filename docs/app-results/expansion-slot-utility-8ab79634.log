@@ -1,0 +1,74 @@
+(/usr/bin/darling open '/Applications/expansion-slot-utility-8ab79634/Expansion Slot Utility.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_expansion-slot-utility-8ab79634:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:54
+DARLING_LAUNCH_BUNDLE:/Applications/expansion-slot-utility-8ab79634/Expansion Slot Utility.app:/Applications/expansion-slot-utility-8ab79634/Expansion Slot Utility.app/Contents/MacOS/Expansion Slot Utility
+native dyld warning: unresolved import: _AECreateAppleEvent
+native dyld warning: unresolved import: _AECreateDesc
+native dyld warning: unresolved import: _AEDisposeDesc
+native dyld warning: unresolved import: _AESendMessage
+native dyld warning: unresolved import: _DetectTypeCChanges
+native dyld warning: unresolved import: _FetchCardInfo
+native dyld warning: unresolved import: _FetchPlatformInfo
+native dyld warning: unresolved import: _FindChildWithLowestFunctionNumber
+native dyld warning: unresolved import: _GetDefaultPoolAllocation
+native dyld warning: unresolved import: _GetSlotRecommendations
+native dyld warning: unresolved import: _GetSystemPoolUsage
+native dyld warning: unresolved import: _IsConfigurationAllowed
+native dyld warning: unresolved import: _IsConfigurationDefault
+native dyld warning: unresolved import: _ReleaseCardInfo
+native dyld warning: unresolved import: _RemoveTypeCChangeDetect
+native dyld warning: unresolved import: _IOObjectCopyBundleIdentifierForClass
+native dyld warning: unresolved import: _IOObjectCopyClass
+native dyld warning: unresolved import: _IORegistryEntryCreateCFProperties
+native dyld warning: unresolved import: _IORegistryEntryGetChildEntry
+native dyld warning: unresolved import: _AuthorizationMakeExternalForm
+native dyld warning: unresolved import: _SecCopyErrorMessageString
+native dyld warning: unresolved import: _NSDivideRect
+native dyld warning: unresolved import: _CFNotificationCenterRemoveEveryObserver
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/expansion-slot-utility-8ab79634/Expansion Slot Utility.app/Contents/MacOS/Expansion Slot Utility)
+[AppKit] loaded nib /Applications/expansion-slot-utility-8ab79634/Expansion Slot Utility.app/Contents/Resources/Base.lproj/MainMenu.nib: 128 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1014ea3c0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1014ea3c0
+[ObjC] Method not found: [NSLevelIndicator setLevelIndicatorStyle:]
+[ObjC] Method not found: [NSFont systemFontSizeForControlSize:]
+[ObjC] Method not found: [NSLevelIndicator fillColor]
+[ObjC] Method not found: [NSLevelIndicator setWarningFillColor:]
+[ObjC] Method not found: [ESULabeledLevelIndicator addSubview:positioned:relativeTo:]
+[ObjC] Method not found: [NSLevelIndicator setLevelIndicatorStyle:]
+[ObjC] Method not found: [NSFont systemFontSizeForControlSize:]
+[ObjC] Method not found: [NSLevelIndicator fillColor]
+[ObjC] Method not found: [NSLevelIndicator setWarningFillColor:]
+[ObjC] Method not found: [ESULabeledLevelIndicator addSubview:positioned:relativeTo:]
+[ObjC] Method not found: [NSMutableArray initWithCapacity:]
+[ObjC] Method not found: [NSStackView setCustomSpacing:afterView:]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1014ecd30 (title: Expansion Slot Utility)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Expansion Slot Utility:122:12
+DARLING_MENUBAR_ITEM:File:225:12
+DARLING_WINDOW_READY:Expansion Slot Utility:4194305:676:28:340:574
+DARLING_BUTTON_POS:Expansion Slot Utility:Automatic Bandwidth Configuration:799:218
+[AppKit] loaded nib /Applications/expansion-slot-utility-8ab79634/Expansion Slot Utility.app/Contents/Resources/Base.lproj/ESUWindow.nib: 601 objects, 2 windows
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Expansion Slot Utility:4194305:676:28:340:574
+DARLING_BUTTON_POS:Expansion Slot Utility:Automatic Bandwidth Configuration:799:218
+DARLING_WINDOW_READY:Expansion Slot Utility:4194305:676:28:340:574
+DARLING_BUTTON_POS:Expansion Slot Utility:Automatic Bandwidth Configuration:799:218
+DARLING_WINDOW_READY:Expansion Slot Utility:4194305:676:28:340:574
+DARLING_BUTTON_POS:Expansion Slot Utility:Automatic Bandwidth Configuration:799:218
+DARLING_WINDOW_READY:Expansion Slot Utility:4194305:676:28:340:574
+DARLING_BUTTON_POS:Expansion Slot Utility:Automatic Bandwidth Configuration:799:218
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Expansion Slot Utility:122:12
+DARLING_MENUBAR_ITEM:File:225:12
+kill -9 54 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/expansion-slot-utility-8ab79634/Expansion Slot Utility.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_expansion-slot-utility-8ab79634:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

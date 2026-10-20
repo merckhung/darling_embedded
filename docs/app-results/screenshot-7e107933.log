@@ -1,0 +1,140 @@
+(/usr/bin/darling open /Applications/screenshot-7e107933/Screenshot.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_screenshot-7e107933:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:58
+DARLING_LAUNCH_BUNDLE:/Applications/screenshot-7e107933/Screenshot.app:/Applications/screenshot-7e107933/Screenshot.app/Contents/MacOS/Screenshot
+native dyld warning: unresolved import: __swiftImmortalRefCount
+native dyld warning: unresolved import: _$ss20__StaticArrayStorageCN
+native dyld warning: unresolved import: _swift_cvw_enumFn_getEnumTag
+native dyld warning: unresolved import: _swift_cvw_assignWithTake
+native dyld warning: unresolved import: _swift_cvw_assignWithCopy
+native dyld warning: unresolved import: _swift_cvw_initWithCopy
+native dyld warning: unresolved import: _swift_cvw_destroy
+native dyld warning: unresolved import: _swift_cvw_initializeBufferWithCopyOfBuffer
+native dyld warning: unresolved import: _xpc_array_append_value
+native dyld warning: unresolved import: _xpc_string_create
+native dyld warning: unresolved import: _$sSKsSS7ElementRtzrlE6joined9separatorS2S_tF
+native dyld warning: unresolved import: _$sSS10describingSSx_tclufC
+native dyld warning: unresolved import: _$sSS11utf8CStrings15ContiguousArrayVys4Int8VGvg
+native dyld warning: unresolved import: _$sSS21_builtinStringLiteral17utf8CodeUnitCount7isASCIISSBp_BwBi1_tcfC
+native dyld warning: unresolved import: _$sSS8UTF8ViewV13_foreignCountSiyF
+native dyld warning: unresolved import: _$ss10SetAlgebraPyxqd__ncSTRd__7ElementQyd__ACRtzlufCTj
+native dyld warning: unresolved import: _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
+native dyld warning: unresolved import: _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+native dyld warning: unresolved import: _$ss5ErrorPsE19_getEmbeddedNSErroryXlSgyF
+native dyld warning: unresolved import: _$ss5ErrorPsE5_codeSivg
+native dyld warning: unresolved import: _$ss5ErrorPsE7_domainSSvg
+native dyld warning: unresolved import: _$ss5ErrorPsE9_userInfoyXlSgvg
+native dyld warning: unresolved import: __swift_stdlib_bridgeErrorToNSError
+native dyld warning: unresolved import: _swift_allocError
+native dyld warning: unresolved import: _swift_allocObject
+native dyld warning: unresolved import: _swift_arrayInitWithCopy
+native dyld warning: unresolved import: _swift_bridgeObjectRelease
+native dyld warning: unresolved import: _swift_bridgeObjectRetain
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_deallocObject
+native dyld warning: unresolved import: _swift_deallocPartialClassInstance
+native dyld warning: unresolved import: _swift_errorInMain
+native dyld warning: unresolved import: _swift_errorRelease
+native dyld warning: unresolved import: _swift_errorRetain
+native dyld warning: unresolved import: _swift_getEnumCaseMultiPayload
+native dyld warning: unresolved import: _swift_getObjCClassMetadata
+native dyld warning: unresolved import: _swift_getObjectType
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContextInMetadataState2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _swift_isUniquelyReferenced_nonNull_native
+native dyld warning: unresolved import: _swift_once
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _swift_retain
+native dyld warning: unresolved import: _swift_slowAlloc
+native dyld warning: unresolved import: _swift_slowDealloc
+native dyld warning: unresolved import: _swift_unknownObjectRelease
+native dyld warning: unresolved import: _swift_unknownObjectRetain
+native dyld warning: unresolved import: _swift_willThrow
+native dyld warning: unresolved import: _$s8Dispatch0A3QoSV11unspecifiedACvgZ
+native dyld warning: unresolved import: _$s8Dispatch0A3QoSVMa
+native dyld warning: unresolved import: _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyOMa
+native dyld warning: unresolved import: _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMa
+native dyld warning: unresolved import: _$sSo24OS_dispatch_queue_serialC8DispatchE5label3qos10attributes20autoreleaseFrequency6targetABSS_AC0E3QoSVAbCE10AttributesVSo0a1_b1_C0CACE011AutoreleaseJ0OANSgtcfC
+native dyld warning: unresolved import: _$sSo33OS_dispatch_queue_serial_executorC8DispatchE23asUnownedSerialExecutorSceyF
+native dyld warning: unresolved import: _$s3XPC10XPCSessionC11machService11targetQueue7options19cancellationHandlerACSS_So17OS_dispatch_queueCSgAC21InitializationOptionsVyAA12XPCRichErrorVcSgtKcfC
+native dyld warning: unresolved import: _$s3XPC10XPCSessionC21InitializationOptionsV4noneAEvgZ
+native dyld warning: unresolved import: _$s3XPC10XPCSessionC21InitializationOptionsVMa
+native dyld warning: unresolved import: _$s3XPC10XPCSessionC4send7message12replyHandleryAA13XPCDictionaryV_ys6ResultOyAhA12XPCRichErrorVGctFTj
+native dyld warning: unresolved import: _$s3XPC10XPCSessionC6cancel6reasonySS_tFTj
+native dyld warning: unresolved import: _$s3XPC10XPCSessionCMa
+native dyld warning: unresolved import: _$s3XPC12XPCRichErrorVMa
+native dyld warning: unresolved import: _$s3XPC13XPCDictionaryVACycfC
+native dyld warning: unresolved import: _$s3XPC13XPCDictionaryVMa
+native dyld warning: unresolved import: _$s3XPC13XPCDictionaryVySbSgSScis
+native dyld warning: unresolved import: _$s3XPC13XPCDictionaryVySo13OS_xpc_object_pSgSScis
+native dyld warning: unresolved import: _$s3XPC13XPCDictionaryVyxSgSScSURzluis
+native dyld warning: unresolved import: _$s3XPC13XPCDictionaryVyxSgSScSZRzluig
+native dyld warning: unresolved import: _$s3XPC8XPCArrayV25withUnsafeUnderlyingArrayyxxSo13OS_xpc_object_pKXEKlF
+native dyld warning: unresolved import: _$s3XPC8XPCArrayVACycfC
+native dyld warning: unresolved import: _$s3XPC8XPCArrayVMa
+native dyld warning: unresolved import: _$sScA15unownedExecutorScevgTj
+native dyld warning: unresolved import: _$sScC12continuation8functionScCyxq_GSccyxq_G_SStcfC
+native dyld warning: unresolved import: _$sScC6resume8throwingyq_n_tF
+native dyld warning: unresolved import: _$sScC6resume9returningyxn_tF
+native dyld warning: unresolved import: _$sScM6sharedScMvgZ
+native dyld warning: unresolved import: _$sScMMa
+native dyld warning: unresolved import: _swift_continuation_await
+native dyld warning: unresolved import: _swift_continuation_init
+native dyld warning: unresolved import: _swift_job_run
+native dyld warning: unresolved import: _swift_task_alloc
+native dyld warning: unresolved import: _swift_task_asyncMainDrainQueue
+native dyld warning: unresolved import: _swift_task_create
+native dyld warning: unresolved import: _swift_task_dealloc
+native dyld warning: unresolved import: _swift_task_getMainExecutor
+native dyld warning: unresolved import: _swift_task_isCurrentExecutor
+native dyld warning: unresolved import: _swift_task_reportUnexpectedExecutor
+native dyld warning: unresolved import: _swift_task_switch
+native dyld warning: unresolved import: _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
+native dyld warning: unresolved import: _$s2os6LoggerV9subsystem8categoryACSS_SStcfC
+native dyld warning: unresolved import: _$s2os6LoggerVMa
+native dyld warning: unresolved import: _$sSo13os_log_type_ta0A0E5errorABvgZ
+native dyld warning: unresolved import: _$sSo13os_log_type_ta0A0E7defaultABvgZ
+native dyld warning: unresolved import: _$sSSN
+native dyld warning: unresolved import: _$sSayxGSKsMc
+native dyld warning: unresolved import: _$sSayxGSTsMc
+native dyld warning: unresolved import: _$sSbN
+native dyld warning: unresolved import: _$ss11_StringGutsVN
+native dyld warning: unresolved import: _$ss5ErrorWS
+native dyld warning: unresolved import: _$ss5Int64VN
+native dyld warning: unresolved import: _$ss5Int64VSZsMc
+native dyld warning: unresolved import: _$ss6UInt64VN
+native dyld warning: unresolved import: _$ss6UInt64VSUsMc
+native dyld warning: unresolved import: _$sytN
+native dyld warning: unresolved import: __swiftEmptyArrayStorage
+native dyld warning: unresolved import: _$sSo17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO8workItemyA2EmFWC
+native dyld warning: unresolved import: _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVs10SetAlgebraACMc
+native dyld warning: unresolved import: _$s3XPC12XPCRichErrorVs0C0AAMc
+native dyld warning: unresolved import: _$sScMScAsWP
+native dyld warning: unresolved import: _$sSo24OS_dispatch_queue_serialC8DispatchE10AttributesVMn
+native dyld warning: unresolved import: _$ss5ErrorMp
+native dyld warning: unresolved import: _$sScAMp
+native dyld warning: unresolved import: _$sScA15unownedExecutorScevgTq
+native dyld warning: unresolved import: _$ss5ErrorP7_domainSSvgTq
+native dyld warning: unresolved import: _$ss5ErrorP5_codeSivgTq
+native dyld warning: unresolved import: _$ss5ErrorP9_userInfoyXlSgvgTq
+native dyld warning: unresolved import: _$ss5ErrorP19_getEmbeddedNSErroryXlSgyFTq
+native dyld warning: unresolved import: _$s3XPC10XPCSessionCMn
+native dyld warning: unresolved import: _$ss5Int64VMn
+native dyld warning: unresolved import: _$ss6ResultOMn
+native dyld warning: unresolved import: _$s3XPC13XPCDictionaryVMn
+native dyld warning: unresolved import: _$s3XPC12XPCRichErrorVMn
+native dyld warning: unresolved import: _$ss23_ContiguousArrayStorageCMn
+native dyld warning: unresolved import: _$ss5UInt8VMn
+native dyld warning: unresolved import: _$sBoWV
+native dyld warning: unresolved import: _swift_deletedMethodError
+XNU_EXC: exc=6 codes=0x1 0x1006e1a44
+XNU_EXC: exc=10 codes=0x5600001 0x1006e1a44
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 58
+Trace/BPT trap: 5
+PROBE_EXIT_screenshot-7e107933:133
+kill -9 58 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/screenshot-7e107933/Screenshot.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_screenshot-7e107933:${?})
+
+root@Darwin#

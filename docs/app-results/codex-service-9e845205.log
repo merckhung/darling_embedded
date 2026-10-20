@@ -1,0 +1,17 @@
+(/usr/bin/darling open '/Applications/codex-service-9e845205/Codex (Service).app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_codex-service-9e845205:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:28
+DARLING_LAUNCH_BUNDLE:/Applications/codex-service-9e845205/Codex (Service).app:/Applications/codex-service-9e845205/Codex (Service).app/Contents/MacOS/Codex (Service)
+native dyld warning: unresolved import: _os_release
+native dyld warning: unresolved import: _sandbox_free_error
+native dyld warning: unresolved import: _sandbox_init_with_parameters
+native dyld warning: unresolved import: _sandbox_apply
+dlopen /Applications/codex-service-9e845205/Codex (Service).app/Contents/MacOS/../../../../Codex Framework: cannot open native library: /Applications/codex-service-9e845205/Codex (Service).app/Contents/MacOS/../../../../Codex Framework.XNU_EXC: exc=10 codes=0x6000000 0x0
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 28
+Abort trap: 6
+PROBE_EXIT_codex-service-9e845205:134
+kill -9 28 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/codex-service-9e845205/Codex (Service).app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_codex-service-9e845205:${?})
+
+root@Darwin#

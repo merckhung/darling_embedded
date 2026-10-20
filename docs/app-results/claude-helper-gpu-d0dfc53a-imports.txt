@@ -1,0 +1,9 @@
+==== Claude Helper (GPU) ====
+Linked dylibs: 3, imported symbols: 93
+
+  present  provided/imported  library
+  NO       0/1	/usr/lib/libsandbox.1.dylib
+  yes      84/89	/usr/lib/libSystem.B.dylib
+             e.g. missing: _os_release _sandbox_free_error _sandbox_init_with_parameters _dlsym _dlopen
+
+Summary for Claude Helper (GPU): 1 of 3 linked libraries are absent from the guest root; 84 of 90 imported symbols are provided (93.3333%).

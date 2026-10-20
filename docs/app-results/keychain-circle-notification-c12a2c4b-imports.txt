@@ -1,0 +1,27 @@
+==== Keychain Circle Notification ====
+Linked dylibs: 16, imported symbols: 119
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/AAAFoundation.framework/Versions/A/AAAFoundation
+  NO       0/3	/System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/CoreCDP
+  NO       0/1	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/0	/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Versions/A/ProtectedCloudStorage
+  yes      0/26	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _OctagonPlatformSupportsSOS _SOSCCAcceptApplicants _SOSCCCopyApplicantPeerInfo _SOSCCCopyPeerPeerInfo _SOSCCGetLastDepartureReason _SOSCCIsSOSTrustAndSyncingEnabled
+  NO       0/6	/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/AOSAccounts
+  NO       0/0	/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+  NO       0/1	/System/Library/PrivateFrameworks/AOSUI.framework/Versions/A/AOSUI
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/CloudServices
+  yes      9/10	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber
+  yes      19/19	/usr/lib/libobjc.A.dylib
+  yes      17/32	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_activate _os_variant_has_internal_ui _xpc_activity_register _xpc_dictionary_create _xpc_dictionary_set_bool _xpc_dictionary_set_string
+  yes      2/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      7/16	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFErrorGetDomain _CFNotificationCenterPostNotificationWithOptions _CFSetAddValue _CFSetCreateMutable _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AEDisposeDesc _LSOpenFromURLSpec
+
+Summary for Keychain Circle Notification: 8 of 16 linked libraries are absent from the guest root; 54 of 119 imported symbols are provided (45.3782%).

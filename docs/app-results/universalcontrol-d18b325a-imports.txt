@@ -1,0 +1,67 @@
+==== UniversalControl ====
+Linked dylibs: 54, imported symbols: 2236
+
+  present  provided/imported  library
+  NO       0/36	/usr/lib/libarchive.2.dylib
+  NO       0/3	/System/Library/PrivateFrameworks/HID.framework/Versions/A/HID
+  NO       0/59	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/1	/System/Library/PrivateFrameworks/PowerLog.framework/Versions/A/PowerLog
+  NO       0/0	/System/Library/PrivateFrameworks/TimeSync.framework/Versions/A/TimeSync
+  NO       0/253	/System/Library/PrivateFrameworks/UniversalControl.framework/Versions/A/UniversalControl
+  NO       0/3	/System/Library/PrivateFrameworks/MobileKeyBag.framework/Versions/A/MobileKeyBag
+  NO       0/12	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/2	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  yes      20/212	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10POSIXErrorV8_nsErrorSo7NSErrorCvg _$s10Foundation10POSIXErrorVMa _$s10Foundation11JSONEncoderC16OutputFormattingV10sortedKeysAEvgZ _$s10Foundation11JSONEncoderC16OutputFormattingVMa _$s10Foundation11JSONEncoderC16outputFormattingAC06OutputD0VvsTj _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj
+  yes      22/25	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush _objc_setAssociatedObject
+  yes      46/108	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_signpost_emit_with_name_impl _dispatch_activate _dispatch_semaphore_create _dispatch_workloop_create_inactive _dispatch_workloop_set_scheduler_priority
+  yes      0/30	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CoreCursorCopyImages _CoreDragAcceptDrag _CoreDragCancelDrag _CoreDragChangeBehaviors _CoreDragCreateWithPasteboard _CoreDragDispose
+  NO       0/19	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      26/48	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFNumberGetType _CFPasteboardBeginGeneration _CFPasteboardCopyData _CFPasteboardCopyFlavorsForItem _CFPasteboardCreate _CFPasteboardCreateUniquePromiseFileURL
+  yes      33/124	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics14CGPathFillRuleOMa _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$s12CoreGraphics6RegionV10boundsRectSo6CGRectVvg _$s12CoreGraphics6RegionV1x1yAcA7CGFloatV5lower_AG5uppert_AgH_AgIttcfC _$s12CoreGraphics6RegionV2eeoiySbAC_ACtFZ _$s12CoreGraphics6RegionV5rectsQrvg
+  yes      0/10	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _FSEventStreamCreate _FSEventStreamSetDispatchQueue _FSEventStreamStart _FSEventStreamStop __LSCompareASNs __LSGetCurrentApplicationASN
+  NO       0/7	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/9	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/3	/System/Library/Frameworks/NearbyInteraction.framework/Versions/A/NearbyInteraction
+  NO       0/17	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/3	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/4	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/1	/System/Library/PrivateFrameworks/AACCore.framework/Versions/A/AACCore
+  NO       0/2	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+  NO       0/2	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/3	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/13	/System/Library/PrivateFrameworks/Rapport.framework/Versions/A/Rapport
+  NO       0/1	/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/1089	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/55	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/27	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/12	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswift_DarwinFoundation1.dylib
+  NO       0/28	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for UniversalControl: 47 of 54 linked libraries are absent from the guest root; 147 of 2236 imported symbols are provided (6.57424%).

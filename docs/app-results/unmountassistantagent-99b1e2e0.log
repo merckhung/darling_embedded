@@ -1,0 +1,65 @@
+(/usr/bin/darling open /Applications/unmountassistantagent-99b1e2e0/UnmountAssistantAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_unmountassistantagent-99b1e2e0:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:463
+DARLING_LAUNCH_BUNDLE:/Applications/unmountassistantagent-99b1e2e0/UnmountAssistantAgent.app:/Applications/unmountassistantagent-99b1e2e0/UnmountAssistantAgent.app/Contents/MacOS/UnmountAssistantAgent
+native dyld warning: unresolved import: _CRCopySanitizedPath
+native dyld warning: unresolved import: _CRIsAppleInternal
+native dyld warning: unresolved import: _AECreateDesc
+native dyld warning: unresolved import: _LSOpenFromURLSpec
+native dyld warning: unresolved import: __LSASNCreateWithPid
+native dyld warning: unresolved import: __LSCopyApplicationInformation
+native dyld warning: unresolved import: __LSCopyApplicationInformationItem
+native dyld warning: unresolved import: _DIHLCopyVolumeForImage
+native dyld warning: unresolved import: _audit_token_to_au32
+native dyld warning: unresolved import: _DBLoggingLogWithFormat
+native dyld warning: unresolved import: _DBLoggingStartWithController
+native dyld warning: unresolved import: _DBLoggingStop
+native dyld warning: unresolved import: _NSFileTypeForHFSTypeCode
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: _asl_close
+native dyld warning: unresolved import: _asl_free
+native dyld warning: unresolved import: _asl_log
+native dyld warning: unresolved import: _asl_new
+native dyld warning: unresolved import: _asl_open
+native dyld warning: unresolved import: _asl_set
+native dyld warning: unresolved import: _asl_set_filter
+native dyld warning: unresolved import: _bootstrap_check_in
+native dyld warning: unresolved import: _bootstrap_look_up
+native dyld warning: unresolved import: _dispatch_get_context
+native dyld warning: unresolved import: _dispatch_mig_server
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _dispatch_retain
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _dispatch_set_context
+native dyld warning: unresolved import: _dispatch_source_get_handle
+native dyld warning: unresolved import: _dispatch_source_set_cancel_handler
+native dyld warning: unresolved import: _fsctl
+native dyld warning: unresolved import: _mig_deallocate
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: __kLSApplicationBackgroundOnlyTypeKey
+native dyld warning: unresolved import: __kLSApplicationForegroundTypeKey
+native dyld warning: unresolved import: __kLSApplicationTypeKey
+native dyld warning: unresolved import: __kLSApplicationUIElementTypeKey
+native dyld warning: unresolved import: __kLSBundleIdentifierLowerCaseKey
+native dyld warning: unresolved import: __kLSDisplayNameKey
+native dyld warning: unresolved import: __kLSExecutablePathKey
+native dyld warning: unresolved import: _gDBLoggingMasks
+native dyld warning: unresolved import: __dispatch_source_type_mach_recv
+native dyld warning: unresolved import: __dispatch_source_type_proc
+native dyld warning: unresolved import: _NSURLEffectiveIconKey
+native dyld warning: unresolved import: _NSURLIsVolumeKey
+native dyld warning: unresolved import: _NSURLLocalizedNameKey
+native dyld warning: unresolved import: _NSURLVolumeIdentifierKey
+native dyld warning: unresolved import: _NSURLVolumeIsEjectableKey
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: __kCFURLVolumeMountPointStringKey
+native dyld warning: unresolved import: __kCFURLVolumeRefNumKey
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1016b8bd0
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 463 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/unmountassistantagent-99b1e2e0/UnmountAssistantAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_unmountassistantagent-99b1e2e0:${?})
+
+root@Darwin#

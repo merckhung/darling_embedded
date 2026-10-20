@@ -1,0 +1,26 @@
+==== NowPlayingTouchUI ====
+Linked dylibs: 14, imported symbols: 247
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/MediaServices.framework/Versions/A/MediaServices
+  yes      20/34	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAppearanceNameControlStrip _NSAppearanceNameTouchBar _NSEnabledBinding _NSHiddenBinding _NSImageBinding _NSImageNameTouchBarQuickLookTemplate
+  NO       0/56	/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote
+  yes      9/13	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _NSNegateBooleanTransformerName _OBJC_CLASS_$_NSLayoutConstraint _OBJC_CLASS_$_NSMapTable
+  yes      31/31	/usr/lib/libobjc.A.dylib
+  yes      1/10	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNSt20bad_array_new_lengthC1Ev ___cxa_allocate_exception ___cxa_free_exception ___cxa_throw ___gxx_personality_v0 __ZNSt12length_errorD1Ev
+  yes      31/36	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dlerror _dlsym _notify_get_state _xpc_set_event_stream_handler ___chkstk_darwin
+  NO       0/3	/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+  yes      16/22	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSMutableOrderedSet _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL
+  yes      21/30	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGBitmapContextGetBitmapInfo _CGContextSetFillColorSpace _CGContextSetTextPosition _CGDataProviderCreateWithCFData _CGImageCreateCopyWithColorSpace _CGImageCreateWithJPEGDataProvider
+  NO       0/2	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/5	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+
+Summary for NowPlayingTouchUI: 7 of 14 linked libraries are absent from the guest root; 129 of 244 imported symbols are provided (52.8689%).

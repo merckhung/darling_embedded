@@ -1,0 +1,78 @@
+==== Contacts ====
+Linked dylibs: 65, imported symbols: 1241
+
+  present  provided/imported  library
+  yes      40/65	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation21NSKeyValueObservationCMa _$s10Foundation27_KeyValueCodingAndObservingPAAE7observe_7options13changeHandlerAA05NSKeyC11ObservationCs0B4PathCyxqd__G_So0kcF7OptionsVyx_AA0kC14ObservedChangeVyqd__GtctlF _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ _$sSa10FoundationE19_bridgeToObjectiveCSo7NSArrayCyF _$sSa10FoundationE36_unconditionallyBridgeFromObjectiveCySayxGSo7NSArrayCSgFZ
+  yes      69/125	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityRoleDescription __nsBeginNSPSupport _NSAccessibilityButtonRole _NSAppearanceNameVibrantDark _NSAppearanceNameVibrantLight _NSApplicationDidFinishRestoringWindowsNotification
+  NO       0/1	/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/FamilyCircle
+  NO       0/13	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/1	/System/Library/PrivateFrameworks/AccountsDaemon.framework/Versions/A/AccountsDaemon
+  NO       0/4	/System/Library/PrivateFrameworks/AccountsUI.framework/Versions/A/AccountsUI
+  NO       0/326	/System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook
+  yes      0/5	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _PMCreatePageFormatWithPMPaper _PMGetUnadjustedPaperRect _PMPrinterCreatePaperInfoListForMenuPriv _PMRelease _PMRetain
+  NO       0/14	/System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup
+  NO       0/13	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/2	/System/Library/PrivateFrameworks/ContactsAutocomplete.framework/Versions/A/ContactsAutocomplete
+  NO       0/2	/System/Library/PrivateFrameworks/ContactsAutocompleteUI.framework/Versions/A/ContactsAutocompleteUI
+  NO       0/2	/System/Library/PrivateFrameworks/ContactsDonation.framework/Versions/A/ContactsDonation
+  NO       0/32	/System/Library/PrivateFrameworks/ContactsFoundation.framework/Versions/A/ContactsFoundation
+  NO       0/2	/System/Library/PrivateFrameworks/ContactsPersistence.framework/Versions/A/ContactsPersistence
+  NO       0/16	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/7	/System/Library/PrivateFrameworks/ContactsUICore.framework/Versions/A/ContactsUICore
+  NO       0/4	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  yes      0/0	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+  NO       0/1	/System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/CoreSuggestions
+  NO       0/2	/System/Library/PrivateFrameworks/IntlPreferences.framework/Versions/A/IntlPreferences
+  NO       0/0	/System/Library/PrivateFrameworks/MessagesKit.framework/Versions/A/MessagesKit
+  NO       0/0	/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+  NO       0/2	/System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+  NO       0/0	/System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintingPrivate
+  NO       0/1	/System/Library/PrivateFrameworks/RTTUtilities.framework/Versions/A/RTTUtilities
+  NO       0/0	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  yes      0/0	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/0	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  NO       0/0	/System/Library/PrivateFrameworks/ShareKit.framework/Versions/A/ShareKit
+  NO       0/0	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/3	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/0	/System/Library/PrivateFrameworks/ContactsMetrics.framework/Versions/A/ContactsMetrics
+  NO       0/1	/System/Library/PrivateFrameworks/vCard.framework/Versions/A/vCard
+  yes      46/47	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_exception_throw
+  yes      47/55	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_semaphore_create _dispatch_semaphore_signal _dispatch_semaphore_wait _dlopen _dlsym _fdopen
+  NO       0/4	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/9	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      30/60	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDictionaryGetKeysAndValues _CFPreferencesAppValueIsForced _CFStringConvertEncodingToIANACharSetName _CFStringConvertEncodingToNSStringEncoding _CFStringConvertIANACharSetNameToEncoding _CFStringConvertNSStringEncodingToEncoding
+  yes      1/8	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGContextSetStyle _CGSNewConnection _CGSReleaseConnection _CGStyleCreateShadow _CGStyleRelease _CGWindowContextCreate
+  NO       0/1	/System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+  NO       0/1	/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+  NO       0/289	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/113	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/4	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Contacts: 56 of 65 linked libraries are absent from the guest root; 233 of 1241 imported symbols are provided (18.7752%).

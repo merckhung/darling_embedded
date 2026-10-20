@@ -1,0 +1,57 @@
+(/usr/bin/darling open '/Applications/erase-assistant-f139090c/Erase Assistant.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_erase-assistant-f139090c:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:116
+DARLING_LAUNCH_BUNDLE:/Applications/erase-assistant-f139090c/Erase Assistant.app:/Applications/erase-assistant-f139090c/Erase Assistant.app/Contents/MacOS/Erase Assistant
+native dyld warning: unresolved import: _CP_UserInitiatedEACSShouldSkipiCloudCheck
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _os_variant_allows_internal_security_policies
+native dyld warning: unresolved import: _os_variant_has_internal_ui
+native dyld warning: unresolved import: _NSColorEffectiveUserAccentColor
+native dyld warning: unresolved import: __CSBackupCopySessionStatus
+native dyld warning: unresolved import: __CSBackupGetDefaultBackupSession
+native dyld warning: unresolved import: _AnalyticsSendEvent
+native dyld warning: unresolved import: _IASWaitOnDispatchSemaphoreWithTimeout
+native dyld warning: unresolved import: __sl_dlopen
+native dyld warning: unresolved import: _LUICImageGenericUser
+native dyld warning: unresolved import: _DKEACSAccountOptionAdminUserID
+native dyld warning: unresolved import: _DKEACSAccountOptionAdminUserPassword
+native dyld warning: unresolved import: _DKErrorDomain
+native dyld warning: unresolved import: _DKIntegrityCheckErrorDomain
+native dyld warning: unresolved import: _DKTaskConfirmationCheckIdentifier
+native dyld warning: unresolved import: _DKTaskDeactivateFindMyIdentifier
+native dyld warning: unresolved import: _DKTaskOtherUsersCheckIdentifier
+native dyld warning: unresolved import: _DKTaskOtherVolumesCheckIdentifier
+native dyld warning: unresolved import: _DKTaskPrepareForRebootIdentifier
+native dyld warning: unresolved import: _DKTaskRemoveiMessageFaceTimeIdentifier
+native dyld warning: unresolved import: _DKTaskSystemIntegrityCheckIdentifier
+native dyld warning: unresolved import: _DKTaskTimeMachineBackupCheckIdentifier
+native dyld warning: unresolved import: _DKTaskUnregisterAccountRemovalIdentifier
+native dyld warning: unresolved import: _DKTaskiCloudDataUploadCheckIdentifier
+native dyld warning: unresolved import: _NSDebugDescriptionErrorKey
+native dyld warning: unresolved import: _NSAppearanceNameVibrantLight
+native dyld warning: unresolved import: _NSFontTextStyleTitle2
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: _kCSBackupdKeyLastSystemBackupDate
+native dyld warning: unresolved import: _kCACornerCurveContinuous
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/erase-assistant-f139090c/Erase Assistant.app/Contents/MacOS/Erase Assistant)
+[AppKit] loaded nib /Applications/erase-assistant-f139090c/Erase Assistant.app/Contents/Resources/Base.lproj/MainMenu.nib: 257 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1012aee10
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1012aee10
+[Foundation] performSelector:doLaunchPrechecks withObject:0x0 afterDelay:0.100000 on 0x748c082a0
+[ObjC] Method not found: [NSObject initWithSetupAssistant:]
+[ObjC] Method not found: [NSObject initWithSetupAssistantContext:]
+[AppKit] returned from applicationDidFinishLaunching
+[Foundation] firing delayed perform doLaunchPrechecks on 0x748c082a0
+[ObjC] Method not found: [NSObject isIntegralWithError:]
+[ObjC] Method not found: [NSObject efiPasswordExists]
+[ObjC] Method not found: [NSObject currentUser]
+[ObjC] Method not found: [NSObject currentUser]
+[Darling AppKit] NSAlert: NOT_AUTHORIZED_TITLE - NOT_AUTHORIZED_BODY
+DARLING_APP_TERMINATE:pid=116
+PROBE_EXIT_erase-assistant-f139090c:0
+kill -9 116 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/erase-assistant-f139090c/Erase Assistant.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_erase-assistant-f139090c:${?})
+
+root@Darwin#

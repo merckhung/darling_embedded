@@ -1,0 +1,17 @@
+(/usr/bin/darling open '/Applications/codex-alerts-324971e6/Codex (Alerts).app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_codex-alerts-324971e6:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:22
+DARLING_LAUNCH_BUNDLE:/Applications/codex-alerts-324971e6/Codex (Alerts).app:/Applications/codex-alerts-324971e6/Codex (Alerts).app/Contents/MacOS/Codex (Alerts)
+native dyld warning: unresolved import: _os_release
+native dyld warning: unresolved import: _sandbox_free_error
+native dyld warning: unresolved import: _sandbox_init_with_parameters
+native dyld warning: unresolved import: _sandbox_apply
+dlopen /Applications/codex-alerts-324971e6/Codex (Alerts).app/Contents/MacOS/../../../../Codex Framework: cannot open native library: /Applications/codex-alerts-324971e6/Codex (Alerts).app/Contents/MacOS/../../../../Codex Framework.XNU_EXC: exc=10 codes=0x6000000 0x0
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 22
+Abort trap: 6
+PROBE_EXIT_codex-alerts-324971e6:134
+kill -9 22 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/codex-alerts-324971e6/Codex (Alerts).app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_codex-alerts-324971e6:${?})
+
+root@Darwin#

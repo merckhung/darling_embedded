@@ -1,0 +1,73 @@
+==== Clock ====
+Linked dylibs: 61, imported symbols: 900
+
+  present  provided/imported  library
+  NO       0/3	/System/iOSSupport/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/51	/System/Library/PrivateFrameworks/MobileTimer.framework/Versions/A/MobileTimer
+  NO       0/12	/System/iOSSupport/System/Library/PrivateFrameworks/MobileTimerUI.framework/Versions/A/MobileTimerUI
+  NO       0/0	/System/Library/Frameworks/HealthKit.framework/Versions/A/HealthKit
+  NO       0/4	/System/Library/PrivateFrameworks/MobileTimerSupport.framework/Versions/A/MobileTimerSupport
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/1	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/6	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/2	/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/GeoServices
+  NO       0/2	/System/Library/PrivateFrameworks/NetAppsUtilities.framework/Versions/A/NetAppsUtilities
+  NO       0/0	/System/iOSSupport/System/Library/Frameworks/MobileCoreServices.framework/Versions/A/MobileCoreServices
+  NO       0/1	/System/iOSSupport/System/Library/PrivateFrameworks/NetAppsUtilitiesUI.framework/Versions/A/NetAppsUtilitiesUI
+  NO       0/0	/System/Library/PrivateFrameworks/GraphicsServices.framework/Versions/A/GraphicsServices
+  NO       0/0	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/2	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/4	/System/iOSSupport/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer
+  yes      30/41	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformIsIdentity _CGAffineTransformMakeRotation _CGAffineTransformMakeScale _CGPathAddLineToPoint _CGPathCreateMutable _CGPathCreateWithRoundedRect
+  yes      20/47	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation6LocaleV36_unconditionallyBridgeFromObjectiveCyACSo8NSLocaleCSgFZ _$s10Foundation6LocaleV6RegionV10identifierSSvg _$s10Foundation6LocaleV6RegionVMa _$s10Foundation6LocaleV6regionAC6RegionVSgvg _$s10Foundation6LocaleV7currentACvgZ
+  NO       0/0	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+  NO       0/136	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  yes      33/63	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_release_x1 _objc_release_x19 _objc_release_x2 _objc_release_x20 _objc_release_x21 _objc_release_x22
+  NO       0/0	/System/Library/PrivateFrameworks/CoreDuet.framework/Versions/A/CoreDuet
+  yes      16/29	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSCalendarIdentifierGregorian _NSCurrentLocaleDidChangeNotification _NSDefaultRunLoopMode _NSRunLoopCommonModes _OBJC_CLASS_$_NSCalendar _OBJC_CLASS_$_NSDate
+  NO       0/2	/System/Library/PrivateFrameworks/AppSupport.framework/Versions/A/AppSupport
+  NO       0/2	/System/iOSSupport/System/Library/PrivateFrameworks/AppSupportUI.framework/Versions/A/AppSupportUI
+  NO       0/4	/System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/ToneLibrary
+  NO       0/0	/System/Library/PrivateFrameworks/AggregateDictionary.framework/Versions/A/AggregateDictionary
+  yes      38/43	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_feature_enabled_impl _dlsym _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  NO       0/3	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      6/20	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSToolbarFlexibleSpaceItemIdentifier _OBJC_CLASS_$_NSTextAttachment _OBJC_CLASS_$_NSToolbarItemGroup _OBJC_CLASS_$_UIFont _OBJC_CLASS_$_UIFontDescriptor _UIFontTextStyleBody
+  NO       0/40	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/4	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/1	/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials
+  NO       0/2	/System/Library/PrivateFrameworks/AlarmAppIntents.framework/Versions/A/AlarmAppIntents
+  NO       0/2	/System/Library/PrivateFrameworks/StopwatchAppIntents.framework/Versions/A/StopwatchAppIntents
+  NO       0/2	/System/Library/PrivateFrameworks/TimerAppIntents.framework/Versions/A/TimerAppIntents
+  NO       0/208	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/_AppIntents_UIKit.framework/Versions/A/_AppIntents_UIKit
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/135	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/6	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/10	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Clock: 55 of 61 linked libraries are absent from the guest root; 143 of 900 imported symbols are provided (15.8889%).

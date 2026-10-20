@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/books-80940197/Books.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_books-80940197:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:14
+DARLING_LAUNCH_BUNDLE:/Applications/books-80940197/Books.app:/Applications/books-80940197/Books.app/Contents/MacOS/Books
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_books-80940197:78
+kill -9 14 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/books-80940197/Books.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_books-80940197:${?})
+
+root@Darwin#

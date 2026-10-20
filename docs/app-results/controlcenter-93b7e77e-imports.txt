@@ -1,0 +1,159 @@
+==== ControlCenter ====
+Linked dylibs: 146, imported symbols: 5242
+
+  present  provided/imported  library
+  NO       0/119	/System/Library/PrivateFrameworks/SystemBannerUI.framework/Versions/A/SystemBannerUI
+  NO       0/1	/System/Library/PrivateFrameworks/FaceTimeNameUtility.framework/Versions/A/FaceTimeNameUtility
+  NO       0/2	/System/Library/PrivateFrameworks/HearingModeService.framework/Versions/A/HearingModeService
+  NO       0/38	/System/Library/PrivateFrameworks/SpeechRecognitionSharedSupport.framework/Versions/A/SpeechRecognitionSharedSupport
+  NO       0/68	/System/Library/PrivateFrameworks/WindowManager.framework/Versions/A/WindowManager
+  NO       0/2	/System/Library/PrivateFrameworks/MobileTimer.framework/Versions/A/MobileTimer
+  NO       0/14	/System/Library/PrivateFrameworks/HearingUtilities.framework/Versions/A/HearingUtilities
+  NO       0/1	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  NO       0/0	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/70	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/0	/System/Library/PrivateFrameworks/AirPlaySupport.framework/Versions/A/AirPlaySupport
+  NO       0/554	/System/Library/PrivateFrameworks/ControlCenter.framework/Versions/A/ControlCenter
+  NO       0/2	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/1	/System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay
+  NO       0/0	/System/Library/PrivateFrameworks/PersonaKit.framework/Versions/A/PersonaKit
+  NO       0/23	/System/Library/PrivateFrameworks/UniversalControl.framework/Versions/A/UniversalControl
+  NO       0/0	/System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls
+  NO       0/1	/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/LoginUIKit
+  NO       0/22	/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+  NO       0/6	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/4	/System/Library/PrivateFrameworks/SidecarCore.framework/Versions/A/SidecarCore
+  NO       0/1	/System/Library/PrivateFrameworks/CoreBrightness.framework/Versions/A/CoreBrightness
+  NO       0/0	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/UniversalAccess
+  NO       0/0	/System/Library/PrivateFrameworks/BatteryUIKit.framework/Versions/A/BatteryUIKit
+  NO       0/3	/System/Library/PrivateFrameworks/PowerUI.framework/Versions/A/PowerUI
+  NO       0/1	/System/Library/PrivateFrameworks/PreferencePanesSupport.framework/Versions/A/PreferencePanesSupport
+  NO       0/22	/System/Library/PrivateFrameworks/ProactivePredictionClient.framework/Versions/A/ProactivePredictionClient
+  NO       0/137	/System/Library/PrivateFrameworks/MenuBarClient.framework/Versions/A/MenuBarClient
+  NO       0/26	/System/Library/PrivateFrameworks/TelephonyUtilities.framework/Versions/A/TelephonyUtilities
+  NO       0/4	/System/Library/PrivateFrameworks/MonitorPanel.framework/Versions/A/MonitorPanel
+  NO       0/0	/System/Library/PrivateFrameworks/DisplayServices.framework/Versions/A/DisplayServices
+  NO       0/1	/System/Library/PrivateFrameworks/DoNotDisturb.framework/Versions/A/DoNotDisturb
+  NO       0/13	/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+  NO       0/2	/System/Library/PrivateFrameworks/CMCapture.framework/Versions/A/CMCapture
+  NO       0/0	/System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/CoreWLANKit
+  NO       0/1	/System/Library/PrivateFrameworks/Focus.framework/Versions/A/Focus
+  NO       0/0	/System/Library/PrivateFrameworks/SocialServices.framework/Versions/A/SocialServices
+  NO       0/1	/usr/lib/libsystemstats.dylib
+  NO       0/0	/usr/lib/libcsfde.dylib
+  NO       0/0	/usr/lib/libCoreStorage.dylib
+  NO       0/1	/System/Library/PrivateFrameworks/AVConference.framework/Versions/A/AVConference
+  yes      17/327	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation10URLRequestV19_bridgeToObjectiveCSo12NSURLRequestCyF _$s10Foundation10URLRequestV3url11cachePolicy15timeoutIntervalAcA3URLV_So017NSURLRequestCacheE0VSdtcfC _$s10Foundation10URLRequestVMa _$s10Foundation11FormatStylePA2A4DateV07ISO8601bC0VRszrlE7iso8601AGvgZ _$s10Foundation11FormatStylePAAE4list4type5widthAA04ListbC0VyAA06StringC0Vqd__GAH0G4TypeOyAJqd___G_AH5WidthOyAJqd___GtAKRszSTRd__SS7ElementRtd__lFZ _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj
+  yes      16/16	/usr/lib/libobjc.A.dylib
+  yes      48/123	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_signpost_emit_with_name_impl _bootstrap_check_in _dispatch_mig_server _dlsym _mach_port_destroy
+  NO       0/101	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/2	/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+  NO       0/16	/System/Library/Frameworks/AVRouting.framework/Versions/A/AVRouting
+  NO       0/5	/System/Library/Frameworks/Accounts.framework/Versions/A/Accounts
+  NO       0/27	/System/Library/Frameworks/ActivityKit.framework/Versions/A/ActivityKit
+  yes      39/83	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit01_abB23NumericRawRepresentablePAAE1soiyxx_0D5ValueQztFZ _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF _$sSo19NSGestureRecognizerC6AppKitE21remoteGestureRegistry8Gestures06ClientfG0CvgZ _$sSo7NSSoundC6AppKitE4beepyyFZ _$sSo8NSScreenC6AppKitE17cgDirectDisplayIDs6UInt32VSgvg _NSAccessibilityEntryPointValueForAttribute
+  yes      0/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CoreDockSendNotification
+  NO       0/102	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/13	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/7	/System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+  yes      18/34	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFStringGetCharacters _CFUUIDCreateFromString _CFUUIDCreateFromUUIDBytes _NSDefaultRunLoopMode _NSRunLoopCommonModes _NSSystemClockDidChangeNotification
+  yes      24/184	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics6RegionV02cgC0ACSo11CGRegionRefa_tcfC _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$s12CoreGraphics6RegionV10boundsRectSo6CGRectVvg _$s12CoreGraphics6RegionV1x1yAcA7CGFloatV5lower_AG5uppert_AgH_AgIttcfC _$s12CoreGraphics6RegionVMa _$s12CoreGraphics6RegionVyACSo6CGRectVcfC
+  NO       0/16	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/2	/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/CoreMediaIO
+  yes      0/17	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSOpenFromURLSpec __LSASNCreate __LSASNCreateWithPid __LSCopyApplicationInformationItem __LSCopyMatchingApplications __LSCopyRunningApplicationArray
+  NO       0/2	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/1	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/7	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  NO       0/23	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/1	/System/Library/Frameworks/Intents.framework/Versions/A/Intents
+  NO       0/16	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/31	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/26	/System/Library/Frameworks/ScreenCaptureKit.framework/Versions/A/ScreenCaptureKit
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/2	/System/Library/Frameworks/SharedWithYou.framework/Versions/A/SharedWithYou
+  NO       0/23	/System/Library/Frameworks/ShazamKit.framework/Versions/A/ShazamKit
+  NO       0/1539	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/23	/System/Library/Frameworks/Symbols.framework/Versions/A/Symbols
+  NO       0/13	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/42	/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  NO       0/4	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/3	/System/Library/Frameworks/WidgetKit.framework/Versions/A/WidgetKit
+  NO       0/1	/System/Library/PrivateFrameworks/AXAssetLoader.framework/Versions/A/AXAssetLoader
+  NO       0/1	/System/Library/PrivateFrameworks/AXCoreUtilities.framework/Versions/A/AXCoreUtilities
+  NO       0/38	/System/Library/PrivateFrameworks/ActivityUIServices.framework/Versions/A/ActivityUIServices
+  NO       0/1	/System/Library/PrivateFrameworks/AirPlayReceiverKit.framework/Versions/A/AirPlayReceiverKit
+  NO       0/4	/System/Library/PrivateFrameworks/AudioAccessoryServices.framework/Versions/A/AudioAccessoryServices
+  NO       0/2	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/36	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices
+  NO       0/44	/System/Library/PrivateFrameworks/ChronoUIServices.framework/Versions/A/ChronoUIServices
+  NO       0/2	/System/Library/PrivateFrameworks/ClassroomKit.framework/Versions/A/ClassroomKit
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/CoreBluetoothUI
+  NO       0/1	/System/Library/PrivateFrameworks/HearingCore.framework/Versions/A/HearingCore
+  NO       0/2	/System/Library/PrivateFrameworks/IMCore.framework/Versions/A/IMCore
+  NO       0/2	/System/Library/PrivateFrameworks/IMSharedUtilities.framework/Versions/A/IMSharedUtilities
+  NO       0/4	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/10	/System/Library/PrivateFrameworks/IntelligentRouting.framework/Versions/A/IntelligentRouting
+  NO       0/1	/System/Library/PrivateFrameworks/IntentsCore.framework/Versions/A/IntentsCore
+  NO       0/24	/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote
+  NO       0/4	/System/Library/PrivateFrameworks/PersonalAudio.framework/Versions/A/PersonalAudio
+  NO       0/2	/System/Library/PrivateFrameworks/Portrait.framework/Versions/A/Portrait
+  NO       0/21	/System/Library/PrivateFrameworks/ScreenContinuityServices.framework/Versions/A/ScreenContinuityServices
+  NO       0/1	/System/Library/PrivateFrameworks/SiriUI.framework/Versions/A/SiriUI
+  NO       0/1	/System/Library/PrivateFrameworks/SocialLayer.framework/Versions/A/SocialLayer
+  NO       0/4	/System/Library/PrivateFrameworks/SystemBanner.framework/Versions/A/SystemBanner
+  NO       0/8	/System/Library/PrivateFrameworks/SystemStatus.framework/Versions/A/SystemStatus
+  NO       0/1	/System/Library/PrivateFrameworks/SystemStatusServer.framework/Versions/A/SystemStatusServer
+  NO       0/3	/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Frameworks/UniversalAccessCore.framework/Versions/A/UniversalAccessCore
+  NO       0/2	/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/Versions/A/VoiceShortcutClient
+  NO       0/27	/System/Library/PrivateFrameworks/WidgetRenderer.framework/Versions/A/WidgetRenderer
+  NO       0/2	/System/Library/PrivateFrameworks/WorkflowUIServices.framework/Versions/A/WorkflowUIServices
+  NO       0/7	/System/Library/PrivateFrameworks/_IconServices_SwiftUI.framework/Versions/A/_IconServices_SwiftUI
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/8	/usr/lib/libicucore.A.dylib
+  NO       0/4	/usr/lib/swift/libswiftAVFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/727	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/11	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/72	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftGLKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftRegexBuilder.dylib
+  NO       0/0	/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/0	/usr/lib/swift/libswift_DarwinFoundation3.dylib
+  NO       0/0	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/0	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for ControlCenter: 138 of 146 linked libraries are absent from the guest root; 162 of 5056 imported symbols are provided (3.20411%).

@@ -1,0 +1,57 @@
+==== WeatherMenu ====
+Linked dylibs: 47, imported symbols: 1652
+
+  present  provided/imported  library
+  NO       0/221	/System/Library/PrivateFrameworks/WeatherCore.framework/Versions/A/WeatherCore
+  NO       0/207	/System/Library/Frameworks/WeatherKit.framework/Versions/A/WeatherKit
+  NO       0/157	/System/iOSSupport/System/Library/PrivateFrameworks/WeatherUI.framework/Versions/A/WeatherUI
+  NO       0/81	/System/Library/PrivateFrameworks/WeatherAnalytics.framework/Versions/A/WeatherAnalytics
+  NO       0/70	/System/Library/PrivateFrameworks/AppAnalytics.framework/Versions/A/AppAnalytics
+  NO       0/63	/System/iOSSupport/System/Library/PrivateFrameworks/TeaBreeze.framework/Versions/A/TeaBreeze
+  yes      3/113	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation11MeasurementV5value4unitACyxGSd_xtcfC _$s10Foundation11MeasurementV5valueSdvg _$s10Foundation11MeasurementVAASo11NSDimensionCRbzrlE9converted2toACyxGx_tF _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC _$s10Foundation13URLComponentsV3urlAA3URLVSgvg _$s10Foundation13URLComponentsV4portSiSgvg
+  yes      11/29	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_release_x19 _objc_release_x20 _objc_release_x21 _objc_release_x22 _objc_release_x23 _objc_release_x24
+  yes      14/17	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      0/4	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSCurrentLocaleDidChangeNotification _NSRunLoopCommonModes _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer
+  yes      1/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  NO       0/7	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/18	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/40	/System/Library/PrivateFrameworks/TeaFoundation.framework/Versions/A/TeaFoundation
+  NO       0/4	/System/Library/PrivateFrameworks/TeaSettings.framework/Versions/A/TeaSettings
+  NO       0/14	/System/Library/PrivateFrameworks/WeatherDaemon.framework/Versions/A/WeatherDaemon
+  NO       0/303	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/6	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/System/iOSSupport/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAppleArchive.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/240	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/24	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/11	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for WeatherMenu: 42 of 47 linked libraries are absent from the guest root; 29 of 1652 imported symbols are provided (1.75545%).

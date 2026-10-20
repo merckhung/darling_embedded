@@ -1,0 +1,74 @@
+==== screencaptureui ====
+Linked dylibs: 60, imported symbols: 1634
+
+  present  provided/imported  library
+  NO       0/3	/System/Library/Frameworks/AVKit.framework/Versions/A/AVKit
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+  NO       0/2	/System/Library/PrivateFrameworks/MarkupUI.framework/Versions/A/MarkupUI
+  NO       0/64	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/11	/System/Library/PrivateFrameworks/WindowManager.framework/Versions/A/WindowManager
+  NO       0/2	/System/Library/PrivateFrameworks/TestFlightCore.framework/Versions/A/TestFlightCore
+  NO       0/8	/usr/lib/libbsm.0.dylib
+  yes      23/137	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation13__DataStorageC6_bytesSvSgvg _$s10Foundation13__DataStorageC7_lengthSivg _$s10Foundation13__DataStorageC7_offsetSivg _$s10Foundation15ContiguousBytesP010withUnsafeC0yqd__qd__SWKXEKlFTj
+  yes      12/14	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush
+  yes      41/121	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __NSGetMachExecuteHeader _bootstrap_check_in _bootstrap_check_in2 _confstr _dispatch_group_create
+  NO       0/10	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  yes      33/71	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit01_abB23NumericRawRepresentablePAAE1soiyxx_0D5ValueQztFZ _$sSo10NSMenuItemC6AppKitE13sectionHeader5titleABSS_tFZ _$sSo6CGRectV6AppKitE4fill5usingySo22NSCompositingOperationV_tF _NSAccessibilityEntryPointValueForAttribute _NSAccessibilityPostNotification _$sSo13NSWindowLevelaSL6AppKitMc
+  yes      0/7	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _PasteboardClear _PasteboardCreate _PasteboardPutItemFlavor __AXInterfaceGetIncreaseContrastEnabled __AXInterfaceGetReduceTransparencyEnabled _kAXInterfaceIncreaseContrastStatusDidChangeNotification
+  NO       0/1	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      16/26	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFPreferencesAppValueIsForced _CFPreferencesCopyMultiple _CFPreferencesSetMultiple _CFUUIDCreateFromString _CFUUIDCreateFromUUIDBytes _NSDefaultRunLoopMode
+  yes      28/179	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics6RegionV02cgC0ACSo11CGRegionRefa_tcfC _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$s12CoreGraphics6RegionV10boundsRectSo6CGRectVvg _$s12CoreGraphics6RegionV1x1yAcA7CGFloatV5lower_AG5uppert_AgH_AgIttcfC _$s12CoreGraphics6RegionVMa _$s12CoreGraphics6RegionVyACSo6CGRectVcfC
+  NO       0/5	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  yes      0/17	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSCopyApplicationURLsForBundleIdentifier _LSOpenFromURLSpec _MDItemCreate _MDItemSetAttributes __LSASNCreateWithPid __LSASNGetTypeID
+  NO       0/1	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/1	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/7	/System/Library/Frameworks/CryptoKit.framework/Versions/A/CryptoKit
+  NO       0/3	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/1	/System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+  NO       0/16	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/36	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/265	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/6	/System/Library/PrivateFrameworks/BiomeLibrary.framework/Versions/A/BiomeLibrary
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/26	/System/Library/PrivateFrameworks/GenerativeModels.framework/Versions/A/GenerativeModels
+  NO       0/3	/System/Library/PrivateFrameworks/ModelCatalog.framework/Versions/A/ModelCatalog
+  NO       0/17	/System/Library/PrivateFrameworks/UniversalHID.framework/Versions/A/UniversalHID
+  NO       0/4	/System/Library/PrivateFrameworks/VisionKitCore.framework/Versions/A/VisionKitCore
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/450	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftDarwin.dylib
+  NO       0/46	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/13	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/18	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/1	/usr/lib/swift/libswift_DarwinFoundation3.dylib
+  NO       0/10	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for screencaptureui: 52 of 60 linked libraries are absent from the guest root; 153 of 1634 imported symbols are provided (9.36353%).

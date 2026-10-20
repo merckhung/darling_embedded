@@ -1,0 +1,32 @@
+==== Migration Assistant ====
+Linked dylibs: 20, imported symbols: 138
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/0	/usr/lib/libDiagnosticMessagesClient.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities
+  NO       0/1	/System/Library/Frameworks/LocalAuthentication.framework/Versions/A/LocalAuthentication
+  NO       0/3	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/2	/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/LoginUIKit
+  NO       0/2	/System/Library/PrivateFrameworks/OnBoardingKit.framework/Versions/A/OnBoardingKit
+  NO       0/10	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      3/5	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _AuthorizationCopyInfo _AuthorizationFreeItemSet
+  NO       0/5	/System/Library/PrivateFrameworks/SetupAssistantFramework.framework/Versions/A/SetupAssistantFramework
+  NO       0/1	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/1	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  yes      9/12	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSLayoutConstraint
+  yes      29/29	/usr/lib/libobjc.A.dylib
+  yes      16/22	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_log_fault_impl _dispatch_get_specific _dispatch_queue_set_specific _dispatch_semaphore_create _dispatch_semaphore_signal _dispatch_semaphore_wait
+  yes      19/24	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityUnignoredAncestor _NSColorEffectiveUserAccentColor _NSShowSystemInfoPanel _NSHelpManagerSystemBook _OBJC_CLASS_$_NSHelpManager
+  yes      9/13	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSException _OBJC_CLASS_$_NSTimer _OBJC_EHTYPE_$_NSException
+  yes      1/6	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSSessionCopyAllSessionProperties _CGSSessionCopyCurrentSessionProperties _CGSSetConnectionProperty _kCGSSessionLongUserNameKey _kCGSSessionUserNameKey
+  NO       0/1	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+
+Summary for Migration Assistant: 12 of 20 linked libraries are absent from the guest root; 86 of 138 imported symbols are provided (62.3188%).

@@ -1,0 +1,83 @@
+(/usr/bin/darling open /Applications/textinputmenuagent-58b84f72/TextInputMenuAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_textinputmenuagent-58b84f72:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:447
+DARLING_LAUNCH_BUNDLE:/Applications/textinputmenuagent-58b84f72/TextInputMenuAgent.app:/Applications/textinputmenuagent-58b84f72/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent
+native dyld warning: unresolved import: _SASSessionStateForUser
+native dyld warning: unresolved import: _msgtracer_log_with_keys
+native dyld warning: unresolved import: _GetKeyFocusProcess
+native dyld warning: unresolved import: __InputSwitcherStart
+native dyld warning: unresolved import: __ToggleInputSwitcherIfNecessary
+native dyld warning: unresolved import: _createAlignedWideImageIfNeeded
+native dyld warning: unresolved import: _CheckMenuItem
+native dyld warning: unresolved import: _SetItemMark
+native dyld warning: unresolved import: _SetMenuItemCommandKey
+native dyld warning: unresolved import: _SetMenuItemKeyGlyph
+native dyld warning: unresolved import: _SetMenuItemModifiers
+native dyld warning: unresolved import: _TISCopyCurrentKeyboardInputSource
+native dyld warning: unresolved import: _TISCopyInputSourceRefForInputSourceID
+native dyld warning: unresolved import: _TISCreateInputSourceList
+native dyld warning: unresolved import: _TISEnableInputSource
+native dyld warning: unresolved import: _TISGetInputSourceProperty
+native dyld warning: unresolved import: _TISHardwareSupportsGestureHandwriting
+native dyld warning: unresolved import: _TSMCopyTextInputGlobalProperty
+native dyld warning: unresolved import: __CreateUnflattenedInputSource
+native dyld warning: unresolved import: __InvalidateAllSelectedInputSourceState
+native dyld warning: unresolved import: __TSMCopySelectableInputSourcesInUIOrder
+native dyld warning: unresolved import: _GetCurrentProcess
+native dyld warning: unresolved import: _GetProcessForPID
+native dyld warning: unresolved import: _GetProcessInformation
+native dyld warning: unresolved import: _GetProcessPID
+native dyld warning: unresolved import: _SameProcess
+native dyld warning: unresolved import: _SLPSGetTypingFocusProcess
+native dyld warning: unresolved import: __os_feature_enabled_impl
+native dyld warning: unresolved import: __os_log_fault_impl
+native dyld warning: unresolved import: _dispatch_queue_attr_make_with_qos_class
+native dyld warning: unresolved import: _notify_get_state
+native dyld warning: unresolved import: _notify_post
+native dyld warning: unresolved import: _notify_register_check
+native dyld warning: unresolved import: _notify_set_state
+native dyld warning: unresolved import: __NSGetCarbonMenu2
+native dyld warning: unresolved import: _CFPropertyListCreateData
+native dyld warning: unresolved import: _CFStringGetCharacterAtIndex
+native dyld warning: unresolved import: _CGSGetSymbolicHotKeyValue
+native dyld warning: unresolved import: _CGSIsSymbolicHotKeyEnabled
+native dyld warning: unresolved import: _CGSSetSymbolicHotKey
+native dyld warning: unresolved import: _CGSessionCopyCurrentDictionary
+native dyld warning: unresolved import: __LSASNCreate
+native dyld warning: unresolved import: __LSASNCreateWithPid
+native dyld warning: unresolved import: __LSCompareASNs
+native dyld warning: unresolved import: __LSCopyApplicationInformationItem
+native dyld warning: unresolved import: __sl_dlopen
+native dyld warning: unresolved import: _kTISAppleCharacterPaletteInputSourceID
+native dyld warning: unresolved import: _kTISAppleChineseHandwritingInputSourceID
+native dyld warning: unresolved import: _kTISCategoryKeyboardInputSource
+native dyld warning: unresolved import: _kTISNotifyEnabledKeyboardInputSourcesChanged
+native dyld warning: unresolved import: _kTISNotifyEnabledNonKeyboardInputSourcesChanged
+native dyld warning: unresolved import: _kTISNotifySelectedKeyboardInputSourceChanged
+native dyld warning: unresolved import: _kTISPropertyInputSourceCategory
+native dyld warning: unresolved import: _kTISPropertyInputSourceID
+native dyld warning: unresolved import: _kTISPropertyInputSourceIsEnabled
+native dyld warning: unresolved import: _kTISPropertyInputSourceIsFromSystem
+native dyld warning: unresolved import: _kTISPropertyInputSourceType
+native dyld warning: unresolved import: _kTISTypeKeyboardInputMethodModeEnabled
+native dyld warning: unresolved import: _kTISTypeKeyboardInputMethodWithoutModes
+native dyld warning: unresolved import: _NSKeyValueChangeNewKey
+native dyld warning: unresolved import: _NSKernAttributeName
+native dyld warning: unresolved import: _NSMenuDidEndTrackingNotification
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/textinputmenuagent-58b84f72/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent)
+[AppKit] loaded nib /Applications/textinputmenuagent-58b84f72/TextInputMenuAgent.app/Contents/Resources/Base.lproj/MainMenu.nib: 1027 objects, 0 windows
+[AppKit] NSApplication delegate = 0x963004000
+[AppKit] calling applicationDidFinishLaunching on delegate 0x963004000
+[ObjC] Method not found: [NSMenu _appKitMenusEnabled]
+UNCAT_TRAP: pc=0x101418b68 instr=0x0
+XNU_EXC: exc=2 codes=0x1 0x0
+XNU_EXC: exc=10 codes=0x4200001 0x0
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 447
+Illegal instruction: 4
+PROBE_EXIT_textinputmenuagent-58b84f72:132
+kill -9 447 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/textinputmenuagent-58b84f72/TextInputMenuAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_textinputmenuagent-58b84f72:${?})
+
+root@Darwin#

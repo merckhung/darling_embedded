@@ -1,0 +1,23 @@
+(/usr/bin/darling open '/Applications/automator-application-stub-feb0573c/Automator Application Stub.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_automator-application-stub-feb0573c:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:70
+DARLING_LAUNCH_BUNDLE:/Applications/automator-application-stub-feb0573c/Automator Application Stub.app:/Applications/automator-application-stub-feb0573c/Automator Application Stub.app/Contents/MacOS/Automator Application Stub
+native dyld warning: unresolved import: _NSConnectionDidDieNotification
+native dyld warning: unresolved import: _NSFilePathErrorKey
+native dyld warning: unresolved import: _NSLocalizedRecoverySuggestionErrorKey
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: __AMAutomatorFrameworkString
+[ObjC] Method not found: [NSObject setOwner:]
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/automator-application-stub-feb0573c/Automator Application Stub.app/Contents/MacOS/Automator Application Stub)
+[AppKit] NSApplication delegate = 0x101c1cc10
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101c1cc10
+XNU_EXC: exc=1 codes=0x1 0x0
+XNU_EXC: exc=10 codes=0xb100001 0x0
+Segmentation fault: 11
+PROBE_EXIT_automator-application-stub-feb0573c:139
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 70
+kill -9 70 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/automator-application-stub-feb0573c/Automator Application Stub.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_automator-application-stub-feb0573c:${?})
+
+root@Darwin#

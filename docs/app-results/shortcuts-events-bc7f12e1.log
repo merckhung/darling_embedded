@@ -1,0 +1,21 @@
+(/usr/bin/darling open '/Applications/shortcuts-events-bc7f12e1/Shortcuts Events.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_shortcuts-events-bc7f12e1:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:117
+DARLING_LAUNCH_BUNDLE:/Applications/shortcuts-events-bc7f12e1/Shortcuts Events.app:/Applications/shortcuts-events-bc7f12e1/Shortcuts Events.app/Contents/MacOS/Shortcuts Events
+native dyld warning: unresolved import: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
+native dyld warning: unresolved import: _$s10Foundation12NotificationVMa
+native dyld warning: unresolved import: __objc_autoreleasePoolPop
+native dyld warning: unresolved import: __objc_autoreleasePoolPush
+native dyld warning: unresolved import: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF
+native dyld warning: unresolved import: _$ss11CommandLineO10unsafeArgvSpySpys4Int8VGSgGvgZ
+native dyld warning: unresolved import: _$ss11CommandLineO4argcs5Int32VvgZ
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _$sBOWV
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBoWV
+PROBE_EXIT_shortcuts-events-bc7f12e1:0
+kill -9 117 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open "/Applications/shortcuts-events-bc7f12e1/Shortcuts Events.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_shortcuts-events-bc7f12e1:${?})
+
+root@Darwin#

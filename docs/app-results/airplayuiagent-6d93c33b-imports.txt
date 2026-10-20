@@ -1,0 +1,29 @@
+==== AirPlayUIAgent ====
+Linked dylibs: 18, imported symbols: 193
+
+  present  provided/imported  library
+  yes      8/14	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSWorkspaceDidWakeNotification _NSWorkspaceSessionDidBecomeActiveNotification _NSWorkspaceSessionDidResignActiveNotification _NSWorkspaceWillPowerOffNotification _NSWorkspaceWillSleepNotification _OBJC_CLASS_$_NSRunningApplication
+  NO       0/2	/System/Library/Frameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+  NO       0/9	/System/Library/PrivateFrameworks/AirPlaySupport.framework/Versions/A/AirPlaySupport
+  NO       0/2	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/30	/System/Library/PrivateFrameworks/MediaExperience.framework/Versions/A/MediaExperience
+  NO       0/17	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/1	/System/Library/PrivateFrameworks/LockdownMode.framework/Versions/A/LockdownMode
+  NO       0/2	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/2	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/0	/System/Library/PrivateFrameworks/MediaControlSender.framework/Versions/A/MediaControlSender
+  yes      0/18	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecItemAdd _SecItemCopyMatching _SecItemDelete _SecItemUpdate _kSecAttrAccessGroup _kSecAttrAccount
+  NO       0/0	/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+  yes      5/6	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSXPCListener
+  yes      12/12	/usr/lib/libobjc.A.dylib
+  yes      17/46	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dispatch_release _dlsym _notify_cancel _notify_post _notify_register_check
+  yes      27/32	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopPerformBlock _CFStringCreateExternalRepresentation _CFStringCreateFromExternalRepresentation _CFStringLowercase _CFURLGetString
+
+Summary for AirPlayUIAgent: 11 of 18 linked libraries are absent from the guest root; 69 of 193 imported symbols are provided (35.7513%).

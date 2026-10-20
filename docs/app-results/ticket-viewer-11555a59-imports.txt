@@ -1,0 +1,18 @@
+==== Ticket Viewer ====
+Linked dylibs: 9, imported symbols: 111
+
+  present  provided/imported  library
+  NO       0/25	/System/Library/Frameworks/GSS.framework/Versions/A/GSS
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal
+  yes      12/13	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSSortDescriptor
+  yes      18/18	/usr/lib/libobjc.A.dylib
+  yes      10/14	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_release _dispatch_semaphore_create _dispatch_semaphore_signal _dispatch_semaphore_wait
+  yes      8/8	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/8	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  yes      18/25	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDictionaryAddValue _NSGenericException _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSException _OBJC_CLASS_$_NSMutableSet _OBJC_CLASS_$_NSSet
+
+Summary for Ticket Viewer: 3 of 9 linked libraries are absent from the guest root; 66 of 111 imported symbols are provided (59.4595%).

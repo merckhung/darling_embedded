@@ -1,0 +1,84 @@
+==== MenuBarAgent ====
+Linked dylibs: 69, imported symbols: 2199
+
+  present  provided/imported  library
+  NO       0/137	/System/Library/PrivateFrameworks/MenuBarClient.framework/Versions/A/MenuBarClient
+  NO       0/68	/System/Library/PrivateFrameworks/MenuBarClientCore.framework/Versions/A/MenuBarClientCore
+  NO       0/7	/System/Library/PrivateFrameworks/ElementRegistry.framework/Versions/A/ElementRegistry (weak)
+  NO       0/154	/System/Library/PrivateFrameworks/MacSystemUI.framework/Versions/A/MacSystemUI
+  NO       0/1	/usr/lib/libbsm.0.dylib
+  yes      18/128	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation11JSONDecoderC6decode_4fromxxm_AA4DataVtKSeRzlFTj _$s10Foundation11JSONDecoderCACycfc _$s10Foundation11JSONDecoderCMa _$s10Foundation11JSONEncoderC6encodeyAA4DataVxKSERzlFTj _$s10Foundation11JSONEncoderCACycfc _$s10Foundation11JSONEncoderCMa
+  yes      22/32	/usr/lib/libobjc.A.dylib
+             e.g. missing: __objc_autoreleasePoolPop __objc_autoreleasePoolPush _class_addMethod _class_getInstanceMethod _imp_implementationWithBlock _method_getTypeEncoding
+  yes      54/104	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __os_signpost_emit_with_name_impl _bootstrap_check_in _dispatch_activate _dispatch_mig_server _dispatch_semaphore_create
+  NO       0/63	/System/Library/Frameworks/ActivityKit.framework/Versions/A/ActivityKit (weak)
+  yes      26/93	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSFontWeightBlack _NSFontWeightHeavy _NSFontWeightLight _NSFontWeightThin _NSFontWeightUltraLight _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF
+  yes      0/2	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXUIElementCreateApplication __RegisterApplication
+  NO       0/1	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/29	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      18/31	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFRunLoopPerformBlock _CFSetAddValue _CFSetContainsValue _CFSetCreateMutable _NSRunLoopCommonModes _OBJC_CLASS_$_NSData
+  yes      24/64	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$s12CoreGraphics6RegionV02cgC0So11CGRegionRefavg _$sSo10CGColorRefa12CoreGraphicsE5clearABvgZ _CGAffineTransformConcat _CGAffineTransformMakeTranslation _CGContextGetTextMatrix _CGContextSetTextMatrix
+  yes      0/18	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _LSOpenFromURLSpec __LSASNCreate __LSASNExtractHighAndLowParts __LSCopyApplicationInformation __LSCopyApplicationInformationItem __LSCopyFrontUIApplication
+  NO       0/5	/System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+  NO       0/3	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/145	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  yes      0/2	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecStaticCodeCheckValidity _SecStaticCodeCreateWithPath
+  NO       0/97	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/20	/System/Library/PrivateFrameworks/ActivityUIServices.framework/Versions/A/ActivityUIServices (weak)
+  NO       0/3	/System/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices
+  NO       0/6	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard (weak)
+  NO       0/5	/System/Library/PrivateFrameworks/BoardServices.framework/Versions/A/BoardServices
+  NO       0/9	/System/Library/PrivateFrameworks/ChronoServices.framework/Versions/A/ChronoServices (weak)
+  NO       0/8	/System/Library/PrivateFrameworks/ChronoUIServices.framework/Versions/A/ChronoUIServices (weak)
+  NO       0/60	/System/Library/PrivateFrameworks/ControlCenter.framework/Versions/A/ControlCenter (weak)
+  NO       0/2	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/Library/PrivateFrameworks/CoreBluetoothUI.framework/Versions/A/CoreBluetoothUI (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/27	/System/Library/PrivateFrameworks/DesignLibrary.framework/Versions/A/DesignLibrary
+  NO       0/23	/System/Library/PrivateFrameworks/ElementRegistryFoundation.framework/Versions/A/ElementRegistryFoundation (weak)
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/2	/System/Library/PrivateFrameworks/FrontBoard.framework/Versions/A/FrontBoard
+  NO       0/3	/System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+  NO       0/1	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices (weak)
+  NO       0/1	/System/Library/PrivateFrameworks/IntentsCore.framework/Versions/A/IntentsCore (weak)
+  NO       0/3	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  NO       0/21	/System/Library/PrivateFrameworks/ScreenContinuityServices.framework/Versions/A/ScreenContinuityServices (weak)
+  NO       0/61	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/2	/System/Library/PrivateFrameworks/SystemBanner.framework/Versions/A/SystemBanner (weak)
+  NO       0/33	/System/Library/PrivateFrameworks/SystemBannerUI.framework/Versions/A/SystemBannerUI (weak)
+  NO       0/7	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/2	/System/Library/PrivateFrameworks/ToneLibrary.framework/Versions/A/ToneLibrary (weak)
+  NO       0/2	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/586	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/10	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/46	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/5	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/4	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/19	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/30	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for MenuBarAgent: 60 of 69 linked libraries are absent from the guest root; 162 of 2199 imported symbols are provided (7.36698%).

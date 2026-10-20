@@ -1,0 +1,97 @@
+==== loginwindow ====
+Linked dylibs: 83, imported symbols: 1055
+
+  present  provided/imported  library
+  NO       0/3	/AppleInternal/Library/Frameworks/TapToRadarKit.framework/Versions/A/TapToRadarKit (weak)
+  NO       0/0	/System/Library/PrivateFrameworks/AppServerSupport.framework/Versions/A/AppServerSupport
+  NO       0/9	/System/Library/PrivateFrameworks/FileVault.framework/Versions/A/FileVault
+  NO       0/1	/System/Library/PrivateFrameworks/PlatformSSO.framework/Versions/A/PlatformSSO
+  NO       0/0	/System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit
+  yes      27/39	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityEnhancedUserInterfaceEnabled _NSAccessibilityUnignoredChildren _NSDisableScreenUpdates _NSEnableScreenUpdates _NSAccessibilityEnhancedUserInterfaceAttribute _NSApplicationDidChangeAccessibilityEnhancedUserInterfaceNotification
+  NO       0/2	/System/Library/PrivateFrameworks/AppleKeyStore.framework/Versions/A/AppleKeyStore
+  NO       0/0	/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+  NO       0/1	/System/Library/PrivateFrameworks/MobileInBoxUpdate.framework/Versions/A/MobileInBoxUpdate
+  yes      0/11	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CancelTalkingAlert _GetCurrentProcess _GetFrontProcess _GetProcessForPID _GetProcessInformation _GetProcessPID
+  NO       0/0	/System/Library/PrivateFrameworks/AvatarKit.framework/Versions/A/AvatarKit
+  NO       0/1	/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement
+  NO       0/1	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/1	/System/Library/PrivateFrameworks/CloudServices.framework/Versions/A/CloudServices
+  NO       0/2	/System/Library/PrivateFrameworks/ConfigurationProfiles.framework/Versions/A/ConfigurationProfiles
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/0	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/0	/System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay
+  NO       0/1	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  NO       0/0	/System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+  NO       0/1	/System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+  NO       0/12	/System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+  NO       0/0	/System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+  NO       0/2	/System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/DiskManagement
+  NO       0/3	/System/Library/PrivateFrameworks/DisplayServices.framework/Versions/A/DisplayServices
+  NO       0/1	/System/Library/PrivateFrameworks/FindMyDevice.framework/Versions/A/FindMyDevice
+  NO       0/3	/System/Library/PrivateFrameworks/FindMyMac.framework/Versions/A/FindMyMac
+  yes      47/57	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ _NSLocalizedFileSizeDescription _NSKeyValueChangeNewKey _NSRegistrationDomain
+  NO       0/8	/System/Library/PrivateFrameworks/UAUPlugin.framework/Versions/A/UAUPlugin
+  NO       0/3	/System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities
+  NO       0/50	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/2	/System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/Versions/A/IOMobileFramebuffer
+  NO       0/15	/usr/lib/libbsm.0.dylib
+  NO       0/0	/usr/lib/libCoreStorage.dylib
+  NO       0/2	/usr/lib/libcsfde.dylib
+  NO       0/0	/usr/lib/libDiagnosticMessagesClient.dylib
+  NO       0/4	/usr/lib/libLaunchServicesSupport.dylib
+  NO       0/4	/usr/lib/libEndpointSecuritySystem.dylib
+  NO       0/2	/usr/lib/libIASUnifiedProgress.dylib
+  NO       0/9	/usr/lib/libpam.2.dylib
+  NO       0/2	/usr/lib/libquit.dylib
+  NO       0/2	/usr/lib/libScreenReader.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/1	/usr/lib/libsysdiagnose.dylib
+  NO       0/3	/usr/lib/libUniversalAccess.dylib
+  NO       0/66	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/32	/System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/LoginUIKit
+  NO       0/1	/System/Library/PrivateFrameworks/ManagedClient.framework/Versions/A/ManagedClient
+  NO       0/12	/System/Library/PrivateFrameworks/MobileKeyBag.framework/Versions/A/MobileKeyBag
+  NO       0/1	/System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+  NO       0/1	/System/Library/PrivateFrameworks/NetFSServer.framework/Versions/A/NetFSServer
+  NO       0/2	/System/Library/PrivateFrameworks/SetupAssistantFramework.framework/Versions/A/SetupAssistantFramework
+  NO       0/16	/System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+  NO       0/1	/System/Library/PrivateFrameworks/OSUpdate.framework/Versions/A/OSUpdate
+  NO       0/0	/System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+  NO       0/3	/System/Library/PrivateFrameworks/PlugInKit.framework/Versions/A/PlugInKit
+  NO       0/13	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/3	/System/Library/PrivateFrameworks/RunningBoardServices.framework/Versions/A/RunningBoardServices
+  yes      3/21	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _AuthorizationCopyInfo _AuthorizationFreeItemSet _AuthorizationRightGet _CSSM_Init _CSSM_ModuleLoad _CSSM_ModuleUnload
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/3	/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+  NO       0/1	/System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+  NO       0/13	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/13	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  NO       0/7	/System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+  NO       0/1	/System/Library/PrivateFrameworks/TrustedAccessory.framework/Versions/A/TrustedAccessory
+  NO       0/1	/System/Library/PrivateFrameworks/UserManagement.framework/Versions/A/UserManagement
+  NO       0/2	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  yes      41/41	/usr/lib/libobjc.A.dylib
+  yes      96/177	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_feature_enabled_impl __os_signpost_emit_with_name_impl __spawn_via_launchd __vproc_set_global_on_demand _bootstrap_look_up _bootstrap_register
+  yes      82/133	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayContainsValue _CFArrayRemoveValueAtIndex _CFDataCreateMutable _CFDataGetBytes _CFDataGetMutableBytePtr _CFDictionaryAddValue
+  yes      28/113	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformInvert _CGContextSetCompositeOperation _CGDisplayCreateImage _CGDisplayDoesNotDim _CGDisplayIsActive _CGDisplayIsCaptured
+  yes      0/95	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateAppleEvent _AECreateDesc _AECreateList _AEDisposeDesc _AEGetAttributeDesc _AEGetAttributePtr
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+  NO       0/17	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftSynchronization.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftos.dylib
+
+Summary for loginwindow: 74 of 83 linked libraries are absent from the guest root; 324 of 1055 imported symbols are provided (30.7109%).

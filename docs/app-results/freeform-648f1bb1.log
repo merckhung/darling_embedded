@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/freeform-648f1bb1/Freeform.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_freeform-648f1bb1:$?) & PROBE_PID=$!
+PROBE_CHILD:10
+
+root@Darwin# DARLING_LAUNCH_BUNDLE:/Applications/freeform-648f1bb1/Freeform.app:/Applications/freeform-648f1bb1/Freeform.app/Contents/MacOS/Freeform
+native dyld: too many native dependencies
+PROBE_EXIT_freeform-648f1bb1:78
+kill -9 10 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/freeform-648f1bb1/Freeform.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_freeform-648f1bb1:${?})
+
+root@Darwin#

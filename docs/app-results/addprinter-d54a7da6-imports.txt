@@ -1,0 +1,30 @@
+==== AddPrinter ====
+Linked dylibs: 18, imported symbols: 191
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/CoreUtils.framework/Versions/A/CoreUtils
+  yes      0/0	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/3	/System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintingPrivate
+  NO       0/0	/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate
+  NO       0/6	/System/Library/CoreServices/AddPrinter.app/Contents/Frameworks/PMBrowser.framework/Versions/A/PMBrowser
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  NO       0/1	/System/Library/Frameworks/ImageCaptureCore.framework/Versions/A/ImageCaptureCore
+  NO       0/47	/usr/lib/libcups.2.dylib
+  NO       0/0	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  yes      10/13	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber __NSDictionaryOfVariableBindings _OBJC_CLASS_$_NSLayoutConstraint
+  yes      21/21	/usr/lib/libobjc.A.dylib
+  yes      0/1	/usr/lib/libc++.1.dylib
+             e.g. missing: ___gxx_personality_v0
+  yes      34/35	/usr/lib/libSystem.B.dylib
+             e.g. missing: ___chkstk_darwin
+  yes      18/22	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSHelpManagerSystemBook _NSToolbarFlexibleSpaceItemIdentifier _NSToolbarSpaceItemIdentifier _OBJC_CLASS_$_NSHelpManager
+  yes      0/25	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CPLAutoSelectCancel _CPLAutoSelectCreateContext _CPLAutoSelectHasNewPPD _CPLAutoSelectInstallableOptions _CPLAutoSelectReleaseContext _CPLCopyLocalServerURL
+  yes      15/17	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFMakeCollectable _OBJC_CLASS_$_NSURL
+
+Summary for AddPrinter: 9 of 18 linked libraries are absent from the guest root; 98 of 191 imported symbols are provided (51.3089%).

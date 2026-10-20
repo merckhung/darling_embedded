@@ -1,0 +1,27 @@
+==== SSAssistanceCursor ====
+Linked dylibs: 16, imported symbols: 213
+
+  present  provided/imported  library
+  NO       0/6	/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+  NO       0/3	/System/Library/Frameworks/ContactsUI.framework/Versions/A/ContactsUI
+  NO       0/0	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  NO       0/6	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/1	/System/Library/PrivateFrameworks/DiagnosticLogCollection.framework/Versions/A/DiagnosticLogCollection (weak)
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/0	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/4	/System/Library/PrivateFrameworks/PhoneNumbers.framework/Versions/A/PhoneNumbers
+  yes      9/11	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSMutableCharacterSet
+  yes      26/26	/usr/lib/libobjc.A.dylib
+  yes      49/66	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_nospin_lock_lock __os_nospin_lock_unlock _asl_free _asl_new _asl_open _asl_set
+  yes      14/14	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      29/38	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFAbsoluteTimeGetGregorianDate _CFStringFind _CFTimeZoneCopySystem _NSDefaultRunLoopMode _NSLocaleCountryCode _OBJC_CLASS_$_NSLocale
+  yes      25/37	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGColorCreateCopy _CGContextStrokeEllipseInRect _CGDataProviderCopyData _CGGetActiveDisplayList _CGImageGetDataProvider _CGRectIntersectsRect
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _Gestalt
+
+Summary for SSAssistanceCursor: 8 of 16 linked libraries are absent from the guest root; 152 of 213 imported symbols are provided (71.3615%).

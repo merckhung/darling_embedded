@@ -1,0 +1,56 @@
+(/usr/bin/darling open '/Applications/script-menu-cfe65871/Script Menu.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_script-menu-cfe65871:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:105
+DARLING_LAUNCH_BUNDLE:/Applications/script-menu-cfe65871/Script Menu.app:/Applications/script-menu-cfe65871/Script Menu.app/Contents/MacOS/Script Menu
+native dyld warning: unresolved import: _SMJobSetEnabled
+native dyld warning: unresolved import: _GetFrontProcess
+native dyld warning: unresolved import: _GetProcessBundleLocation
+native dyld warning: unresolved import: _GetProcessInformation
+native dyld warning: unresolved import: _ProcessInformationCopyDictionary
+native dyld warning: unresolved import: _SetFrontProcess
+native dyld warning: unresolved import: _msgtracer_log_with_keys
+native dyld warning: unresolved import: _CFDictionaryAddValue
+native dyld warning: unresolved import: _CFStringCreateWithPascalString
+native dyld warning: unresolved import: _CFStringGetCharacters
+native dyld warning: unresolved import: _CFURLCreateFromFSRef
+native dyld warning: unresolved import: _CFUserNotificationCreate
+native dyld warning: unresolved import: _CompositeIconRef
+native dyld warning: unresolved import: _FSCloseIterator
+native dyld warning: unresolved import: _FSCompareFSRefs
+native dyld warning: unresolved import: _FSCreateDirectoryUnicode
+native dyld warning: unresolved import: _FSFindFolder
+native dyld warning: unresolved import: _FSGetCatalogInfo
+native dyld warning: unresolved import: _FSGetCatalogInfoBulk
+native dyld warning: unresolved import: _FSOpenIterator
+native dyld warning: unresolved import: _FSPathMakeRef
+native dyld warning: unresolved import: _FSRefMakePath
+native dyld warning: unresolved import: _FSResolveAliasFile
+native dyld warning: unresolved import: _FSResolveAliasFileWithMountFlags
+native dyld warning: unresolved import: _GetIconRef
+native dyld warning: unresolved import: _GetIconRefFromFileInfo
+native dyld warning: unresolved import: _GetIconRefFromTypeInfo
+native dyld warning: unresolved import: _LSCopyDisplayNameForRef
+native dyld warning: unresolved import: _LSCopyDisplayNameForURL
+native dyld warning: unresolved import: _LSCopyItemInfoForRef
+native dyld warning: unresolved import: _LSGetApplicationForInfo
+native dyld warning: unresolved import: _LSOpenCFURLRef
+native dyld warning: unresolved import: _LSOpenFSRef
+native dyld warning: unresolved import: _LSOpenFromRefSpec
+native dyld warning: unresolved import: _ReleaseIconRef
+native dyld warning: unresolved import: _UCCompareTextDefault
+native dyld warning: unresolved import: __LSASNExtractHighAndLowParts
+native dyld warning: unresolved import: __LSCopyMatchingApplicationsWithItems
+native dyld warning: unresolved import: __ZdlPvSt19__type_descriptor_t
+native dyld warning: unresolved import: __ZnwmSt19__type_descriptor_t
+native dyld warning: unresolved import: _kSMDomainUserLaunchd
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/script-menu-cfe65871/Script Menu.app/Contents/MacOS/Script Menu)
+[AppKit] loaded nib /Applications/script-menu-cfe65871/Script Menu.app/Contents/Resources/Base.lproj/MainMenu.nib: 1027 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1019523b0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1019523b0
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 105 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/script-menu-cfe65871/Script Menu.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_script-menu-cfe65871:${?})
+
+root@Darwin#

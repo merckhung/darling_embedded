@@ -1,0 +1,56 @@
+(/usr/bin/darling open /Applications/rcd-227ba57b/rcd.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_rcd-227ba57b:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:491
+DARLING_LAUNCH_BUNDLE:/Applications/rcd-227ba57b/rcd.app:/Applications/rcd-227ba57b/rcd.app/Contents/MacOS/rcd
+native dyld warning: unresolved import: _BSKernelPreferenceChanged
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _xpc_connection_create_mach_service
+native dyld warning: unresolved import: _xpc_connection_resume
+native dyld warning: unresolved import: _xpc_connection_send_message_with_reply_sync
+native dyld warning: unresolved import: _xpc_connection_set_event_handler
+native dyld warning: unresolved import: _xpc_dictionary_create
+native dyld warning: unresolved import: _xpc_dictionary_get_bool
+native dyld warning: unresolved import: _xpc_dictionary_get_int64
+native dyld warning: unresolved import: _xpc_dictionary_get_string
+native dyld warning: unresolved import: _xpc_dictionary_get_uint64
+native dyld warning: unresolved import: _xpc_dictionary_set_data
+native dyld warning: unresolved import: _xpc_dictionary_set_int64
+native dyld warning: unresolved import: _xpc_get_type
+native dyld warning: unresolved import: _xpc_release
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _CFDateGetTimeIntervalSinceDate
+native dyld warning: unresolved import: _CFSetApplyFunction
+native dyld warning: unresolved import: _CGSDisplayStatusQuery
+native dyld warning: unresolved import: _CGSMainDisplayID
+native dyld warning: unresolved import: _CGSSetLocalEventsSuppressionInterval
+native dyld warning: unresolved import: __LSASNCreateCopy
+native dyld warning: unresolved import: __LSCopyApplicationInformationItem
+native dyld warning: unresolved import: __LSCopyMatchingApplicationsWithItems
+native dyld warning: unresolved import: __LSGetApplicationListSeed
+native dyld warning: unresolved import: _IOHIDDeviceCopyMatchingElements
+native dyld warning: unresolved import: _IOHIDDeviceGetValue
+native dyld warning: unresolved import: _IOHIDManagerClose
+native dyld warning: unresolved import: _IOHIDManagerCopyDevices
+native dyld warning: unresolved import: _IOHIDManagerCreate
+native dyld warning: unresolved import: _IOHIDManagerOpen
+native dyld warning: unresolved import: _IOHIDManagerSetDeviceMatching
+native dyld warning: unresolved import: _IOHIDValueGetIntegerValue
+native dyld warning: unresolved import: _IOPMAssertionDeclareUserActivity
+native dyld warning: unresolved import: _IOPMFindPowerManagement
+native dyld warning: unresolved import: _IOPMSleepSystem
+native dyld warning: unresolved import: _AuthorizationMakeExternalForm
+native dyld warning: unresolved import: _MRMediaRemoteSendCommandToApp
+native dyld warning: unresolved import: __xpc_error_key_description
+native dyld warning: unresolved import: __xpc_type_dictionary
+native dyld warning: unresolved import: __xpc_type_error
+native dyld warning: unresolved import: __kLSASNKey
+native dyld warning: unresolved import: _kIOMasterPortDefault
+native dyld warning: unresolved import: _kMRMediaRemoteOptionDisableImplicitAppLaunchBehaviors
+PROBE_EXIT_rcd-227ba57b:0
+kill -9 491 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/rcd-227ba57b/rcd.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_rcd-227ba57b:${?})
+
+root@Darwin#

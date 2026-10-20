@@ -1,0 +1,47 @@
+==== PreviewShellMac ====
+Linked dylibs: 38, imported symbols: 950
+
+  present  provided/imported  library
+  yes      1/22	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg _$s10Foundation4DateVACycfC
+  yes      11/11	/usr/lib/libobjc.A.dylib
+  yes      12/15	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _os_variant_has_internal_content ___chkstk_darwin
+  yes      7/13	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s21DeveloperToolsSupport28PreviewSourceContentCategoryV6AppKitE03appI4ViewACvgZ _OBJC_CLASS_$_NSHostedViewScene _OBJC_CLASS_$_NSScene _OBJC_CLASS_$_NSSceneConfiguration _OBJC_CLASS_$_NSSceneHostingController _OBJC_CLASS_$_NSText
+  yes      1/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  NO       0/4	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/108	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/1	/System/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices
+  NO       0/4	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/2	/System/Library/PrivateFrameworks/FrontBoard.framework/Versions/A/FrontBoard
+  NO       0/2	/System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+  NO       0/337	/System/Library/PrivateFrameworks/PreviewShellKit.framework/Versions/A/PreviewShellKit
+  NO       0/84	/System/Library/PrivateFrameworks/PreviewsFoundationOS.framework/Versions/A/PreviewsFoundationOS
+  NO       0/91	/System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/Versions/A/PreviewsMessagingOS
+  NO       0/11	/System/Library/PrivateFrameworks/PreviewsOSSupport.framework/Versions/A/PreviewsOSSupport
+  NO       0/36	/System/Library/PrivateFrameworks/PreviewsOSSupportUI.framework/Versions/A/PreviewsOSSupportUI
+  NO       0/1	/System/Library/PrivateFrameworks/PreviewsServices.framework/Versions/A/PreviewsServices
+  NO       0/30	/System/Library/PrivateFrameworks/PreviewsServicesUI.framework/Versions/A/PreviewsServicesUI
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/153	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/6	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for PreviewShellMac: 33 of 38 linked libraries are absent from the guest root; 32 of 950 imported symbols are provided (3.36842%).

@@ -1,0 +1,52 @@
+(/usr/bin/darling open /Applications/usernotificationcenter-15d86222/UserNotificationCenter.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_usernotificationcenter-15d86222:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:465
+DARLING_LAUNCH_BUNDLE:/Applications/usernotificationcenter-15d86222/UserNotificationCenter.app:/Applications/usernotificationcenter-15d86222/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter
+native dyld warning: unresolved import: _AnalyticsSendEventLazy
+native dyld warning: unresolved import: _CFAllocatorAllocateTyped
+native dyld warning: unresolved import: _CFAllocatorDeallocate
+native dyld warning: unresolved import: _CFBundleGetFunctionPointerForName
+native dyld warning: unresolved import: _CFMachPortCreateWithPort
+native dyld warning: unresolved import: _CFRunLoopTimerCreate
+native dyld warning: unresolved import: _CFRunLoopTimerInvalidate
+native dyld warning: unresolved import: _CFURLCreateWithFileSystemPath
+native dyld warning: unresolved import: _CFURLGetFSRef
+native dyld warning: unresolved import: _NSLocalizedFileSizeDescription
+native dyld warning: unresolved import: _objc_exception_throw
+native dyld warning: unresolved import: _CC_SHA256_Final
+native dyld warning: unresolved import: _CC_SHA256_Init
+native dyld warning: unresolved import: _CC_SHA256_Update
+native dyld warning: unresolved import: __os_feature_enabled_impl
+native dyld warning: unresolved import: _bootstrap_check_in
+native dyld warning: unresolved import: _bootstrap_look_up
+native dyld warning: unresolved import: _bootstrap_strerror
+native dyld warning: unresolved import: _task_get_special_port
+native dyld warning: unresolved import: __NSPathForSystemFramework
+native dyld warning: unresolved import: __NSStringHasRightToLeftBaseWritingDirectionAtIndex
+native dyld warning: unresolved import: _CGAssociateMouseAndMouseCursorPosition
+native dyld warning: unresolved import: _CGDisplayGetDrawingContext
+native dyld warning: unresolved import: _CGSAddWindowsToSpaces
+native dyld warning: unresolved import: _CGSCopyCurrentSessionDictionary
+native dyld warning: unresolved import: _CGSServerOperationState
+native dyld warning: unresolved import: _CGSShowSpaces
+native dyld warning: unresolved import: _CGSSpaceCreate
+native dyld warning: unresolved import: _CGSSpaceSetAbsoluteLevel
+native dyld warning: unresolved import: _CGSSpaceWithName
+native dyld warning: unresolved import: _CGWindowListCreate
+native dyld warning: unresolved import: _CGWindowListCreateDescriptionFromArray
+native dyld warning: unresolved import: _kSLSSpaceAbsoluteLevelScreenLock
+native dyld warning: unresolved import: _kCFCopyStringDictionaryKeyCallBacks
+native dyld warning: unresolved import: _NSApplicationDidBecomeActiveNotification
+native dyld warning: unresolved import: _NSApplicationDidResignActiveNotification
+native dyld warning: unresolved import: _NSOcclusionDetectionViewDidBecomeOccludedNotification
+native dyld warning: unresolved import: _NSOcclusionDetectionViewDidBecomeUnoccludedNotification
+native dyld warning: unresolved import: _NSWindowDidBecomeKeyNotification
+native dyld warning: unresolved import: _NSWorkspaceSessionDidResignActiveNotification
+native dyld warning: unresolved import: _kCGWindowLayer
+native dyld warning: unresolved import: _kCGWindowOwnerPID
+PROBE_EXIT_usernotificationcenter-15d86222:3
+kill -9 465 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/usernotificationcenter-15d86222/UserNotificationCenter.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_usernotificationcenter-15d86222:${?})
+
+root@Darwin#

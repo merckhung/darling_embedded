@@ -1,0 +1,11 @@
+(/usr/bin/darling open /Applications/weather-19dc0f6f/Weather.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_weather-19dc0f6f:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:18
+DARLING_LAUNCH_BUNDLE:/Applications/weather-19dc0f6f/Weather.app:/Applications/weather-19dc0f6f/Weather.app/Contents/MacOS/Weather
+native dyld: unsupported native Mach-O platform
+PROBE_EXIT_weather-19dc0f6f:78
+kill -9 18 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/weather-19dc0f6f/Weather.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_weather-19dc0f6f:${?})
+
+root@Darwin#

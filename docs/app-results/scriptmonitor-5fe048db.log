@@ -1,0 +1,19 @@
+(/usr/bin/darling open /Applications/scriptmonitor-5fe048db/ScriptMonitor.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_scriptmonitor-5fe048db:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:107
+DARLING_LAUNCH_BUNDLE:/Applications/scriptmonitor-5fe048db/ScriptMonitor.app:/Applications/scriptmonitor-5fe048db/ScriptMonitor.app/Contents/MacOS/ScriptMonitor
+native dyld warning: unresolved import: _objc_getAssociatedObject
+native dyld warning: unresolved import: _objc_setAssociatedObject
+native dyld warning: unresolved import: _NSProgressFileURLKey
+native dyld warning: unresolved import: _NSURLLocalizedNameKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/scriptmonitor-5fe048db/ScriptMonitor.app/Contents/MacOS/ScriptMonitor)
+[AppKit] loaded nib /Applications/scriptmonitor-5fe048db/ScriptMonitor.app/Contents/Resources/Base.lproj/MainMenu.nib: 25 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101e33640
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101e33640
+[ObjC] Method not found: [NSObject _addSubscriberForCategory:usingPublishingHandler:]
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 107 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/scriptmonitor-5fe048db/ScriptMonitor.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_scriptmonitor-5fe048db:${?})
+
+root@Darwin#

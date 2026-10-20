@@ -1,0 +1,102 @@
+==== Preview ====
+Linked dylibs: 87, imported symbols: 2777
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/2	/System/Library/PrivateFrameworks/RecapPerformanceTesting.framework/Versions/A/RecapPerformanceTesting
+  NO       0/4	/System/Library/PrivateFrameworks/VisionKitCore.framework/Versions/A/VisionKitCore
+  yes      0/0	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/4	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/113	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/3	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/3	/System/Library/Frameworks/PaperKit.framework/Versions/A/PaperKit
+  NO       0/2	/System/Library/Frameworks/MediaAccessibility.framework/Versions/A/MediaAccessibility
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/3	/System/Library/PrivateFrameworks/Synapse.framework/Versions/A/Synapse
+  NO       0/45	/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+  NO       0/0	/System/Library/Frameworks/ModelIO.framework/Versions/A/ModelIO
+  yes      0/10	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _PMPrintSettingsCreateWithDataRepresentation _PMPrintSettingsGetValue _PMPrintSettingsSetValue _PMPrinterCreateFromPrinterID _PMPrinterIsFax _PMPrinterPrintWithFile
+  NO       0/22	/System/Library/PrivateFrameworks/AnnotationKit.framework/Versions/A/AnnotationKit
+  NO       0/19	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/14	/System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+  NO       0/0	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/3	/System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+  NO       0/1	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  NO       0/3	/System/Library/Frameworks/ImageCaptureCore.framework/Versions/A/ImageCaptureCore
+  NO       0/17	/System/Library/PrivateFrameworks/CorePDF.framework/Versions/A/CorePDF
+  NO       0/2	/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit
+  NO       0/2	/System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+  NO       0/12	/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+  NO       0/0	/System/Library/Frameworks/CoreMediaIO.framework/Versions/A/CoreMediaIO
+  NO       0/5	/System/Library/PrivateFrameworks/Hydra.framework/Versions/C/Hydra
+  NO       0/2	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/14	/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit
+  NO       0/2	/System/Library/PrivateFrameworks/FinderKit.framework/Versions/A/FinderKit
+  yes      72/232	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSConstantDoubleNumber _OBJC_CLASS_$_NSConstantFloatNumber _$s10Foundation10NSNotFoundSivg _$s10Foundation11MeasurementV5value4unitACyxGSd_xtcfC _$s10Foundation11MeasurementV5valueSdvg
+  yes      49/55	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_addMethod _class_getInstanceMethod _method_getTypeEncoding _objc_exception_throw _objc_getAssociatedObject _objc_setAssociatedObject
+  yes      1/12	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZNSt20bad_array_new_lengthC1Ev __ZSt9terminatev ___cxa_allocate_exception ___cxa_begin_catch ___cxa_free_exception ___cxa_throw
+  yes      81/122	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __dyld_lazy_load __os_feature_enabled_impl __os_log_fault_impl __xpc_runtime_is_app_sandboxed _dispatch_group_create
+  NO       0/327	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      107/238	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _OBJC_CLASS_$_NSTitlebarAccessoryViewController _NSAccessibilityFrameInView _NSAccessibilityPostNotification _NSAccessibilityRoleDescription _NSAccessibilityUnignoredDescendant _NSSetFocusRingStyle
+  NO       0/27	/System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+  yes      59/119	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayAppendArray _CFArrayCreateCopy _CFDataCreateMutable _CFDataCreateWithBytesNoCopy _CFDictionaryAddValue _CFDictionaryContainsKey
+  yes      85/235	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGAffineTransformConcat _CGAffineTransformInvert _CGAffineTransformMakeRotation _CGAffineTransformMakeScale _CGAffineTransformMakeTranslation _CGAffineTransformRotate
+  NO       0/45	/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+  yes      0/7	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _MDItemCopyAttribute _MDItemCreateWithURL _UCKeyTranslate _UCKeyboardLayoutStringMax _kMDItemKeywords _kUTTypeJPEG2000
+  NO       0/10	/System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+  NO       0/47	/System/Library/Frameworks/PDFKit.framework/Versions/A/PDFKit
+  NO       0/4	/System/Library/Frameworks/Photos.framework/Versions/A/Photos
+  NO       0/28	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/3	/System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+  NO       0/5	/System/Library/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+  NO       0/22	/System/Library/Frameworks/SpatialPreview.framework/Versions/A/SpatialPreview
+  NO       0/511	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/42	/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  NO       0/1	/System/Library/Frameworks/_AppIntents_AppKit.framework/Versions/A/_AppIntents_AppKit
+  NO       0/1	/System/Library/Frameworks/_LocationEssentials.framework/Versions/A/_LocationEssentials
+  NO       0/11	/System/Library/Frameworks/_MapKit_SwiftUI.framework/Versions/A/_MapKit_SwiftUI
+  NO       0/4	/System/Library/Frameworks/_PhotosUI_SwiftUI.framework/Versions/A/_PhotosUI_SwiftUI
+  NO       0/1	/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking
+  NO       0/2	/System/Library/PrivateFrameworks/SpatialPreviewUI.framework/Versions/A/SpatialPreviewUI
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/260	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftGLKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/14	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSceneKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/16	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/28	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/9	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/13	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Preview: 76 of 87 linked libraries are absent from the guest root; 454 of 2774 imported symbols are provided (16.3663%).

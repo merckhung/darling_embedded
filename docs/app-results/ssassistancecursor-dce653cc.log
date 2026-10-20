@@ -1,0 +1,69 @@
+(/usr/bin/darling open /Applications/ssassistancecursor-dce653cc/SSAssistanceCursor.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_ssassistancecursor-dce653cc:$?) & PROBE_PID=$!
+PROBE_CHILD:95
+
+root@Darwin# DARLING_LAUNCH_BUNDLE:/Applications/ssassistancecursor-dce653cc/SSAssistanceCursor.app:/Applications/ssassistancecursor-dce653cc/SSAssistanceCursor.app/Contents/MacOS/SSAssistanceCursor
+native dyld warning: unresolved import: _CFPhoneNumberCopyFormattedRepresentation
+native dyld warning: unresolved import: _CFPhoneNumberCopyUnformattedRepresentation
+native dyld warning: unresolved import: _CFPhoneNumberCreate
+native dyld warning: unresolved import: _CFPhoneNumberCreateString
+native dyld warning: unresolved import: __os_nospin_lock_lock
+native dyld warning: unresolved import: __os_nospin_lock_unlock
+native dyld warning: unresolved import: _asl_free
+native dyld warning: unresolved import: _asl_new
+native dyld warning: unresolved import: _asl_open
+native dyld warning: unresolved import: _asl_set
+native dyld warning: unresolved import: _asl_set_filter
+native dyld warning: unresolved import: _asl_vlog
+native dyld warning: unresolved import: _bcmp
+native dyld warning: unresolved import: _dispatch_semaphore_create
+native dyld warning: unresolved import: _dispatch_semaphore_signal
+native dyld warning: unresolved import: _dispatch_semaphore_wait
+native dyld warning: unresolved import: _fdopen
+native dyld warning: unresolved import: _flock
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _vsyslog
+native dyld warning: unresolved import: _CFAbsoluteTimeGetGregorianDate
+native dyld warning: unresolved import: _CFStringFind
+native dyld warning: unresolved import: _CFTimeZoneCopySystem
+native dyld warning: unresolved import: _CGColorCreateCopy
+native dyld warning: unresolved import: _CGContextStrokeEllipseInRect
+native dyld warning: unresolved import: _CGDataProviderCopyData
+native dyld warning: unresolved import: _CGGetActiveDisplayList
+native dyld warning: unresolved import: _CGImageGetDataProvider
+native dyld warning: unresolved import: _CGRectIntersectsRect
+native dyld warning: unresolved import: _CGRegisterScreenRefreshCallback
+native dyld warning: unresolved import: _CGSGetWindowTags
+native dyld warning: unresolved import: _CGSSetWindowTags
+native dyld warning: unresolved import: _CGUnregisterScreenRefreshCallback
+native dyld warning: unresolved import: _CGWindowListCreate
+native dyld warning: unresolved import: _CGWindowListCreateImageFromArray
+native dyld warning: unresolved import: _Gestalt
+native dyld warning: unresolved import: _CNLabelOther
+native dyld warning: unresolved import: _kCAFillModeForwards
+native dyld warning: unresolved import: _kCAMediaTimingFunctionEaseInEaseOut
+native dyld warning: unresolved import: _kCAMediaTimingFunctionEaseOut
+native dyld warning: unresolved import: _kCAMediaTimingFunctionLinear
+native dyld warning: unresolved import: _NSLocaleCountryCode
+[ObjC] Method not found: [NSWindow setIgnoresMouseEvents:]
+DARLING_WINDOW_READY:Mac OS X Window:4194305:0:28:1024:796
+PROBE_EXIT_ssassistancecursor-dce653cc:0
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Application:90:12
+DARLING_MENUBAR_ITEM:File:161:12
+DARLING_MENUBAR_ITEM:Edit:205:12
+DARLING_MENUBAR_ITEM:View:254:12
+DARLING_MENUBAR_ITEM:Window:317:12
+DARLING_MENUBAR_ITEM:Help:379:12
+kill -9 95 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/ssassistancecursor-dce653cc/SSAssistanceCursor.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_ssassistancecursor-dce653cc:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

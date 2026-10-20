@@ -1,0 +1,63 @@
+==== Spotlight ====
+Linked dylibs: 52, imported symbols: 143
+
+  present  provided/imported  library
+  yes      4/4	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  NO       0/0	/System/Library/PrivateFrameworks/BiomeStreams.framework/Versions/A/BiomeStreams
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/0	/System/Library/PrivateFrameworks/CoreParsec.framework/Versions/A/CoreParsec
+  NO       0/0	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/0	/System/Library/PrivateFrameworks/People.framework/Versions/A/People
+  yes      0/0	/System/Library/Frameworks/Security.framework/Versions/A/Security
+  NO       0/0	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  NO       0/0	/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  yes      0/6	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventCreateNextEvent _CGEventGetType _CGSGetEventPort _CGSNewConnection _CGSRegisterConnectionNotifyProc __CPSGetCurrentProcess
+  yes      0/0	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+  NO       0/0	/System/Library/PrivateFrameworks/SearchFoundation.framework/Versions/A/SearchFoundation
+  NO       0/2	/System/Library/PrivateFrameworks/SearchUI.framework/Versions/A/SearchUI
+  NO       0/43	/System/Library/PrivateFrameworks/SpotlightUIInternal.framework/Versions/A/SpotlightUIInternal
+  NO       0/1	/System/Library/PrivateFrameworks/Spotlight.framework/Versions/A/Spotlight
+  NO       0/0	/System/Library/PrivateFrameworks/AppPredictionClient.framework/Versions/A/AppPredictionClient
+  NO       0/0	/System/Library/PrivateFrameworks/SpotlightServices.framework/Versions/A/SpotlightServices
+  NO       0/5	/System/Library/PrivateFrameworks/SpotlightUIShared.framework/Versions/A/SpotlightUIShared
+  NO       0/2	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  NO       0/0	/System/Library/PrivateFrameworks/SpotlightUIServices.framework/Versions/A/SpotlightUIServices
+  NO       0/0	/System/Library/PrivateFrameworks/TemplateKit.framework/Versions/A/TemplateKit
+  yes      3/14	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation3URLV6stringACSgSSh_tcfC _$s10Foundation3URLVMa _$s10Foundation5NSLogyySS_s7CVarArg_pdtF _$sSD10FoundationE36_unconditionallyBridgeFromObjectiveCySDyxq_GSo12NSDictionaryCSgFZ
+  yes      14/14	/usr/lib/libobjc.A.dylib
+  yes      2/4	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy ___chkstk_darwin
+  yes      0/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _MSHCreateMachServerSource
+  yes      5/10	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSCurrentLocaleDidChangeNotification _NSRunLoopCommonModes _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/37	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOpenCL.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Spotlight: 43 of 52 linked libraries are absent from the guest root; 28 of 143 imported symbols are provided (19.5804%).

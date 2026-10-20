@@ -1,0 +1,26 @@
+(/usr/bin/darling open /Applications/widgetrenderer-activities-53e6de22/WidgetRenderer_Activities.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_widgetrenderer-activities-53e6de22:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:477
+DARLING_LAUNCH_BUNDLE:/Applications/widgetrenderer-activities-53e6de22/WidgetRenderer_Activities.app:/Applications/widgetrenderer-activities-53e6de22/WidgetRenderer_Activities.app/Contents/MacOS/WidgetRenderer_Activities
+native dyld warning: unresolved import: _$s14WidgetRenderer0B8ServicesOMa
+native dyld warning: unresolved import: _$s14WidgetRenderer9BootstrapC16startApplication17supportedServicesySayAA0bG0OG_tFZ
+native dyld warning: unresolved import: _$s14WidgetRenderer9BootstrapCMa
+native dyld warning: unresolved import: _swift_allocObject
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _$s14WidgetRenderer0B8ServicesO14liveActivitiesyA2CmFWC
+native dyld warning: unresolved import: _$ss23_ContiguousArrayStorageCMn
+native dyld warning: unresolved import: _$s14WidgetRenderer0B8ServicesOMn
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: _$sBoWV
+XNU_EXC: exc=1 codes=0x1 0xfffffffffffffff8
+XNU_EXC: exc=10 codes=0xb100001 0xfffffffffffffff8
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 477
+Segmentation fault: 11
+PROBE_EXIT_widgetrenderer-activities-53e6de22:139
+kill -9 477 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/widgetrenderer-activities-53e6de22/WidgetRenderer_Activities.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_widgetrenderer-activities-53e6de22:${?})
+
+root@Darwin#

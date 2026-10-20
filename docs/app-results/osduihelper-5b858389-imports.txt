@@ -1,0 +1,34 @@
+==== OSDUIHelper ====
+Linked dylibs: 23, imported symbols: 193
+
+  present  provided/imported  library
+  yes      0/2	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSDisplayStatusQuery _CGSRegisterNotifyProc
+  yes      6/34	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation3URLV15fileURLWithPathACSSh_tcfC _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF _$s10Foundation3URLVMa _$s10Foundation4DateV12timeInterval5sinceACSd_ACtcfC
+  yes      11/11	/usr/lib/libobjc.A.dylib
+  yes      8/12	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _os_transaction_create _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      18/20	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo6CGRectV6AppKitE4fill5usingySo22NSCompositingOperationV_tF _NSWorkspaceAccessibilityDisplayOptionsDidChangeNotification
+  NO       0/5	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      0/4	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSDefaultRunLoopMode _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSRunLoop _OBJC_CLASS_$_NSTimer
+  NO       0/4	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/90	/usr/lib/swift/libswiftCore.dylib
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/10	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftos.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for OSDUIHelper: 17 of 23 linked libraries are absent from the guest root; 43 of 193 imported symbols are provided (22.2798%).

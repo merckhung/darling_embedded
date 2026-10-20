@@ -1,0 +1,79 @@
+(/usr/bin/darling open '/Applications/bluetooth-file-exchange-3d3f28a2/Bluetooth File Exchange.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_bluetooth-file-exchange-3d3f28a2:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:38
+DARLING_LAUNCH_BUNDLE:/Applications/bluetooth-file-exchange-3d3f28a2/Bluetooth File Exchange.app:/Applications/bluetooth-file-exchange-3d3f28a2/Bluetooth File Exchange.app/Contents/MacOS/Bluetooth File Exchange
+native dyld warning: unresolved import: _AnalyticsSendEventLazy
+native dyld warning: unresolved import: _IOBluetoothNSStringToDeviceAddress
+native dyld warning: unresolved import: _OBEXFolderListingCreateFromFile
+native dyld warning: unresolved import: _NSBeginAlertSheet
+native dyld warning: unresolved import: _NSGetAlertPanel
+native dyld warning: unresolved import: _NSReleaseAlertPanel
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _IOBluetoothOpenBluetoothHelpAtPath
+native dyld warning: unresolved import: _IOBluetoothValidateHardwareWithDescription
+native dyld warning: unresolved import: _NSFileTypeForHFSTypeCode
+native dyld warning: unresolved import: _kFTSListingNameKey
+native dyld warning: unresolved import: _kFTSListingSizeKey
+native dyld warning: unresolved import: _kFTSListingTypeKey
+native dyld warning: unresolved import: _kFTSProgressBytesTotalKey
+native dyld warning: unresolved import: _kFTSProgressBytesTransferredKey
+native dyld warning: unresolved import: _kFTSProgressEstimatedTimeKey
+native dyld warning: unresolved import: _kFTSProgressPercentageKey
+native dyld warning: unresolved import: _kFTSProgressTransferRateKey
+native dyld warning: unresolved import: _NSImageNameTrashEmpty
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: _kUTTypeApplication
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/bluetooth-file-exchange-3d3f28a2/Bluetooth File Exchange.app/Contents/MacOS/Bluetooth File Exchange)
+[ObjC] Method not found: [NSMutableArray initWithCapacity:]
+[ObjC] Method not found: [NSMutableArray initWithCapacity:]
+[AppKit] loaded nib /Applications/bluetooth-file-exchange-3d3f28a2/Bluetooth File Exchange.app/Contents/Resources/Base.lproj/MainMenu.nib: 517 objects, 1 windows
+[AppKit] NSApplication delegate = 0x81f004000
+[AppKit] calling applicationDidFinishLaunching on delegate 0x81f004000
+[AppKit] returned from applicationDidFinishLaunching
+[AppKit] nib: no outlet 'mCreateFolderNameTextField' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mCreateFolderOKButton' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mCreateFolderPanel' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mDeleteToolbarItem' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mErrorMessagePanel' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mErrorMessageTextField' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mFileListingView' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mProgressIndicator' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mRemotePathControl' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mTransferWindowHeadlineStatusTextField' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mTransferWindowProgressIndicator' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mTransferWindowSheet' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mTransferWindowStopButton' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mTransferWindowTimeRemainingTextField' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mTransferWindowTimeRemainingTextFieldLabel' on ObjectPusherAppController
+[AppKit] nib: no outlet 'mTransferWindowTransferredStatusTextField' on ObjectPusherAppController
+[AppKit] nib: no outlet 'window' on ObjectPusherAppController
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101ae7490 (title: Browsing...)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Bluetooth File Exchange:131:12
+DARLING_MENUBAR_ITEM:File:243:12
+DARLING_MENUBAR_ITEM:Edit:287:12
+DARLING_MENUBAR_ITEM:Window:346:12
+DARLING_MENUBAR_ITEM:Help:408:12
+DARLING_WINDOW_READY:Browsing...:4194305:275:28:405:361
+[AppKit] loaded nib /Applications/bluetooth-file-exchange-3d3f28a2/Bluetooth File Exchange.app/Contents/Resources/Base.lproj/FileTransferClientWindow.nib: 577 objects, 4 windows
+DARLING_WINDOW_READY:Browsing...:4194305:275:28:405:361
+DARLING_WINDOW_READY:Browsing...:4194305:275:28:405:361
+DARLING_WINDOW_READY:Browsing...:4194305:275:28:405:361
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Bluetooth File Exchange:131:12
+DARLING_MENUBAR_ITEM:File:243:12
+DARLING_MENUBAR_ITEM:Edit:287:12
+DARLING_MENUBAR_ITEM:Window:346:12
+DARLING_MENUBAR_ITEM:Help:408:12
+kill -9 38 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/bluetooth-file-exchange-3d3f28a2/Bluetooth File Exchange.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_bluetooth-file-exchange-3d3f28a2:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

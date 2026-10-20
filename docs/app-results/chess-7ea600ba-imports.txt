@@ -1,0 +1,57 @@
+==== Chess ====
+Linked dylibs: 45, imported symbols: 575
+
+  present  provided/imported  library
+  NO       0/6	/System/Library/Frameworks/ScreenCaptureKit.framework/Versions/A/ScreenCaptureKit
+  NO       0/1	/System/Library/Frameworks/MetalPerformanceShaders.framework/Versions/A/MetalPerformanceShaders
+  NO       0/13	/System/Library/Frameworks/MetalKit.framework/Versions/A/MetalKit
+  NO       0/3	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/2	/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+  yes      10/22	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSDefaultRunLoopMode _NSRunLoopCommonModes _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSInvocation _OBJC_CLASS_$_NSLocale
+  yes      30/63	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityActionDescription _NSAccessibilityRoleDescription _NSAccessibilityButtonRole _NSAccessibilityChildrenAttribute _NSAccessibilityContentsAttribute _NSAccessibilityDescriptionAttribute
+  NO       0/8	/System/Library/Frameworks/GameKit.framework/Versions/A/GameKit
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/70	/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+  NO       0/0	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  yes      26/33	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _$s10Foundation17NSLocalizedString_9tableName6bundle5value7commentS2S_SSSgSo8NSBundleCS2StF _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF _$sSS10FoundationE36_unconditionallyBridgeFromObjectiveCySSSo8NSStringCSgFZ _OBJC_CLASS_$_NSNotificationQueue _OBJC_CLASS_$_NSPortMessage
+  yes      29/29	/usr/lib/libobjc.A.dylib
+  yes      0/4	/usr/lib/libc++.1.dylib
+             e.g. missing: ___cxa_guard_abort ___cxa_guard_acquire ___cxa_guard_release ___gxx_personality_v0
+  yes      71/84	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy ___invert_f3 ___invert_f4 __os_feature_enabled_impl _dispatch_apply _dispatch_semaphore_create
+  NO       0/8	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      12/17	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGContextGetTextPosition _CGContextSelectFont _CGContextSetShouldSubpixelQuantizeFonts _CGContextSetTextDrawingMode _CGContextShowTextAtPoint
+  NO       0/1	/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+  NO       0/53	/System/Library/Frameworks/GroupActivities.framework/Versions/A/GroupActivities
+  NO       0/2	/System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+  NO       0/7	/System/Library/Frameworks/Metal.framework/Versions/A/Metal
+  NO       0/8	/System/Library/Frameworks/ModelIO.framework/Versions/A/ModelIO
+  NO       0/1	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/2	/System/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/121	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/12	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/3	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Chess: 37 of 45 linked libraries are absent from the guest root; 178 of 573 imported symbols are provided (31.0646%).

@@ -1,0 +1,20 @@
+==== Screenshot ====
+Linked dylibs: 13, imported symbols: 140
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation (weak)
+  yes      4/4	/usr/lib/libobjc.A.dylib
+  yes      6/10	/usr/lib/libSystem.B.dylib
+             e.g. missing: _xpc_array_append_value _xpc_string_create _OBJC_CLASS_$_OS_dispatch_queue_serial ___chkstk_darwin
+  NO       0/72	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/9	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/20	/usr/lib/swift/libswiftXPC.dylib
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/20	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/5	/usr/lib/swift/libswiftos.dylib
+
+Summary for Screenshot: 10 of 13 linked libraries are absent from the guest root; 10 of 140 imported symbols are provided (7.14286%).

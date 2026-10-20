@@ -1,0 +1,39 @@
+(/usr/bin/darling open /Applications/lockscreen-35d1ab20/LockScreen.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_lockscreen-35d1ab20:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:85
+DARLING_LAUNCH_BUNDLE:/Applications/lockscreen-35d1ab20/LockScreen.app:/Applications/lockscreen-35d1ab20/LockScreen.app/Contents/MacOS/LockScreen
+native dyld warning: unresolved import: __os_nospin_lock_lock
+native dyld warning: unresolved import: __os_nospin_lock_unlock
+native dyld warning: unresolved import: _asl_free
+native dyld warning: unresolved import: _asl_new
+native dyld warning: unresolved import: _asl_open
+native dyld warning: unresolved import: _asl_set
+native dyld warning: unresolved import: _asl_set_filter
+native dyld warning: unresolved import: _asl_vlog
+native dyld warning: unresolved import: _fdopen
+native dyld warning: unresolved import: _flock
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _renamex_np
+native dyld warning: unresolved import: _syslog$DARWIN_EXTSN
+native dyld warning: unresolved import: _vsyslog
+native dyld warning: unresolved import: _CFAbsoluteTimeGetGregorianDate
+native dyld warning: unresolved import: _CFFileDescriptorCreate
+native dyld warning: unresolved import: _CFFileDescriptorCreateRunLoopSource
+native dyld warning: unresolved import: _CFFileDescriptorEnableCallBacks
+native dyld warning: unresolved import: _CFFileDescriptorGetNativeDescriptor
+native dyld warning: unresolved import: _CFTimeZoneCopySystem
+native dyld warning: unresolved import: _CGDisplayHideCursor
+native dyld warning: unresolved import: _CGDisplayShowCursor
+native dyld warning: unresolved import: _CGReleaseAllDisplays
+native dyld warning: unresolved import: _CGSCopyCurrentSessionDictionary
+native dyld warning: unresolved import: _CGSInhibitLocalEvents
+native dyld warning: unresolved import: _CGSOrderWindow
+native dyld warning: unresolved import: _CGSReleaseSession
+native dyld warning: unresolved import: _CGSSetWindowTags
+native dyld warning: unresolved import: _CGSSwitchConsoleToSession
+native dyld warning: unresolved import: _CGShieldingWindowID
+kill -9 85 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/lockscreen-35d1ab20/LockScreen.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_lockscreen-35d1ab20:${?})
+
+root@Darwin#

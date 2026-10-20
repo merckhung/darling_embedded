@@ -1,0 +1,34 @@
+==== Console ====
+Linked dylibs: 24, imported symbols: 505
+
+  present  provided/imported  library
+  NO       0/23	/System/Library/PrivateFrameworks/ConsoleKit.framework/Versions/A/ConsoleKit
+  yes      15/125	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12DateIntervalV19_bridgeToObjectiveCSo06NSDateC0CyF _$s10Foundation12DateIntervalV36_unconditionallyBridgeFromObjectiveCyACSo06NSDateC0CSgFZ _$s10Foundation12DateIntervalVMa _$s10Foundation12NotificationV19_bridgeToObjectiveCSo14NSNotificationCyF _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV4name6object8userInfoACSo18NSNotificationNamea_ypSgSDys11AnyHashableVypGSgtcfC
+  yes      12/12	/usr/lib/libobjc.A.dylib
+  yes      12/16	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue _OBJC_CLASS_$_OS_dispatch_queue_serial ___chkstk_darwin
+  yes      45/61	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo6CGRectV6AppKitE4fill5usingySo22NSCompositingOperationV_tF _NSShowAnimationEffect _NSPasteboardTypeFileURL _NSScrollViewDidLiveScrollNotification _NSTouchBarItemIdentifierFlexibleSpace _OBJC_CLASS_$_NSButtonCell
+  NO       0/2	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      4/8	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSRunLoopCommonModes _NSURLCreationDateKey _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSRunLoop
+  yes      2/2	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  NO       0/2	/System/Library/PrivateFrameworks/OSAnalytics.framework/Versions/A/OSAnalytics
+  NO       0/212	/usr/lib/swift/libswiftCore.dylib
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/29	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/7	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/5	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Console: 18 of 24 linked libraries are absent from the guest root; 90 of 505 imported symbols are provided (17.8218%).

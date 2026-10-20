@@ -1,0 +1,20 @@
+(/usr/bin/darling open '/Applications/memory-slot-utility-7ba046f9/Memory Slot Utility.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_memory-slot-utility-7ba046f9:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:36
+DARLING_LAUNCH_BUNDLE:/Applications/memory-slot-utility-7ba046f9/Memory Slot Utility.app:/Applications/memory-slot-utility-7ba046f9/Memory Slot Utility.app/Contents/MacOS/Memory Slot Utility
+native dyld warning: unresolved import: _Combinatorics_main
+native dyld warning: unresolved import: _FormatOptimalConfig
+native dyld warning: unresolved import: _GetMemoryConfigs
+native dyld warning: unresolved import: _PlatformSupportsMemorySlotUtility
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/memory-slot-utility-7ba046f9/Memory Slot Utility.app/Contents/MacOS/Memory Slot Utility)
+[AppKit] loaded nib /Applications/memory-slot-utility-7ba046f9/Memory Slot Utility.app/Contents/Resources/Base.lproj/MainMenu.nib: 558 objects, 0 windows
+[AppKit] NSApplication delegate = 0xa8cc05240
+[AppKit] calling applicationDidFinishLaunching on delegate 0xa8cc05240
+[Darling AppKit] NSAlert: keyApplicationTitle - keyUnsupportedSystemMessage
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 36 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/memory-slot-utility-7ba046f9/Memory Slot Utility.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_memory-slot-utility-7ba046f9:${?})
+
+root@Darwin#

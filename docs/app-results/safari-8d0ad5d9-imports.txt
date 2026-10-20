@@ -1,0 +1,8 @@
+==== Safari ====
+Linked dylibs: 2, imported symbols: 1
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/Safari.framework/Versions/A/Safari
+  yes      0/0	/usr/lib/libSystem.B.dylib
+
+Summary for Safari: 1 of 2 linked libraries are absent from the guest root; 0 of 1 imported symbols are provided (0%).

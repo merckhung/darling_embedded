@@ -1,0 +1,26 @@
+==== Script Editor ====
+Linked dylibs: 13, imported symbols: 385
+
+  present  provided/imported  library
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      0/2	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _AXAPIEnabled _SetFrontProcess
+  NO       0/15	/System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+  NO       0/32	/System/Library/Frameworks/OSAKit.framework/Versions/A/OSAKit
+  yes      0/16	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecAssessmentControl _SecCertificateCopyCommonName _SecCertificateCopyData _SecCertificateCopyValues _SecCertificateGetTypeID _SecIdentityCopyCertificate
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  NO       0/1	/usr/lib/libDiagnosticMessagesClient.dylib
+  yes      37/62	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _NSDivideRect _NSFileTypeForHFSTypeCode _NSIntersectionRange _NSUnionRange __NSDictionaryOfVariableBindings
+  yes      23/23	/usr/lib/libobjc.A.dylib
+  yes      18/19	/usr/lib/libSystem.B.dylib
+             e.g. missing: ___chkstk_darwin
+  yes      62/98	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityUnignoredDescendant _NSBeginAlertSheet _NSBeginCriticalAlertSheet _NSBeginInformationalAlertSheet _NSShowSystemInfoPanel _NSAccessibilityChildrenAttribute
+  yes      33/67	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArraySortValues _CFBundleCopyInfoDictionaryForURL _CFFileSecurityGetMode _CFFileSecuritySetMode _CFLogTest _CFRunLoopCopyCurrentMode
+  yes      0/49	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateAppleEvent _AECreateDesc _AEDisposeDesc _AEDuplicateDesc _AEGetAttributePtr _AEGetDescData
+
+Summary for Script Editor: 4 of 13 linked libraries are absent from the guest root; 173 of 385 imported symbols are provided (44.9351%).

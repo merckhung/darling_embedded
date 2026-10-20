@@ -1,0 +1,42 @@
+==== PeopleViewService ====
+Linked dylibs: 32, imported symbols: 108
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/AppSSOCore.framework/Versions/A/AppSSOCore
+  NO       0/0	/System/Library/PrivateFrameworks/PassKitCore.framework/Versions/A/PassKitCore
+  NO       0/0	/System/Library/PrivateFrameworks/MLCompilerServices.framework/MLCompilerServices
+  NO       0/0	/System/Library/PrivateFrameworks/IOGPU.framework/Versions/A/IOGPU
+  NO       0/0	/System/Library/PrivateFrameworks/ContactsAssistantServices.framework/Versions/A/ContactsAssistantServices
+  NO       0/0	/System/Library/PrivateFrameworks/PeopleUI.framework/Versions/A/PeopleUI
+  yes      0/12	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC _$s10Foundation13URLComponentsVMa _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ _$s10Foundation3URLVMa
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      7/9	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy ___chkstk_darwin
+  yes      1/2	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF
+  yes      0/2	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationProxy _OBJC_CLASS_$_LSApplicationWorkspace
+  NO       0/17	/System/Library/PrivateFrameworks/People.framework/Versions/A/People
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/52	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftObjectiveC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/4	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for PeopleViewService: 27 of 32 linked libraries are absent from the guest root; 18 of 108 imported symbols are provided (16.6667%).

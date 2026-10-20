@@ -1,0 +1,22 @@
+==== Wireless Diagnostics ====
+Linked dylibs: 13, imported symbols: 173
+
+  present  provided/imported  library
+  NO       0/3	/System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/CoreWLANKit
+  NO       0/2	/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+  NO       0/0	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  NO       0/7	/System/Library/PrivateFrameworks/WiFiVelocity.framework/Versions/A/WiFiVelocity
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  NO       0/8	/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+  NO       0/47	/System/Library/PrivateFrameworks/GraphKit.framework/Versions/A/GraphKit
+  NO       0/1	/System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+  yes      16/20	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _OBJC_CLASS_$_NSSortDescriptor _OBJC_METACLASS_$_NSValueTransformer _OBJC_CLASS_$_NSValueTransformer
+  yes      29/31	/usr/lib/libobjc.A.dylib
+             e.g. missing: _class_getClassMethod _method_exchangeImplementations
+  yes      13/13	/usr/lib/libSystem.B.dylib
+  yes      27/27	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      8/14	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSDate _OBJC_CLASS_$_NSLocale _OBJC_CLASS_$_NSNull _OBJC_CLASS_$_NSSet _OBJC_CLASS_$_NSTimer _OBJC_CLASS_$_NSURL
+
+Summary for Wireless Diagnostics: 7 of 13 linked libraries are absent from the guest root; 93 of 173 imported symbols are provided (53.7572%).

@@ -1,0 +1,25 @@
+(/usr/bin/darling open /Applications/keyboardaccessagent-4082953c/KeyboardAccessAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_keyboardaccessagent-4082953c:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:14
+DARLING_LAUNCH_BUNDLE:/Applications/keyboardaccessagent-4082953c/KeyboardAccessAgent.app:/Applications/keyboardaccessagent-4082953c/KeyboardAccessAgent.app/Contents/MacOS/KeyboardAccessAgent
+native dyld warning: unresolved import: _SCRCArgumentParserRunWithClassName
+native dyld warning: unresolved import: _$ss11CommandLineO10unsafeArgvSpySpys4Int8VGSgGvgZ
+native dyld warning: unresolved import: _$ss11CommandLineO4argcs5Int32VvgZ
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _$sScA15unownedExecutorScevgTj
+native dyld warning: unresolved import: _$sScM6sharedScMvgZ
+native dyld warning: unresolved import: _$sScMMa
+native dyld warning: unresolved import: _swift_task_isCurrentExecutor
+native dyld warning: unresolved import: _swift_task_reportUnexpectedExecutor
+native dyld warning: unresolved import: _$sScMScAsWP
+UNCAT_TRAP: pc=0x1006fcb68 instr=0x0
+XNU_EXC: exc=2 codes=0x1 0x0
+XNU_EXC: exc=10 codes=0x4200001 0x0
+Illegal instruction: 4
+PROBE_EXIT_keyboardaccessagent-4082953c:132
+Failed to send exception EXC_CORPSE_NOTIFY. error code: 5 for pid 14
+kill -9 14 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/keyboardaccessagent-4082953c/KeyboardAccessAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_keyboardaccessagent-4082953c:${?})
+
+root@Darwin#

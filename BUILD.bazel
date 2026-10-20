@@ -1,0 +1,216 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+
+package(default_visibility = ["//visibility:public"])
+
+cc_binary(
+    name = "macho_sign",
+    srcs = ["tools/macho_sign.cc"],
+    copts = [
+        "-std=c++20",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+    linkopts = ["-lcrypto"],
+)
+
+cc_binary(
+    name = "nibdump",
+    srcs = [
+        "darling/frameworks/nibarchive.h",
+        "tools/nibdump.cc",
+    ],
+    copts = [
+        "-std=c++20",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+)
+
+cc_binary(
+    name = "macho_import_report",
+    srcs = ["tools/macho_import_report.cc"],
+    copts = [
+        "-std=c++20",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+)
+
+cc_binary(
+    name = "build_darling_root",
+    srcs = ["tools/build_darling_root.cc"],
+    copts = [
+        "-std=c++20",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+)
+
+filegroup(
+    name = "darling_sources",
+    srcs = glob(
+        [
+            "darling/**/*.h",
+            "darling/**/*.S",
+            "darling/**/*.c",
+            "darling/**/*.cc",
+            "darling/**/*.mm",
+            "darling/**/*.plist",
+            "apps/**/*.mm",
+            "apps/**/*.plist",
+            "apps/**/script",
+            "vendor/**/*",
+        ],
+        exclude = [
+            "vendor/Golden Gate Apps/**",
+            "vendor/Claude.app/**",
+            "vendor/Codex.app/**",
+            "vendor/LINE.app/**",
+            "vendor/Microsoft Teams.app/**",
+            "vendor/Windows App.app/**",
+        ],
+    ),
+)
+
+genrule(
+    name = "darling_root_arm64",
+    srcs = [
+        ":darling_sources",
+        "@darling//:src/tools/sw_vers.c",
+        "@darwin_embedded//userland/apps/xfce:xfce-desktop.arm64.tar",
+        "@darwin_embedded//userland/apps/chromium:browser-root.arm64.img",
+        "@darwin_embedded//userland/native:sdk_arm64",
+        ":dyld_arm64",
+        "@darwin_embedded//src/Applications/cxx:sources",
+        "@inter_font//:LICENSE.txt",
+        "@inter_font//:extras/ttf/Inter-Regular.ttf",
+        "@inter_font//:extras/ttf/Inter-Medium.ttf",
+        "@inter_font//:extras/ttf/Inter-SemiBold.ttf",
+        "@inter_font//:extras/ttf/Inter-Bold.ttf",
+    ],
+    outs = ["darling-root.arm64.img"],
+    cmd = "$(location :build_darling_root)" +
+          " --base-root $(location @darwin_embedded//userland/apps/chromium:browser-root.arm64.img)" +
+          " --sdk $(location @darwin_embedded//userland/native:sdk_arm64)" +
+          " --x11-headers $(location @darwin_embedded//userland/apps/xfce:xfce-desktop.arm64.tar)" +
+          " --hfs-tool $(location @darwin_embedded//tools/libdmg-hfsplus:hfsplus)" +
+          " --signer $(location :macho_sign)" +
+          " --darling-sw-vers $(location @darling//:src/tools/sw_vers.c)" +
+          " --workspace-root $$PWD" +
+          " --dyld $(location :dyld_arm64)" +
+          " --libunwind-dir $$PWD/external/+darwin_embedded_repository+darwin_embedded/src/Applications/cxx/libunwind/20.1.8" +
+          " --inter-font-dir $$(dirname $(location @inter_font//:extras/ttf/Inter-Regular.ttf))" +
+          " --inter-license $(location @inter_font//:LICENSE.txt)" +
+          " --output $@",
+    tools = [
+        ":build_darling_root",
+        ":macho_sign",
+        "@darwin_embedded//tools/libdmg-hfsplus:hfsplus",
+    ],
+)
+
+filegroup(
+    name = "arm64",
+    srcs = [
+        ":darling_root_arm64",
+        "@darwin_embedded//userland/apps/chromium:browser_loader_arm64",
+        "@darwin_embedded//userland/apps/x11:desktop_kernel_arm64",
+    ],
+)
+
+cc_binary(
+    name = "verify_arm64",
+    srcs = ["tools/verify_darling_qemu.cc"],
+    args = [
+        "--loader",
+        "$(rootpath @darwin_embedded//userland/apps/chromium:browser-arm64/boot_current.bin)",
+        "--kernel",
+        "$(rootpath @darwin_embedded//userland/apps/x11:desktop-arm64/kernel.bin)",
+        "--layout",
+        "$(rootpath @darwin_embedded//userland/apps/x11:desktop-arm64/kernel_layout.json)",
+        "--root",
+        "$(rootpath :darling-root.arm64.img)",
+    ],
+    copts = [
+        "-std=c++20",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+    data = [
+        ":darling-root.arm64.img",
+        "@darwin_embedded//userland/apps/chromium:browser-arm64/boot_current.bin",
+        "@darwin_embedded//userland/apps/x11:desktop-arm64/kernel.bin",
+        "@darwin_embedded//userland/apps/x11:desktop-arm64/kernel_layout.json",
+    ],
+)
+
+cc_binary(
+    name = "run_gui",
+    srcs = ["tools/verify_darling_qemu.cc"],
+    args = [
+        "--loader",
+        "$(rootpath @darwin_embedded//userland/apps/chromium:browser-arm64/boot_current.bin)",
+        "--kernel",
+        "$(rootpath @darwin_embedded//userland/apps/x11:desktop-arm64/kernel.bin)",
+        "--layout",
+        "$(rootpath @darwin_embedded//userland/apps/x11:desktop-arm64/kernel_layout.json)",
+        "--root",
+        "$(rootpath :darling-root.arm64.img)",
+        "--display",
+        "gtk",
+        "--interactive",
+    ],
+    copts = [
+        "-std=c++20",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+    data = [
+        ":darling-root.arm64.img",
+        "@darwin_embedded//userland/apps/chromium:browser-arm64/boot_current.bin",
+        "@darwin_embedded//userland/apps/x11:desktop-arm64/kernel.bin",
+        "@darwin_embedded//userland/apps/x11:desktop-arm64/kernel_layout.json",
+    ],
+)
+
+# /usr/lib/dyld: darwin_embedded's native dynamic linker built from the
+# locally modified copy in darling/dyld (adds chained fixups and export-trie
+# support). It reuses darwin_embedded's unmodified build script by staging a
+# source root whose userland/native/dyld is replaced with darling/dyld.
+genrule(
+    name = "dyld_arm64",
+    srcs = glob(["darling/dyld/*"]) + [
+        "@darwin_embedded//userland/native:libsyscall_arm64",
+        "@darwin_embedded//src/Kernel/xnu/12377.121.6:kernel.headers.arm64.tar",
+        "@darwin_embedded//scripts:build_native_dyld.py",
+        "@darwin_embedded//scripts:sign_diagnostic_macho.py",
+        "@darwin_embedded//src/Kernel/xnu/12377.121.6:sources",
+        "@darwin_embedded//src/Libraries/25.5.0:kernel_dependency_sources",
+        "@darwin_embedded//src/Libraries/25.5.0:native_dyld_support_sources",
+    ],
+    outs = ["dyld.arm64"],
+    cmd = "EXT=$$PWD/external/+darwin_embedded_repository+darwin_embedded; " +
+          "STAGE=$$(mktemp -d); mkdir -p $$STAGE/userland/native $$STAGE/scripts; " +
+          "ln -s $$EXT/src $$STAGE/src; " +
+          "ln -s $$PWD/darling/dyld $$STAGE/userland/native/dyld; " +
+          "for f in $$EXT/scripts/*; do ln -s $$f $$STAGE/scripts/; done; " +
+          "python3 $(location @darwin_embedded//scripts:build_native_dyld.py) --root $$STAGE --arch arm64" +
+          " --sdk $(location @darwin_embedded//src/Kernel/xnu/12377.121.6:kernel.headers.arm64.tar)" +
+          " --libsyscall $(location @darwin_embedded//userland/native:libsyscall_arm64)" +
+          " --ld $(location @darwin_embedded//tools/cctools:ld) --output $@; " +
+          "rc=$$?; rm -rf $$STAGE; exit $$rc",
+    tools = ["@darwin_embedded//tools/cctools:ld"],
+)

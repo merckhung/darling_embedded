@@ -1,0 +1,30 @@
+(/usr/bin/darling open '/Applications/System Info.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_system-info:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:14
+DARLING_LAUNCH_BUNDLE:/Applications/System Info.app:/Applications/System Info.app/Contents/MacOS/System Info
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/System Info.app/Contents/MacOS/System Info)
+[AppKit] nib: no outlet 'autoresizesSubviews' on NSBox
+[AppKit] nib: no outlet 'delegate' on ThemeObservingTextView
+[AppKit] nib: no outlet 'delegate' on ThemeObservingTextView
+[AppKit] loaded nib /Applications/System Info.app/Contents/Resources/MainMenu.nib/keyedobjects.nib: 850 objects, 4 windows
+[AppKit] NSApplication delegate = 0x101a5df60
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101a5df60
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101a60470 (title: System Info)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:System Info:91:12
+DARLING_MENUBAR_ITEM:File:163:12
+DARLING_MENUBAR_ITEM:Edit:207:12
+DARLING_MENUBAR_ITEM:View:256:12
+DARLING_MENUBAR_ITEM:Window:319:12
+DARLING_MENUBAR_ITEM:Help:381:12
+DARLING_WINDOW_READY:System Info:4194305:436:90:580:448
+DARLING_BUTTON_POS:System Info:Cancel:967:515
+[Foundation] NSTask launch /bin/sh (1 args) -> pid 15
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:System Info:4194305:436:90:580:448
+DARLING_BUTTON_POS:System Info:Cancel:967:515
+kill -9 14 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/System Info.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_system-info:${?})
+
+root@Darwin#

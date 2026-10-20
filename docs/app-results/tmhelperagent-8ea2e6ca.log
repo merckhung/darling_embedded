@@ -1,0 +1,40 @@
+(/usr/bin/darling open /Applications/tmhelperagent-8ea2e6ca/TMHelperAgent.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_tmhelperagent-8ea2e6ca:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:453
+DARLING_LAUNCH_BUNDLE:/Applications/tmhelperagent-8ea2e6ca/TMHelperAgent.app:/Applications/tmhelperagent-8ea2e6ca/TMHelperAgent.app/Contents/MacOS/TMHelperAgent
+native dyld warning: unresolved import: _TMDiskArbDescriptionForDevice
+native dyld warning: unresolved import: _xpc_copy_description
+native dyld warning: unresolved import: _xpc_dictionary_get_data
+native dyld warning: unresolved import: _xpc_dictionary_get_string
+native dyld warning: unresolved import: _xpc_dictionary_get_value
+native dyld warning: unresolved import: _xpc_get_type
+native dyld warning: unresolved import: _xpc_int64_get_value
+native dyld warning: unresolved import: _xpc_set_event_stream_handler
+native dyld warning: unresolved import: _xpc_string_get_string_ptr
+native dyld warning: unresolved import: _xpc_uint64_get_value
+native dyld warning: unresolved import: _AECreateDesc
+native dyld warning: unresolved import: _AECreateList
+native dyld warning: unresolved import: _AEPutDesc
+native dyld warning: unresolved import: _LSOpenFromURLSpec
+native dyld warning: unresolved import: _TMDoNotAskAgainToSetUpNewDisks
+native dyld warning: unresolved import: __xpc_event_key_name
+native dyld warning: unresolved import: __xpc_type_dictionary
+native dyld warning: unresolved import: __xpc_type_int64
+native dyld warning: unresolved import: __xpc_type_string
+native dyld warning: unresolved import: __xpc_type_uint64
+native dyld warning: unresolved import: _kCSBackupdKeyErrorCode
+native dyld warning: unresolved import: _kDADiskDescriptionDeviceGUIDKey
+native dyld warning: unresolved import: _kDADiskDescriptionMediaSizeKey
+native dyld warning: unresolved import: _kDADiskDescriptionMediaUUIDKey
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/tmhelperagent-8ea2e6ca/TMHelperAgent.app/Contents/MacOS/TMHelperAgent)
+[AppKit] loaded nib /Applications/tmhelperagent-8ea2e6ca/TMHelperAgent.app/Contents/Resources/HelperAgent.nib: 740 objects, 0 windows
+[AppKit] NSApplication delegate = 0x78b0262e0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x78b0262e0
+[ObjC] Method not found: [NSUserNotificationCenter _registerForOnDemandCallback:]
+[ObjC] Method not found: [NSObject initForLegacyServiceNamed:]
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 453 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/tmhelperagent-8ea2e6ca/TMHelperAgent.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_tmhelperagent-8ea2e6ca:${?})
+
+root@Darwin#

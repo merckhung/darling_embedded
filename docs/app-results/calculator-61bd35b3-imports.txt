@@ -1,0 +1,56 @@
+==== Calculator ====
+Linked dylibs: 44, imported symbols: 2069
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/TextInputUI.framework/Versions/A/TextInputUI
+  NO       0/213	/System/Library/PrivateFrameworks/Calculate.framework/Versions/A/Calculate
+  NO       0/31	/System/Library/PrivateFrameworks/CalculateUI.framework/Versions/A/CalculateUI
+  yes      11/193	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12CharacterSetV22whitespacesAndNewlinesACvgZ _$s10Foundation12CharacterSetVMa _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV6objectypSgvg _$s10Foundation12NotificationV8userInfoSDys11AnyHashableVypGSgvg _$s10Foundation12NotificationVMa
+  yes      11/11	/usr/lib/libobjc.A.dylib
+  yes      22/27	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _dlsym _os_variant_has_internal_diagnostics _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  NO       0/14	/System/Library/Frameworks/Accessibility.framework/Versions/A/Accessibility
+  NO       0/87	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      9/26	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$sSo7NSSoundC6AppKitE4beepyyFZ _NSShowSystemInfoPanel _NSAppearanceNameTouchBar _NSApplicationWillBecomeActiveNotification _NSApplicationWillResignActiveNotification _NSTouchBarItemIdentifierFlexibleSpace
+  NO       0/2	/System/Library/Frameworks/Combine.framework/Versions/A/Combine
+  yes      4/8	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFPreferencesAppValueIsForced _OBJC_CLASS_$_NSCache _OBJC_CLASS_$_NSNull _OBJC_CLASS_$_NSRunLoop
+  yes      5/7	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _$sSo6CGSizeVSE12CoreGraphicsMc _$sSo6CGSizeVSe12CoreGraphicsMc
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationRecord
+  NO       0/2	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/10	/System/Library/Frameworks/Network.framework/Versions/A/Network
+  NO       0/59	/System/Library/Frameworks/SwiftData.framework/Versions/A/SwiftData
+  NO       0/955	/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/47	/System/Library/Frameworks/TipKit.framework/Versions/A/TipKit
+  NO       0/1	/System/Library/PrivateFrameworks/CoreAnalytics.framework/Versions/A/CoreAnalytics
+  NO       0/1	/System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+  NO       0/4	/System/Library/PrivateFrameworks/FeatureFlags.framework/Versions/A/FeatureFlags
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/305	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/17	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/2	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/8	/usr/lib/swift/libswiftObservation.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/22	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/4	/usr/lib/swift/libswift_StringProcessing.dylib
+  NO       0/9	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Calculator: 37 of 44 linked libraries are absent from the guest root; 62 of 2069 imported symbols are provided (2.99662%).

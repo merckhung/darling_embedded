@@ -1,0 +1,25 @@
+==== rcd ====
+Linked dylibs: 14, imported symbols: 104
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+  NO       0/1	/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/AssistantServices
+  NO       0/1	/System/Library/PrivateFrameworks/BezelServices.framework/Versions/A/BezelServices
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      5/5	/usr/lib/libobjc.A.dylib
+  yes      16/36	/usr/lib/libSystem.B.dylib
+             e.g. missing: _dispatch_semaphore_create _dispatch_semaphore_signal _dispatch_semaphore_wait _xpc_connection_create_mach_service _xpc_connection_resume _xpc_connection_send_message_with_reply_sync
+  yes      27/30	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDateGetTimeIntervalSinceDate _CFSetApplyFunction _OBJC_CLASS_$_NSRunLoop
+  yes      2/5	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSDisplayStatusQuery _CGSMainDisplayID _CGSSetLocalEventsSuppressionInterval
+  yes      0/5	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: __LSASNCreateCopy __LSCopyApplicationInformationItem __LSCopyMatchingApplicationsWithItems __LSGetApplicationListSeed __kLSASNKey
+  NO       0/13	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  yes      3/4	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _AuthorizationMakeExternalForm
+  NO       0/2	/System/Library/PrivateFrameworks/MediaRemote.framework/Versions/A/MediaRemote
+  NO       0/1	/System/Library/PrivateFrameworks/OSD.framework/Versions/A/OSD
+  NO       0/1	/System/Library/PrivateFrameworks/SiriFoundation.framework/Versions/A/SiriFoundation
+
+Summary for rcd: 7 of 14 linked libraries are absent from the guest root; 53 of 104 imported symbols are provided (50.9615%).

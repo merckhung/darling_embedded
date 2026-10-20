@@ -1,0 +1,23 @@
+(/usr/bin/darling open '/Applications/paired-devices-a1470089/Paired Devices.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_paired-devices-a1470089:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:54
+DARLING_LAUNCH_BUNDLE:/Applications/paired-devices-a1470089/Paired Devices.app:/Applications/paired-devices-a1470089/Paired Devices.app/Contents/MacOS/Paired Devices
+native dyld warning: unresolved import: _LogControl
+native dyld warning: unresolved import: _LogPrintF
+native dyld warning: unresolved import: _LogSetAppID
+native dyld warning: unresolved import: __LogCategory_Initialize
+native dyld warning: unresolved import: _RPLegacyServiceTypeMobileDevice
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/paired-devices-a1470089/Paired Devices.app/Contents/MacOS/Paired Devices)
+[AppKit] loaded nib /Applications/paired-devices-a1470089/Paired Devices.app/Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib: 655 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101e3e320
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101e3e320
+[ObjC] Method not found: [NSObject setRunInProcess:]
+[ObjC] Method not found: [NSObject setServiceType:]
+[ObjC] Method not found: [NSObject setInvalidationHandler:]
+[ObjC] Method not found: [NSObject activate]
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 54 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/paired-devices-a1470089/Paired Devices.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_paired-devices-a1470089:${?})
+
+root@Darwin#

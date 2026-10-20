@@ -1,0 +1,10 @@
+(/usr/bin/darling open /Applications/liquiddetectiond-a78ec8a8/liquiddetectiond.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_liquiddetectiond-a78ec8a8:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:487
+darling: failed to execute '/Applications/liquiddetectiond-a78ec8a8/liquiddetectiond.app': Permission denied
+PROBE_EXIT_liquiddetectiond-a78ec8a8:127
+kill -9 487 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/liquiddetectiond-a78ec8a8/liquiddetectiond.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_liquiddetectiond-a78ec8a8:${?})
+
+root@Darwin#

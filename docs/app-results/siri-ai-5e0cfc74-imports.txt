@@ -1,0 +1,59 @@
+==== Siri AI ====
+Linked dylibs: 49, imported symbols: 264
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/AssistantIslandClient.framework/Versions/A/AssistantIslandClient
+  NO       0/0	/System/Library/PrivateFrameworks/CampoServices.framework/Versions/A/CampoServices
+  NO       0/0	/System/Library/PrivateFrameworks/CampoUIServices.framework/Versions/A/CampoUIServices
+  NO       0/77	/System/Library/PrivateFrameworks/CampoUIInternal.framework/Versions/A/CampoUIInternal
+  NO       0/7	/System/Library/PrivateFrameworks/SpotlightUIShared.framework/Versions/A/SpotlightUIShared
+  NO       0/23	/System/Library/PrivateFrameworks/SpotlightUIInternal.framework/Versions/A/SpotlightUIInternal
+  yes      1/22	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationVMa _$s10Foundation3URLV06isFileB0Sbvg _$s10Foundation3URLV14absoluteStringSSvg _$s10Foundation3URLV19_bridgeToObjectiveCSo5NSURLCyF _$s10Foundation3URLV6stringACSgSSh_tcfC
+  yes      10/10	/usr/lib/libobjc.A.dylib
+  yes      19/24	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy __set_user_dir_suffix _confstr _sandbox_init_with_parameters ___chkstk_darwin
+  NO       0/2	/System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+  yes      4/5	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF
+  yes      0/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _NSCurrentLocaleDidChangeNotification
+  NO       0/4	/System/Library/Frameworks/CoreSpotlight.framework/Versions/A/CoreSpotlight
+  NO       0/1	/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications
+  NO       0/2	/System/Library/PrivateFrameworks/AgentCanvasUICore.framework/Versions/A/AgentCanvasUICore
+  NO       0/1	/System/Library/PrivateFrameworks/GenerativeModels.framework/Versions/A/GenerativeModels
+  NO       0/2	/System/Library/PrivateFrameworks/SearchUI.framework/Versions/A/SearchUI
+  NO       0/2	/System/Library/PrivateFrameworks/SnippetUI.framework/Versions/A/SnippetUI
+  NO       0/1	/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+  NO       0/0	/usr/lib/swift/libswiftAVFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftAccelerate.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCompression.dylib (weak)
+  NO       0/58	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreFoundation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMIDI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreMediaIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftDispatch.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftIntents.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMLCompute.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetalKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftModelIO.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftNaturalLanguage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftOpenCL.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftQuickLookUI.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/14	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/7	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for Siri AI: 44 of 49 linked libraries are absent from the guest root; 34 of 264 imported symbols are provided (12.8788%).

@@ -1,0 +1,31 @@
+==== NetAuthAgent ====
+Linked dylibs: 18, imported symbols: 181
+
+  present  provided/imported  library
+  NO       0/2	/System/Library/PrivateFrameworks/NetAuth.framework/Versions/A/NetAuth
+  NO       0/1	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      0/35	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecAccessCreate _SecCopyErrorMessageString _SecItemCopyMatching _SecKeychainCopyDefault _SecKeychainCopyDomainSearchList _SecKeychainFindGenericPassword
+  NO       0/0	/System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+  NO       0/0	/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  NO       0/0	/System/Library/PrivateFrameworks/KerberosHelper.framework/Versions/A/KerberosHelper
+  NO       0/4	/System/Library/PrivateFrameworks/login.framework/Versions/A/Frameworks/loginsupport.framework/Versions/A/loginsupport
+  NO       0/1	/System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _HFSCreateInstalledEncodingDictionary
+  NO       0/1	/usr/lib/libbsm.0.dylib
+  yes      13/20	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _OBJC_CLASS_$_NSConstantIntegerNumber _NSFileTypeForHFSTypeCode __NSDictionaryOfVariableBindings _OBJC_CLASS_$_NSLayoutConstraint _OBJC_CLASS_$_NSRegularExpression _OBJC_CLASS_$_NSFormatter
+  yes      17/17	/usr/lib/libobjc.A.dylib
+  yes      28/38	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _bootstrap_check_in _dispatch_mig_server _dispatch_release _dispatch_source_set_cancel_handler _mig_deallocate
+  yes      15/18	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSAccessibilityTitleAttribute _NSWindowDidBecomeKeyNotification _NSWindowDidBecomeMainNotification
+  yes      34/42	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFArrayAppendArray _CFDictionaryApplyFunction _CFStringConvertEncodingToNSStringEncoding _CFStringCreateWithBytes _CFUUIDCreateFromUUIDBytes _OBJC_CLASS_$_NSDate
+  yes      0/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSessionCopyCurrentDictionary
+
+Summary for NetAuthAgent: 8 of 18 linked libraries are absent from the guest root; 107 of 181 imported symbols are provided (59.116%).

@@ -1,0 +1,12 @@
+==== Apps ====
+Linked dylibs: 5, imported symbols: 2
+
+  present  provided/imported  library
+  yes      0/1	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+             e.g. missing: _CoreDockSendNotification
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      0/0	/usr/lib/libobjc.A.dylib
+  yes      0/0	/usr/lib/libSystem.B.dylib
+  yes      1/1	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+Summary for Apps: 0 of 5 linked libraries are absent from the guest root; 1 of 2 imported symbols are provided (50%).

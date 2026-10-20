@@ -1,0 +1,161 @@
+(/usr/bin/darling open '/Applications/certificate-assistant-90f25b33/Certificate Assistant.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_certificate-assistant-90f25b33:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:86
+DARLING_LAUNCH_BUNDLE:/Applications/certificate-assistant-90f25b33/Certificate Assistant.app:/Applications/certificate-assistant-90f25b33/Certificate Assistant.app/Contents/MacOS/Certificate Assistant
+native dyld warning: unresolved import: _CSSM_CL_CertAbortCache
+native dyld warning: unresolved import: _CSSM_CL_CertAbortQuery
+native dyld warning: unresolved import: _CSSM_CL_CertCache
+native dyld warning: unresolved import: _CSSM_CL_CertGetFirstCachedFieldValue
+native dyld warning: unresolved import: _CSSM_CL_CertGetFirstFieldValue
+native dyld warning: unresolved import: _CSSM_CL_FreeFieldValue
+native dyld warning: unresolved import: _CSSM_Init
+native dyld warning: unresolved import: _CSSM_ModuleAttach
+native dyld warning: unresolved import: _CSSM_ModuleLoad
+native dyld warning: unresolved import: _SecCertificateAddToKeychain
+native dyld warning: unresolved import: _SecCertificateCopyCommonName
+native dyld warning: unresolved import: _SecCertificateCreateFromData
+native dyld warning: unresolved import: _SecCertificateGetCLHandle
+native dyld warning: unresolved import: _SecCertificateGetCommonName
+native dyld warning: unresolved import: _SecCertificateGetData
+native dyld warning: unresolved import: _SecCopyErrorMessageString
+native dyld warning: unresolved import: _SecDigestGetData
+native dyld warning: unresolved import: _SecIdentityCopyCertificate
+native dyld warning: unresolved import: _SecIdentityCreateWithCertificate
+native dyld warning: unresolved import: _SecIdentitySearchCopyNext
+native dyld warning: unresolved import: _SecIdentitySearchCreate
+native dyld warning: unresolved import: _SecKeyCreateWithCSSMKey
+native dyld warning: unresolved import: _SecKeyGetCSSMKey
+native dyld warning: unresolved import: _SecKeychainAddCallback
+native dyld warning: unresolved import: _SecKeychainCopyDefault
+native dyld warning: unresolved import: _SecKeychainCopySearchList
+native dyld warning: unresolved import: _SecKeychainGetCSPHandle
+native dyld warning: unresolved import: _SecKeychainGetPath
+native dyld warning: unresolved import: _SecKeychainItemCopyAttributesAndData
+native dyld warning: unresolved import: _SecKeychainItemCopyContent
+native dyld warning: unresolved import: _SecKeychainItemCopyFromPersistentReference
+native dyld warning: unresolved import: _SecKeychainItemCopyKeychain
+native dyld warning: unresolved import: _SecKeychainItemCreatePersistentReference
+native dyld warning: unresolved import: _SecKeychainItemDelete
+native dyld warning: unresolved import: _SecKeychainItemExport
+native dyld warning: unresolved import: _SecKeychainItemFreeAttributesAndData
+native dyld warning: unresolved import: _SecKeychainItemFreeContent
+native dyld warning: unresolved import: _SecKeychainRemoveCallback
+native dyld warning: unresolved import: _SecKeychainSearchCopyNext
+native dyld warning: unresolved import: _SecKeychainSearchCreateFromAttributes
+native dyld warning: unresolved import: _SecPolicyCopy
+native dyld warning: unresolved import: _SecPolicySetValue
+native dyld warning: unresolved import: _SecTrustCreateWithCertificates
+native dyld warning: unresolved import: _SecTrustEvaluate
+native dyld warning: unresolved import: _SecTrustGetCssmResultCode
+native dyld warning: unresolved import: _SecTrustSettingsSetTrustSettings
+native dyld warning: unresolved import: _cssmPerror
+native dyld warning: unresolved import: _NSBeginCriticalAlertSheet
+native dyld warning: unresolved import: _NSBeginInformationalAlertSheet
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: __NSKeyboardUISelectAnyValidResponder
+native dyld warning: unresolved import: _NSCreateMapTableWithZone
+native dyld warning: unresolved import: _NSDefaultMallocZone
+native dyld warning: unresolved import: _NSMapGet
+native dyld warning: unresolved import: _NSMapInsert
+native dyld warning: unresolved import: _NSMapRemove
+native dyld warning: unresolved import: __NSDictionaryOfVariableBindings
+native dyld warning: unresolved import: _createCertCsr
+native dyld warning: unresolved import: __ZdlPvSt19__type_descriptor_t
+native dyld warning: unresolved import: __ZnwmSt19__type_descriptor_t
+native dyld warning: unresolved import: _CSSMOID_APPLE_TP_ICHAT
+native dyld warning: unresolved import: _CSSMOID_BasicConstraints
+native dyld warning: unresolved import: _CSSMOID_ECDSA_WithSHA256
+native dyld warning: unresolved import: _CSSMOID_KeyUsage
+native dyld warning: unresolved import: _CSSMOID_SHA256WithRSA
+native dyld warning: unresolved import: _CSSMOID_X509V1SubjectNameCStruct
+native dyld warning: unresolved import: _gGuidAppleCSP
+native dyld warning: unresolved import: _gGuidAppleCSPDL
+native dyld warning: unresolved import: _gGuidAppleX509CL
+native dyld warning: unresolved import: _gGuidAppleX509TP
+native dyld warning: unresolved import: _kABEmailProperty
+native dyld warning: unresolved import: _NSFileContentsPboardType
+native dyld warning: unresolved import: _NSObjectMapKeyCallBacks
+native dyld warning: unresolved import: _NSObjectMapValueCallBacks
+native dyld warning: unresolved import: _SFDefaultCertificateAuthority
+native dyld warning: unresolved import: _SFDefaultCertificateAuthorityFullPath
+native dyld warning: unresolved import: _caCertAuthorityCertsKey
+native dyld warning: unresolved import: _caCertAuthorityDirectory
+native dyld warning: unresolved import: _caConfigFileExtension
+native dyld warning: unresolved import: _caPEMFileNameForCA
+native dyld warning: unresolved import: _caSubjectInfoCommonNameKey
+native dyld warning: unresolved import: _caSubjectInfoCountryCodeKey
+native dyld warning: unresolved import: _caSubjectInfoEmailAddressKey
+native dyld warning: unresolved import: _NSLocaleCountryCode
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+native dyld warning: unresolved import: __NSKeyboardUISelectAnyValidResponder
+native dyld warning: unresolved import: _NSCreateMapTableWithZone
+native dyld warning: unresolved import: _NSMapGet
+native dyld warning: unresolved import: _NSMapInsert
+native dyld warning: unresolved import: _NSMapRemove
+native dyld warning: unresolved import: __NSDictionaryOfVariableBindings
+native dyld warning: unresolved import: __NSFullMethodName
+native dyld warning: unresolved import: _NSObjectMapKeyCallBacks
+native dyld warning: unresolved import: _NSObjectMapValueCallBacks
+native dyld warning: unresolved import: _OBJC_EHTYPE_$_NSException
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/certificate-assistant-90f25b33/Certificate Assistant.app/Contents/MacOS/Certificate Assistant)
+[AppKit] loaded nib /Applications/certificate-assistant-90f25b33/Certificate Assistant.app/Contents/Resources/Base.lproj/MainMenu.nib: 277 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101f7c8c0
+[ObjC] Method not found: [NSBundle loadNibFile:externalNameTable:withZone:]
+[NSAssert] AFAssistantController.m:443: cannot load AssistantWindow
+[Darling Certificate Assistant:86] Could not find image named "Certificate Assistant Window Graphic"
+[Darling Certificate Assistant:86] no "mainWindow" connected
+[Darling Certificate Assistant:86] no "contentView" connected
+[Darling Certificate Assistant:86] no "titleTextField" connected
+[Darling Certificate Assistant:86] no "continueButton" connected
+[Darling Certificate Assistant:86] no "action for continueButton" connected
+[Darling Certificate Assistant:86] no "goBackButton" connected
+[Darling Certificate Assistant:86] no "action for goBackButton" connected
+[Darling Certificate Assistant:86] no "backgroundImageView" connected
+[NSAssert] AFAssistantController.m:86: No window to load assistant document
+[ObjC] Method not found: [NSBundle loadNibFile:externalNameTable:withZone:]
+[NSAssert] AFAssistantSection.m:270: Failed to load nib file "%@/%@"
+[NSAssert] AFAssistantSection.m:271: No connection to "assistantPane" in File's Owner
+ Section = %@
+ Nib = %@.nib
+[NSAssert] AFAssistantSection.m:161: firstPane "%@" is missing
+[ObjC] Method not found: [NSBundle loadNibFile:externalNameTable:withZone:]
+[NSAssert] AFAssistantSection.m:270: Failed to load nib file "%@/%@"
+[NSAssert] AFAssistantSection.m:271: No connection to "assistantPane" in File's Owner
+ Section = %@
+ Nib = %@.nib
+[NSAssert] AFAssistantSection.m:161: firstPane "%@" is missing
+[ObjC] Method not found: [NSBundle loadNibFile:externalNameTable:withZone:]
+[NSAssert] AFAssistantSection.m:270: Failed to load nib file "%@/%@"
+[NSAssert] AFAssistantSection.m:271: No connection to "assistantPane" in File's Owner
+ Section = %@
+ Nib = %@.nib
+[NSAssert] AFAssistantSection.m:161: firstPane "%@" is missing
+[ObjC] Method not found: [NSBundle loadNibFile:externalNameTable:withZone:]
+[NSAssert] AFAssistantSection.m:270: Failed to load nib file "%@/%@"
+[NSAssert] AFAssistantSection.m:271: No connection to "assistantPane" in File's Owner
+ Section = %@
+ Nib = %@.nib
+[NSAssert] AFAssistantSection.m:161: firstPane "%@" is missing
+[ObjC] Method not found: [NSBundle loadNibFile:externalNameTable:withZone:]
+[NSAssert] AFAssistantSection.m:270: Failed to load nib file "%@/%@"
+[NSAssert] AFAssistantSection.m:271: No connection to "assistantPane" in File's Owner
+ Section = %@
+ Nib = %@.nib
+[NSAssert] AFAssistantSection.m:161: firstPane "%@" is missing
+[ObjC] Method not found: [NSBundle loadNibFile:externalNameTable:withZone:]
+[NSAssert] AFAssistantSection.m:270: Failed to load nib file "%@/%@"
+[NSAssert] AFAssistantSection.m:271: No connection to "assistantPane" in File's Owner
+ Section = %@
+ Nib = %@.nib
+[NSAssert] AFAssistantSection.m:161: firstPane "%@" is missing
+[ObjC] Method not found: [NSBundle loadNibFile:externalNameTable:withZone:]
+[NSAssert] AFAssistantSection.m:270: Failed to load nib file "%@/%@"
+[NSAssert] AFAssistantSection.m:271: No connection to "assistantPane" in File's Owner
+ Section = %@
+ Nib = %@.nib
+[NSAssert] AFAssistantSection.m:161: firstPane "%@" is missing
+kill -9 86 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/certificate-assistant-90f25b33/Certificate Assistant.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_certificate-assistant-90f25b33:${?})
+
+root@Darwin#

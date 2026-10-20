@@ -1,0 +1,19 @@
+==== Install in Progress ====
+Linked dylibs: 10, imported symbols: 59
+
+  present  provided/imported  library
+  yes      0/10	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _AECreateAppleEvent _AECreateDesc _AEDisposeDesc _AESendMessage _FSEventStreamCreate _FSEventStreamInvalidate
+  NO       0/1	/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate
+  yes      0/0	/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+  yes      0/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGSSessionCopyCurrentSessionProperties
+  yes      4/4	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      3/3	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  NO       0/2	/System/Library/PrivateFrameworks/PackageKit.framework/Versions/A/PackageKit
+  yes      13/13	/usr/lib/libobjc.A.dylib
+  yes      14/20	/usr/lib/libSystem.B.dylib
+             e.g. missing: _os_transaction_create _os_transaction_needs_more_time _syslog$DARWIN_EXTSN _xpc_dictionary_get_string _xpc_set_event_stream_handler __xpc_event_key_name
+  yes      5/5	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+Summary for Install in Progress: 2 of 10 linked libraries are absent from the guest root; 39 of 59 imported symbols are provided (66.1017%).

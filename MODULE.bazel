@@ -1,0 +1,46 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+module(
+    name = "darling_embedded",
+    version = "0.1.0",
+)
+
+bazel_dep(name = "rules_cc", version = "0.2.17")
+bazel_dep(name = "rules_shell", version = "0.6.1")
+
+darwin_embedded_repository = use_repo_rule("//bazel:repositories.bzl", "darwin_embedded_repository")
+
+darwin_embedded_repository(
+    name = "darwin_embedded",
+    commit = "de354247bb098c3549e132938e97bda65d8a4f57",
+    patches = ["//patches:darwin_embedded-external.patch"],
+    remote = "https://github.com/merckhung/darwin_embedded.git",
+)
+
+darling_repository = use_repo_rule("//bazel:repositories.bzl", "darling_repository")
+
+darling_repository(
+    name = "darling",
+    commit = "60ba801decee7a00782f74f6be4c8ffb013f79ff",
+    patches = ["//patches:darling-embedded.patch"],
+    remote = "https://github.com/darlinghq/darling.git",
+)
+
+# Inter (SIL Open Font License 1.1): the user-interface font of the guest,
+# close in metrics and style to the Mac OS X system font.
+http_archive = use_repo_rule("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+http_archive(
+    name = "inter_font",
+    build_file_content = """
+package(default_visibility = ["//visibility:public"])
+exports_files([
+    "LICENSE.txt",
+    "extras/ttf/Inter-Regular.ttf",
+    "extras/ttf/Inter-Medium.ttf",
+    "extras/ttf/Inter-SemiBold.ttf",
+    "extras/ttf/Inter-Bold.ttf",
+])
+""",
+    sha256 = "9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e",
+    urls = ["https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip"],
+)

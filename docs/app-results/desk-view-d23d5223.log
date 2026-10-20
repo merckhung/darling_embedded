@@ -1,0 +1,583 @@
+(/usr/bin/darling open '/Applications/desk-view-d23d5223/Desk View.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_desk-view-d23d5223:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:50
+DARLING_LAUNCH_BUNDLE:/Applications/desk-view-d23d5223/Desk View.app:/Applications/desk-view-d23d5223/Desk View.app/Contents/MacOS/Desk View
+native dyld warning: unresolved import: _MGGetSInt32Answer
+native dyld warning: unresolved import: _MGGetStringAnswer
+native dyld warning: unresolved import: _MobileGestalt_copy_hwModelDescriptionForCamera_obj
+native dyld warning: unresolved import: _MobileGestalt_get_current_device
+native dyld warning: unresolved import: _SCNMatrix4MakeRotation
+native dyld warning: unresolved import: _CMGetAttachment
+native dyld warning: unresolved import: _CMSampleBufferGetImageBuffer
+native dyld warning: unresolved import: _FigNote_AllowInternalDefaultLogs
+native dyld warning: unresolved import: _fig_log_call_emit_and_clean_up_after_send_and_compose
+native dyld warning: unresolved import: _fig_log_emitter_get_os_log_and_send_and_compose_flags_and_os_log_type
+native dyld warning: unresolved import: _fig_note_initialize_category_with_default_work_cf
+native dyld warning: unresolved import: _CATransform3DMakeTranslation
+native dyld warning: unresolved import: _CATransform3DScale
+native dyld warning: unresolved import: __os_feature_enabled_impl
+native dyld warning: unresolved import: _notify_post
+native dyld warning: unresolved import: _CGAffineTransformConcat
+native dyld warning: unresolved import: _CGAffineTransformMakeScale
+native dyld warning: unresolved import: _CGAffineTransformMakeTranslation
+native dyld warning: unresolved import: _CGDisplayIsBuiltin
+native dyld warning: unresolved import: _CGPathAddArc
+native dyld warning: unresolved import: _CGPathAddArcToPoint
+native dyld warning: unresolved import: _CGPathAddLineToPoint
+native dyld warning: unresolved import: _CGPathAddPath
+native dyld warning: unresolved import: _CGPathAddRect
+native dyld warning: unresolved import: _CGPathCloseSubpath
+native dyld warning: unresolved import: _CGPathCreateCopyByTransformingPath
+native dyld warning: unresolved import: _CGPathCreateMutable
+native dyld warning: unresolved import: _CGPathCreateWithRoundedRect
+native dyld warning: unresolved import: _CGPathGetBoundingBox
+native dyld warning: unresolved import: _CGPathMoveToPoint
+native dyld warning: unresolved import: _CGPathRelease
+native dyld warning: unresolved import: _CGPathRetain
+native dyld warning: unresolved import: _CVImageBufferGetDisplaySize
+native dyld warning: unresolved import: _SCNLightTypeAmbient
+native dyld warning: unresolved import: _SCNLightingModelConstant
+native dyld warning: unresolved import: _SCNLightingModelLambert
+native dyld warning: unresolved import: _SCNLightingModelPhysicallyBased
+native dyld warning: unresolved import: _SCNShaderModifierEntryPointFragment
+native dyld warning: unresolved import: _CATransform3DIdentity
+native dyld warning: unresolved import: _kCACornerCurveContinuous
+native dyld warning: unresolved import: _kCAFillRuleEvenOdd
+native dyld warning: unresolved import: _kCAMediaTimingFunctionEaseOut
+native dyld warning: unresolved import: _AVCaptureDeviceTypeDeskViewCamera
+native dyld warning: unresolved import: _AVCaptureDeviceWasConnectedNotification
+native dyld warning: unresolved import: _AVCaptureDeviceWasDisconnectedNotification
+native dyld warning: unresolved import: _AVCaptureSessionRuntimeErrorNotification
+native dyld warning: unresolved import: _AVMediaTypeVideo
+native dyld warning: unresolved import: _NSWindowDidEnterFullScreenNotification
+native dyld warning: unresolved import: _NSKeyValueChangeNewKey
+native dyld warning: unresolved import: _NSKeyValueChangeOldKey
+native dyld warning: unresolved import: _matrix_identity_float3x3
+native dyld warning: unresolved import: _kCGImagePropertyOrientation
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/desk-view-d23d5223/Desk View.app/Contents/MacOS/Desk View)
+[AppKit] loaded nib /Applications/desk-view-d23d5223/Desk View.app/Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib: 261 objects, 0 windows
+[AppKit] NSApplication delegate = 0x785028040
+[AppKit] calling applicationDidFinishLaunching on delegate 0x785028040
+[ObjC] Method not found: [NSApplication setAppearance:]
+[ObjC] Method not found: [NSWindow setAspectRatio:]
+[ObjC] Method not found: [NSWindow setContentMinSize:]
+[ObjC] Method not found: [NSObject initWithSession:]
+[ObjC] Method not found: [NSObject beginConfiguration]
+[ObjC] Method not found: [NSObject deviceWithUniqueID:]
+[ObjC] Method not found: [NSObject discoverySessionWithDeviceTypes:mediaType:position:]
+[ObjC] Method not found: [NSObject initWithFirstButtonTitle:secondButtonTitle:linkButtonTitle:]
+[ObjC] Method not found: [NSWindow setContentSize:]
+[ObjC] Method not found: [NSWindow setPreventsApplicationTerminationWhenModal:]
+[ObjC] Method not found: [NSObject initWithTitle:bodyText:icon:contentLayoutStyle:]
+[ObjC] Method not found: [NSImageView setContentTintColor:]
+[ObjC] Method not found: [NSSlider setSliderType:]
+[ObjC] Method not found: [NSSlider setVertical:]
+[ObjC] Method not found: [NSSlider setAllowsTickMarkValuesOnly:]
+[ObjC] Method not found: [NSSlider setTrackFillColor:]
+[ObjC] Method not found: [NSObject configurationWithPointSize:weight:scale:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setContentTintColor:]
+[ObjC] Method not found: [NSButton setImage:]
+[ObjC] Method not found: [NSButton setBordered:]
+[ObjC] Method not found: [NSButton setContentTintColor:]
+[ObjC] Method not found: [DCAEndSetupButton setBordered:]
+[ObjC] Method not found: [DCAEndSetupButton setImagePosition:]
+[ObjC] Method not found: [DCAEndSetupButton setShadow:]
+[ObjC] Method not found: [DCAEndSetupButton shadow]
+[ObjC] Method not found: [DCAEndSetupButton setContentTintColor:]
+[ObjC] Method not found: [DCAEndSetupButton setAttributedTitle:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [NSView addTrackingArea:]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSMenuItem identifier]
+[ObjC] Method not found: [NSObject setStrokeColor:]
+[ObjC] Method not found: [NSObject setFillColor:]
+[ObjC] Method not found: [NSObject setFillRule:]
+[ObjC] Method not found: [NSObject setActions:]
+[ObjC] Method not found: [NSObject setStrokeColor:]
+[ObjC] Method not found: [NSObject setFillColor:]
+[ObjC] Method not found: [NSObject setLineWidth:]
+[ObjC] Method not found: [NSObject setActions:]
+[ObjC] Method not found: [NSObject _typeOfCurrentDevice]
+[ObjC] Method not found: [NSObject initWithType:]
+[ObjC] Method not found: [NSImageView setContentTintColor:]
+[ObjC] Method not found: [DCASetupInstructionView userInterfaceLayoutDirection]
+[ObjC] Method not found: [DCASetupInstructionView userInterfaceLayoutDirection]
+[ObjC] Method not found: [NSImageView setContentTintColor:]
+[ObjC] Method not found: [DCASetupInstructionView userInterfaceLayoutDirection]
+[ObjC] Method not found: [DCASetupInstructionView userInterfaceLayoutDirection]
+[ObjC] Method not found: [NSImageView setContentTintColor:]
+[ObjC] Method not found: [DCASetupInstructionView userInterfaceLayoutDirection]
+[ObjC] Method not found: [DCASetupInstructionView userInterfaceLayoutDirection]
+[ObjC] Method not found: [NSView addSubview:positioned:relativeTo:]
+[ObjC] Method not found: [NSObject discoverySessionWithDeviceTypes:mediaType:position:]
+[ObjC] Method not found: [NSObject commitConfiguration]
+[ObjC] Method not found: [NSObject configurationWithPointSize:weight:scale:]
+[ObjC] Method not found: [NSObject isRunning]
+[ObjC] Method not found: [NSObject startRunning]
+[ObjC] Method not found: [NSObject deviceWithUniqueID:]
+[ObjC] Method not found: [NSObject discoverySessionWithDeviceTypes:mediaType:position:]
+[ObjC] Method not found: [NSObject deviceWithUniqueID:]
+[ObjC] Method not found: [NSObject discoverySessionWithDeviceTypes:mediaType:position:]
+[ObjC] Method not found: [NSObject deviceWithUniqueID:]
+[ObjC] Method not found: [NSObject discoverySessionWithDeviceTypes:mediaType:position:]
+[ObjC] Method not found: [NSObject deviceWithUniqueID:]
+[ObjC] Method not found: [NSObject discoverySessionWithDeviceTypes:mediaType:position:]
+[ObjC] Method not found: [NSWindow setFrameUsingName:]
+[ObjC] Method not found: [NSScreen safeAreaInsets]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1016f7af0 (title: Mac OS X Window)
+[AppKit] ignored X error 2 (request 1)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 2)
+[AppKit] ignored X error 3 (request 18)
+[AppKit] ignored X error 3 (request 12)
+[AppKit] ignored X error 3 (request 8)
+[AppKit] ignored X error 3 (request 12)
+[AppKit] ignored X error 3 (request 12)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 9 (request 55)
+[AppKit] ignored X error 13 (request 60)
+[AppKit] ignored X error 3 (request 40)
+DARLING_WINDOW_READY:Mac OS X Window:4194305:77:58:0:28
+[AppKit] ignored X error 3 (request 40)
+DARLING_BUTTON_POS:Mac OS X Window:Button:38:44
+[AppKit] ignored X error 3 (request 40)
+DARLING_BUTTON_POS:Mac OS X Window:Button:38:44
+[AppKit] ignored X error 3 (request 40)
+DARLING_BUTTON_POS:Mac OS X Window:Button:38:44
+[AppKit] ignored X error 3 (request 12)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] ignored X error 3 (request 3)
+[AppKit] returned from applicationDidFinishLaunching
+[AppKit] ignored X error 9 (request 55)
+[AppKit] ignored X error 13 (request 60)
+[AppKit] ignored X error 3 (request 40)
+DARLING_WINDOW_READY:Mac OS X Window:4194305:77:58:0:28
+[AppKit] ignored X error 3 (request 40)
+DARLING_BUTTON_POS:Mac OS X Window:Button:38:44
+[AppKit] ignored X error 3 (request 40)
+DARLING_BUTTON_POS:Mac OS X Window:Button:38:44
+[AppKit] ignored X error 3 (request 40)
+DARLING_BUTTON_POS:Mac OS X Window:Button:38:44
+kill -9 50 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/desk-view-d23d5223/Desk View.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_desk-view-d23d5223:${?})
+
+root@Darwin#

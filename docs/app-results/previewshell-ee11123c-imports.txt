@@ -1,0 +1,51 @@
+==== PreviewShell ====
+Linked dylibs: 40, imported symbols: 1056
+
+  present  provided/imported  library
+  NO       0/2	/System/Library/PrivateFrameworks/AXRuntime.framework/Versions/A/AXRuntime
+  NO       0/4	/System/Library/PrivateFrameworks/FrontBoard.framework/Versions/A/FrontBoard
+  NO       0/8	/System/Library/PrivateFrameworks/FrontBoardServices.framework/Versions/A/FrontBoardServices
+  NO       0/1	/System/Library/PrivateFrameworks/BackBoardServices.framework/Versions/A/BackBoardServices
+  yes      5/38	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+             e.g. missing: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ _$s10Foundation12NotificationV6objectypSgvg _$s10Foundation12NotificationVMa _$s10Foundation14LocalizedErrorPAAE10helpAnchorSSSgvg _$s10Foundation14LocalizedErrorPAAE13failureReasonSSSgvg _$s10Foundation14LocalizedErrorPAAE18recoverySuggestionSSSgvg
+  yes      13/40	/usr/lib/libobjc.A.dylib
+             e.g. missing: _objc_release_x19 _objc_release_x20 _objc_release_x21 _objc_release_x22 _objc_release_x23 _objc_release_x24
+  yes      13/16	/usr/lib/libSystem.B.dylib
+             e.g. missing: __Block_copy _OBJC_CLASS_$_OS_dispatch_queue ___chkstk_darwin
+  yes      7/7	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  yes      1/3	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGEventPostEventToPSN _CPSFindProcessByPID
+  yes      0/1	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: _OBJC_CLASS_$_LSApplicationProxy
+  NO       0/1	/System/Library/Frameworks/DeveloperToolsSupport.framework/Versions/A/DeveloperToolsSupport
+  NO       0/4	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+  NO       0/6	/System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+  NO       0/117	/System/Library/PrivateFrameworks/PreviewsFoundationOS.framework/Versions/A/PreviewsFoundationOS
+  NO       0/78	/System/Library/PrivateFrameworks/PreviewsMessagingOS.framework/Versions/A/PreviewsMessagingOS
+  NO       0/8	/System/Library/PrivateFrameworks/UIKitServices.framework/Versions/A/UIKitServices
+  NO       0/1	/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI
+  NO       0/28	/System/iOSSupport/System/Library/Frameworks/UIKit.framework/Versions/A/UIKit
+  NO       0/356	/System/iOSSupport/System/Library/PrivateFrameworks/PreviewShellKit.framework/Versions/A/PreviewShellKit
+  NO       0/28	/System/iOSSupport/System/Library/PrivateFrameworks/PreviewsOSSupportUI.framework/Versions/A/PreviewsOSSupportUI
+  NO       0/31	/System/iOSSupport/System/Library/PrivateFrameworks/PreviewsServicesUI.framework/Versions/A/PreviewsServicesUI
+  NO       0/1	/usr/lib/libMobileGestalt.dylib
+  NO       0/235	/usr/lib/swift/libswiftCore.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreAudio.dylib (weak)
+  NO       0/1	/usr/lib/swift/libswiftCoreFoundation.dylib
+  NO       0/0	/usr/lib/swift/libswiftCoreImage.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftCoreLocation.dylib (weak)
+  NO       0/13	/usr/lib/swift/libswiftDispatch.dylib
+  NO       0/0	/usr/lib/swift/libswiftIOKit.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftMetal.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftOSLog.dylib (weak)
+  NO       0/3	/usr/lib/swift/libswiftObjectiveC.dylib
+  NO       0/0	/usr/lib/swift/libswiftQuartzCore.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftSpatial.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswiftXPC.dylib (weak)
+  NO       0/0	/usr/lib/swift/libswift_Builtin_float.dylib (weak)
+  NO       0/19	/usr/lib/swift/libswift_Concurrency.dylib
+  NO       0/6	/usr/lib/swift/libswiftos.dylib
+  NO       0/0	/usr/lib/swift/libswiftsimd.dylib (weak)
+
+Summary for PreviewShell: 34 of 40 linked libraries are absent from the guest root; 39 of 1056 imported symbols are provided (3.69318%).

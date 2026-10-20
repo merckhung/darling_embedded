@@ -1,0 +1,129 @@
+(/usr/bin/darling open '/Applications/digital-color-meter-f4fd3e7f/Digital Color Meter.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_digital-color-meter-f4fd3e7f:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:44
+DARLING_LAUNCH_BUNDLE:/Applications/digital-color-meter-f4fd3e7f/Digital Color Meter.app:/Applications/digital-color-meter-f4fd3e7f/Digital Color Meter.app/Contents/MacOS/Digital Color Meter
+native dyld warning: unresolved import: _SLSDisplayGetCurrentHeadroom
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _ColorSyncProfileGetMD5
+native dyld warning: unresolved import: _CFDictionaryContainsValue
+native dyld warning: unresolved import: _CGColorCreateCopyByMatchingToColorSpace
+native dyld warning: unresolved import: _CGColorSpaceCreateExtended
+native dyld warning: unresolved import: _CGColorSpaceCreateExtendedLinearized
+native dyld warning: unresolved import: _CGColorSpaceCreateWithColorSyncProfile
+native dyld warning: unresolved import: _CGColorSpaceCreateWithID
+native dyld warning: unresolved import: _CGColorSpaceUsesExtendedRange
+native dyld warning: unresolved import: _CGContextSetFillColor
+native dyld warning: unresolved import: _CGContextSetFillColorSpace
+native dyld warning: unresolved import: _CGDisplayIsActive
+native dyld warning: unresolved import: _CGDisplayIsAsleep
+native dyld warning: unresolved import: _CGImageCreateCopy
+native dyld warning: unresolved import: _CGImageCreateCopyWithContentHeadroom
+native dyld warning: unresolved import: _CGImageGetBitmapInfo
+native dyld warning: unresolved import: _CGImageWriteToFile
+native dyld warning: unresolved import: _CGRectContainsRect
+native dyld warning: unresolved import: _CGSCurrentInputPointerPosition
+native dyld warning: unresolved import: _CGSGetOnScreenWindowCount
+native dyld warning: unresolved import: _CGSGetOnScreenWindowList
+native dyld warning: unresolved import: _CGWarpMouseCursorPosition
+native dyld warning: unresolved import: _CGWindowListCopyWindowInfo
+native dyld warning: unresolved import: _CGWindowListCreateImage
+native dyld warning: unresolved import: _kSLSCaptureExtendedRange
+native dyld warning: unresolved import: _kSLSCapturePrioritizeCaptureRectCenter
+native dyld warning: unresolved import: _CADynamicRangeHigh
+native dyld warning: unresolved import: _CAToneMapModeNever
+native dyld warning: unresolved import: _NSScreenColorSpaceDidChangeNotification
+native dyld warning: unresolved import: _NSWindowDidChangeOcclusionStateNotification
+native dyld warning: unresolved import: _kColorSyncITUR2020Profile
+native dyld warning: unresolved import: _kColorSyncRenderingIntentRelative
+native dyld warning: unresolved import: _kCGWindowNumber
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/digital-color-meter-f4fd3e7f/Digital Color Meter.app/Contents/MacOS/Digital Color Meter)
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[ObjC] Method not found: [NSObject initWithRect:options:owner:userInfo:]
+[ObjC] Method not found: [EDRLayerView addTrackingArea:]
+[AppKit] loaded nib /Applications/digital-color-meter-f4fd3e7f/Digital Color Meter.app/Contents/Resources/Base.lproj/MainMenu.nib: 1328 objects, 2 windows
+[AppKit] NSApplication delegate = 0x1017efac0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1017efac0
+[ObjC] Method not found: [NSScreen colorSpace]
+[ObjC] Method not found: [DigitalColorMeterWindow setDisplaysWhenScreenProfileChanges:]
+[ObjC] Method not found: [DigitalColorMeterWindow setFrameUsingName:]
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1017ed6c0 (title: Digital Color Meter)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Digital Color Meter:113:12
+DARLING_MENUBAR_ITEM:View:211:12
+DARLING_MENUBAR_ITEM:Color:266:12
+DARLING_MENUBAR_ITEM:Window:330:12
+DARLING_MENUBAR_ITEM:Help:392:12
+DARLING_WINDOW_READY:Digital Color Meter:4194305:569:202:374:212
+DARLING_BUTTON_POS:Digital Color Meter:Display native values:835:252
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Digital Color Meter:4194305:569:202:374:212
+DARLING_BUTTON_POS:Digital Color Meter:Display native values:835:252
+DARLING_WINDOW_READY:Digital Color Meter:4194305:569:202:374:212
+DARLING_BUTTON_POS:Digital Color Meter:Display native values:835:252
+DARLING_WINDOW_READY:Digital Color Meter:4194305:569:202:374:212
+DARLING_BUTTON_POS:Digital Color Meter:Display native values:835:252
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Digital Color Meter:113:12
+DARLING_MENUBAR_ITEM:View:211:12
+DARLING_MENUBAR_ITEM:Color:266:12
+DARLING_MENUBAR_ITEM:Window:330:12
+DARLING_MENUBAR_ITEM:Help:392:12
+kill -9 44 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/digital-color-meter-f4fd3e7f/Digital Color Meter.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_digital-color-meter-f4fd3e7f:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

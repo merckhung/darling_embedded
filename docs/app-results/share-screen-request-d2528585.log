@@ -1,0 +1,15 @@
+(/usr/bin/darling open '/Applications/share-screen-request-d2528585/Share Screen Request.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_share-screen-request-d2528585:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:89
+DARLING_LAUNCH_BUNDLE:/Applications/share-screen-request-d2528585/Share Screen Request.app:/Applications/share-screen-request-d2528585/Share Screen Request.app/Contents/MacOS/Share Screen Request
+native dyld warning: unresolved import: _NSRunCriticalAlertPanel
+native dyld warning: unresolved import: _CPSSetFrontProcess
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/share-screen-request-d2528585/Share Screen Request.app/Contents/MacOS/Share Screen Request)
+[AppKit] loaded nib /Applications/share-screen-request-d2528585/Share Screen Request.app/Contents/Resources/Base.lproj/GuestApp.nib: 90 objects, 0 windows
+[AppKit] NSApplication delegate = 0x101628d50
+[AppKit] delegate 0x101628d50 does not respond to applicationDidFinishLaunching
+kill -9 89 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/share-screen-request-d2528585/Share Screen Request.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_share-screen-request-d2528585:${?})
+
+root@Darwin#

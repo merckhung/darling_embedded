@@ -1,0 +1,10 @@
+(/usr/bin/darling open /Applications/airdrop-5a4ddd93/AirDrop.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_airdrop-5a4ddd93:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:128
+DARLING_LAUNCH_BUNDLE:/Applications/airdrop-5a4ddd93/AirDrop.app:/Applications/airdrop-5a4ddd93/AirDrop.app/Contents/MacOS/AirDrop
+PROBE_EXIT_airdrop-5a4ddd93:0
+kill -9 128 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/airdrop-5a4ddd93/AirDrop.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_airdrop-5a4ddd93:${?})
+
+root@Darwin#

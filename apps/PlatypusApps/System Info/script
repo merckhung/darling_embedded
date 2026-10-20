@@ -1,0 +1,24 @@
+#!/bin/sh
+# System report for the Darling Embedded guest (runs inside ScriptExec).
+echo "=== Darwin kernel ==="
+uname -a
+echo
+echo "=== sw_vers ==="
+/usr/bin/sw_vers
+echo
+echo "=== Darling ==="
+/usr/bin/darling --version
+echo
+echo "=== Uptime ==="
+uptime 2>/dev/null || echo "(uptime unavailable)"
+echo
+echo "=== Processes ==="
+ps | head -20
+echo
+echo "=== Disk ==="
+df -h / 2>/dev/null
+echo
+echo "=== Applications ==="
+ls /Applications
+echo
+echo "Report complete."

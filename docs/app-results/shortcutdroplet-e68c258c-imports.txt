@@ -1,0 +1,10 @@
+==== ShortcutDroplet ====
+Linked dylibs: 4, imported symbols: 1
+
+  present  provided/imported  library
+  NO       0/1	/System/Library/PrivateFrameworks/ShortcutDropletServices.framework/Versions/A/ShortcutDropletServices
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      0/0	/usr/lib/libobjc.A.dylib
+  yes      0/0	/usr/lib/libSystem.B.dylib
+
+Summary for ShortcutDroplet: 1 of 4 linked libraries are absent from the guest root; 0 of 1 imported symbols are provided (0%).

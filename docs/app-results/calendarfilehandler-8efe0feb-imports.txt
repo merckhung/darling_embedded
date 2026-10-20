@@ -1,0 +1,15 @@
+==== CalendarFileHandler ====
+Linked dylibs: 8, imported symbols: 31
+
+  present  provided/imported  library
+  NO       0/0	/System/Library/PrivateFrameworks/CalendarFoundation.framework/Versions/A/CalendarFoundation
+  NO       0/3	/System/Library/PrivateFrameworks/iCalendar.framework/Versions/A/iCalendar
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      0/0	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      12/12	/usr/lib/libobjc.A.dylib
+  yes      8/8	/usr/lib/libSystem.B.dylib
+  yes      3/3	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  yes      3/5	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _OBJC_CLASS_$_NSData _OBJC_CLASS_$_NSURL
+
+Summary for CalendarFileHandler: 2 of 8 linked libraries are absent from the guest root; 26 of 31 imported symbols are provided (83.871%).

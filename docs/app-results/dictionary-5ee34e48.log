@@ -1,0 +1,236 @@
+(/usr/bin/darling open /Applications/dictionary-5ee34e48/Dictionary.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_dictionary-5ee34e48:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:26
+DARLING_LAUNCH_BUNDLE:/Applications/dictionary-5ee34e48/Dictionary.app:/Applications/dictionary-5ee34e48/Dictionary.app/Contents/MacOS/Dictionary
+native dyld warning: unresolved import: _TISCopyCurrentKeyboardInputSource
+native dyld warning: unresolved import: _TISGetInputSourceProperty
+native dyld warning: unresolved import: __IsSymbolicHotKeyEvent
+native dyld warning: unresolved import: _NSIntersectsRect
+native dyld warning: unresolved import: _dispatch_group_async
+native dyld warning: unresolved import: _dispatch_group_create
+native dyld warning: unresolved import: _dispatch_group_wait
+native dyld warning: unresolved import: _dispatch_release
+native dyld warning: unresolved import: _os_variant_has_internal_diagnostics
+native dyld warning: unresolved import: _NSAccessibilityRoleDescription
+native dyld warning: unresolved import: _NSAccessibilityUnignoredChildren
+native dyld warning: unresolved import: _NSAccessibilityUnignoredDescendant
+native dyld warning: unresolved import: _NSShowSystemInfoPanel
+native dyld warning: unresolved import: _CFArrayAppendArray
+native dyld warning: unresolved import: _CFArrayContainsValue
+native dyld warning: unresolved import: _CFArrayCreateMutableCopy
+native dyld warning: unresolved import: _CFArrayGetValues
+native dyld warning: unresolved import: _CFGetRetainCount
+native dyld warning: unresolved import: _CFLocaleCreateCanonicalLocaleIdentifierFromString
+native dyld warning: unresolved import: _CFLocaleCreateComponentsFromLocaleIdentifier
+native dyld warning: unresolved import: _CFLogTest
+native dyld warning: unresolved import: _CFMakeCollectable
+native dyld warning: unresolved import: _CFSetGetCount
+native dyld warning: unresolved import: _CFSetGetValues
+native dyld warning: unresolved import: _CFXMLCreateStringByEscapingEntities
+native dyld warning: unresolved import: _DCSCopyAvailableDictionaries
+native dyld warning: unresolved import: _DCSCopyRecordForReference
+native dyld warning: unresolved import: _DCSCopyRecordsForSearchString
+native dyld warning: unresolved import: _DCSCopyRecordsWithHeadword
+native dyld warning: unresolved import: _DCSCreateHeadwordList
+native dyld warning: unresolved import: _DCSCreateUserDictionariesDirectory
+native dyld warning: unresolved import: _DCSDictionaryAssetCopyDiagnosticLog
+native dyld warning: unresolved import: _DCSDictionaryCreate
+native dyld warning: unresolved import: _DCSDictionaryDownloadFinished
+native dyld warning: unresolved import: _DCSDictionaryGetAssetObj
+native dyld warning: unresolved import: _DCSDictionaryGetBaseURL
+native dyld warning: unresolved import: _DCSDictionaryGetIdentifier
+native dyld warning: unresolved import: _DCSDictionaryGetLanguages
+native dyld warning: unresolved import: _DCSDictionaryGetName
+native dyld warning: unresolved import: _DCSDictionaryGetParentDictionary
+native dyld warning: unresolved import: _DCSDictionaryGetPreference
+native dyld warning: unresolved import: _DCSDictionaryGetPreferenceHTML
+native dyld warning: unresolved import: _DCSDictionaryGetPrimaryLanguage
+native dyld warning: unresolved import: _DCSDictionaryGetShortName
+native dyld warning: unresolved import: _DCSDictionaryGetStyleSheetURL
+native dyld warning: unresolved import: _DCSDictionaryGetSubDictionaries
+native dyld warning: unresolved import: _DCSDictionaryGetURL
+native dyld warning: unresolved import: _DCSDictionaryIsLanguageDictionary
+native dyld warning: unresolved import: _DCSDictionaryIsNetworkService
+native dyld warning: unresolved import: _DCSDictionarySetDataHeader
+native dyld warning: unresolved import: _DCSDictionarySetPreference
+native dyld warning: unresolved import: _DCSGetActiveDictionaries
+native dyld warning: unresolved import: _DCSGetTermRangeInStringWithOptions
+native dyld warning: unresolved import: _DCSInvalidateDictionaryCache
+native dyld warning: unresolved import: _DCSNormalizeSearchString
+native dyld warning: unresolved import: _DCSPrepareMobileAssetQuery
+native dyld warning: unresolved import: _DCSRecordCopyData
+native dyld warning: unresolved import: _DCSRecordCopyDataURL
+native dyld warning: unresolved import: _DCSRecordGetAnchor
+native dyld warning: unresolved import: _DCSRecordGetAssociatedObj
+native dyld warning: unresolved import: _DCSRecordGetDictionary
+native dyld warning: unresolved import: _DCSRecordGetHeadword
+native dyld warning: unresolved import: _DCSRecordGetRawHeadword
+native dyld warning: unresolved import: _DCSRecordGetString
+native dyld warning: unresolved import: _DCSRecordGetSubDictionary
+native dyld warning: unresolved import: _DCSRecordGetTitle
+native dyld warning: unresolved import: _DCSRecordSetAssociatedObj
+native dyld warning: unresolved import: _DCSRecordSetHeadword
+native dyld warning: unresolved import: _DCSSearchSessionCreate
+native dyld warning: unresolved import: _DCSSearchSessionScheduleWithRunLoop
+native dyld warning: unresolved import: _DCSSearchSessionUnscheduleFromRunLoop
+native dyld warning: unresolved import: _DCSSetActiveDictionaries
+native dyld warning: unresolved import: _DCSSetServicePresentationType
+native dyld warning: unresolved import: _DCSSortRecordsWithHeadword
+native dyld warning: unresolved import: _UTCreateStringForOSType
+native dyld warning: unresolved import: _UTGetOSTypeFromString
+native dyld warning: unresolved import: _kTISPropertyInputSourceLanguages
+native dyld warning: unresolved import: _ASAttributeDownloadSize
+native dyld warning: unresolved import: _NSLocaleLanguageConfidenceHigh
+native dyld warning: unresolved import: _NSLocaleLanguageConfidenceMedium
+native dyld warning: unresolved import: _NSURLErrorDomain
+native dyld warning: unresolved import: _NSAccessibilityChildrenAttribute
+native dyld warning: unresolved import: _NSAccessibilityDescriptionAttribute
+native dyld warning: unresolved import: _NSAccessibilityEnabledAttribute
+native dyld warning: unresolved import: _NSAccessibilityLinkedUIElementsAttribute
+native dyld warning: unresolved import: _NSAccessibilityRadioButtonRole
+native dyld warning: unresolved import: _NSAccessibilityRadioGroupRole
+native dyld warning: unresolved import: _NSAccessibilityRoleAttribute
+native dyld warning: unresolved import: _NSAccessibilityRoleDescriptionAttribute
+native dyld warning: unresolved import: _NSAccessibilityValueAttribute
+native dyld warning: unresolved import: _NSControlTextDidChangeNotification
+native dyld warning: unresolved import: _NSToolbarFlexibleSpaceItemIdentifier
+native dyld warning: unresolved import: _NSViewFrameDidChangeNotification
+native dyld warning: unresolved import: _kCFLocaleCountryCode
+native dyld warning: unresolved import: _kCFLocaleLanguageCode
+native dyld warning: unresolved import: _kCFLocaleScriptCode
+native dyld warning: unresolved import: _kDCSActiveDictionariesChangedNotification
+native dyld warning: unresolved import: _kDCSDictionaryDescriptionLanguage
+native dyld warning: unresolved import: _kDCSDictionaryIndexLanguage
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/dictionary-5ee34e48/Dictionary.app/Contents/MacOS/Dictionary)
+[AppKit] loaded nib /Applications/dictionary-5ee34e48/Dictionary.app/Contents/Resources/Base.lproj/MainMenu.nib: 505 objects, 0 windows
+[AppKit] NSApplication delegate = 0x1019cb450
+[AppKit] calling applicationDidFinishLaunching on delegate 0x1019cb450
+[ObjC] Method not found: [NSMutableArray initWithCapacity:]
+[ObjC] Method not found: [NSProgressIndicator setControlSize:]
+[ObjC] Method not found: [NSProgressIndicator sizeToFit]
+[ObjC] Method not found: [NSTimer timerWithTimeInterval:repeats:block:]
+[Darling AppKit] NSAlert: Downloading Dictionaries - Dictionary will launch once downloads are completed. Quitting Dictionary will not interrupt downloads.
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[ObjC] Method not found: [NSAppleEventManager currentAppleEvent]
+[ObjC] Method not found: [NSApplication orderedWindows]
+[AppKit] nib: class 'NSPageController' not found
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1019cb150 (title: Dictionary)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Dictionary:86:12
+DARLING_MENUBAR_ITEM:File:153:12
+DARLING_MENUBAR_ITEM:Edit:197:12
+DARLING_MENUBAR_ITEM:Go:240:12
+DARLING_MENUBAR_ITEM:Search:293:12
+DARLING_MENUBAR_ITEM:Window:362:12
+DARLING_MENUBAR_ITEM:Help:424:12
+DARLING_WINDOW_READY:Dictionary:4194305:326:28:690:624
+[AppKit] loaded nib /Applications/dictionary-5ee34e48/Dictionary.app/Contents/Resources/Base.lproj/DictionaryWindow.nib: 264 objects, 2 windows
+[ObjC] Method not found: [NSWindow setPreferredBackingLocation:]
+[ObjC] Method not found: [NSWindow setShowsToolbarButton:]
+[ObjC] Method not found: [NSWindow styleMask]
+[ObjC] Method not found: [NSWindow setStyleMask:]
+[ObjC] Method not found: [ScopeBarViewController initWithNibName:bundle:]
+[ObjC] Method not found: [NSObject hardStyle]
+[ObjC] Method not found: [NSWindow addTitlebarAccessoryViewController:]
+[ObjC] Method not found: [NSSegmentedControl setToolTip:forSegment:]
+[ObjC] Method not found: [NSSegmentedControl setToolTip:forSegment:]
+[ObjC] Method not found: [NSSegmentedControl setToolTip:forSegment:]
+[ObjC] Method not found: [NSSegmentedControl setToolTip:forSegment:]
+[ObjC] Method not found: [NSScrollView widthAnchor]
+[ObjC] Method not found: [NSTableView setFocusRingType:]
+[ObjC] Method not found: [NSTableView setAllowsColumnResizing:]
+[ObjC] Method not found: [NSTableView setAutosaveTableColumns:]
+[ObjC] Method not found: [NSTableView setUsesAutomaticRowHeights:]
+[ObjC] Method not found: [NSTableView setColumnAutoresizingStyle:]
+[ObjC] Method not found: [NSTableView setAccessibilityLabel:]
+[ObjC] Method not found: [DSIndexListViewController isViewLoaded]
+[ObjC] Method not found: [NSScrollView setPostsFrameChangedNotifications:]
+[ObjC] Method not found: [NSSplitViewItem setMinimumThickness:]
+[AppKit] loaded nib /Applications/dictionary-5ee34e48/Dictionary.app/Contents/Resources/Base.lproj/DescriptionView.nib: 26 objects, 0 windows
+[ObjC] Method not found: [NSSplitView topAnchor]
+[ObjC] Method not found: [NSView topAnchor]
+[ObjC] Method not found: [NSSplitView bottomAnchor]
+[ObjC] Method not found: [NSView bottomAnchor]
+[ObjC] Method not found: [NSSplitView leadingAnchor]
+[ObjC] Method not found: [NSView leadingAnchor]
+[ObjC] Method not found: [NSSplitView trailingAnchor]
+[ObjC] Method not found: [NSView trailingAnchor]
+[ObjC] Method not found: [NSObject nonPersistentDataStore]
+[ObjC] Method not found: [NSObject setWebsiteDataStore:]
+[ObjC] Method not found: [NSObject setURLSchemeHandler:forURLScheme:]
+[ObjC] Method not found: [NSObject setURLSchemeHandler:forURLScheme:]
+[ObjC] Method not found: [NSObject setURLSchemeHandler:forURLScheme:]
+[ObjC] Method not found: [NSObject setURLSchemeHandler:forURLScheme:]
+[ObjC] Method not found: [NSObject setURLSchemeHandler:forURLScheme:]
+[ObjC] Method not found: [NSObject initWithSource:injectionTime:forMainFrameOnly:]
+[ObjC] Method not found: [NSObject addUserScript:]
+[ObjC] Method not found: [NSObject initWithSource:injectionTime:forMainFrameOnly:]
+[ObjC] Method not found: [NSObject addUserScript:]
+[ObjC] Method not found: [NSObject initWithSource:injectionTime:forMainFrameOnly:]
+[ObjC] Method not found: [NSObject addUserScript:]
+[ObjC] Method not found: [NSObject initWithSource:injectionTime:forMainFrameOnly:]
+[ObjC] Method not found: [NSObject addUserScript:]
+[ObjC] Method not found: [NSObject initWithSource:injectionTime:forMainFrameOnly:]
+[ObjC] Method not found: [NSObject addUserScript:]
+[ObjC] Method not found: [NSObject initWithSource:injectionTime:forMainFrameOnly:]
+[ObjC] Method not found: [NSObject addUserScript:]
+[ObjC] Method not found: [NSObject setUserContentController:]
+[ObjC] Method not found: [NSObject preferences]
+[ObjC] Method not found: [NSObject defaultWebpagePreferences]
+[ObjC] Method not found: [NSObject userContentController]
+[ObjC] Method not found: [NSObject userContentController]
+[ObjC] Method not found: [NSObject pageWorld]
+[ObjC] Method not found: [NSObject initWithFrame:configuration:]
+[ObjC] Method not found: [NSView topAnchor]
+[ObjC] Method not found: [NSView bottomAnchor]
+[ObjC] Method not found: [NSView leadingAnchor]
+[ObjC] Method not found: [NSView trailingAnchor]
+[ObjC] Method not found: [NSObject setView:]
+[ObjC] Method not found: [NSObject setLayoutAttribute:]
+[ObjC] Method not found: [NSObject setHidden:]
+[ObjC] Method not found: [NSWindow addTitlebarAccessoryViewController:]
+[ObjC] Method not found: [NSObject setClient:]
+[ObjC] Method not found: [NSObject setFindBarContainer:]
+[ObjC] Method not found: [NSObject setIncrementalSearchingEnabled:]
+[ObjC] Method not found: [NSObject setIncrementalSearchingShouldDimContentView:]
+[ObjC] Method not found: [NSTableView intercellSpacing]
+[ObjC] Method not found: [NSApplication orderedWindows]
+[ObjC] Method not found: [BrowserWindowController setValue:forKey:]
+[ObjC] Method not found: [NSTableView tile]
+DARLING_WINDOW_READY:Dictionary:4194305:326:28:690:624
+[ObjC] Method not found: [NSApplication hasPendedRequest]
+[ObjC] Method not found: [NSBundle preferredLocalizations]
+[ObjC] Method not found: [NSLocale characterDirectionForLanguage:]
+[AppKit] NSWindowController showWindow on 0x1019ca040
+[AppKit] NSWindow makeKeyAndOrderFront on 0x1019cb150 (title: Dictionary)
+DARLING_WINDOW_READY:Dictionary:4194305:326:28:690:624
+[ObjC] Method not found: [NSObject sharedInstance]
+[ObjC] Method not found: [NSApplication orderedWindows]
+[ObjC] Method not found: [NSApplication orderedWindows]
+[Foundation] performSelector:_delayedDidFinishLaunching withObject:0x0 afterDelay:0.000000 on 0x1019cb450
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Dictionary:4194305:326:28:690:624
+[Foundation] firing delayed perform _delayedDidFinishLaunching on 0x1019cb450
+[ObjC] Method not found: [NSApplication processPendedURLRequest]
+[ObjC] Method not found: [NSApplication processPendedStringRequest]
+DARLING_WINDOW_READY:Dictionary:4194305:326:28:690:624
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Dictionary:86:12
+DARLING_MENUBAR_ITEM:File:153:12
+DARLING_MENUBAR_ITEM:Edit:197:12
+DARLING_MENUBAR_ITEM:Go:240:12
+DARLING_MENUBAR_ITEM:Search:293:12
+DARLING_MENUBAR_ITEM:Window:362:12
+DARLING_MENUBAR_ITEM:Help:424:12
+kill -9 26 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/dictionary-5ee34e48/Dictionary.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_dictionary-5ee34e48:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

@@ -1,0 +1,54 @@
+(/usr/bin/darling open /Applications/WidgetGallery.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_widgetgallery:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:12
+DARLING_LAUNCH_BUNDLE:/Applications/WidgetGallery.app:/Applications/WidgetGallery.app/Contents/MacOS/WidgetGallery
+[AppKit] calling applicationDidFinishLaunching on delegate 0x101dd4bd0
+[AppKit] NSWindow makeKeyAndOrderFront on 0x101dd68e0 (title: Mac OS X Widget Gallery - Darling AppKit)
+DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:WidgetGallery:99:12
+DARLING_MENUBAR_ITEM:File:179:12
+DARLING_MENUBAR_ITEM:Edit:223:12
+DARLING_MENUBAR_ITEM:Window:282:12
+DARLING_MENUBAR_ITEM:Help:344:12
+DARLING_WINDOW_READY:Mac OS X Widget Gallery - Darling AppKit:4194305:140:56:720:548
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Primary Aqua:242:204
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Secondary:403:204
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Destructive:242:246
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Disabled:403:246
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Disclosure:182:288
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Enable Cairo Antialiased Rendering:675:197
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Show Mac OS X Aqua Traffic Lights:675:223
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Use Dark Window Appearance:675:249
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Aqua Blue (Default macOS Accent):675:297
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Graphite Accent:675:321
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:High Contrast Warm Accent:675:345
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Step +15%:432:410
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Quit:787:567
+DARLING_WIDGET_GALLERY_READY
+[AppKit] returned from applicationDidFinishLaunching
+DARLING_WINDOW_READY:Mac OS X Widget Gallery - Darling AppKit:4194305:140:56:720:548
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Primary Aqua:242:204
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Secondary:403:204
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Destructive:242:246
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Disabled:403:246
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Disclosure:182:288
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Enable Cairo Antialiased Rendering:675:197
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Show Mac OS X Aqua Traffic Lights:675:223
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Use Dark Window Appearance:675:249
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Aqua Blue (Default macOS Accent):675:297
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Graphite Accent:675:321
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:High Contrast Warm Accent:675:345
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Step +15%:432:410
+DARLING_BUTTON_POS:Mac OS X Widget Gallery - Darling AppKit:Quit:787:567
+kill -9 12 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open /Applications/WidgetGallery.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_widgetgallery:${?})
+
+root@Darwin# DARLING_MENUBAR_ITEM:Apple:24:12
+DARLING_MENUBAR_ITEM:Finder:73:12
+DARLING_MENUBAR_ITEM:File:127:12
+DARLING_MENUBAR_ITEM:Edit:171:12
+DARLING_MENUBAR_ITEM:View:220:12
+DARLING_MENUBAR_ITEM:Go:267:12
+DARLING_MENUBAR_ITEM:Window:323:12
+DARLING_MENUBAR_ITEM:Help:385:12

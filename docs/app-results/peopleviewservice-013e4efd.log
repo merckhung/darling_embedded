@@ -1,0 +1,94 @@
+(/usr/bin/darling open /Applications/peopleviewservice-013e4efd/PeopleViewService.app & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_peopleviewservice-013e4efd:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:62
+DARLING_LAUNCH_BUNDLE:/Applications/peopleviewservice-013e4efd/PeopleViewService.app:/Applications/peopleviewservice-013e4efd/PeopleViewService.app/Contents/MacOS/PeopleViewService
+native dyld warning: unresolved import: _swift_deletedMethodError
+native dyld warning: unresolved import: __swiftImmortalRefCount
+native dyld warning: unresolved import: _$ss20__StaticArrayStorageCN
+native dyld warning: unresolved import: _$s10Foundation12NotificationV36_unconditionallyBridgeFromObjectiveCyACSo14NSNotificationCSgFZ
+native dyld warning: unresolved import: _$s10Foundation12NotificationVMa
+native dyld warning: unresolved import: _$s10Foundation13URLComponentsV3url23resolvingAgainstBaseURLACSgAA0G0Vh_SbtcfC
+native dyld warning: unresolved import: _$s10Foundation13URLComponentsVMa
+native dyld warning: unresolved import: _$s10Foundation3URLV36_unconditionallyBridgeFromObjectiveCyACSo5NSURLCSgFZ
+native dyld warning: unresolved import: _$s10Foundation3URLVMa
+native dyld warning: unresolved import: _$sSD10FoundationE19_bridgeToObjectiveCSo12NSDictionaryCyF
+native dyld warning: unresolved import: _$sSS10FoundationE19_bridgeToObjectiveCSo8NSStringCyF
+native dyld warning: unresolved import: _$ss5ErrorP10FoundationE20localizedDescriptionSSvg
+native dyld warning: unresolved import: __Block_copy
+native dyld warning: unresolved import: _$s6AppKit17NSApplicationMainys5Int32VAD_SpySpys4Int8VGSgGtF
+native dyld warning: unresolved import: _$s10Foundation13URLComponentsV6PeopleE10queryParamSSSgAD0C3URLV9ParameterO_tcig
+native dyld warning: unresolved import: _$s10Foundation13URLComponentsV6PeopleE10queryParamSaySSGAD0C3URLV14ArrayParameterO_tcig
+native dyld warning: unresolved import: _$s10Foundation13URLComponentsV6PeopleE12peopleActionAD0C3URLV04PathE0OSgvg
+native dyld warning: unresolved import: _$s6People0A3URLV10PathActionOMa
+native dyld warning: unresolved import: _$s6People0A3URLV14ArrayParameterOMa
+native dyld warning: unresolved import: _$s6People0A3URLV9ParameterOMa
+native dyld warning: unresolved import: _$s6People0A6LoggerO11viewService2os0B0VvgZ
+native dyld warning: unresolved import: _$s6People0A9ConstantsO16spotlightContactSSvgZ
+native dyld warning: unresolved import: _$s6People0A9ConstantsO17spotlightBundleIDSSvgZ
+native dyld warning: unresolved import: _$s6People0A9ConstantsO19spotlightPrioritiesSSvgZ
+native dyld warning: unresolved import: _$s6People0A9ConstantsO26spotlightContactIdentifierSSvgZ
+native dyld warning: unresolved import: _$sSQ2eeoiySbx_xtFZTj
+native dyld warning: unresolved import: _$sSS10describingSSx_tclufC
+native dyld warning: unresolved import: _$sSS8UTF8ViewV13_foreignCountSiyF
+native dyld warning: unresolved import: _$ss11AnyHashableV13_rawHashValue4seedS2i_tF
+native dyld warning: unresolved import: _$ss11AnyHashableV2eeoiySbAB_ABtFZ
+native dyld warning: unresolved import: _$ss11AnyHashableVyABxcSHRzlufC
+native dyld warning: unresolved import: _$ss11CommandLineO10unsafeArgvSpySpys4Int8VGSgGvgZ
+native dyld warning: unresolved import: _$ss11CommandLineO4argcs5Int32VvgZ
+native dyld warning: unresolved import: _$ss11_StringGutsV16_foreignCopyUTF84intoSiSgSrys5UInt8VG_tF
+native dyld warning: unresolved import: _$ss13_StringObjectV10sharedUTF8SRys5UInt8VGvg
+native dyld warning: unresolved import: _$ss18_DictionaryStorageC8allocate8capacityAByxq_GSi_tFZ
+native dyld warning: unresolved import: _swift_allocObject
+native dyld warning: unresolved import: _swift_arrayDestroy
+native dyld warning: unresolved import: _swift_bridgeObjectRelease
+native dyld warning: unresolved import: _swift_bridgeObjectRetain
+native dyld warning: unresolved import: _swift_deallocClassInstance
+native dyld warning: unresolved import: _swift_deallocObject
+native dyld warning: unresolved import: _swift_errorRelease
+native dyld warning: unresolved import: _swift_errorRetain
+native dyld warning: unresolved import: _swift_getErrorValue
+native dyld warning: unresolved import: _swift_getObjCClassMetadata
+native dyld warning: unresolved import: _swift_getObjectType
+native dyld warning: unresolved import: _swift_getTypeByMangledNameInContext2
+native dyld warning: unresolved import: _swift_getWitnessTable
+native dyld warning: unresolved import: _swift_initStackObject
+native dyld warning: unresolved import: _swift_isUniquelyReferenced_nonNull_native
+native dyld warning: unresolved import: _swift_release
+native dyld warning: unresolved import: _swift_retain
+native dyld warning: unresolved import: _swift_setDeallocating
+native dyld warning: unresolved import: _swift_slowAlloc
+native dyld warning: unresolved import: _swift_slowDealloc
+native dyld warning: unresolved import: _swift_unknownObjectRetain
+native dyld warning: unresolved import: _$s2os6LoggerV9logObjectSo03OS_a1_C0Cvg
+native dyld warning: unresolved import: _$s2os6LoggerVMa
+native dyld warning: unresolved import: _$sSo13os_log_type_ta0A0E5errorABvgZ
+native dyld warning: unresolved import: _$sSo13os_log_type_ta0A0E7defaultABvgZ
+native dyld warning: unresolved import: _$s6People0A3URLV10PathActionO16showSearchResultyA2EmFWC
+native dyld warning: unresolved import: _$s6People0A3URLV10PathActionOSQAAMc
+native dyld warning: unresolved import: _$s6People0A3URLV14ArrayParameterO10prioritiesyA2EmFWC
+native dyld warning: unresolved import: _$s6People0A3URLV9ParameterO17contactIdentifieryA2EmFWC
+native dyld warning: unresolved import: _$sSSN
+native dyld warning: unresolved import: _$sSSSHsWP
+native dyld warning: unresolved import: _$ss11AnyHashableVN
+native dyld warning: unresolved import: _$ss11AnyHashableVSHsWP
+native dyld warning: unresolved import: _$ss11_StringGutsVN
+native dyld warning: unresolved import: _$sypN
+native dyld warning: unresolved import: __swiftEmptyArrayStorage
+native dyld warning: unresolved import: __swiftEmptyDictionarySingleton
+native dyld warning: unresolved import: _$ss23_ContiguousArrayStorageCMn
+native dyld warning: unresolved import: _$ss5UInt8VMn
+native dyld warning: unresolved import: _$s6People0A3URLV10PathActionOMn
+native dyld warning: unresolved import: _$s10Foundation13URLComponentsVMn
+native dyld warning: unresolved import: _$s10Foundation3URLVMn
+native dyld warning: unresolved import: _$ss11AnyHashableVMn
+native dyld warning: unresolved import: _$ss18_DictionaryStorageCMn
+native dyld warning: unresolved import: _$s6People22ContactFetcherProtocolMp
+native dyld warning: unresolved import: _$ss5ErrorMp
+native dyld warning: unresolved import: _$sBOWV
+native dyld warning: unresolved import: _$sBoWV
+PROBE_EXIT_peopleviewservice-013e4efd:0
+kill -9 62 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Done                       (/usr/bin/darling open /Applications/peopleviewservice-013e4efd/PeopleViewService.app; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_peopleviewservice-013e4efd:${?})
+
+root@Darwin#

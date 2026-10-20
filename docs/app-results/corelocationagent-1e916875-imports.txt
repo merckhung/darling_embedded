@@ -1,0 +1,28 @@
+==== CoreLocationAgent ====
+Linked dylibs: 15, imported symbols: 169
+
+  present  provided/imported  library
+  yes      6/6	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  yes      0/0	/System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+  yes      0/17	/System/Library/Frameworks/Security.framework/Versions/A/Security
+             e.g. missing: _SecCodeCheckValidity _SecCodeCopyDesignatedRequirement _SecCodeCopyGuestWithAttributes _SecCodeCopySigningInformation _SecCodeSetDetachedSignature _SecCodeSignerAddSignature
+  NO       0/2	/usr/lib/libbsm.0.dylib
+  NO       0/0	/System/Library/PrivateFrameworks/PlugInKit.framework/Versions/A/PlugInKit
+  NO       0/1	/System/Library/PrivateFrameworks/login.framework/Versions/A/login
+  NO       0/3	/System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+  NO       0/11	/System/Library/PrivateFrameworks/LocationSupport.framework/Versions/A/LocationSupport
+  yes      13/13	/usr/lib/libobjc.A.dylib
+  yes      5/12	/usr/lib/libc++.1.dylib
+             e.g. missing: __ZTVN10__cxxabiv120__si_class_type_infoE ___cxa_allocate_exception ___cxa_free_exception ___cxa_throw ___gxx_personality_v0 __ZNSt12length_errorD1Ev
+  yes      35/56	/usr/lib/libSystem.B.dylib
+             e.g. missing: __os_log_fault_impl _bootstrap_look_up _dispatch_queue_attr_make_with_autorelease_frequency _dispatch_queue_create_with_target$V2 _dispatch_release _dyld_program_sdk_at_least
+  yes      4/5	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+             e.g. missing: _NSApplicationDidBecomeActiveNotification
+  yes      22/31	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+             e.g. missing: _CFDataCreateMutable _CFDataCreateWithBytesNoCopy _CFDictionaryContainsKey _CFURLCopyFileSystemPath _CFURLCreateWithFileSystemPath _NSRunLoopCommonModes
+  yes      0/1	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+             e.g. missing: _CGWindowLevelForKey
+  yes      0/7	/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+             e.g. missing: __LSASNCreateWithPid __LSCopyApplicationInformationItem __LSCopyBundleURLWithIdentifier _OBJC_CLASS_$_LSBundleProxy _OBJC_CLASS_$_LSBundleRecord _OBJC_CLASS_$_LSPlugInKitProxy
+
+Summary for CoreLocationAgent: 5 of 15 linked libraries are absent from the guest root; 85 of 165 imported symbols are provided (51.5152%).

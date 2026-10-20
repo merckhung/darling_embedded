@@ -1,0 +1,21 @@
+(/usr/bin/darling open '/Applications/about-this-mac-235c2516/About This Mac.app' & child=$!; echo PROBE_CHILD:$child; wait $child; echo PROBE_EXIT_about-this-mac-235c2516:$?) & PROBE_PID=$!
+
+root@Darwin# PROBE_CHILD:44
+DARLING_LAUNCH_BUNDLE:/Applications/about-this-mac-235c2516/About This Mac.app:/Applications/about-this-mac-235c2516/About This Mac.app/Contents/MacOS/About This Mac
+native dyld warning: unresolved import: _xpc_connection_create_mach_service
+native dyld warning: unresolved import: _xpc_connection_resume
+native dyld warning: unresolved import: _xpc_connection_send_message
+native dyld warning: unresolved import: _xpc_connection_set_event_handler
+native dyld warning: unresolved import: _xpc_dictionary_create
+native dyld warning: unresolved import: _xpc_dictionary_set_string
+[AppKit] Entered NSApplicationMain (argc=1, argv[0]=/Applications/about-this-mac-235c2516/About This Mac.app/Contents/MacOS/About This Mac)
+[AppKit] loaded nib /Applications/about-this-mac-235c2516/About This Mac.app/Contents/Resources/Base.lproj/MainMenu.nib: 24 objects, 0 windows
+[AppKit] NSApplication delegate = 0x10185e2f0
+[AppKit] calling applicationDidFinishLaunching on delegate 0x10185e2f0
+[AppKit] Ignoring premature [NSApp terminate:] during startup
+[AppKit] returned from applicationDidFinishLaunching
+kill -9 44 $PROBE_PID 2>/dev/null; wait $PROBE_PID 2>/dev/null; echo PROBE_CLEANUP
+PROBE_CLEANUP
+[1] + Killed: 9                  (/usr/bin/darling open "/Applications/about-this-mac-235c2516/About This Mac.app"; ; echo PROBE_CHILD:${child}; wait ${child}; echo PROBE_EXIT_about-this-mac-235c2516:${?})
+
+root@Darwin#
